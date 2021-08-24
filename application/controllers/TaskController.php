@@ -21,14 +21,25 @@
 	    	$login->index();
 		}
 
-		public function index()
+		//public function index()
+	    //{
+	    //	$data['leadDetails'] = $this->Tasks->getLeadDetails(); 
+	    //	$user = $this->Admin->getUser(user_id);
+	    //	$data['user'] = $user->row();
+	    //	$data['title'] = "Applications New";
+        //	$this->load->view('Screener/applicationNew', $data);
+		//}
+		
+		public function index($stage)
 	    {
-	    	$data['leadDetails'] = $this->Tasks->getLeadDetails(); 
+		//	echo $stage; die;
+			$conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='$stage' ";
+	        $data['leadDetails'] = $this->Tasks->index($conditions); 
 	    	$user = $this->Admin->getUser(user_id);
 	    	$data['user'] = $user->row();
-	    	$data['title'] = "Applications New";
-        	$this->load->view('Screener/applicationNew', $data);
+        	$this->load->view('Tasks/GetLeadTaskList', $data);
 	    }
+	    
 	    
 	    public function screeninLeads()
 	    {
@@ -1676,6 +1687,18 @@
 		            echo json_encode($result);
 		        }
 	        }
+		}
+
+        //************** function for genereate the application number on behalf of user id ***************//
+		function applicationNo()
+		{
+			$lead_id='5358';
+			//generateApplicationNo
+			$data = $this->Tasks->generateApplicationNo($lead_id); 
+			echo "<pre>";print_r($data);
+
+
+
 		}
 
 

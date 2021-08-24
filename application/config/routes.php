@@ -86,7 +86,10 @@ $route['getCity/(:num)'] = 'TaskController/getCity/$1';
 $route['GetLeadTaskList'] = 'TaskController/index';
 $route['screeninLeads'] = 'TaskController/screeninLeads';
 $route['agentToDoTask'] = 'TaskController/agentToDoTask';
-$route['inProcess'] = 'TaskController/inProcess';
+//$route['inProcess'] = 'TaskController/inProcess';
+$route['inProcess/(:any)'] = 'TaskController/index/$1';
+
+$route['applicationNo'] = 'TaskController/applicationNo';
 
 $route['sanctionHold'] = 'TaskController/sanctionHold';
 $route['sanctionLetter/(:num)'] = 'TaskController/sanctionLetter/$1';

@@ -80,15 +80,15 @@ $db['default'] = array(
 	// 'password' => 'Mft)&Ze&&Xy4',
 	// 'database' => 'fintechc_lac',   // fintechcloud.in/lac
 
-	// 'hostname' => 'localhost',
-	// 'username' => 'root',
-	// 'password' => '',
-	// 'database' => 'db_lms',   // flocalhost
+	 'hostname' => 'localhost',
+	 'username' => 'root',
+	 'password' => '',
+	 'database' => 'db_lms',   // flocalhost
 
-	'hostname' => '92.204.132.135',
-	'username' => 'fintechc_vinlms',
-	'password' => 'Lmsvin@#2021',
-	'database' => 'fintechc_lms',
+	//'hostname' => '92.204.132.135',
+	//'username' => 'fintechc_vinlms',
+	//'password' => 'Lmsvin@#2021',
+	//'database' => 'fintechc_lms',
     
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

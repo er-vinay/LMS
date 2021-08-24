@@ -1425,6 +1425,18 @@
 	        }
 	        return $data;
 		}
+
+		//************** function to get data from lead id  *************//
+		public function generateApplicationNo($lead_id)
+		{
+           $sql="SELECT leads.source,tbl_city.city_code,tbl_product.product_code FROM `leads` JOIN `tb_states` ON `leads`.`state_id` = `tb_states`.`id` JOIN `tbl_city` ON `leads`.`state_id` = `tbl_city`.`old_state_id`
+		   inner JOIN tbl_product on leads.product_id=tbl_product.product_id
+		   WHERE leads.`company_id` = '1' AND leads.`product_id` = '1' AND `leads`.`lead_id` = '$lead_id' group BY `leads`.`lead_id` DESC";
+
+		$data = $this->db->query($sql);
+		return $data->result_array();
+		//echo $this->db->last_query();
+		}
 		
     }
 ?>
