@@ -19,7 +19,6 @@
             
 	    	$login = new IsLogin();
 	    	$login->index();
-			echo "testing";
 		}
 
 		public function index()
