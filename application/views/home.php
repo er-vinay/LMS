@@ -8,10 +8,12 @@
     <div class="container dashboard-wid">
         <div class="taskPageSizeDashboard dashboardMargin" style="margin-top: 53px !important;">
             <div class="row">
-                <?php $i = 0; foreach($menusList->result() as $menu) : ?>
+                <?php //echo "<pre>";print_r($menusList->result());
+                 $i = 0; foreach($menusList->result() as $menu) : ?>
                 
                 <div class="col-md-2 col-sm-6 col-xs-6 col-md-2-me">
-                    <a href="<?= base_url($menu->route_link."/".$menu->stage) ?>">
+             <a href="<?= base_url($menu->route_link."/".$menu->stage) ?>">
+                   
                         <div class="lead-box text-center dashboardBox" style="background:<?= $menu->box_bg_color ?>">
                             <div class="row">
                                 <div class="col-md-6">

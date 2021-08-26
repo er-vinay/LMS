@@ -90,7 +90,7 @@ $autoload['drivers'] = array('cache');
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url','cookie','form', 'file', 'download', 'date', 'security');
+$autoload['helper'] = array('url','cookie','form', 'file', 'download', 'date', 'security','option_helper');
 
 /*
 | -------------------------------------------------------------------
@@ -133,4 +133,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('Leadmod');

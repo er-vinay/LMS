@@ -47,7 +47,8 @@
 					$data['menusList'] = $this->Menus->menusList($where);
 	            	return $this->load->view('home', $data);
 	                break;
-	            case 'CR1': // Credit (Screener)
+				case 'CR1': // Credit (Screener)
+					
 					$where .= " AND is_active='1' AND (user_labels='CR1' OR user_labels='SA')";
 					$data['menusList'] = $this->Menus->menusList($where);
 	            	return $this->load->view('home', $data);

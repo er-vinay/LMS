@@ -1426,5 +1426,83 @@
             });
         });
     });
+
+    $(document).ready(function(){
+		
+		$("#insertVerification").on('submit',function(e) {
+				e.preventDefault();
+
+                if($('#initiateMobileVerification').is(':checked'))
+                {
+                 var initiateMobileVerification='YES';
+                }
+                else 
+                { 
+                    var initiateMobileVerification='NO';
+                }
+
+                if($('#residenceCPV').is(':checked'))
+                {
+                 var residenceCPV='YES';
+                }
+                else 
+                { 
+                    var residenceCPV='NO';
+                }
+
+                if($('#officeEmailVerification').is(':checked'))
+                {
+                 var officeEmailVerification='YES';
+                }
+                else 
+                { 
+                    var officeEmailVerification='NO';
+                }
+
+                if($('#officeCPV').is(':checked'))
+                {
+                 var officeCPV='YES';
+                }
+                else 
+                { 
+                    var officeCPV='NO';
+                }
+
+                
+
+
+				
+				
+               var params = {
+                        PANverified			             :$("#PANverified").val(),
+                        BankStatementSVerified	         :$("#BankStatementSVerified").val(),
+						enterOTPMobile			         :$("#enterOTPMobile").val(),
+                        lead_id			                 :$("#lead_id").val(),
+                        initiateMobileVerification		 :initiateMobileVerification,
+                        residenceCPV		             :residenceCPV,
+                        officeEmailVerification			 :officeEmailVerification,
+                        officeCPV			             :officeCPV
+                        
+        			}
+
+     $.post('<?= base_url("saveVerification"); ?>', {
+		data: params,csrf_token
+		}, function(data, status) {
+            setTimeout(function(){
+                location.reload();
+                  }, 2000);
+		
+		});
+                   
+		 
+
+          
+
+
+                 
+		});
+
+	
+});	
     
 </script>

@@ -1429,13 +1429,46 @@
 		//************** function to get data from lead id  *************//
 		public function generateApplicationNo($lead_id)
 		{
-           $sql="SELECT leads.source,tbl_city.city_code,tbl_product.product_code FROM `leads` JOIN `tb_states` ON `leads`.`state_id` = `tb_states`.`id` JOIN `tbl_city` ON `leads`.`state_id` = `tbl_city`.`old_state_id`
+           $sql="SELECT leads.source,leads.pancard,tbl_city.city_code,tbl_product.product_code FROM `leads` JOIN `tb_states` ON `leads`.`state_id` = `tb_states`.`id` JOIN `tbl_city` ON `leads`.`state_id` = `tbl_city`.`old_state_id`
 		   inner JOIN tbl_product on leads.product_id=tbl_product.product_id
 		   WHERE leads.`company_id` = '1' AND leads.`product_id` = '1' AND `leads`.`lead_id` = '$lead_id' group BY `leads`.`lead_id` DESC";
 
 		$data = $this->db->query($sql);
 		return $data->result_array();
 		//echo $this->db->last_query();
+		}
+
+		//****************** function to get the total count from the dynamic table*********************/
+		public function gettotalleadsCount($table)
+		{
+		   $sql="Select count(lead_id) as total from $table";
+		   $query = $this->db->query($sql);
+		   if($query->num_rows() > 0){
+			foreach ($query->result_array() as $row) 
+			 {
+			    return $row['total'];
+		     }
+			 }else
+			 {
+			   return "0";
+		     } 
+		}
+
+		//****************** function to get the Borrower type from pancard *********************/
+		public function getBorrowerType($table,$coulmn)
+		{
+		   $sql="SELECT pancard,status FROM $table WHERE pancard='$coulmn' and  (status='Disbursal' || status='Closed') ";
+		   $query = $this->db->query($sql);
+		   $query->num_rows();
+		   if($query->num_rows() > 0){
+			foreach ($query->result_array() as $row) 
+			 {
+			    return "REPEAT";
+		     }
+			 }else
+			 {
+				return "NEW";
+			 } 
 		}
 		
     }

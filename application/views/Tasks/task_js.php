@@ -1,5 +1,5 @@
 <?php $this->load->view('Layouts/header') ?>
-<?php $url =  $this->uri->segment(1); ?>
+<?php $getVerificationdata=getVerificationdata('tbl_verification',$leadDetails->lead_id); ?>
 <!-- <span id="response" style="width: 100%;float: left;text-align: center;padding-top:-20%;"></span> -->
 
 <section>
@@ -813,6 +813,8 @@
         }
         
     }
+
+   
     
     $('#customer_confirm_account_no, #customer_account_no').bind('copy paste cut',function(e) {
 				  	e.preventDefault();

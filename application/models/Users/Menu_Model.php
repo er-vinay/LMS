@@ -7,7 +7,8 @@
         
 		public function menusList($where)
 		{
-	        return $this->db->select('*')->where($where)->from($this->table)->order_by('menu_order', 'asc')->get();
+			return $this->db->select('*')->where($where)->from($this->table)->order_by('menu_order', 'asc')->get();
+			
 		}
 		
 		// public function menusList($company_id, $product_id)  

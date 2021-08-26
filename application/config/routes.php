@@ -84,7 +84,7 @@ $route['getCity/(:num)'] = 'TaskController/getCity/$1';
 
 $route['getCity/(:num)'] = 'TaskController/getCity/$1';
 $route['GetLeadTaskList'] = 'TaskController/index';
-$route['screeninLeads'] = 'TaskController/screeninLeads';
+$route['screeninLeads/(:any)'] = 'TaskController/index/$1';
 $route['agentToDoTask'] = 'TaskController/agentToDoTask';
 //$route['inProcess'] = 'TaskController/inProcess';
 $route['inProcess/(:any)'] = 'TaskController/index/$1';
@@ -112,9 +112,11 @@ $route['saveCustomerDocs'] = 'TaskController/saveCustomerDocs';
 $route['resonForDuplicateLeads'] = 'TaskController/resonForDuplicateLeads';
 $route['allocateLeads'] = 'TaskController/allocateLeads';
 $route['applicationinprocess'] = 'TaskController/applicationinprocess';
-$route['holdleads'] = 'TaskController/holdleads';
+$route['holdleads/(:any)'] = 'TaskController/index/$1';
 $route['sanctionleads'] = 'TaskController/sanctionleads';
 $route['applicationHold'] = 'TaskController/applicationHold';
+
+$route['saveVerification'] = 'LeadsController/add_action';
 
 $route['duplicateTaskList'] = 'TaskController/duplicateTaskList';
 $route['duplicateLeadDetails/(:num)'] = 'TaskController/duplicateLeadDetails/$1';

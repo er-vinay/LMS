@@ -224,91 +224,6 @@
 	        $leadData = $this->Tasks->join_table($conditions, $select);
 	        $sql = $leadData->row();
 
-   //          $pancard = $sql->pancard;
-   //          $mobile = $sql->mobile;
-			// if(!empty($pancard))
-			// {
-			//     $query = $this->db->query('SELECT L.*, C.customer_id, C.mobile, C.email, C.pancard, LL.status from loan L 
-			// 	    INNER JOIN credit C ON L.lead_id=C.lead_id 
-			// 	    INNER JOIN '. tableLeads .' LL ON L.lead_id=LL.lead_id AND L.loan_status LIKE"%DISBURSED%" AND C.status LIKE"%Approved%" AND LL.status IN("DISBURSED", "Part Payment") 
-			// 	    AND C.pancard LIKE"%'.$pancard.'%" ORDER BY L.loan_id DESC');
-	  //           $num_rows = $query->num_rows();
-	  //           if($num_rows > 0){
-	  //               $effected_rows = $query->result();
-	  //               foreach($effected_rows as $row){
-   //  	                if($row->status == "Part Payment" || $row->status == "DISBURSED"){
-   //      	                $partPayment = $row->lead_id;
-   //      	                $this->db->where('lead_id', $lead_id)->update('leads', ["partPayment" => $partPayment]);
-   //  	                }
-	  //               }
-	  //           }
-	  //       }
-	        
-	  //       //Cibil Button enabale/disable
-	  //        $cibilRecord = '';
-	  //        $cibilRecordData = $this->db->select('*')->from('tbl_cibil')->where($where)->where('lead_id', $lead_id)->get()->row(); 
-	  //        echo "<pre>"; print_r($cibilRecordData); exit;
-	  //        $camDetails = $this->db->select('*')->from('tbl_cam')->where($where)->where('lead_id', $lead_id)->get();
-	  //        $camData = $camDetails->row();
-	  //        $leadDOB = $sql->dob;
-	  //        if(!empty($camData->dob)){
-	  //           $leadDOB = $camData->dob;
-	  //        }
-	  //        $changeDob = date('Y-m-d', strtotime($leadDOB));
-	  //      //  echo "CAM"; print_r($camData->state); 
-	  //      //  echo "Lead"; print_r($sql->state_id); 
-	  //      //  exit;
-	         
-	  //       if($cibilRecordData->lead_id === $sql->lead_id)
-	  //       {  
-   //              //$cibilRecord = true;
-   //              if($camDetails->num_rows() > 0)
-   //              {
-   //                  if(strtoupper($camData->borrower_name) == strtoupper($sql->name)
-   //                  && strtoupper($camData->pancard) == strtoupper($sql->pancard) 
-   //                  && strtoupper($camData->city) == strtoupper($sql->city)
-   //                  && strtoupper($camData->gender) == strtoupper($sql->gender)
-   //                  && $leadDOB == $changeDob
-   //                  && $camData->state == $sql->state_id
-   //                  && $camData->mobile == $sql->mobile 
-   //                  && $camData->pincode == $sql->pincode) 
-   //                  {
-   //                      $cibilRecord = true;
-   //                  }
-   //                  else
-   //                  {
-	  //                   $cibilRecord = "Something Chnages In CAM Details";
-	  //               }
-	  //           }
-	  //        } 
-	        // credit section
-	   //     $creditDetails = $this->db->select('credit.name, credit.loan_amount_approved, credit.processing_fee')->where($where)->where('lead_id', $lead_id)->get('credit');
-	   //     $credit = $creditDetails->row();
-
-	   //     if($credit)
-	   //     {
-		  //      $approvalLoanwithPrcessingFee = $credit->loan_amount_approved - $credit->processing_fee;
-		  //      $data['disburasalData'] = [
-		  //      	'customerName' 		=>$credit->name,
-		  //      	'disburse_amount' 	=>$approvalLoanwithPrcessingFee,
-		  //      ];
-		  //  }
-
-	        // loan status
-	       // $loan_status = $this->Tasks->getCollection($lead_id);
-	        // bank analysis
-            // $bank_analiysis = $this->Tasks->bank_analiysis($lead_id);
-            // $rec = $this->db->select('status')
-            //         ->WHERE('lead_id', $lead_id)
-            //         // ->WHERE('status', "Full Payment")
-            //         ->order_by("recovery_id", "DESC")
-            //         ->get('recovery')
-            //         ->row();
-                                
-            // $data['checkCibil'] = [
-            //     'check_cibil_status'    => $sql->check_cibil_status,
-            //     'created_on'            => date('d-m-Y', strtotime($sql->created_on)),
-            // ];
 
 			$data['leadDetails'] = [
 				'name' 				=> strtoupper($sql->name),
@@ -331,14 +246,7 @@
 			];
 
             $data['leadDetails'] = $sql;
-            // $data['tbl_cibil'] = $cibilRecord; 
-            // $data['creditCount'] = $creditDetails->num_rows();
-            // $data['loanStatus'] = $loan_status;
-            // $data['leadStatus'] = $leadStatus;
-            // $data['recovery'] = $rec;
-            // echo 'else called : <pre>'; print_r($data); exit;
-    		// echo json_encode($data);
-    		// echo "<pre>"; print_r($data['leadDetails']);exit;
+            
     		$this->load->view('Tasks/task_js.php', $data);
 	    }
 
@@ -1693,10 +1601,12 @@
 		function applicationNo()
 		{
 			$lead_id='5358';
-			//generateApplicationNo
+			$totalLeadsCount = $this->Tasks->gettotalleadsCount('leads'); 
 			$data = $this->Tasks->generateApplicationNo($lead_id); 
-			echo "<pre>";print_r($data);
+			$str=str_pad($totalLeadsCount, 9, '0', STR_PAD_LEFT);
+			echo $applicationNo='AP'.$data[0]['product_code'].$data[0]['city_code'].$str; echo "</br>";
 
+			echo $getBorrowerType = $this->Tasks->getBorrowerType('leads',$data[0]['pancard']); 
 
 
 		}
