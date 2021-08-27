@@ -1,6 +1,6 @@
 <?php $this->load->view('Layouts/header') ?>
 <?php $url =  $this->uri->segment(1); ?>
-master
+master 
 <section>
     <div class="container">
         <!-- style="background: #ddd;" -->
