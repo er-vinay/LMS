@@ -1,6 +1,5 @@
 <?php $this->load->view('Layouts/header') ?>
 <?php $url =  $this->uri->segment(1); ?>
-<!-- <span id="response" style="width: 100%;float: left;text-align: center;padding-top:-20%;"></span> -->
 
 <section>
     <div class="container">
