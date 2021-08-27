@@ -784,10 +784,13 @@
 </senction>
 <?php $this->load->view('Layouts/footer') ?>
 <?php $this->load->view('Tasks/main_js.php') ?>
-
 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
 <script> 
     var csrf_token = $("input[name=csrf_token]").val();
+</script>
+
+<!--  
+<script> 
     function validloanamount(roi) 
     {
         var loan_roi = $(roi).val();
@@ -1689,7 +1692,6 @@
                 </button>
             </div>
             <div class="modal-body">
-                  <!-- contact Details -->
                 <div class="footer-support">
                     <h2 class="footer-support">Bank Details &nbsp;<i class="fa fa-angle-double-down"></i></h2>
                 </div>
@@ -1712,8 +1714,6 @@
     </div>
 </div>
 
-<!-- <a href="#" data-toggle="modal" data-target="#viewCibilModel" class="btn btn-primary" id="btnEditModel"></a> -->
-
 <div id="viewCibilModel" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true" style="width= : 100%; height : auto;">
     <div class="modal-dialog modal-lg" role="document" style="margin-top :100px; margin-left: 100px; background: #fff;">
         <div class="modal-content" id="viewCustomerData" style="height :600px; overflow: auto;">
@@ -1729,3 +1729,4 @@
         </div>
     </div>
 </div>
+ -->

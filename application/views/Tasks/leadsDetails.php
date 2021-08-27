@@ -3,9 +3,9 @@
         <table class="table table-hover table-striped table-bordered">
             <tr>
                 <th>Application No.</th>
-                <td>-</td>
+                <td><?= ($leadDetails->application_no) ? $leadDetails->application_no :'-' ?></td>
                 <th>CIF No.</th>
-                <td>-</td>
+                <td><?= ($leadDetails->customer_id) ? $leadDetails->customer_id :'-' ?></td>
             </tr>
             <tr>
                 <th>Borrower Type</th>

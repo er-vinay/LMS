@@ -11,7 +11,7 @@
                 <?php $i = 0; foreach($menusList->result() as $menu) : ?>
                 
                 <div class="col-md-2 col-sm-6 col-xs-6 col-md-2-me">
-                    <a href="<?= base_url($menu->route_link) ?>">
+                    <a href="<?= base_url($menu->route_link . "/" . $menu->stage) ?>">
                         <div class="lead-box text-center dashboardBox" style="background:<?= $menu->box_bg_color ?>">
                             <div class="row">
                                 <div class="col-md-6">
@@ -20,7 +20,7 @@
                                     </div>
                                 </div>
                                 <!-- <div class="col-md-6"> <strong class="counter"><?= $totalCounts[$i] ?></strong></div> -->
-                                <div class="col-md-6"> <strong class="counter"><?= $leadDetails->num_rows() ?></strong></div>
+                                <div class="col-md-6"><strong class="counter"><?= $leadDetails->num_rows() ?></strong></div>
                                 <div class="col-md-12"><span><?= $menu->menu_name ?></span></div>
                             </div>
                         </div>

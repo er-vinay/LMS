@@ -19,7 +19,6 @@
 
 		public function filter()
 		{ 
-		   // echo "<pre>"; print_r($_POST); exit;
 			$loan_no = $this->input->post('loan_no');
 			$pancard = $this->input->post('pancard');
 			$name = $this->input->post('name');
@@ -28,17 +27,43 @@
 			$aadhar = $this->input->post('aadhar');
 			$cif = $this->input->post('cif');
      
-      		$querySearch = "SELECT L.lead_id, C.customer_id, C.borrower_name as name, C.email, C.mobile, C.pancard, C.loan_recomended as loan_amount_approved, C.status as credit_status, L.status, C.cam_created_date as credit_date, 
-      		L.created_on as lead_date, L.city  
-      		FROM tbl_cam C 
-      		JOIN leads L ON C.lead_id = L.lead_id ";
+   //    		$querySearch = "SELECT L.lead_id, C.customer_id, C.borrower_name as name, C.email, C.mobile, C.pancard, C.loan_recomended as loan_amount_approved, C.status as credit_status, L.status, C.cam_created_date as credit_date, 
+   //    		L.created_on as lead_date, L.city  
+   //    		FROM tbl_cam C 
+   //    		JOIN leads L ON C.lead_id = L.lead_id ";
+			
+			// if(!empty($loan_no)){
+			// 	$querySearch .= "INNER JOIN loan LL ON C.lead_id=LL.lead_id AND LL.loan_no LIKE'".$loan_no."%'" ;
+			// } if(!empty($pancard)){
+			// 	$querySearch .= " AND C.pancard LIKE'".$pancard."%'";
+			// } if(!empty($name)){
+			// 	$querySearch .= " AND C.borrower_name LIKE '".$name."%'";
+			// } if(!empty($mobile)){
+			// 	$querySearch .= " AND C.mobile LIKE'".$mobile."%'";
+			// } if(!empty($application_no)){
+			// 	$querySearch .= " AND L.application_no LIKE'".$application_no."%'"; 
+			// } if(!empty($aadhar)){
+			// 	$querySearch .= " AND C.aadhar LIKE'".$aadhar."%'";
+			// } if(!empty($cif)){
+			// 	$querySearch .= " AND C.customer_id LIKE'".$cif."%'";
+			// }
+   //    		$querySearch .= " ORDER BY C.lead_id DESC";
+      		if($name){
+	      		$querySearch = "SELECT L.lead_id, L.customer_id, L.name as name, L.email, L.mobile, L.pancard, L.loan_amount as loan_amount_approved, L.status as credit_status, L.status, L.created_on as credit_date, L.created_on as lead_date, L.city  
+	      		FROM leads L";
+	      	}else{
+	      		$querySearch = "SELECT L.lead_id, C.customer_id, C.borrower_name as name, C.email, C.mobile, C.pancard, C.loan_recomended as loan_amount_approved, C.status as credit_status, L.status, C.cam_created_date as credit_date, 
+	      		L.created_on as lead_date, L.city  
+	      		FROM leads L 
+	      		LEFT JOIN tbl_cam C ON C.lead_id = L.lead_id ";
+	      	}
 			
 			if(!empty($loan_no)){
-				$querySearch .= "INNER JOIN loan LL ON C.lead_id=LL.lead_id AND LL.loan_no LIKE'".$loan_no."%'" ;
+				$querySearch .= "INNER JOIN loan LL ON L.lead_id=LL.lead_id AND LL.loan_no LIKE'".$loan_no."%'" ;
 			} if(!empty($pancard)){
 				$querySearch .= " AND C.pancard LIKE'".$pancard."%'";
 			} if(!empty($name)){
-				$querySearch .= " AND C.borrower_name LIKE '".$name."%'";
+				$querySearch .= " where L.name LIKE '".$name."%'";
 			} if(!empty($mobile)){
 				$querySearch .= " AND C.mobile LIKE'".$mobile."%'";
 			} if(!empty($application_no)){
@@ -48,11 +73,11 @@
 			} if(!empty($cif)){
 				$querySearch .= " AND C.customer_id LIKE'".$cif."%'";
 			}
-      		$querySearch .= " ORDER BY C.lead_id DESC";
+      		$querySearch .= " ORDER BY L.lead_id DESC";
+
+
 
 			$query = $this->db->query($querySearch);
-			
-			//echo $this->db->last_query(); exit;
 			if($this->session->userdata['isUserSession']['role'] == 'Recovery' || 
 				$this->session->userdata['isUserSession']['role'] == 'MIS' || 
 				$this->session->userdata['isUserSession']['role'] == 'Admin') {
@@ -60,44 +85,43 @@
 			}else{
 				$url = 'leadDetails';
 			}
-		//	echo "<pre>"; print_r($query->result()); exit;
 			$datatable = '<table class="table dt-table table-striped table-bordered table-responsive table-hover" style="border: 1px solid #dde2eb">
 					<thead>
 						<tr>
-							<th>#</th>
-							<th>Lead Id</th>
-							<th>Customer Id</th>
-							<th>Borrower Name</th>
-							<th>Email</th>
-							<th>Mobile</th>
-							<th>Pancard</th>
-							<th>Branch</th>
-							<th>Loan Amount</th>
-							<th>Status</th>
-							<th>Initiated Date</th>
-							<th>Credit Date</th>
-							<th>Action</th>
+							<th><b>#</b></th>
+							<th><b>Lead&nbsp;ID</b></th>
+							<th><b>Customer&nbsp;ID</b></th>
+							<th><b>Borrower&nbsp;Name</b></th>
+							<th><b>Email</b></th>
+							<th><b>Mobile</b></th>
+							<th><b>Pancard</b></th>
+							<th><b>Branch</b></th>
+							<th><b>Loan&nbsp;Amount</b></th>
+							<th><b>Status</b></th>
+							<th><b>Initiated&nbsp;Date</b></th>
+							<th><b>Credit&nbsp;Date</b></th>
+							<th><b>Action</b></th>
 						</tr>
 					</thead>
 					<tbody>';
 		    $i = 1;
 		    if($query->num_rows() > 0) {
-		      	foreach($query->result() as $r) 
+		      	foreach($query->result() as $row) 
 		      	{
 	            	$datatable .='<tr>
             			<td>'.$i++.'</td>
-            			<td class="text-center">'.$r->lead_id.'</td>
-            			<td>'.$r->customer_id.'</td>
-            			<td>'.$r->name.'</td>
-            			<td>'.$r->email.'</td>
-            			<td>'.$r->mobile.'</td>
-            			<td>'.$r->pancard.'</td>
-            			<td>'.$r->city.'</td>
-            			<td>'.$r->loan_amount_approved.'</td>
-            			<td>'.$r->status.'</td>
-            			<td>'.$r->lead_date.'</td>
-            			<td>'.$r->credit_date.'</td>
-            			<td><a onclick="viewLeadsDetails('.$r->lead_id.')" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil-square-o" title="View Costomer Details"></i></a></td></tr>';
+            			<td>'.$row->lead_id.'</td>
+            			<td>'.$row->customer_id.'</td>
+            			<td>'.$row->name.'</td>
+            			<td>'.$row->email.'</td>
+            			<td>'.$row->mobile.'</td>
+            			<td>'.$row->pancard.'</td>
+            			<td>'.$row->city.'</td>
+            			<td>'.$row->loan_amount_approved.'</td>
+            			<td>'.$row->status.'</td>
+            			<td>'.$row->lead_date.'</td>
+            			<td>'.$row->credit_date.'</td>
+            			<td><a href="'. base_url("getleadDetails/". $this->encrypt->encode($row->lead_id)) .'" class="" id="viewLeadsDetails"><i class="fa fa-pencil-square-o" title="View Costomer Details"></i></a></td></tr>';
 	           	}
 	       	} else { 
 	            $datatable .='<tr><td colspan="13" style="text-align: center;color : red;">No Record Found...</td></tr>';
