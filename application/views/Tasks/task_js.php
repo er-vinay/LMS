@@ -1,6 +1,10 @@
 <?php $this->load->view('Layouts/header') ?>
 <?php $url =  $this->uri->segment(1); ?>
+<<<<<<< HEAD
 devVin
+=======
+master
+>>>>>>> eeb83c59bd789f1bb41cc75ecc1b370b9787ab6f
 <section>
     <div class="container">
         <!-- style="background: #ddd;" -->
