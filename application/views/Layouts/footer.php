@@ -4,7 +4,7 @@
                     <div class="col-md-5">
                         <div class="footer-content">
                             <h2>ABOUT</h2>
-                            <p>Naman Finlease Pvt Ltd. is a NBFC registered with RBI having its registered office at S-370, Panchsheel Park, New Delhi – 110 017. The company uses proprietary loan softwares for its various loan offerings to individual customers in a completely fintech environment.</p>
+                            <p>Naman Finlease Private Limited is a Non Banking Finance Company (NBFC) with headquarter at New Delhi and duly registered with the Reserve Bank of India (RBI). 'Loanwalle' is the brand name under which the company conducts its lending operations and specialises in meeting customer's instant financial needs.</p>
                         </div>
                     </div>
                     <div class="col-md-4 footer-soci">
