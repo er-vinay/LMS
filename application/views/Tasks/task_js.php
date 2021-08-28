@@ -1,5 +1,5 @@
 <?php $this->load->view('Layouts/header') ?>
-<?php $getVerificationdata=getVerificationdata('tbl_verification',$leadDetails->lead_id); ?>
+
 <!-- <span id="response" style="width: 100%;float: left;text-align: center;padding-top:-20%;"></span> -->
 
 <section>
@@ -33,7 +33,7 @@
                                 || $url == "search"){ ?>
                             <li role="presentation" class="borderList"><a href="#DocumentSaction" onclick="getCustomerDocs()" aria-controls="Document" role="tab" data-toggle="tab">Documents</a></li>
                             
-                            <li role="presentation" class="borderList"><a href="#Verification" aria-controls="Verification" role="tab" data-toggle="tab" style="background:gray">Verification</a></li>
+                            <li role="presentation" class="borderList"><a href="#Verification" aria-controls="Verification" role="tab" data-toggle="tab" >Verification</a></li>
 
                             <li role="presentation" class="borderList"><a href="#PersonalDetailSaction" onclick="getPersonalDetails()" aria-controls="Personal" role="tab" data-toggle="tab">Personal</a></li>
                             
@@ -49,7 +49,7 @@
                                 || $_SESSION['isUserSession']['labels'] == "CA" 
                                 || $_SESSION['isUserSession']['labels'] == "SA" 
                                 || $url == "search"){ ?>
-                            <li role="presentation" class="borderList"><a href="#collection" onclick="getCollection()" aria-controls="messages" role="tab" data-toggle="tab" style="background:gray">Collection</a></li>
+                           <!-- <li role="presentation" class="borderList"><a href="#collection" onclick="getCollection()" aria-controls="messages" role="tab" data-toggle="tab" style="background:gray">Collection</a></li>-->
                             
                             <li role="presentation" class="borderList"><a href="#CollectionSaction" onclick="collectionDetails()" aria-controls="messages" role="tab" data-toggle="tab">Collection</a></li>
                             <?php } ?>
@@ -599,181 +599,10 @@
                             
                             <div role="tabpanel" class="tab-pane fade" id="CollectionSaction">
                                 <div id="collection">
-                                    <div class="footer-support">
-                                        <input type="hidden" name="leadIdForDocs" id="leadIdForDocs">
-                                        <h2 class="footer-support"><button type="button" class="btn btn-info collapse" data-toggle="collapse" data-target="#collapse_loan_statust">Loan Status &nbsp;<i class="fa fa-angle-double-down"></i></button></h2>
-                                    </div>
+                                <?php $this->load->view('Collection/collection'); ?>
+                                  
                                 </div>
 
-                                <div id="collapse_loan_statust" class="collapse">
-                                    <div id="loanStatus"></div>
-                                </div>
-                                
-                                <?php if($_SESSION['isUserSession']['role'] == teamCollection
-                                    || $_SESSION['isUserSession']['role'] == admin) { ?>
-                                    <div id="collection">
-                                        <div class="footer-support">
-                                            <h2 class="footer-support"><button type="button" class="btn btn-info collapse" data-toggle="collapse" data-target="#collapse_update-paymunt">Update Payment &nbsp;<i class="fa fa-angle-double-down"></i></button> </h2>
-                                        </div>
-                                    </div>
-
-                                    <div id="collapse_update-paymunt" class="collapse">
-                                        <form id="FormRecoveryAmount" method="post" enctype="multipart/form-data" style="background:#fff !important;">
-                                            <input type="hidden" class="form-control" name="lead_id" id="lead_id" readonly>
-                                            <input type="hidden" class="form-control" name="recovery_id" id="recovery_id" readonly>
-                                            <div class="form-group row" style="background:#fff  !important;">
-                                                <div class="col-sm-6">
-                                                    <label for="Payment Recived">Payment Received <span class="required_Fields">*</span></label>
-                                                    <input class="form-control rounded-0" id="payment_amount" name="payment_amount" onchange="checkLeftAmount(this)" type="number"/>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="inputLastname">Refrence No. <span class="required_Fields">*</span></label>
-                                                    <input class="form-control rounded-0" id="refrence_no" name="refrence_no" type="text" value=""/>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Payment Mode">Payment Mode <span class="required_Fields">*</span></label>
-                                                    <select class="form-control" name="payment_mode" id="payment_mode">
-                                                        <option value="">Select Payment Mode</option>
-                                                        <option value="Google Pay">Google Pay</option>
-                                                            <option value="Easy Pay">Easy Pay</option>
-                                                        <option value="ICICI UPI">ICICI UPI</option>
-                                                        <option value="eNACH">eNACH</option>
-                                                        <option value="PayTM">PayTM</option>
-                                                        <option value="084305001370">Icici Bank/ 084305001370</option>
-                                                        <option value="920020009314172">Axis Bank/ 920020009314172</option>
-                                                        <option value="201002831962">Indus Bank/ 201002831962</option>
-                                                        <option value="Approval">Approval</option>
-                                                    </select>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Payment Type">Payment Type <span class="required_Fields">*</span></label>
-                                                    <select class="form-control" name="payment_type" id="payment_type">
-                                                        <option value="">Select Payment Type</option>
-                                                        <option value="Full Payment">Full Payment</option>
-                                                        <option value="Part Payment">Part Payment</option>
-                                                        <option value="Settlement">Settlement</option>
-                                                        <option value="Renuable Amount">Renuable Amount</option>
-                                                        <option value="Admin Fee">Admin Fee</option>
-                                                        <option value="EMI">EMI</option> 
-                                                    </select>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Discount">Discount <span class="required_Fields">*</span></label>
-                                                    <input class="form-control rounded-0" id="discount" name="discount" type="number" value="0"/>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Upload Docs">Upload Docs <span class="required_Fields">*</span></label>
-                                                    <input type="file" class="form-control" name="image" id="image">
-                                                </div>
-                    
-                                                <div class="col-sm-12">
-                                                    <label for="Remark">Remark <span class="required_Fields">*</span></label>
-                                                    <textarea class="form-control" name="remark" id="remark"></textarea>
-                                                </div>
-                                            </div>
-                    
-                                            <div class="row">
-                                                <div class="col-sm-9"></div>
-                                                <div class="col-sm-2">
-                                                    <button class="btn btn-primary" id="btnPaymentReceived">PAYMENT RECIVED</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                <?php } ?>
-                                <?php if($_SESSION['isUserSession']['role'] == teamClosure 
-                                        || $_SESSION['isUserSession']['role'] == admin){ ?>
-                                    <div id="collection">
-                                        <div class="footer-support">
-                                            <input type="hidden" name="leadIdForDocs" id="leadIdForDocs">
-                                            <h2 class="footer-support">Recovery Status &nbsp;<i class="fa fa-angle-double-down"></i></h2>
-                                        </div>
-                                    </div>
-                                    
-                                    <div id="recoveryData"></div>
-                                    <?php if($_SESSION['isUserSession']['role'] == teamCollection 
-                                        || $_SESSION['isUserSession']['role'] == teamClosure
-                                        || $_SESSION['isUserSession']['role'] == admin) { ?>
-                                        
-                                        <div id="collection">
-                                            <div class="footer-support">
-                                                <h2 class="footer-support">Verify Payment &nbsp;<i class="fa fa-angle-double-down"></i></h2>
-                                            </div>
-                                        </div>
-                                    
-                                        <form id="FormVerifyPayment" method="post" enctype="multipart/form-data">
-                                            <input type="hidden" class="form-control" name="lead_id" id="lead_id" readonly>
-                                            <input type="hidden" class="form-control" name="recovery_id" id="recovery_id" readonly>
-                                            <div class="form-group row">
-                                                <div class="col-sm-6">
-                                                    <label for="Payment Recived">Payment Received <span class="required_Fields">*</span></label>
-                                                    <input class="form-control rounded-0" id="payment_amount" name="payment_amount" onchange="checkLeftAmount(this)" type="number"/>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="inputLastname">Refrence No. <span class="required_Fields">*</span></label>
-                                                    <input class="form-control rounded-0" id="refrence_no" name="refrence_no" type="text" value=""/>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Payment Mode">Payment Mode <span class="required_Fields">*</span></label>
-                                                    <select class="form-control" name="payment_mode" id="payment_mode">
-                                                        <option value="">Select Payment Mode</option>
-                                                        <option value="Google Pay">Google Pay</option>
-                                                        <option value="Easy Pay">Easy Pay</option>
-                                                        <option value="ICICI UPI">ICICI UPI</option>
-                                                        <option value="eNACH">eNACH</option>
-                                                        <option value="PayTM">PayTM</option>
-                                                        <option value="084305001370">Icici Bank/ 084305001370</option>
-                                                        <option value="920020009314172">Axis Bank/ 920020009314172</option>
-                                                        <option value="201002831962">Indus Bank/ 201002831962</option>
-                                                        <option value="Approval">Approval</option>
-                                                    </select>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Payment Type">Payment Type <span class="required_Fields">*</span></label>
-                                                    <select class="form-control" name="payment_type" id="payment_type">
-                                                        <option value="">Select Payment Type</option>
-                                                        <option value="Full Payment">Full Payment</option>
-                                                        <option value="Part Payment">Part Payment</option>
-                                                        <option value="Settlement">Settlement</option>
-                                                        <option value="Renuable Amount">Renuable Amount</option>
-                                                        <option value="Admin Fee">Admin Fee</option>
-                                                        <option value="EMI">EMI</option>
-                                                    </select>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Date Of Received">Date Of Received <span class="required_Fields">*</span></label>
-                                                    <input type="text" class="form-control rounded-0" id="date_of_recived" name="date_of_recived"/>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Discount">Discount <span class="required_Fields">*</span></label>
-                                                    <input class="form-control rounded-0" id="discount" name="discount" type="number" value="0"/>
-                                                </div>
-                    
-                                                <div class="col-sm-6">
-                                                    <label for="Remark">Remark <span class="required_Fields">*</span></label>
-                                                    <textarea class="form-control" name="remark" id="remark"></textarea>
-                                                </div>
-                                            </div>
-                    
-                                            <div class="row">
-                                                <div class="col-sm-9"></div>
-                                                <div class="col-sm-2">
-                                                    <button class="btn btn-primary" id="btnPaymentVerify">VERIFY PAYMENT</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    <?php } ?>
-                                <?php } ?>
                             </div>
                         </div>
                     </div>
