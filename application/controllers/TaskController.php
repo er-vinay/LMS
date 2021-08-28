@@ -21,29 +21,6 @@
 	    	$login->index();
 		}
 
-<<<<<<< HEAD
-		//public function index()
-	    //{
-	    //	$data['leadDetails'] = $this->Tasks->getLeadDetails(); 
-	    //	$user = $this->Admin->getUser(user_id);
-	    //	$data['user'] = $user->row();
-	    //	$data['title'] = "Applications New";
-        //	$this->load->view('Screener/applicationNew', $data);
-		//}
-		
-		public function index($stage)
-	    {
-		//	echo $stage; die;
-			$conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='$stage' ";
-	        $data['leadDetails'] = $this->Tasks->index($conditions); 
-	    	$user = $this->Admin->getUser(user_id);
-	    	$data['user'] = $user->row();
-        	$this->load->view('Tasks/GetLeadTaskList', $data);
-	    }
-	    
-	    
-	    public function screeninLeads()
-=======
 		// public function index()
 	 //    {
 	 //    	$data['leadDetails'] = $this->Tasks->getLeadDetails(); 
@@ -54,7 +31,6 @@
 	 //    }
 	    
 	    public function index($stage)
->>>>>>> eeb83c59bd789f1bb41cc75ecc1b370b9787ab6f
 	    {
 			$conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='". $stage ."'";
 	        $data['leadDetails'] = $this->Tasks->index($conditions); 
@@ -267,9 +243,6 @@
 			// ];
 
             $data['leadDetails'] = $sql;
-<<<<<<< HEAD
-            
-=======
             // echo "<pre>"; print_r($sql); exit;
             // $data['tbl_cibil'] = $cibilRecord; 
             // $data['creditCount'] = $creditDetails->num_rows();
@@ -279,7 +252,6 @@
             // echo 'else called : <pre>'; print_r($data); exit;
     		// echo json_encode($data);
     		// echo "<pre>"; print_r($data['leadDetails']);exit;
->>>>>>> eeb83c59bd789f1bb41cc75ecc1b370b9787ab6f
     		$this->load->view('Tasks/task_js.php', $data);
 	    }
 
