@@ -5989,7 +5989,9 @@ table.table-bordered thead th,
 table.table-bordered thead td {
   border-left-width: 0;
   border-top-width: 0;
+  
 }
+<<<<<<< HEAD
 table.table-bordered tbody th {
   border-left-width: 0;
   border-bottom-width: 0;
@@ -5997,15 +5999,33 @@ table.table-bordered tbody th {
   font-weight: bold;
   font-size: 14px;
 }
+=======
+table.table-bordered tbody th
+{  border-left-width: 0;
+  border-bottom-width: 0;
+  font-weight:bold;
+  font-size:13px;
+  width: 25%;}
+>>>>>>> eeb83c59bd789f1bb41cc75ecc1b370b9787ab6f
 
 table.table-bordered tbody td {
   border-left-width: 0;
   border-bottom-width: 0;
+<<<<<<< HEAD
   width: 25% !important;
   font-size: 14px;  
 }
 
 table.table-bordered tfoot th,
+=======
+  font-weight:normal;
+  font-size:13px;
+  width: 25%;
+}
+
+
+table.table-bordered tfoot th
+>>>>>>> eeb83c59bd789f1bb41cc75ecc1b370b9787ab6f
 table.table-bordered tfoot td {
   border-left-width: 0;
   border-bottom-width: 0;

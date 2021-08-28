@@ -21,6 +21,7 @@
 	    	$login->index();
 		}
 
+<<<<<<< HEAD
 		//public function index()
 	    //{
 	    //	$data['leadDetails'] = $this->Tasks->getLeadDetails(); 
@@ -42,14 +43,35 @@
 	    
 	    
 	    public function screeninLeads()
+=======
+		// public function index()
+	 //    {
+	 //    	$data['leadDetails'] = $this->Tasks->getLeadDetails(); 
+	 //    	$user = $this->Admin->getUser(user_id);
+	 //    	$data['user'] = $user->row();
+	 //    	$data['title'] = "Applications New";
+  //       	$this->load->view('Screener/applicationNew', $data);
+	 //    }
+	    
+	    public function index($stage)
+>>>>>>> eeb83c59bd789f1bb41cc75ecc1b370b9787ab6f
 	    {
-	        // $data['leadDetails'] = $this->Tasks->getleadsforSanction();
-			$conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='S1'";
+			$conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='". $stage ."'";
 	        $data['leadDetails'] = $this->Tasks->index($conditions); 
 	    	$user = $this->Admin->getUser(user_id);
 	    	$data['user'] = $user->row();
         	$this->load->view('Tasks/GetLeadTaskList', $data);
 	    }
+	    
+	  //   public function screeninLeads()
+	  //   {
+	  //       // $data['leadDetails'] = $this->Tasks->getleadsforSanction();
+			// $conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='S1'";
+	  //       $data['leadDetails'] = $this->Tasks->index($conditions); 
+	  //   	$user = $this->Admin->getUser(user_id);
+	  //   	$data['user'] = $user->row();
+   //      	$this->load->view('Tasks/GetLeadTaskList', $data);
+	  //   }
 	    
 	    public function applicationinprocess()
 	    {
@@ -76,9 +98,9 @@
         	echo json_encode($json);
 	    }
 	    
-	    public function inProcess()
+	    public function inProcess($stage)
 	    {
-			$conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='S6'";
+			$conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='". $stage ."'";
 	        $data['leadDetails'] = $this->Tasks->index($conditions); 
 	    	$user = $this->Admin->getUser(user_id);
 	    	$data['user'] = $user->row();
@@ -219,34 +241,45 @@
 	    {
     		$lead_id = $this->encrypt->decode($lead_id);
 	        $conditions = ['LD.company_id' => company_id, 'LD.product_id' => product_id, 'LD.lead_id' => $lead_id];
-            $select = 'LD.lead_id, LD.state_id, LD.gender, LD.city, LD.name, LD.middle_name, LD.sur_name, LD.email,
-    		LD.alternateEmailAddress, LD.mobile, LD.alternateMobileNo, LD.addressLine1, LD.area, LD.landmark, LD.purpose, LD.type, LD.user_type, LD.pancard, LD.monthly_income, LD.loan_amount, LD.tenure, LD.interest, LD.cibil, LD.source, LD.dob, LD.gender, LD.city, ST.state, LD.pincode, LD.status, LD.schedule_time, LD.created_on, LD.coordinates, LD.salary_mode, LD.credit_manager_id, LD.partPayment, LD.loan_approved, LD.is_Disbursed, LD.employeeDetailsAdded, LD.ip, LD.check_cibil_status, LD.term_and_condition, LD.terms_and_condition_2';
+            $select = 'LD.lead_id, LD.customer_id, LD.application_no, LD.state_id, LD.gender, LD.city, LD.name, LD.middle_name, LD.sur_name, LD.email, LD.alternateEmailAddress, LD.mobile, LD.alternateMobileNo, LD.addressLine1, LD.area, LD.landmark, LD.purpose, LD.type, LD.user_type, LD.pancard, LD.monthly_income, LD.loan_amount, LD.tenure, LD.interest, LD.cibil, LD.source, LD.dob, LD.gender, LD.city, ST.state, LD.pincode, LD.status, LD.schedule_time, LD.created_on, LD.coordinates, LD.salary_mode, LD.credit_manager_id, LD.partPayment, LD.loan_approved, LD.is_Disbursed, LD.employeeDetailsAdded, LD.ip, LD.check_cibil_status, LD.term_and_condition, LD.terms_and_condition_2';
 	        $leadData = $this->Tasks->join_table($conditions, $select);
 	        $sql = $leadData->row();
 
 
-			$data['leadDetails'] = [
-				'name' 				=> strtoupper($sql->name),
-				'middle_name' 		=> strtoupper($sql->middle_name),
-				'sur_name' 			=> strtoupper($sql->sur_name),
-				'gender' 			=> strtoupper($sql->gender),
-				'dob' 				=> date('d-m-Y', strtotime($sql->dob)),
-				'pancard' 			=> strtoupper($sql->pancard),
-				'mobile' 			=> $sql->mobile,
-				'alternateMobileNo' => $sql->alternateMobileNo,
-				'email' 			=> $sql->email,
-				'loan_amount' 		=> number_format($sql->loan_amount, 2),
-				'state' 			=> strtoupper($sql->state),
-				'city' 				=> strtoupper($sql->city),
-				'pincode' 			=> $sql->pincode,
-				'created_on' 		=> date('d-m-Y h:i:s', strtotime($sql->created_on)),
-				'source' 			=> $sql->source,
-				'coordinates' 		=> $sql->coordinates,
-				'ip' 				=> $sql->ip,
-			];
+			// $data['leadDetails'] = [
+			// 	'name' 				=> strtoupper($sql->name),
+			// 	'middle_name' 		=> strtoupper($sql->middle_name),
+			// 	'sur_name' 			=> strtoupper($sql->sur_name),
+			// 	'gender' 			=> strtoupper($sql->gender),
+			// 	'dob' 				=> date('d-m-Y', strtotime($sql->dob)),
+			// 	'pancard' 			=> strtoupper($sql->pancard),
+			// 	'mobile' 			=> $sql->mobile,
+			// 	'alternateMobileNo' => $sql->alternateMobileNo,
+			// 	'email' 			=> $sql->email,
+			// 	'loan_amount' 		=> number_format($sql->loan_amount, 2),
+			// 	'state' 			=> strtoupper($sql->state),
+			// 	'city' 				=> strtoupper($sql->city),
+			// 	'pincode' 			=> $sql->pincode,
+			// 	'created_on' 		=> date('d-m-Y h:i:s', strtotime($sql->created_on)),
+			// 	'source' 			=> $sql->source,
+			// 	'coordinates' 		=> $sql->coordinates,
+			// 	'ip' 				=> $sql->ip,
+			// ];
 
             $data['leadDetails'] = $sql;
+<<<<<<< HEAD
             
+=======
+            // echo "<pre>"; print_r($sql); exit;
+            // $data['tbl_cibil'] = $cibilRecord; 
+            // $data['creditCount'] = $creditDetails->num_rows();
+            // $data['loanStatus'] = $loan_status;
+            // $data['leadStatus'] = $leadStatus;
+            // $data['recovery'] = $rec;
+            // echo 'else called : <pre>'; print_r($data); exit;
+    		// echo json_encode($data);
+    		// echo "<pre>"; print_r($data['leadDetails']);exit;
+>>>>>>> eeb83c59bd789f1bb41cc75ecc1b370b9787ab6f
     		$this->load->view('Tasks/task_js.php', $data);
 	    }
 
@@ -780,15 +813,22 @@
 			    	$newStatus = $this->Status->getNewStatus($lead_id, 'new_status');
 			    	$label = $_SESSION['isUserSession']['labels'];
                     if($label == 'CR1' || $label == 'CA' || $label == 'SA') {
-			            // $data = ['screener_id'=> user_id, 'screenin_time'=> created_at, 'status' => $newStatus['status'], 'stage' => $newStatus['stage']];
-			            $data = ['screener_id'=> user_id, 'screenin_time'=> created_at, 'status' => 'LEAD-INPROCESS', 'stage' => 'S2'];
+			            $data = [
+			            	'screener_id'		=> user_id, 
+			            	'screenin_time'		=> created_at, 
+			            	'status' 			=> 'LEAD-INPROCESS', 
+			            	'stage' 			=> 'S2'
+			            ];
 			        }
                     if($label == 'CR2' || $label == 'CA' || $label == 'SA') {
-			            $data = ['credit_manager_id'=> user_id, 'credit_manager_time'=> created_at, 'status' => $newStatus['status'], 'stage' => $newStatus['stage']];
+			            $data = [
+			            	'credit_manager_id'		=> user_id, 
+			            	'credit_manager_time'	=> created_at, 
+			            	'status' 				=> 'APPLICATION-INPROCESS', 
+			            	'stage' 				=> 'S5'
+			            ];
                     }
-                    // echo "<pre>"; print_r($data); exit;
                     $this->Tasks->update(['lead_id' => $lead_id], $data);
-                    // $this->db->set($data)->where('lead_id', $item)->update('leads'); 
 			    }
 	            echo "true";  
 			}else{
@@ -811,39 +851,11 @@
 			    foreach($_POST["checkList"] as $item)
 			    {
         			$lead_id = $item;
-        			$reson = "Duplicate Leads";
-        
-                    $data = array (
-                        'lead_id'       => $lead_id,
-                        'company_id'    => company_id,
-                        'product_id'    => product_id,
-                        'user_id'       => user_id,
-                        'reson'         => $reson,
-                        'ip'            => ip,
-                        'created_on'    => updated_at
-                    );
-                    
-                    $this->db->insert('tbl_duplicate_leads', $data);
-                    $this->db->where('lead_id', $lead_id)->update('leads', ['leads_duplicate' => 1, 'screener_id' =>$userID]);
+                    $this->Tasks->update(['lead_id' => $lead_id], ['status' => 'DUPLICATE', 'stage' => 'S14']);
 			    }
 	            echo "true";
 	        } else {
-    			if(isset($_POST["reson"]) && isset($_POST["lead_id"]))  
-    			{
-    				$lead_id = $this->input->post('lead_id');
-    				$reson = $this->input->post('reson');
-    
-    	            $data = array (
-    	                'lead_id'       => $lead_id,
-    	                'user_id'       => $_SESSION['isUserSession']['user_id'],
-    	                'reson'         => $reson,
-    	                'ip'            => ip,
-    	                'created_on'    => updated_at
-    	            );
-    	            $this->db->where('lead_id', $lead_id)->update('leads', ['leads_duplicate' => 1]);
-    	            $this->db->insert('tbl_duplicate_leads', $data);
-    	            echo "true";
-    	        }
+	        	echo "false";
 	        }
 		}
 	    

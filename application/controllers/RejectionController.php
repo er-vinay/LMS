@@ -30,7 +30,7 @@
 	        	else 
 	        	{
 	        	    $status = "REJECT";
-                    $stage = "S9";
+                    $stage = "S13";
     				$lead_id = $this->input->post('lead_id');
     				$reason = $this->input->post('reson');
 

@@ -1,5 +1,6 @@
 <?php $this->load->view('Layouts/header') ?>
 <?php $url =  $this->uri->segment(1); ?>
+<?php $state =  $this->uri->segment(2); ?>
 <span id="response" style="width: 100%;float: left;text-align: center;padding-top:-20%;"></span>
 <section>
     <div class="container-fluid">
@@ -29,8 +30,10 @@
                                                     <span class="h-icon"><i class="fa fa-th"></i></span>
                                                     <span class="inner-page-tag">Leads</span> 
                                                         <span class="counter inner-page-box"><?= $leadDetails->num_rows(); ?></span>
+                                                        <?php if($state == "S1"){ ?>
                                                         <a  class="btn inner-page-box checkDuplicateItem" id="checkDuplicateItem" style="background: #0d7ec0 !important;">Duplicate</a>
                                                         <a  class="btn inner-page-box" id="allocate" style="background: #0d7ec0 !important;">Allocate</a> 
+                                                        <?php } ?>
                                                 </div>
                                                 <div class="widget-container">
                                                     <div class=" widget-block">
@@ -39,10 +42,10 @@
                                                                 <table class="table dt-table table-striped table-bordered table-hover" data-order='[[ 0, "desc" ]]' style="border: 1px solid #dde2eb">
                                                                     <thead>
                                                                         <tr>
-                                                                            <th><b>Sr. No</b></th>
+                                                                            <th><b>Sr.&nbsp;No</b></th>
                                                                             <th><b>Action</b></th>
-                                                                            <th><b>Application No</b></th>
-                                                                            <th><b>Borrower</b></th>
+                                                                            <th><b>Application&nbsp;No</b></th>
+                                                                            <th><b>Borrower&nbsp;Name</b></th>
                                                                             <th><b>State</b></th>
                                                                             <th><b>City</b></th>
                                                                             <th><b>Mobile</b></th>
@@ -50,7 +53,7 @@
                                                                             <th><b>PAN</b></th>
                                                                             <th><b>Source</b></th>
                                                                             <th><b>Status</b></th>
-                                                                            <th><b>Applied On</b></th>
+                                                                            <th><b>Applied&nbsp;On</b></th>
                                                                             
                                                                         </tr>
                                                                     </thead>
@@ -66,7 +69,9 @@
                                                                                 <?php if($row->status == "LEAD-NEW" || $row->status == "APPLICATION-NEW"){ ?>
                                                                                 <input type="checkbox" name="duplicate_id[]" class="duplicate_id" id="duplicate_id" value="<?= $row->lead_id; ?>">&nbsp;</br>
                                                                             <?php }else{ ?>
-                                                                                <a href="<?= base_url("getleadDetails/". $this->encrypt->encode($row->lead_id)) ?>" class="" id="viewLeadsDetails"><i class="fa fa-pencil-square-o" title="View Costomer Details"></i></a>
+                                                                                <a href="<?= base_url("getleadDetails/". $this->encrypt->encode($row->lead_id)) ?>" class="" id="viewLeadsDetails">
+                                                                                    <span class="glyphicon glyphicon-edit" style="    font-size: 20px;" title="Edit Costomer Details <?= $row->lead_id ?>"></span>
+                                                                                </a>
                                                                             <?php } ?>
                                                                             </td> 
                                                                             <td><?= ($row->application_no) ? strtoupper($row->application_no) : "-" ?></td>
@@ -105,9 +110,11 @@
 <?php $this->load->view('Layouts/footer') ?>
 <?php //$this->load->view('Tasks/task_js.php') ?>
 <?php $this->load->view('Tasks/main_js.php') ?>
+<input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
 <script>
     ////////////////////////////////////////// Allocate Leads ////////////////////////////////////////
     
+    var csrf_token = $("input[name=csrf_token]").val();
     $(function(){
         $('#allocate').click(function () {
             var checkList = [];

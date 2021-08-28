@@ -7,7 +7,7 @@
 /* Ace Responsive Menu
 
 ----------------------------------------*/
-.logout-lac {padding: 20px 8px;text-decoration: none;font-size: 15px;color: #0d638f;text-decoration: none;border-right: solid 1px #ddd;}
+.logout-lac {padding: 24px 8px 20px 8px;text-decoration: none;font-size: 14px;color: #0d638f;text-decoration: none;border-right: solid 1px #ddd;}
 
 .logout-lac:hover {
 
@@ -360,7 +360,7 @@ background: #272727 !important;
 ----------------------------------------*/
 /*Note: change the max-width asper your requirment and change the same in aceResponsiveMenu({resizeWidth: "768" }) function*/
 .top-welcome
-{padding-top: 18px;float: left;padding-bottom: 18px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;border-right: solid 1px #ddd;text-align: center;padding-right: 0px;}
+{padding-top:16px;float: left;padding-bottom: 18px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;/* border-right: solid 1px #ddd; */text-align: center;padding-right: 0px;}
 .top_logout
 {margin-left: -70px;
 margin-right: 64px;}
