@@ -132,8 +132,8 @@
                             <div role="tabpanel" class="tab-pane fade" id="DocumentSaction"> 
                                 <input type="hidden" name="leadIdForDocs" id="leadIdForDocs"> 
                                 <div id="documents" class="show">
-                                <?php if($_SESSION['isUserSession']['labels'] == "CR2" 
-                                    || $_SESSION['isUserSession']['labels'] == "CA") : ?>
+                                <?php if($_SESSION['isUserSession']['role'] == creditManager 
+                                    || $_SESSION['isUserSession']['role'] == admin) : ?>
                                     <div id="btndivUploadDocs">
                                         <div style="background:#fff !important;">
                                             <button class="btn btn-primary" style="background:#ddd !important; color: #000 !important; border: none;" id="sendRequestToCustomerForUploadDocs" onclick="sendRequestToCustomerForUploadDocs()" disabled>Send Request For Upload Docs</button>
@@ -212,7 +212,7 @@
                         
                             <div role="tabpanel" class="tab-pane fade" id="Verification">
                                 <div id="divVerification">
-                                    <?php $this->load->view('Verification/verification'); ?>
+                                    <?php //$this->load->view('Verification/verification'); ?>
                                 </div>
                             </div>
                                  
@@ -609,7 +609,6 @@
 <script> 
     var csrf_token = $("input[name=csrf_token]").val();
 </script>
-
 <!-- 
  
 <script> 

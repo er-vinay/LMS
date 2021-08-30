@@ -542,6 +542,7 @@
 	    {
 	        $type = "";
 	    	$docsDetails = $this->Tasks->getCustomerDocs($lead_id, $type);
+	    	// echo "<pre>"; print_r($lead_id); exit;
 
 			$data = '<div class="table-responsive">
 		        <table class="table table-hover table-striped table-bordered" style="margin-top: 10px;">
