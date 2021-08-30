@@ -792,7 +792,7 @@
 			            	'stage' 			=> 'S2'
 			            ];
 			        }
-                    if($label == 'CR2' || $label == 'CA' || $label == 'SA') {
+                    else if($label == 'CR2' || $label == 'CA' || $label == 'SA') {
 			            $data = [
 			            	'credit_manager_id'		=> user_id, 
 			            	'credit_manager_time'	=> created_at, 
