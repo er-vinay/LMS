@@ -32,7 +32,7 @@
 	    
 	    public function index($stage)
 	    {
-			$conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='". $stage ."'";
+		    $conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='". $stage ."'"; 
 	        $data['leadDetails'] = $this->Tasks->index($conditions); 
 	    	$user = $this->Admin->getUser(user_id);
 	    	$data['user'] = $user->row();
@@ -217,7 +217,7 @@
 	    {
     		$lead_id = $this->encrypt->decode($lead_id);
 	        $conditions = ['LD.company_id' => company_id, 'LD.product_id' => product_id, 'LD.lead_id' => $lead_id];
-            $select = 'LD.lead_id, LD.customer_id, LD.application_no, LD.state_id, LD.gender, LD.city, LD.name, LD.middle_name, LD.sur_name, LD.email, LD.alternateEmailAddress, LD.mobile, LD.alternateMobileNo, LD.addressLine1, LD.area, LD.landmark, LD.purpose, LD.type, LD.user_type, LD.pancard, LD.monthly_income, LD.loan_amount, LD.tenure, LD.interest, LD.cibil, LD.source, LD.dob, LD.gender, LD.city, ST.state, LD.pincode, LD.status, LD.schedule_time, LD.created_on, LD.coordinates, LD.salary_mode, LD.credit_manager_id, LD.partPayment, LD.loan_approved, LD.is_Disbursed, LD.employeeDetailsAdded, LD.ip, LD.check_cibil_status, LD.term_and_condition, LD.terms_and_condition_2';
+            $select = 'LD.lead_id,LD.stage, LD.customer_id, LD.application_no, LD.state_id, LD.gender, LD.city, LD.name, LD.middle_name, LD.sur_name, LD.email, LD.alternateEmailAddress, LD.mobile, LD.alternateMobileNo, LD.addressLine1, LD.area, LD.landmark, LD.purpose, LD.type, LD.user_type, LD.pancard, LD.monthly_income, LD.loan_amount, LD.tenure, LD.interest, LD.cibil, LD.source, LD.dob, LD.gender, LD.city, ST.state, LD.pincode, LD.status, LD.schedule_time, LD.created_on, LD.coordinates, LD.salary_mode, LD.credit_manager_id, LD.partPayment, LD.loan_approved, LD.is_Disbursed, LD.employeeDetailsAdded, LD.ip, LD.check_cibil_status, LD.term_and_condition, LD.terms_and_condition_2';
 	        $leadData = $this->Tasks->join_table($conditions, $select);
 	        $sql = $leadData->row();
 
@@ -243,7 +243,7 @@
 			// ];
 
             $data['leadDetails'] = $sql;
-            // echo "<pre>"; print_r($sql); exit;
+           //  echo "<pre>"; print_r($sql); exit;
             // $data['tbl_cibil'] = $cibilRecord; 
             // $data['creditCount'] = $creditDetails->num_rows();
             // $data['loanStatus'] = $loan_status;
