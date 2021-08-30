@@ -404,27 +404,27 @@
         });
     }
     
-    function getCustomerDocs()
+    function getCustomerDocs(lead_id)
     {
-        var lead_id = $('#lead_id').val();
         getDocs(lead_id);
     }
 
     function getDocs(lead_id)
     {
-        // console.log(csrf_token);
         $.ajax({
             url : '<?= base_url("getDocsUsingAjax/") ?>' +lead_id,
             type : 'POST',
             data : {csrf_token},
             dataType : "json",
             // async: false,
+            beforeSend: function() {
+                $("#cover").show();
+            },
             success : function(response) { 
                 $('#docsHistory').html(response);
             },
-            error: function(XMLHttpRequest, textStatus, errorThrown) { 
-                $("#exampleModalLongTitle").html(textStatus +" : "+ errorThrown);
-                return false;
+            complete: function() {
+                $("#cover").fadeOut(1750)
             }
         });
     }
@@ -596,9 +596,8 @@
         });
     }
     
-    function getPersonalDetails()
+    function getPersonalDetails(lead_id)
     {
-        var lead_id = $('#lead_id').val();
         if(lead_id != "") {
             $.ajax({
                 url : '<?= base_url("getPersonalDetails/") ?>'+lead_id,
@@ -1430,7 +1429,7 @@
                     }else{ 
                         catchError(response);
                     }
-                    getDocs(lead_id);
+                    getDocs(<?= $leadDetails->lead_id ?>);
                 }
             });
         });

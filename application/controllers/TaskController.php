@@ -5,6 +5,7 @@
 		public function __construct()
 		{
 			parent::__construct();
+            $this->load->model('Leadmod', 'Leads');
             $this->load->model('Task_Model', 'Tasks');
             $this->load->model('Admin_Model', 'Admin');
             $this->load->model('Status_Model', 'Status');
@@ -542,19 +543,20 @@
 	    {
 	        $type = "";
 	    	$docsDetails = $this->Tasks->getCustomerDocs($lead_id, $type);
-	    	// echo "<pre>"; print_r($lead_id); exit;
 
 			$data = '<div class="table-responsive">
 		        <table class="table table-hover table-striped table-bordered" style="margin-top: 10px;">
                   <thead>
                     <tr class="table-primary">
                       <th scope="col"><b>#</b></th>
-                      <th scope="col"><b>Document Type</b></th>
-                      <th scope="col"><b>Document Name</b></th>
-                      <th scope="col"><b>File Name</b></th>
+                      <th scope="col"><b>Document&nbsp;Name</b></th>
+                      <th scope="col"><b>File&nbsp;Name</b></th>
+                      <th scope="col"><b>Document&nbsp;Type</b></th>
                       <th scope="col"><b>Password</b></th>
-                      <th scope="col"><b>Initiated On</b></th>
-                      <th scope="col"><b>View</b></th>
+                      <th scope="col"><b>Uploaded&nbsp;By</b></th>
+                      <th scope="col"><b>Uploaded&nbsp;On</b></th>
+                      <th scope="col"><b>Application&nbsp;No.</b></th>
+                      <th scope="col"><b>Action</b></th>
                     </tr>
                 </thead>';
 	        if($docsDetails->num_rows() > 0)
@@ -573,10 +575,12 @@
                 		<tr>
 							<td>'.$i++.'</td>
 							<td>'.$column->docs.'</td>
-							<td>'.$column->type.'</td>
 							<td>'.$column->file.'</td>  
+							<td>'.$column->type.'</td>
 							<td>'.$pwd.'</td>   
+							<td>'.$column->name.'</td>  
 							<td>'.$newDate.'</td>  
+							<td>'.$column->application_no.'</td>
 							<td> 
 							 	<a onclick="viewCustomerDocs('.$column->docs_id.')"><i class="fa fa-eye" style="padding : 3px; color : #35b7c4; border : 1px solid #35b7c4;"></i></a>
 							    <a onclick="deleteCustomerDocs('.$column->docs_id.')"><i class="fa fa-trash" style="padding : 3px; color : #35b7c4; border : 1px solid #35b7c4;"></i></a>
@@ -726,26 +730,33 @@
         			$lead_id     = $this->input->post('lead_id');
         			$user_id     = $this->input->post('user_id');
         			$company_id  = $this->input->post('company_id'); 
+        			$product_id  = $this->input->post('product_id'); 
         			$docs_id     = $this->input->post('docs_id');
 					$docsType    = $this->input->post('docuemnt_type');
 					$docsname    = $this->input->post('document_name');
 					$password    = $this->input->post('password');
 					$image       = $data['upload_data']['file_name'];  
-                    if(empty($company_id)){
-                        $company_id = $_SESSION['isUserSession']['company_id'];
-                    }
-                    if(empty($user_id)){
-                        $user_id = $_SESSION['isUserSession']['user_id'];
-                    }
+                    // if(empty($company_id)){
+                    //     $company_id = $_SESSION['isUserSession']['company_id'];
+                    // }
+                    // if(empty($user_id)){
+                    //     $user_id = $_SESSION['isUserSession']['user_id'];
+                    // }
+    		            // echo "if called : <pre>"; print_r($lead); exit;
+
+
             		if(empty($docs_id) && !empty($lead_id))
             		{
-            		    $fetch = 'LD.pancard, LD.mobile';
-            		    $getLeads = $this->Tasks->select($lead_id, $fetch);
+            		    $fetch = 'leads.pancard, leads.mobile';
+            		    $conditions = 'leads.lead_id='. $lead_id;
+            		    $getLeads = $this->Tasks->select($conditions, $fetch);
+
             		    $lead = $getLeads->row();
+
     		            $data = array (
     		                'lead_id'       => $lead_id,
-    		                'company_id'    => company_id,
-    		                'product_id'    => product_id, 
+    		                'company_id'    => $company_id,
+    		                // 'product_id'    => $product_id, 
     		                'pancard'       => $lead->pancard,
     		                'mobile'        => $lead->mobile,
     		                'docs'          => $docsType,
@@ -756,7 +767,8 @@
     		                'upload_by'     => $user_id,
     		                'created_on'    => updated_at
     		            );
-    		            $this->db->insert('docs', $data);
+    		            // echo "if called : <pre>"; print_r($data); exit;
+    		            $result = $this->Leads->globel_inset('docs', $data);
     		            echo "true";
             		}else{
     		            $data = array (
@@ -769,7 +781,8 @@
     		                'created_on'    => updated_at
     		            );
     		            
-                        $where = ['company_id' => company_id, 'product_id' => product_id];
+    		            echo "elsetest called : <pre>"; print_r($data); exit;
+                        $where = ['company_id' => $company_id];
     		            $this->db->where($where)->where('lead_id', $lead_id)->where('docs_id', $docs_id)->update('docs', $data);
     		            echo "true";
             		}

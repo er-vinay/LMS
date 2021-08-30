@@ -1,8 +1,7 @@
 <?php $this->load->view('Layouts/header') ?>
 <?php $url =  $this->uri->segment(1); ?>
 
-<section>
-    <div class="container">
+    <div class="container-fluid">
         <div class="taskPageSize taskPageSizeDashboard" style="border: 1px solid #ddd;height:auto !important;">
             <div class="alertMessage">
                 <div class="alert alert-dismissible alert-success msg">
@@ -17,7 +16,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-8 col-sm-offset-2">
                     <div class="tab" role="tabpanel">
                         <input type="hidden" name="lead_id" id="lead_id" value="<?= $leadDetails->lead_id ?>" readonly>
                         <input type="hidden" name="user_id" id="user_id" value="<?= $_SESSION['isUserSession']['user_id'] ?>" readonly>
@@ -29,13 +28,13 @@
                                 || $_SESSION['isUserSession']['labels'] == "SA"
                                 || $_SESSION['isUserSession']['labels'] == "DS1" 
                                 || $url == "search"){ ?>
-                            <li role="presentation" class="borderList"><a href="#DocumentSaction" onclick="getCustomerDocs()" aria-controls="Document" role="tab" data-toggle="tab">Documents</a></li>
+                            <li role="presentation" class="borderList"><a href="#DocumentSaction" onclick="getCustomerDocs(<?= $leadDetails->lead_id ?>)" aria-controls="Document" role="tab" data-toggle="tab">Documents</a></li>
                             
                             <li role="presentation" class="borderList"><a href="#Verification" aria-controls="Verification" role="tab" data-toggle="tab" >Verification</a></li>
 
-                            <li role="presentation" class="borderList"><a href="#PersonalDetailSaction" onclick="getPersonalDetails()" aria-controls="Personal" role="tab" data-toggle="tab">Personal</a></li>
+                            <li role="presentation" class="borderList"><a href="#PersonalDetailSaction" onclick="getPersonalDetails(<?= $leadDetails->lead_id ?>)" aria-controls="Personal" role="tab" data-toggle="tab">Personal</a></li>
                             
-                            <li role="presentation" class="borderList "><a href="#CAMSheetSaction" onclick="getCam()" aria-controls="messages" role="tab" data-toggle="tab">CAM</a></li>
+                            <li role="presentation" class="borderList "><a href="#CAMSheetSaction" onclick="getCam(<?= $leadDetails->lead_id ?>)" aria-controls="messages" role="tab" data-toggle="tab">CAM</a></li>
                             
                             <?php } if($_SESSION['isUserSession']['labels'] == "DS1" 
                                 || $_SESSION['isUserSession']['labels'] == "CA" 
@@ -155,8 +154,8 @@
                                         </div>   
                                         <div class="row" id="docsform">
                                             <form id="formUserDocsData" method="post" enctype="multipart/form-data" style="float: left;width: 97%;margin:13px 13px 20px 0px;">
-                                                <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" /><!-- 
-                                                <input type="hidden" name="lead_id" id="lead_id" value="<?= $leadDetails->lead_id ?>"> -->
+                                                <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
+                                                <input type="hidden" name="lead_id" id="lead_id" value="<?= $leadDetails->lead_id ?>">
                                                 <input type="hidden" name="user_id" id="user_id" value="<?= $_SESSION['isUserSession']['user_id'] ?>">
                                                 <input type="hidden" name="company_id" id="company_id" value="<?= $_SESSION['isUserSession']['company_id'] ?>">
                                                 <!--Update docs for doc id-->
@@ -602,7 +601,6 @@
             </div>
         </div>
     </div>
-</senction>
 <?php $this->load->view('Layouts/footer') ?>
 <?php $this->load->view('Tasks/main_js.php') ?>
 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
