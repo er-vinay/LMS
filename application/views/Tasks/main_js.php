@@ -403,15 +403,22 @@
             }
         });
     }
+    
+    function getCustomerDocs()
+    {
+        var lead_id = $('#lead_id').val();
+        getDocs(lead_id);
+    }
 
     function getDocs(lead_id)
     {
+        // console.log(csrf_token);
         $.ajax({
             url : '<?= base_url("getDocsUsingAjax/") ?>' +lead_id,
             type : 'POST',
             data : {csrf_token},
             dataType : "json",
-            async: false,
+            // async: false,
             success : function(response) { 
                 $('#docsHistory').html(response);
             },
