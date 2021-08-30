@@ -1,7 +1,7 @@
 <?php $getVerificationdata=getVerificationdata('tbl_verification',$leadDetails->lead_id); 
 //echo "<pre>";print_r($getVerificationdata);
 //"user_id" 	    => $user_id,
-echo $_SESSION['isUserSession']['user_id'];
+//echo $_SESSION['isUserSession']['user_id'];
 
 ?>
 <!------- table structure for varification form ----------->
