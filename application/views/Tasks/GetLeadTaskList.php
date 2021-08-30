@@ -29,27 +29,30 @@
                                                 <div class="widget-head clearfix">
                                                     <span class="h-icon"><i class="fa fa-th"></i></span>
                                                     <span class="inner-page-tag">Leads</span> 
-                                                        <span class="counter inner-page-box"><?= $leadDetails->num_rows(); ?></span>
-                                                        <?php if($state == "S1" || $state == "S4" ){ ?>
-                                                        <a  class="btn inner-page-box checkDuplicateItem" id="checkDuplicateItem" style="background: #0d7ec0 !important;">Duplicate</a>
-                                                        <a  class="btn inner-page-box" id="allocate" style="background: #0d7ec0 !important;">Allocate</a> 
-                                                        <?php } ?>
+                                                    <span class="counter inner-page-box"><?= $leadDetails->num_rows(); ?></span>
+                                                    <?php if($state == "S1" || $state == "S4" ){ ?>
+                                                    <a  class="btn inner-page-box checkDuplicateItem" id="checkDuplicateItem" style="background: #0d7ec0 !important;">Duplicate</a>
+                                                    <a  class="btn inner-page-box" id="allocate" style="background: #0d7ec0 !important;">Allocate</a> 
+                                                    <?php } ?>
                                                 </div>
                                                 <div class="widget-container">
                                                     <div class=" widget-block">
                                                         <div class="row">
                                                             <div class="scroll_on_x_axis table-responsive">
-                                                                <table class="table dt-table table-striped table-bordered table-hover" data-order='[[ 0, "desc" ]]' style="border: 1px solid #dde2eb">
+                                                                <!-- data-order='[[ 0, "desc" ]]' -->
+                                                                <table class="table dt-table table-striped table-bordered table-hover"  style="border: 1px solid #dde2eb">
                                                                     <thead>
                                                                         <tr>
                                                                             <th><b>Sr.&nbsp;No</b></th>
                                                                             <th><b>Action</b></th>
-                                                                            <th><b>Application&nbsp;No</b></th>
-                                                                            <th><b>Borrower&nbsp;Name</b></th>
+                                                                            <th><b>CIF&nbsp;No.</b></th>
+                                                                            <th><b>Application&nbsp;No.</b></th>
+                                                                            <th><b>Loan&nbsp;No.</b></th>
+                                                                            <th><b>Borrower</b></th>
                                                                             <th><b>State</b></th>
                                                                             <th><b>City</b></th>
                                                                             <th><b>Mobile</b></th>
-                                                                            <th><b>Email</b></th>
+                                                                            <!-- <th><b>Email</b></th> -->
                                                                             <th><b>PAN</b></th>
                                                                             <th><b>Source</b></th>
                                                                             <th><b>Status</b></th>
@@ -60,30 +63,27 @@
                                                                     <tbody>
                                                                         <?php $sn=1; foreach($leadDetails->result() as $row) : ?>
                                                                         <tr>
-                                                                            <td> 
-                                                                                <?= $sn++;//$row->lead_id; ?>
-                                                                            </td>
-
-            
+                                                                            <td><?= $sn++; ?></td>
                                                                             <td>
-                                                                                <?php if($row->status == "LEAD-NEW" || $row->status == "APPLICATION-NEW"){ ?>
+                                                                            <?php if($row->status == "LEAD-NEW" || $row->status == "APPLICATION-NEW"){ ?>
                                                                                 <input type="checkbox" name="duplicate_id[]" class="duplicate_id" id="duplicate_id" value="<?= $row->lead_id; ?>">&nbsp;</br>
                                                                             <?php }else{ ?>
                                                                                 <a href="<?= base_url("getleadDetails/". $this->encrypt->encode($row->lead_id)) ?>" class="" id="viewLeadsDetails">
-                                                                                    <span class="glyphicon glyphicon-edit" style="    font-size: 20px;" title="Edit Costomer Details <?= $row->lead_id ?>"></span>
+                                                                                    <span class="glyphicon glyphicon-edit" style="    font-size: 20px;"></span>
                                                                                 </a>
                                                                             <?php } ?>
-                                                                            </td> 
+                                                                            </td>
+                                                                            <td><?= $row->customer_id; ?></td> 
                                                                             <td><?= ($row->application_no) ? strtoupper($row->application_no) : "-" ?></td>
+                                                                            <td><?= $row->customer_id; ?></td>
                                                                             <td><?= strtoupper($row->name ." ". $row->middle_name ." ". $row->sur_name) ?></td>
                                                                             <td><?= strtoupper($row->state) ?></td>
                                                                             <td><?= strtoupper($row->city) ?></td>
                                                                             <td><?= ($row->mobile) ? $row->mobile : '-' ?></td>
-                                                                            <td><?= ($row->email) ? strtoupper($row->email) : '-' ?></td>
                                                                             <td><?= ($row->pancard) ? strtoupper($row->pancard) : '-' ?></td>
                                                                             <td><?= ($row->source) ? strtoupper($row->source) : '-' ?></td>
                                                                             <td><?= ($row->status) ? strtoupper($row->status) : '-' ?></td>
-                                                                            <td><?= date('d-m-Y', strtotime($row->created_on)) ?></td> 
+                                                                            <td><?= date('d-m-Y h:i', strtotime($row->created_on)) ?></td> 
                                                                         </tr>
                                                                         <?php endforeach; ?>
                                                                     </tbody>
@@ -111,7 +111,7 @@
 <?php //$this->load->view('Tasks/task_js.php') ?>
 <?php $this->load->view('Tasks/main_js.php') ?>
 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
-<script>
+<!-- <script>
     ////////////////////////////////////////// Allocate Leads ////////////////////////////////////////
     
     var csrf_token = $("input[name=csrf_token]").val();
@@ -355,4 +355,4 @@
         });
     }
 
-</script>
+</script> -->

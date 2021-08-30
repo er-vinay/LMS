@@ -1,5 +1,6 @@
 
 <script>
+    var csrf_token = $("input[name=csrf_token]").val();
     // $(document)
     	$(".js-select2").select2({
 			closeOnSelect : false,

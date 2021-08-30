@@ -44,18 +44,15 @@
                                 || $url == "search"){ ?>
                             <li role="presentation" class="borderList"><a href="#DisbursalSaction" onclick="disbursalDetails()" aria-controls="messages" role="tab" data-toggle="tab">Disbursal</a></li>
                             
-                            <?php } if($_SESSION['isUserSession']['labels'] == teamClosure 
+                            <?php } if($_SESSION['isUserSession']['labels'] == "AC1" 
                                 || $_SESSION['isUserSession']['labels'] == "CA" 
                                 || $_SESSION['isUserSession']['labels'] == "SA" 
                                 || $url == "search"){ ?>
-                           <!-- <li role="presentation" class="borderList"><a href="#collection" onclick="getCollection()" aria-controls="messages" role="tab" data-toggle="tab" style="background:gray">Collection</a></li>-->
-                            
                             <li role="presentation" class="borderList"><a href="#CollectionSaction" onclick="collectionDetails()" aria-controls="messages" role="tab" data-toggle="tab">Collection</a></li>
                             <?php } ?>
                         </ul><hr> 
                         <div class="tab-content tabs">
                             <div role="tabpanel" class="tab-pane fade in active" id="LeadSaction">
-                                <!-- <div id="formDuplicate"></div> -->
                                 <div id="LeadDetails">
                                     <?php $this->load->view('Tasks/leadsDetails'); ?>
                                 </div>
@@ -74,9 +71,9 @@
                                 
                                 <div id="cibil_details" class="collapse">
                                     <?php if($_SESSION['isUserSession']['labels'] == "CR1" 
-                                        || $_SESSION['isUserSession']['label'] == "CR2"
-                                        || $_SESSION['isUserSession']['label'] == "CA"
-                                        || $_SESSION['isUserSession']['label'] == "SA") : ?>
+                                        || $_SESSION['isUserSession']['labels'] == "CR2"
+                                        || $_SESSION['isUserSession']['labels'] == "CA"
+                                        || $_SESSION['isUserSession']['labels'] == "SA") : ?>
                                     <div id="btndivCheckCibil">
                                         <div id="checkCustomerCibil" style="background:#fff !important;">
                                             <a href="#" class="btn btn-primary" id="btnCheckCibil" onclick="checkCustomerCibil()">Check CIBIL</a>
@@ -136,7 +133,6 @@
                             <div role="tabpanel" class="tab-pane fade" id="DocumentSaction"> 
                                 <input type="hidden" name="leadIdForDocs" id="leadIdForDocs"> 
                                 <div id="documents" class="show">
-                                    <?php //if($user->permission_user_credit == 1) : ?>
                                 <?php if($_SESSION['isUserSession']['role'] == creditManager 
                                     || $_SESSION['isUserSession']['role'] == admin) : ?>
                                     <div id="btndivUploadDocs">
@@ -217,7 +213,7 @@
                         
                             <div role="tabpanel" class="tab-pane fade" id="Verification">
                                 <div id="divVerification">
-                                    <?php $this->load->view('Verification/verification'); ?>
+                                    <?php //$this->load->view('Verification/verification'); ?>
                                 </div>
                             </div>
                                  
@@ -598,10 +594,8 @@
                             
                             <div role="tabpanel" class="tab-pane fade" id="CollectionSaction">
                                 <div id="collection">
-                                <?php $this->load->view('Collection/collection'); ?>
-                                  
+                                    <?php $this->load->view('Collection/collection'); ?>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -616,8 +610,8 @@
 <script> 
     var csrf_token = $("input[name=csrf_token]").val();
 </script>
-
-<!--  
+<!-- 
+ 
 <script> 
     function validloanamount(roi) 
     {
