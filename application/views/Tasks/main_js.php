@@ -1477,10 +1477,6 @@
                     var officeCPV='NO';
                 }
 
-                
-
-
-				
 				
                var params = {
                         PANverified			             :$("#PANverified").val(),
