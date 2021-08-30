@@ -757,7 +757,6 @@
 	    {
             $docsHistory = $this->db->select('docs.docs_id, docs.type, docs.docs, docs.file, docs.pwd, docs.created_on')
                     ->where('docs.lead_id', $lead_id)
-                    ->where('docs.product_id', product_id)
                     ->from('docs')
                     ->order_by('docs.docs_id', 'desc')
                     ->get();
@@ -769,7 +768,6 @@
 		        {
 	    			$docsHistory = $this->db->select('docs.docs_id, docs.type, docs.docs, docs.pwd, docs.file, docs.created_on')
 	                    ->where("docs.pancard LIKE '%$pancard%'")
-                        // ->where('product_id', product_id)
 				        ->from('docs')
 				        ->order_by('docs.docs_id', 'desc')
 				        ->get();
