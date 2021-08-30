@@ -30,7 +30,7 @@
                                                     <span class="h-icon"><i class="fa fa-th"></i></span>
                                                     <span class="inner-page-tag">Leads</span> 
                                                         <span class="counter inner-page-box"><?= $leadDetails->num_rows(); ?></span>
-                                                        <?php if($state == "S1"){ ?>
+                                                        <?php if($state == "S1" || $state == "S4" ){ ?>
                                                         <a  class="btn inner-page-box checkDuplicateItem" id="checkDuplicateItem" style="background: #0d7ec0 !important;">Duplicate</a>
                                                         <a  class="btn inner-page-box" id="allocate" style="background: #0d7ec0 !important;">Allocate</a> 
                                                         <?php } ?>

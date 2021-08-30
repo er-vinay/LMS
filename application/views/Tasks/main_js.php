@@ -441,13 +441,14 @@
                     if(response.msg){
                         $('#reson').empty();
                         catchSuccess(response.msg);
-                        window.location.reload();
+                        window.location.href='<?= base_url("dashboard") ?>';
                     }else{
                         catchError(response.err);
                     }
                 },
                 complete: function() {
                     $('.lead-sanction-button').html('RECOMMEND').removeClass('disabled');
+                   
                 }
             });
         }

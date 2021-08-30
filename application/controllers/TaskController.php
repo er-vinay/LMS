@@ -865,7 +865,8 @@
         public function sanctionleads()
         { 
             $lead_id = $this->input->post('lead_id');
-            $this->db->where('lead_id', $lead_id)->update('leads', ['screener_status' =>2]);    
+           // $this->db->where('lead_id', $lead_id)->update('leads', ['screener_status' =>2]);    
+            $this->db->where('lead_id', $lead_id)->update('leads', ['stage' =>'S4','status'=>'APPLICATION-NEW']);    
             $data['msg'] = 'Application forwarded for sanction.';
             echo json_encode($data);
         }
