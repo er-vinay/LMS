@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="footer-content">
-                            <h2>ABOUT</h2>
+                            <h2>ABOUT US</h2>
                             <p>Naman Finlease Private Limited is a Non Banking Finance Company (NBFC) with headquarter at New Delhi and duly registered with the Reserve Bank of India (RBI). 'Loanwalle' is the brand name under which the company conducts its lending operations and specialises in meeting customer's instant financial needs.</p>
                         </div>
                     </div>
