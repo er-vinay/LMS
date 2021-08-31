@@ -28,7 +28,7 @@
                                 || $_SESSION['isUserSession']['labels'] == "SA"
                                 || $_SESSION['isUserSession']['labels'] == "DS1" 
                                 || $url == "search"){ ?>
-                            <li role="presentation" class="borderList"><a href="#DocumentSaction" onclick="getCustomerDocs(<?= $leadDetails->lead_id ?>)" aria-controls="Document" role="tab" data-toggle="tab">Documents</a></li>
+                            <li role="presentation" class="borderList"><a href="#DocumentSaction" aria-controls="Document" role="tab" data-toggle="tab">Documents</a></li>
                             
                             <li role="presentation" class="borderList"><a href="#Verification" aria-controls="Verification" role="tab" data-toggle="tab" >Verification</a></li>
 
@@ -136,70 +136,21 @@
                                     <div id="btndivUploadDocs">
                                         <div style="background:#fff !important;">
                                             <button class="btn btn-primary" style="background:#ddd !important; color: #000 !important; border: none;" id="sendRequestToCustomerForUploadDocs" onclick="sendRequestToCustomerForUploadDocs()" disabled>Send Request For Upload Docs</button>
-                                            <!--button class="btn btn-primary" id="btnUploadDocsByUser">Upload Docs</button-->
-                                            <p id="selectDocsTypes" style="text-transform:uppercase; margin-top:20px;">
+                                            <p id="selectDocsTypes" style="text-transform:uppercase; margin-top:20px;padding-left: 10px;padding-bottom: 15px;">
+                                                <?php $i = 1; foreach ($docs_master->result() as $row) : ?>
                                                 <label class="radio-inline">
-                                                    <input type="radio" name="selectdocradio" id="selectdocradio1" value="KYC"> KYC Address Proof  
+                                                    <input type="radio" name="selectdocradio" id="selectdocradio<?= $i ?>" value="<?= $row->docs_type ?>">&nbsp;<?= $row->docs_type ?>  
                                                 </label>
-                                                <label class="radio-inline">
-                                                    <input type="radio" name="selectdocradio" id="selectdocradio2" value="IDENTITY"> Identity Proof
-                                                </label>
-                                                <label class="radio-inline">
-                                                    <input type="radio" name="selectdocradio" id="selectdocradio3" value="INCOME"> Income Proof
-                                                </label>
-                                                <label class="radio-inline">
-                                                    <input type="radio" name="selectdocradio" id="selectdocradio4" value="OTHER"> Other Identity Proof
-                                                </label>
+                                                <?php $i++; endforeach; ?>
                                             </p>
                                         </div>   
                                         <div class="row" id="docsform">
-                                            <form id="formUserDocsData" method="post" enctype="multipart/form-data" style="float: left;width: 97%;margin:13px 13px 20px 0px;">
-                                                <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
-                                                <input type="hidden" name="lead_id" id="lead_id" value="<?= $leadDetails->lead_id ?>">
-                                                <input type="hidden" name="user_id" id="user_id" value="<?= $_SESSION['isUserSession']['user_id'] ?>">
-                                                <input type="hidden" name="company_id" id="company_id" value="<?= $_SESSION['isUserSession']['company_id'] ?>">
-                                                <!--Update docs for doc id-->
-                                                <div id="getDocId"></div>
-                                                <div class="col-md-2">
-                                                    <input type="text" id="docuemnt_type" name="docuemnt_type" class="form-control" placeholder="Document Type" readonly="readonly" required>
-                                                </div>
-                                                <div class="col-md-3" id="selectDocType">
-                                                    <select class="form-control" name="document_name" id="document_name" required>
-                                                        <option value="">Select Type</option>
-                                                        <option value="Aadhar (front)">Aadhar (front)</option>
-                                                        <option value="Aadhar (back)">Aadhar (back)</option>
-                                                        <option value="PAN">PAN</option>
-                                                        <option value="Passport Foto">Passport Foto</option>
-                                                        <option value="Credit Card (front)">Credit Card (front)</option>
-                                                        <option value="Credit card statement">Credit card statement</option>
-                                                        <option value="Salary Slip 1">Salary Slip 1</option>
-                                                        <option value="Salary Slip 2">Salary Slip 2</option>
-                                                        <option value="Office ID Card (front)">Office ID Card (front)</option>
-                                                        <option value="Office ID Card (back)">Office ID Card (back)</option>
-                                                        <option value="Rent agreement">Rent agreement</option>
-                                                        <option value="Utility Bill">Utility Bill</option>
-                                                        <option value="Domestic Gas Receipt">Domestic Gas Receipt</option>
-                                                        <option value="Passport (name)">Passport (name)</option>
-                                                        <option value="Passport (address)">Passport (address)</option>
-                                                        <option value="Driving License">Driving License</option>
-                                                        <option value="Bank Statement">Bank Statement</option>
-                                                        <option value="Other">Other</option>
-                                                    </select>
-                                                </div>
-                                                <div class="col-md-3" id="selectFileType">
-                                                    <input type="file" class="form-control" name="file_name" id="file_name" accept="image/*,.jpeg, .png, .jpg,.pdf" required>
-                                                </div>
-                                                <!--<span id="bankPassword"></span>-->
-                                                <div class="col-md-2">
-                                                    <input type="text" class="form-control" name="password" id="password" placeholder="Password">
-                                                </div>
-                                                <div class="col-md-2" id="btnDocsSave">
-                                                   <button class="btn btn-primary" id="btnSaveDocs">Save</button>
-                                                </div></br></br> 
-                                            </form> 
+                                            <?php $this->load->view('Document/docs'); ?>
                                         </div> 
                                         <div class="footer-support">
-                                            <h2 class="footer-support" style="margin-top: 0px;"><button type="button" class="btn btn-info collapse" data-toggle="collapse" data-target="#Uploaded-Documents">Uploaded Documents&nbsp;<i class="fa fa-angle-double-down"></i></button></h2>
+                                            <h2 class="footer-support" style="margin-top: 0px;">
+                                                <button type="button" class="btn btn-info collapse" onclick="getCustomerDocs(<?= $leadDetails->lead_id ?>)" data-toggle="collapse" data-target="#Uploaded-Documents">Uploaded Documents&nbsp;<i class="fa fa-angle-double-down"></i></button>
+                                            </h2>
                                         </div>
                                         <div id="Uploaded-Documents" class="collapse" style="background: #fff !important;">
                                             <div id="docsHistory"></div>

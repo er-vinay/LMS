@@ -755,7 +755,7 @@
 	    
 		public function getCustomerDocs($lead_id, $type)
 	    {
-            $docsHistory = $this->db->select('docs.docs_id, LD.application_no, docs.type, docs.docs, docs.file, docs.pwd, u.name, docs.created_on')
+            $docsHistory = $this->db->select('docs.docs_id, LD.application_no, docs.docs_type, docs.sub_docs_type, docs.file, docs.pwd, u.name, docs.created_on')
                     ->where('docs.lead_id', $lead_id)
                     ->from('docs')
                     ->join('leads LD', 'LD.lead_id = docs.lead_id', 'left')
@@ -768,7 +768,7 @@
 		        $pancard = $sql->pancard;
 		        if(!empty($pancard))
 		        {
-	    			$docsHistory = $this->db->select('docs.docs_id, LD.application_no, docs.type, docs.docs, docs.pwd, docs.file, u.name,  docs.created_on')
+	    			$docsHistory = $this->db->select('docs.docs_id, LD.application_no, docs.docs_type, docs.sub_docs_type, docs.pwd, docs.file, u.name,  docs.created_on')
 	                    ->where("docs.pancard LIKE '%$pancard%'")
 				        ->from('docs')
                         ->join('leads LD', 'LD.lead_id = docs.lead_id', 'left')

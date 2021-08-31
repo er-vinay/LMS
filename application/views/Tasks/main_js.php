@@ -1401,7 +1401,13 @@
         $('#selectDocsTypes').on('click', function(){
             var radioval = $("input[name='selectdocradio']:checked").val() 
             $("#docuemnt_type").val(radioval);
+            console.log(radioval);
             $('#docsform').show();
+
+            const api_url = "<?= base_url('getDocumentSubType/') ?>"+ radioval;
+            var field = $('#document_name');
+            showLoader(field);
+            getDocumentSubType(api_url);
         }) ;  
     }) 
     
@@ -1429,7 +1435,7 @@
                     }else{ 
                         catchError(response);
                     }
-                    getDocs(<?= $leadDetails->lead_id ?>);
+                    // getDocs(<?= $leadDetails->lead_id ?>);
                 }
             });
         });
@@ -1494,19 +1500,32 @@
 		}, function(data, status) {
             setTimeout(function(){
                 location.reload();
-                  }, 2000);
-		
-		});
-                   
-		 
-
-          
-
-
-                 
-		});
-
-	
+            }, 2000);
+		});     
+	});	
 });	
     
+</script>
+<script> 
+    async function getDocumentSubType(url) {
+        const response = await fetch(url);
+        var data = await response.json();
+        var field = $('#document_name');
+        console.log(data);
+        if (response) {
+            hideLoader(field);
+        }
+        field.empty();
+        field.append('<option value="">SELECT</option>');
+        data.forEach(function (index) {
+            field.append('<option value='+ index.docs_sub_type +'>'+ index.docs_sub_type +'</option>');
+        });
+    }
+
+    function showLoader(field) {
+        field.html('<span class="spinner-border spinner-border-sm mr-2" role="status"></span>Processing...').prop('disabled', true);
+    }
+    function hideLoader(field) {
+        field.prop('disabled', false);
+    }
 </script>

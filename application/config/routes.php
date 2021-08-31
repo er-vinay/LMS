@@ -111,6 +111,7 @@ $route['followUp'] = 'TaskController/followUp';
 $route['TaskList'] = 'TaskController/TaskList';
 $route['rejectApproval'] = 'TaskController/rejectApproval';
 $route['getleadDetails/(:any)'] = 'TaskController/getLeadDetails/$1';
+$route['getDocumentSubType/(:any)'] = 'TaskController/getDocumentSubType/$1';
 $route['getDocsUsingAjax/(:num)'] = 'TaskController/getDocsUsingAjax/$1';
 $route['viewCustomerDocsById/(:num)'] = 'TaskController/viewCustomerDocsById/$1';
 $route['UpdateCustomerDocs'] = 'TaskController/UpdateCustomerDocs';
