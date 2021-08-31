@@ -5834,11 +5834,20 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   background: #eee;
   border: #eee 1px solid;
 }
+th {
+  font-weight:600;
+  width: 25% !important;
+}
+td
+{
+  font-weight:300;
+  width: 25% !important;
+}
+
 /*--3.2 Tables--*/
 /*-- 3.2.1 Data Tables --*/
-th {
-  font-weight: 500;
-}
+
+
 div.dataTables_length label {
   font-weight: normal;
   text-align: left;
