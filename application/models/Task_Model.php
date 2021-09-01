@@ -741,23 +741,25 @@
 		            }
 		        }
 		    }
-		    $query = $this->db->select('leads.lead_id, leads.name, leads.email, leads.pancard, tb_states.state, leads.created_on, leads.source, leads.status, leads.credit_manager_id, leads.partPayment,
-		        loan.loan_amount, loan.loan_no, loan.loan_tenure, loan.loan_intrest, loan.loan_repay_amount, loan.loan_repay_date, loan.loan_disburse_date, loan.loan_admin_fee')
+		    $query = $this->db->select('leads.lead_id, leads.name, leads.email, leads.pancard, ST.state, leads.created_on, leads.source, leads.status, leads.credit_manager_id, leads.partPayment')
+
+                // loan.loan_amount, loan.loan_no, loan.loan_tenure, loan.loan_intrest, loan.loan_repay_amount, loan.loan_repay_date, loan.loan_disburse_date, loan.loan_admin_fee
                 ->where('leads.pancard', $pancard)
-                ->where('leads.loan_approved', 3)
+                // ->where('leads.loan_approved', 3)
                 // ->where($where)
                 ->from('leads')
-                ->join('tb_states', 'leads.state_id = tb_states.id')
-                ->join('loan', 'leads.lead_id = loan.lead_id');
+                ->join('tbl_state ST', 'leads.state_id = ST.old_state_id');
                 // ->join('recovery', 'recovery.lead_id = leads.lead_id')
             return $query->get();
 	    }
 	    
 		public function getCustomerDocs($lead_id, $type)
 	    {
-            $docsHistory = $this->db->select('docs.docs_id, docs.type, docs.docs, docs.file, docs.pwd, docs.created_on')
+            $docsHistory = $this->db->select('docs.docs_id, LD.application_no, docs.docs_type, docs.sub_docs_type, docs.file, docs.pwd, u.name, docs.created_on')
                     ->where('docs.lead_id', $lead_id)
                     ->from('docs')
+                    ->join('leads LD', 'LD.lead_id = docs.lead_id', 'left')
+                    ->join('users u', 'u.user_id = docs.upload_by', 'left')
                     ->order_by('docs.docs_id', 'desc')
                     ->get();
             if($docsHistory->num_rows() != 1)
@@ -766,9 +768,11 @@
 		        $pancard = $sql->pancard;
 		        if(!empty($pancard))
 		        {
-	    			$docsHistory = $this->db->select('docs.docs_id, docs.type, docs.docs, docs.pwd, docs.file, docs.created_on')
+	    			$docsHistory = $this->db->select('docs.docs_id, LD.application_no, docs.docs_type, docs.sub_docs_type, docs.pwd, docs.file, u.name,  docs.created_on')
 	                    ->where("docs.pancard LIKE '%$pancard%'")
 				        ->from('docs')
+                        ->join('leads LD', 'LD.lead_id = docs.lead_id', 'left')
+                        ->join('users u', 'u.user_id = docs.upload_by', 'left')
 				        ->order_by('docs.docs_id', 'desc')
 				        ->get();
 		        }
@@ -810,10 +814,10 @@
 		public function getPersonalDetails($lead_id)
 		{
             $whereQ = ['company_id' => company_id, 'product_id' => product_id];
-            $table = 'leads';
-            $where = [$table .'.lead_id', $lead_id];
-            $update = ['credit_manager_id' => user_id];
-            $this->updateQuery($where, $table, $update);
+            // $table = 'leads';
+            // $where = [$table .'.lead_id', $lead_id];
+            // $update = ['credit_manager_id' => user_id];
+            // $this->updateQuery($where, $table, $update);
 
             $residenceProofType = "";
             $docsResidenceHistory = $this->getCustomerDocs($lead_id, $residenceProofType);
@@ -822,6 +826,7 @@
             $oldhistory = $this->getOldHistory($lead_id);
             $getLoanHistory = $oldhistory->num_rows();
             $getLoanHistoryRow = $oldhistory->result();
+            // echo "<pre>"; print_r($getLoanHistoryRow); exit;
             
             $queryLeads = $this->db->select('credit_added, loan_approved')->where($whereQ)->where('leads.lead_id', $lead_id)->get('leads')->row();
             
@@ -866,9 +871,9 @@
             		$s = "Selected";
             	}
             	$state[] = [
-            		's' 			=>$s,
-            		'state_id' 		=>$row->id,
-            		'state_name' 	=>$row->state,
+            		's' 			=> $s,
+            		'state_id' 		=> $row->id,
+            		'state_name' 	=> $row->state,
             	];
             }
 

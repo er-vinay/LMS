@@ -8,6 +8,7 @@
 		public function __construct()
 		{
 			parent::__construct();
+            $this->load->model('Leadmod', 'Leads');
             $this->load->model('Task_Model', 'Tasks');
             $this->load->model('Admin_Model', 'Admin');
             $this->load->model('Status_Model', 'Status');
@@ -23,15 +24,6 @@
 	    	$login = new IsLogin();
 	    	$login->index();
 		}
-
-		// public function index()
-	 //    {
-	 //    	$data['leadDetails'] = $this->Tasks->getLeadDetails(); 
-	 //    	$user = $this->Admin->getUser(user_id);
-	 //    	$data['user'] = $user->row();
-	 //    	$data['title'] = "Applications New";
-  //       	$this->load->view('Screener/applicationNew', $data);
-	 //    }
 	    
 	    public function index($stage)
 	    {
@@ -41,16 +33,6 @@
 	    	$data['user'] = $user->row();
         	$this->load->view('Tasks/GetLeadTaskList', $data);
 	    }
-	    
-	  //   public function screeninLeads()
-	  //   {
-	  //       // $data['leadDetails'] = $this->Tasks->getleadsforSanction();
-			// $conditions = "company_id='". company_id ."' AND product_id='". product_id ."' AND stage='S1'";
-	  //       $data['leadDetails'] = $this->Tasks->index($conditions); 
-	  //   	$user = $this->Admin->getUser(user_id);
-	  //   	$data['user'] = $user->row();
-   //      	$this->load->view('Tasks/GetLeadTaskList', $data);
-	  //   }
 	    
 	    public function applicationinprocess()
 	    {
@@ -224,37 +206,8 @@
 	        $leadData = $this->Tasks->join_table($conditions, $select);
 	        $sql = $leadData->row();
 
-
-			// $data['leadDetails'] = [
-			// 	'name' 				=> strtoupper($sql->name),
-			// 	'middle_name' 		=> strtoupper($sql->middle_name),
-			// 	'sur_name' 			=> strtoupper($sql->sur_name),
-			// 	'gender' 			=> strtoupper($sql->gender),
-			// 	'dob' 				=> date('d-m-Y', strtotime($sql->dob)),
-			// 	'pancard' 			=> strtoupper($sql->pancard),
-			// 	'mobile' 			=> $sql->mobile,
-			// 	'alternateMobileNo' => $sql->alternateMobileNo,
-			// 	'email' 			=> $sql->email,
-			// 	'loan_amount' 		=> number_format($sql->loan_amount, 2),
-			// 	'state' 			=> strtoupper($sql->state),
-			// 	'city' 				=> strtoupper($sql->city),
-			// 	'pincode' 			=> $sql->pincode,
-			// 	'created_on' 		=> date('d-m-Y h:i:s', strtotime($sql->created_on)),
-			// 	'source' 			=> $sql->source,
-			// 	'coordinates' 		=> $sql->coordinates,
-			// 	'ip' 				=> $sql->ip,
-			// ];
-
             $data['leadDetails'] = $sql;
-           //  echo "<pre>"; print_r($sql); exit;
-            // $data['tbl_cibil'] = $cibilRecord; 
-            // $data['creditCount'] = $creditDetails->num_rows();
-            // $data['loanStatus'] = $loan_status;
-            // $data['leadStatus'] = $leadStatus;
-            // $data['recovery'] = $rec;
-            // echo 'else called : <pre>'; print_r($data); exit;
-    		// echo json_encode($data);
-    		// echo "<pre>"; print_r($data['leadDetails']);exit;
+            $data['docs_master'] = $this->Docs->docs_type_master();
     		$this->load->view('Tasks/task_js.php', $data);
 	    }
 
@@ -541,23 +494,32 @@
 	    	$this->index();
 	    }
 
+		public function getDocumentSubType($docs_type)
+		{
+			$docs_type = str_ireplace("%20"," ", trim($docs_type));
+			$docsSubMaster = $this->Docs->getDocumentSubType($docs_type);
+			$data = $docsSubMaster->result();
+			echo json_encode($data);
+		}
+
 		public function getDocsUsingAjax($lead_id)
 	    {
 	        $type = "";
 	    	$docsDetails = $this->Tasks->getCustomerDocs($lead_id, $type);
-	    	// echo "<pre>"; print_r($lead_id); exit;
 
 			$data = '<div class="table-responsive">
 		        <table class="table table-hover table-striped table-bordered" style="margin-top: 10px;">
                   <thead>
                     <tr class="table-primary">
                       <th scope="col"><b>#</b></th>
-                      <th scope="col"><b>Document Type</b></th>
-                      <th scope="col"><b>Document Name</b></th>
-                      <th scope="col"><b>File Name</b></th>
+                      <th scope="col"><b>Document&nbsp;Name</b></th>
+                      <th scope="col"><b>File&nbsp;Name</b></th>
+                      <th scope="col"><b>Document&nbsp;Type</b></th>
                       <th scope="col"><b>Password</b></th>
-                      <th scope="col"><b>Initiated On</b></th>
-                      <th scope="col"><b>View</b></th>
+                      <th scope="col"><b>Uploaded&nbsp;By</b></th>
+                      <th scope="col"><b>Uploaded&nbsp;On</b></th>
+                      <th scope="col"><b>Application&nbsp;No.</b></th>
+                      <th scope="col"><b>Action</b></th>
                     </tr>
                 </thead>';
 	        if($docsDetails->num_rows() > 0)
@@ -575,11 +537,13 @@
 				    $data.='<tbody>
                 		<tr>
 							<td>'.$i++.'</td>
-							<td>'.$column->docs.'</td>
-							<td>'.$column->type.'</td>
+							<td>'.$column->docs_type.'</td>
 							<td>'.$column->file.'</td>  
+							<td>'.$column->sub_docs_type.'</td>
 							<td>'.$pwd.'</td>   
+							<td>'.$column->name.'</td>  
 							<td>'.$newDate.'</td>  
+							<td>'.$column->application_no.'</td>
 							<td> 
 							 	<a onclick="viewCustomerDocs('.$column->docs_id.')"><i class="fa fa-eye" style="padding : 3px; color : #35b7c4; border : 1px solid #35b7c4;"></i></a>
 							    <a onclick="deleteCustomerDocs('.$column->docs_id.')"><i class="fa fa-trash" style="padding : 3px; color : #35b7c4; border : 1px solid #35b7c4;"></i></a>
@@ -729,50 +693,49 @@
         			$lead_id     = $this->input->post('lead_id');
         			$user_id     = $this->input->post('user_id');
         			$company_id  = $this->input->post('company_id'); 
+        			$product_id  = $this->input->post('product_id'); 
         			$docs_id     = $this->input->post('docs_id');
-					$docsType    = $this->input->post('docuemnt_type');
-					$docsname    = $this->input->post('document_name');
+					$docs_type    = $this->input->post('docuemnt_type');
+					$sub_docs_type    = $this->input->post('document_name');
 					$password    = $this->input->post('password');
 					$image       = $data['upload_data']['file_name'];  
-                    if(empty($company_id)){
-                        $company_id = $_SESSION['isUserSession']['company_id'];
-                    }
-                    if(empty($user_id)){
-                        $user_id = $_SESSION['isUserSession']['user_id'];
-                    }
+
             		if(empty($docs_id) && !empty($lead_id))
             		{
-            		    $fetch = 'LD.pancard, LD.mobile';
-            		    $getLeads = $this->Tasks->select($lead_id, $fetch);
+            		    $fetch = 'leads.pancard, leads.mobile';
+            		    $conditions = 'leads.lead_id='. $lead_id;
+            		    $getLeads = $this->Tasks->select($conditions, $fetch);
+
             		    $lead = $getLeads->row();
+
     		            $data = array (
     		                'lead_id'       => $lead_id,
-    		                'company_id'    => company_id,
-    		                'product_id'    => product_id, 
+    		                'company_id'    => $company_id,
+    		                // 'product_id'    => $product_id, 
     		                'pancard'       => $lead->pancard,
     		                'mobile'        => $lead->mobile,
-    		                'docs'          => $docsType,
-    		                'type'          => $docsname,
+    		                'docs_type'     => $docs_type,
+    		                'sub_docs_type' => $sub_docs_type,
     		                'file'          => $image,
     		                'pwd'           => $password,
     		                'ip'            => ip,
     		                'upload_by'     => $user_id,
     		                'created_on'    => updated_at
     		            );
-    		            $this->db->insert('docs', $data);
+    		            $result = $this->Leads->globel_inset('docs', $data);
     		            echo "true";
             		}else{
     		            $data = array (
     		                'pwd'           => $password,
-    		                'docs'          => $docsType,
-    		                'type'          => $docsname,
+    		                'docs_type'     => $docs_type,
+    		                'sub_docs_type' => $sub_docs_type,
     		                'file'          => $image,
     		                'ip'            => ip,
     		                'upload_by'     => 1,
     		                'created_on'    => updated_at
     		            );
     		            
-                        $where = ['company_id' => company_id, 'product_id' => product_id];
+                        $where = ['company_id' => $company_id];
     		            $this->db->where($where)->where('lead_id', $lead_id)->where('docs_id', $docs_id)->update('docs', $data);
     		            echo "true";
             		}

@@ -9,9 +9,7 @@ class Leadmod extends CI_Model{
 		return $this->db->insert($table,$data);
 	}
 
-	
-
-	public function globel_update($table,$data,$upd_id,$colm)
+	public function globel_update($table, $data, $upd_id, $colm)
 	{
 		$this->db->where($colm,$upd_id);
 		$res = $this->db->update($table,$data);

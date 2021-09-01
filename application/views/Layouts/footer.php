@@ -1,16 +1,13 @@
    <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-9">
                         <div class="footer-content">
                             <h2>ABOUT</h2>
                             <p>Naman Finlease Pvt Ltd. is a NBFC registered with RBI having its registered office at S-370, Panchsheel Park, New Delhi – 110 017. The company uses proprietary loan softwares for its various loan offerings to individual customers in a completely fintech environment.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 footer-soci">
-                        <div class="footer-content"> 
-                        </div>
-                    </div>
+                    
                     <div class="col-md-3">
                         <div class="footer-support">
                             <h2>CONTACT SUPPORT</h2>

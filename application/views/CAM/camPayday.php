@@ -1,4 +1,4 @@
-<?php if($_SESSION['isUserSession']['role'] == 'Sanction & Telecaller'): ?>
+<?php //if($_SESSION['isUserSession']['labels'] == 'CR2'): ?>
     <form id="FormSaveCAM" class="form-inline" method="post" autocomplete="off">
         <p>&nbsp</p>
         <input type="hidden" name="leadID" class="leadID">
@@ -166,4 +166,4 @@
             </div>
         </div>
     </form>
-<?php endif; ?>
+<?php //endif; ?>

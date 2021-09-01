@@ -404,27 +404,27 @@
         });
     }
     
-    function getCustomerDocs()
+    function getCustomerDocs(lead_id)
     {
-        var lead_id = $('#lead_id').val();
         getDocs(lead_id);
     }
 
     function getDocs(lead_id)
     {
-        // console.log(csrf_token);
         $.ajax({
             url : '<?= base_url("getDocsUsingAjax/") ?>' +lead_id,
             type : 'POST',
             data : {csrf_token},
             dataType : "json",
             // async: false,
+            beforeSend: function() {
+                $("#cover").show();
+            },
             success : function(response) { 
                 $('#docsHistory').html(response);
             },
-            error: function(XMLHttpRequest, textStatus, errorThrown) { 
-                $("#exampleModalLongTitle").html(textStatus +" : "+ errorThrown);
-                return false;
+            complete: function() {
+                $("#cover").fadeOut(1750)
             }
         });
     }
@@ -596,9 +596,8 @@
         });
     }
     
-    function getPersonalDetails()
+    function getPersonalDetails(lead_id)
     {
-        var lead_id = $('#lead_id').val();
         if(lead_id != "") {
             $.ajax({
                 url : '<?= base_url("getPersonalDetails/") ?>'+lead_id,
@@ -1402,7 +1401,13 @@
         $('#selectDocsTypes').on('click', function(){
             var radioval = $("input[name='selectdocradio']:checked").val() 
             $("#docuemnt_type").val(radioval);
+            console.log(radioval);
             $('#docsform').show();
+
+            const api_url = "<?= base_url('getDocumentSubType/') ?>"+ radioval;
+            var field = $('#document_name');
+            showLoader(field);
+            getDocumentSubType(api_url);
         }) ;  
     }) 
     
@@ -1430,7 +1435,7 @@
                     }else{ 
                         catchError(response);
                     }
-                    getDocs(lead_id);
+                    // getDocs(<?= $leadDetails->lead_id ?>);
                 }
             });
         });
@@ -1508,20 +1513,33 @@
 		data: params,csrf_token
 		}, function(data, status) {
             setTimeout(function(){
-               // location.reload();
-                  }, 2000);
-		
-		});
-                   
-		 
-
-          
-
-
-                 
-		});
-
-	
+                location.reload();
+            }, 2000);
+		});     
+	});	
 });	
     
+</script>
+<script> 
+    async function getDocumentSubType(url) {
+        const response = await fetch(url);
+        var data = await response.json();
+        var field = $('#document_name');
+        console.log(data);
+        if (response) {
+            hideLoader(field);
+        }
+        field.empty();
+        field.append('<option value="">SELECT</option>');
+        data.forEach(function (index) {
+            field.append('<option value='+ index.docs_sub_type +'>'+ index.docs_sub_type +'</option>');
+        });
+    }
+
+    function showLoader(field) {
+        field.html('<span class="spinner-border spinner-border-sm mr-2" role="status"></span>Processing...').prop('disabled', true);
+    }
+    function hideLoader(field) {
+        field.prop('disabled', false);
+    }
 </script>
