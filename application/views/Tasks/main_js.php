@@ -1440,6 +1440,7 @@
 		
 		$("#insertVerification").on('submit',function(e) {
 				e.preventDefault();
+             
 
                 if($('#initiateMobileVerification').is(':checked'))
                 {
@@ -1452,15 +1453,20 @@
 
                 if($('#residenceCPV').is(':checked'))
                 {
-                 var residenceCPV='YES';
+                    var residenceCPVuser_id='<?php echo $_SESSION['isUserSession']['user_id'];?>';
+                   var residenceCPV='YES';
+                   var residenceCPVdate='<?php echo date('Y-m-d h:i:s');?>';
                 }
                 else 
                 { 
+                    var residenceCPVuser_id='<?php echo $_SESSION['isUserSession']['user_id'];?>';
                     var residenceCPV='NO';
+                    $residenceCPVdate='';
                 }
 
                 if($('#officeEmailVerification').is(':checked'))
                 {
+
                  var officeEmailVerification='YES';
                 }
                 else 
@@ -1471,11 +1477,16 @@
                 if($('#officeCPV').is(':checked'))
                 {
                  var officeCPV='YES';
+                 var officeCPVdate='<?php echo date('Y-m-d h:i:s');?>';
+                 var officeCPVuser_id='<?php echo $_SESSION['isUserSession']['user_id'];?>';
                 }
                 else 
                 { 
+                    var officeCPVuser_id='<?php echo $_SESSION['isUserSession']['user_id'];?>';
                     var officeCPV='NO';
+                    var officeCPVdate='';
                 }
+
 
 				
                var params = {
@@ -1486,15 +1497,18 @@
                         initiateMobileVerification		 :initiateMobileVerification,
                         residenceCPV		             :residenceCPV,
                         officeEmailVerification			 :officeEmailVerification,
-                        officeCPV			             :officeCPV
-                        
+                        officeCPV			             :officeCPV,
+                        residece_cpv_allocated_to        :residenceCPVuser_id,
+                        office_cpv_allocated_to          :officeCPVuser_id,
+                        residence_cpv_allocated_on       :residenceCPVdate,
+                        office_cvp_allocated_on          :officeCPVdate,
         			}
 
      $.post('<?= base_url("saveVerification"); ?>', {
 		data: params,csrf_token
 		}, function(data, status) {
             setTimeout(function(){
-                location.reload();
+               // location.reload();
                   }, 2000);
 		
 		});

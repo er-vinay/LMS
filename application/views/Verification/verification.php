@@ -77,17 +77,17 @@
                 <td><input type="checkbox"  <?php if(isset($getVerificationdata[0]['init_office_cpv'])=='YES') { echo "checked";} else { echo "";} ?>  name="officeCPV" id="officeCPV" class="checkbox-verif" value=""  ></td>
             </tr>
             <tr>
-                <th>Residence CPV Allocated To</th>
-                <td><input  value="<?php  if(isset($getVerificationdata[0]['residece_cpv_allocated_to'])=='' || isset($getVerificationdata[0]['residece_cpv_allocated_to'])=='-') { echo "NO"; } else { echo "YES"; } ?>" readonly type="text" class="form-control inputField" id="residenceCPVAllocatedTo" name="residenceCPVAllocatedTo" autocomplete="off"></td>
+                <th>Residence CPV Allocated To </th>
+                <td><input  value="<?php  if(isset($getVerificationdata[0]['residece_cpv_allocated_to']) && $getVerificationdata[0]['residece_cpv_allocated_to']=='-') { echo "NO"; } else { echo $_SESSION['isUserSession']['name']; } ?>" readonly type="text" class="form-control inputField" id="residenceCPVAllocatedTo" name="residenceCPVAllocatedTo" autocomplete="off"></td>
                 <th>Office CPV Allocated To</th>
-                <td><input readonly  value="<?php  if(isset($getVerificationdata[0]['office_cpv_allocated_to'])=='' || isset($getVerificationdata[0]['office_cpv_allocated_to'])=='-' ) { echo "NO"; } else { echo "YES"; } ?>" type="text" class="form-control inputField" id="officeCPVAllocatedTo" name="officeCPVAllocatedTo" autocomplete="off"></td>
+                <td><input readonly  value="<?php  if(isset($getVerificationdata[0]['office_cpv_allocated_to']) && $getVerificationdata[0]['office_cpv_allocated_to']=='-' ) { echo "NO"; } else { echo $_SESSION['isUserSession']['name']; } ?>" type="text" class="form-control inputField" id="officeCPVAllocatedTo" name="officeCPVAllocatedTo" autocomplete="off"></td>
             </tr>
 
             <tr>
-                <th>Residence CPV Allocated On</th>
-                <td><input readonly value="<?php  if(isset($getVerificationdata[0]['residence_cpv_allocated_on'])=='' || isset($getVerificationdata[0]['residence_cpv_allocated_on'])=='-' ) { echo "NO"; } else { echo "YES"; } ?>" type="datetime-local" class="form-control inputField" id="residenceCPVAllocatedOn" name="residenceCPVAllocatedOn" autocomplete="off"></td>
+                <th>Residence CPV Allocated On <?php echo $getVerificationdata[0]['residence_cpv_allocated_on'];;?></th>
+                <td><input readonly value="<?php  if(isset($getVerificationdata[0]['residence_cpv_allocated_on']) && $getVerificationdata[0]['residence_cpv_allocated_on']=='' ) { echo "NO"; } else { echo $getVerificationdata[0]['residence_cpv_allocated_on']; } ?>" type="text" class="form-control inputField" id="residenceCPVAllocatedOn" name="residenceCPVAllocatedOn" autocomplete="off"></td>
                 <th>Office CPV Allocated On</th>
-                <td><input readonly value="<?php  if(isset($getVerificationdata[0]['office_cvp_allocated_on'])=='' || isset($getVerificationdata[0]['office_cvp_allocated_on'])=='-' ) { echo "NO"; } else { echo "YES"; } ?>" type="datetime-local" class="form-control inputField" id="officeCPVAllocatedOn" name="officeCPVAllocatedOn" autocomplete="off"></td>
+                <td><input readonly value="<?php  if(isset($getVerificationdata[0]['office_cvp_allocated_on']) && $getVerificationdata[0]['office_cvp_allocated_on']=='' ) { echo "NO"; } else { echo $getVerificationdata[0]['office_cvp_allocated_on']; } ?>" type="text" class="form-control inputField" id="officeCPVAllocatedOn" name="officeCPVAllocatedOn" autocomplete="off"></td>
             </tr>
             <tr>
                 
@@ -283,6 +283,7 @@
     </div>
 <!----- end section for the OFFICE section ----------------->
 </div>
+
 
 
 

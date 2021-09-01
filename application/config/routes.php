@@ -297,6 +297,9 @@ $route['adminEditDashboardMenu/(:any)'] = 'Admin/DashboardController/edit/$1';
 $route['adminUpdateDashboardMenu/(:any)'] = 'Admin/DashboardController/update/$1';
 
 
+$route['exportFile'] = 'TaskController/exportFile';
+
+
 
 
 
