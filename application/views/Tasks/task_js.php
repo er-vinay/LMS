@@ -1,14 +1,7 @@
 <?php $this->load->view('Layouts/header') ?>
 <?php $url =  $this->uri->segment(1); ?>
-<<<<<<< HEAD
-
-<section>
-
-    <div class="container">
-=======
 <div class="width-my">
     <div class="container-fluid">
->>>>>>> 75f962a5aaa6d4b2cd0164b6b76da7590fd91a7c
         <div class="taskPageSize taskPageSizeDashboard" style="border: 1px solid #ddd;height:auto !important;">
             <div class="alertMessage">
                 <div class="alert alert-dismissible alert-success msg">
@@ -180,7 +173,7 @@
                                             || $_SESSION['isUserSession']['labels'] == "SA"): ?>
                                     <?php $this->load->view('Personal/personal'); ?>
                                     <?php endif; ?>
-                                    <div id="ViewPersonalDetails"></div>
+                                    <div id="ViewPersonalDetails1"></div>
                                 </div>
                             </div>
 
