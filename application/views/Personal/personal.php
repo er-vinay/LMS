@@ -63,9 +63,9 @@ $getUserData=getUserData('tbl_cam',$leadDetails->lead_id,'lead_id');
 
             <tr>
                 <th>Screened by </th>
-                <td><input type="text" name="screenedBy" class="form-control inputField" id="screenedBy" value="<?php if(isset($getUserData[0]['screenername'])) { echo $getUserData[0]['screenername'];} else { echo "-";} ?>"  autocomplete="off"></td>
+                <td><input type="text" readonly name="screenedBy" class="form-control inputField" id="screenedBy" value="<?php if(isset($getUserData[0]['screenername'])) { echo $getUserData[0]['screenername'];} else { echo "-";} ?>"  autocomplete="off"></td>
                 <th>Screened On</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getUserData[0]['screenin_time']) )   { echo $getUserData[0]['screenin_time']; } else { echo "-"; }  ?>" id="screenedOn" name="screenedOn " autocomplete="off"></td>
+                <td><input type="text" readonly class="form-control inputField" value="<?php if(isset($getUserData[0]['screenin_time']) )   { echo $getUserData[0]['screenin_time']; } else { echo "-"; }  ?>" id="screenedOn" name="screenedOn " autocomplete="off"></td>
             </tr>
             <tr>
 
