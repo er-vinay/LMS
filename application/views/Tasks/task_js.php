@@ -170,9 +170,10 @@
                                 <div style="border : solid 1px #ddd;margin-bottom: 20px; background: #fff;">
                                     <?php if($_SESSION['isUserSession']['labels'] == "CR2" 
                                             || $_SESSION['isUserSession']['labels'] == "CA"
-                                            || $_SESSION['isUserSession']['labels'] == "SA"): ?>
-                                    <?php $this->load->view('Personal/personal'); ?>
-                                    <?php endif; ?>
+                                            || $_SESSION['isUserSession']['labels'] == "SA"){ ?>
+
+                                        <?php //$this->load->view('Personal/personal'); ?>
+                                    <?php } ?>
                                     <div id="ViewPersonalDetails"></div>
                                 </div>
                             </div>

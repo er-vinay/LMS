@@ -467,7 +467,7 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  position: fixed;
+  /*position: fixed;*/
 }
 .footer-soci
 {text-align:center;}
