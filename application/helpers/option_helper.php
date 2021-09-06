@@ -45,7 +45,7 @@ if ( ! function_exists('test_method'))
       function getLeadIdstatus($table,$id){
           $ci =& get_instance();
           $ci->load->database();
-                             echo "SELECT count(*) as total from $table where lead_id='$id'  ";
+                          //   echo "SELECT count(*) as total from $table where lead_id='$id'  ";
           $query = $ci->db->query("SELECT count(*) as total from $table where lead_id='$id'  "); 
           
            if($query->num_rows() > 0){
