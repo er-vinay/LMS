@@ -41,10 +41,13 @@ class LeadsController extends CI_Controller {
         $colm='lead_id';
         $status = getLeadIdstatus($table,$upd_id);
 
+        date_default_timezone_set("Asia/Kolkata");
+        $currentdate = date('Y-m-d H:i:s');
+
             $data = array(
                 'borrower_name'                       => $_POST['data']['borrower_name'],
                 'middle_name'            => $_POST['data']['middle_name'],
-                'sur_name'     => $_POST['data']['surname'],
+                'surname'     => $_POST['data']['surname'],
                 'gender'           => $_POST['data']['gender'],
                 'dob'                         =>$_POST['data']['dob'],
                 'pancard'                 => $_POST['data']['pancard'],
@@ -60,7 +63,7 @@ class LeadsController extends CI_Controller {
                     $insertDate = [
                     'lead_id' 					=> $lead_id,
                     'usr_created_by' 			=> user_id,
-                    'usr_created_at' 			=> created_at,
+                    'usr_created_at' 			=> $currentdate,
                 ];
                        $data = array_merge($insertDate, $data);
                        $res = $this->Leadmod->globel_inset($table,$data);
@@ -73,7 +76,7 @@ class LeadsController extends CI_Controller {
             {
                 $insertDate = [
                     'usr_updated_by' 			=> $user_id,
-                    'usr_updated_at' 			=> created_at,
+                    'usr_updated_at' 			=> $currentdate,
                 ];
                 $data = array_merge($insertDate, $data);
              $res = $this->Leadmod->globel_update($table,$data,$upd_id,$colm);

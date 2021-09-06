@@ -2,6 +2,7 @@
 <?php 
 //echo $leadDetails->lead_id;
 $getUserData=getUserData('tbl_cam',$leadDetails->lead_id,'lead_id'); 
+//echo "============";
 //echo "<pre>";print_r($getUserData); //die;
 ?>
 <!------- table structure for varification form ----------->
@@ -25,7 +26,7 @@ $getUserData=getUserData('tbl_cam',$leadDetails->lead_id,'lead_id');
                 <th>Surname</th>
                 <td><input type="text"  class="form-control inputField" id="surname" name="surname"  value="<?php if(isset($getUserData[0]['surname'])=='' ||  $getUserData[0]['surname']=='-' )  { echo "NO"; } else { echo $getUserData[0]['sur_name']; } ?>" autocomplete="off"></td>
                 <th>Gender  &nbsp;<strong class="required_Fields">*</strong></th>
-                <td><input  type="text" value="<?= ($getUserData[0]['gender']) ? strtoupper($getUserData[0]['gender']) :'-' ?>" class="form-control inputField" id="gender" name="gender" autocomplete="off"></td>
+                <td><input  type="text" value="<?php if(isset($getUserData[0]['gender'])=='' ||  $getUserData[0]['gender']=='-' )  { echo "NO"; } else { echo $getUserData[0]['gender']; } ?>" class="form-control inputField" id="gender" name="gender" autocomplete="off"></td>
             </tr>
             <tr>
 
@@ -33,7 +34,7 @@ $getUserData=getUserData('tbl_cam',$leadDetails->lead_id,'lead_id');
                 <th>DOB&nbsp;<strong class="required_Fields">*</strong></th>
                 <td>
               
-                <input  type="text" value="<?= ($getUserData[0]['dob']) ? date('m/d/Y', strtotime($getUserData[0]['dob'])) :'-' ?>" class="form-control inputField" id="dob" name="dob" autocomplete="off">
+                <input  type="text" value="<?php if(isset($getUserData[0]['dob'])=='' ||  $getUserData[0]['dob']=='-' )  { echo "NO"; } else { echo $getUserData[0]['dob']; } ?>" class="form-control inputField" id="dob" name="dob" autocomplete="off">
 
                 <span id="pan_msg" style="color: red;"></span></td>
                 <th>PAN&nbsp;<strong class="required_Fields">*</strong></th>
@@ -310,6 +311,7 @@ $getUserData=getUserData('tbl_cam',$leadDetails->lead_id,'lead_id');
 <h2 class="footer-support"><button type="button" class="btn btn-info collapse" data-toggle="collapse" data-target="#REFERENCES">REFERENCES&nbsp;<i class="fa fa-angle-double-down"></i></button></h2>
 </div>
 <div id="REFERENCES" class="collapse"> 
+
 <!------ table for  OFFICE section ----------------------->
 
 <div class="table-responsive">
