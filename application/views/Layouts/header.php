@@ -38,7 +38,7 @@
         
         </head>
     <body>
-        <div id="cover"> 
+        <!-- <div id="cover"> 
             <div class="loader">
                 <div class="loader_inner">L</div>
                 <div class="circle_1">
@@ -46,7 +46,7 @@
                 </div>
                 <div class="loader_inner_1">ANWALLE</div>
             </div>
-        </div>
+        </div> -->
     
         <div class="navbar-wrapper navbar-fixed-top" style="background: #fff; box-shadow: 0 0 7px #c7c7c7;">
             <div class="container-fluid">

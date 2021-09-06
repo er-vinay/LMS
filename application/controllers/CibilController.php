@@ -18,7 +18,7 @@
 	            $getCibilHistory = $this->db->select('check_cibil_status')->where($where)->where('lead_id', $lead_id)->get('leads')->row();
 	            if($getCibilHistory->check_cibil_status == 0 && !empty($lead_id))
 	            {
-                    $fetch = 'lead_id, name, mobile, dob, pancard, gender, state_id, city, pincode';
+                    $fetch = 'lead_id, name, mobile, dob, pancard, gender, state_id, state, city, pincode';
                     $conditions = ['lead_id' => $lead_id];
 
                     $query = $this->Task_Model->join_table($conditions, $fetch);
@@ -31,21 +31,23 @@
                     $gender     = $leadDetails->gender;
                     $dob        = $leadDetails->dob;
                     $state_id   = $leadDetails->state_id;
+                    $state      = ucfirst(strtolower($leadDetails->state));
                     $city       = $leadDetails->city;
                     $pincode    = $leadDetails->pincode;
 
                     // if(empty($pancard) || empty($name) || empty($mobile) || empty($gender) || empty($dob) || empty($state_id) || empty($city) || empty($pincode))
-                    if(empty($pancard) || empty($name) || empty($state_id) || empty($city) || empty($pincode))
-                    {
-                        foreach($leadDetails as $key => $value) {
-                            if(empty($value)){
-                                $error .= $key .", ";
-                            }
-                        }
-                        $json['err'] = "Required ". $error ."Please Update.";
-                        echo json_encode($json);
-                    } 
-                    else 
+                    // if(empty($pancard) || empty($name) || empty($state_id) || empty($city) || empty($pincode))
+                    // {
+                    //     foreach($leadDetails as $key => $value) {
+                    //         if(empty($value)){
+                    //             $error .= $key .", ";
+                    //         }
+                    //     }
+                    //     $json['err'] = "Required ". $error ."Please Update.";
+                    //     echo json_encode($json);
+                    // } 
+                    // else 
+                    if($pancard)
                     {
                         $loanAmount = 10000;
                         $day = date('d', strtotime($dob));
@@ -75,8 +77,8 @@
                         $solutionSetId = '140';
                         
         
-                        $query_state = $this->db->select("state")->where("id", $state_id)->get('tb_states')->row_array();
-                        $stateName = $query_state['state'];
+                        // $query_state = $this->db->select("state")->where("id", $state_id)->get('tb_states')->row_array();
+                        
                         
                         $stateNameData = array(
                             '01' => 'Jammu & Kashmir',
@@ -117,7 +119,8 @@
                             '36' => 'Telangana'
                         );
 
-                        $stateKey = array_search($stateName, $stateNameData);
+                        $stateKey = array_search($state, $stateNameData);
+                    // echo "leadDetails : <pre>"; print_r($stateKey); exit;
                         
                         $input_xml = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
                                 <soapenv:Header />
@@ -287,7 +290,6 @@
                                 'gender'                => $gender,
                                 'city'                  => $city,
                                 'state_id'              => $state_id,
-                                'state_id'              => $state_id,
                                 'pincode'               => $pincode,
                                 'api1_request'          => $input_xml,
                                 'api1_response'         => $dataResponse,
@@ -299,7 +301,7 @@
                         curl_close($ch);
                     }
 	            }else {
-                    $json['err'] = "Interna server error.";
+                    $json['err'] = "BUREAU recently Checked. You are not able to check cibil before a month.";
                     echo json_encode($json);
                 }
 	        }
@@ -426,6 +428,8 @@
         	}
         	$xml = simplexml_load_string( $result) or die("xml not loading");
             $cibilScore = $xml->body->table->tr[8]->td->table->tr->td[1];
+            // echo "<pre>"; print_r($xml->body); exit;
+            $cibilScore = "";
             $data = [
                 'api3_request'          => $xml3,
                 'api3_response'         => $data3,
