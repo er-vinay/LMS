@@ -57,7 +57,7 @@ $getUserData=getUserData('tbl_cam',$leadDetails->lead_id,'lead_id');
                 <th>Email (Personal) </th>
                 <td><input  type="text" class="form-control inputField" id="emailPersonal" name="emailPersonal" value="<?php  if(isset($getUserData[0]['email']) )  { echo $getUserData[0]['email']; } else { echo "-"; }   ?>" autocomplete="off"></td>
                 <th>Email (Office)</th>
-                <td><input type="text" <?php if(isset($getUserData[0]['alternateEmail']) && ( $getUserData[0]['alternateEmail']!='' || $getUserData[0]['alternateEmail']!='') ) { echo $getUserData[0]['alternateEmail'];} else { echo "-";} ?> class="form-control inputField" id="emailOffice" name="emailOffice " autocomplete="off" ></td>
+                <td><input type="text" value="<?php if(isset($getUserData[0]['alternateEmail']) && ( $getUserData[0]['alternateEmail']!='' || $getUserData[0]['alternateEmail']!='-') ) { echo $getUserData[0]['alternateEmail'];} else { echo "-";} ?>" class="form-control inputField" id="emailOffice" name="emailOffice " autocomplete="off" ></td>
             </tr>
             <tr>
 
