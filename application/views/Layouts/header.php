@@ -81,7 +81,7 @@
                     <div class="col-md-3 top-welcome">    
                         <a href="<?= base_url('dashboard') ?>" class="logout-lac" title="Dashboard"><i class="fa fa-home"></i></a>  
                         <a href="<?= base_url('search') ?>" class="logout-lac" title="Search"><i class="fa fa-search"></i> </a>
-                        <a href="<?= base_url('search') ?>" class="logout-lac" title="Notification"><i class="fa fa-bell"></i><span style="display: table-caption;">10</span></a>  
+                        <!-- <a href="<?= base_url('search') ?>" class="logout-lac" title="Notification"><i class="fa fa-bell"></i><span style="display: table-caption;">10</span></a>   -->
                         <a href="<?= base_url('logout'); ?>" class="logout-lac" title="Logout"><i class="fa fa-sign-out"></i></a>  
                          
                         <a href="<?= base_url('myProfile') ?>" class="logout-lac" title="<?= $userDetails->user_id ?>"><?= $_SESSION['isUserSession']['name'] ?></a>

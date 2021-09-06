@@ -36,7 +36,7 @@
 
 		public function index($conditions = null)
 		{
-            $this->db->select('LD.lead_id, LD.application_no, LD.name, LD.middle_name, LD.sur_name, LD.email, LD.dob, LD.ip, LD.coordinates, LD.mobile, LD.pancard, ST.state, LD.city, LD.created_on, LD.source, LD.status, LD.credit_manager_id, LD.partPayment')
+            $this->db->select('LD.lead_id, LD.customer_id, LD.application_no, LD.name, LD.middle_name, LD.sur_name, LD.email, LD.dob, LD.ip, LD.coordinates, LD.mobile, LD.pancard, ST.state, LD.city, LD.created_on, LD.source, LD.status, LD.credit_manager_id, LD.partPayment')
                 ->where($conditions)
                 ->from($this->table. ' LD')
                 ->join($this->table_state.' ST', 'ST.old_state_id = LD.state_id');

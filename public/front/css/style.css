@@ -833,7 +833,7 @@ input:checked + .slider:before {
 }
 .width-my .taskPageSize
 {
-  max-height: 588px;
+  max-height: 552px;
     overflow-x: hidden;
   }
 

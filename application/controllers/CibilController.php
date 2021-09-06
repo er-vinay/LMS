@@ -11,300 +11,297 @@
 
         public function index()
         {
-	            echo "<pre>"; print_r($_POST); exit;
             if ($this->input->server('REQUEST_METHOD') == 'POST') 
 	        {   
 	            $lead_id = $this->input->post('lead_id');
                 $where = ['company_id' => company_id, 'product_id' => product_id];
 	            $getCibilHistory = $this->db->select('check_cibil_status')->where($where)->where('lead_id', $lead_id)->get('leads')->row();
-	            if($getCibilHistory->check_cibil_status == 0)
+	            if($getCibilHistory->check_cibil_status == 0 && !empty($lead_id))
 	            {
-    	            if(!empty($lead_id))
-    	            {
-                        $fetch = 'lead_id, name, mobile, dob, pancard, gender, state_id, city, pincode';
-                        $where = ['leads.lead_id' => $lead_id];
-                        $table = 'leads';
-                        $query = $this->Task_Model->selectQuery($fetch, $where, $table);
-                        $leadDetails = $query->row();
-    
-                        $name = $leadDetails->name;
-                        $mobile = $leadDetails->mobile;
-                        $pancard = $leadDetails->pancard;
-                        $gender = $leadDetails->gender;
-                        $dob = $leadDetails->dob;
-                        $state_id = $leadDetails->state_id;
-                        $city = $leadDetails->city;
-                        $pincode = $leadDetails->pincode;
-    
-                        if(empty($name) || empty($mobile) || empty($pancard) || empty($gender) || empty($dob) || empty($state_id) || empty($city) || empty($pincode))
-                        {
-                            foreach($leadDetails as $key => $value) {
-                                if(empty($value)){
-                                    $error .= $key .", ";
-                                }
+                    $fetch = 'lead_id, name, mobile, dob, pancard, gender, state_id, city, pincode';
+                    $conditions = ['lead_id' => $lead_id];
+
+                    $query = $this->Task_Model->join_table($conditions, $fetch);
+                    $leadDetails = $query->row();
+                    // echo "leadDetails : <pre>"; print_r($leadDetails); exit;
+
+                    $name       = $leadDetails->name;
+                    $mobile     = $leadDetails->mobile;
+                    $pancard    = $leadDetails->pancard;
+                    $gender     = $leadDetails->gender;
+                    $dob        = $leadDetails->dob;
+                    $state_id   = $leadDetails->state_id;
+                    $city       = $leadDetails->city;
+                    $pincode    = $leadDetails->pincode;
+
+                    // if(empty($pancard) || empty($name) || empty($mobile) || empty($gender) || empty($dob) || empty($state_id) || empty($city) || empty($pincode))
+                    if(empty($pancard) || empty($name) || empty($state_id) || empty($city) || empty($pincode))
+                    {
+                        foreach($leadDetails as $key => $value) {
+                            if(empty($value)){
+                                $error .= $key .", ";
                             }
-                            $json['err'] = "Required ". $error ."Please Update.";
-                            echo json_encode($json);
-                        } 
-                        else 
-                        {
-                            
-                            $loanAmount = 10000;
-                            $day = date('d', strtotime($dob));
-                            $month = date("m", strtotime($dob));
-                            $year = date("Y", strtotime($dob));
-                            $dateOfBirth = $day.''.$month.''.$year;
-                        
-                            // $define_url = "UAT";
-                            $define_url = "LIVE";
-                            
-                            if($define_url == "UAT") {
-                                define("userId", "NB4235DC01_UAT001");
-                                define("password", "TempPass@cibil2");
-                                define("memberId", "NB42358888_UATC2C");
-                                define("memberPass", "2iqzapqOkcqgmf@qnvni");
-                                define("api_url", "https://www.test.transuniondecisioncentre.co.in/DC/TU/TU.IDS.ExternalServices/SolutionExecution/ExternalSolutionExecution.svc");
-                            } else {
-                                define("userId", "NB4235DC01_PROD002");
-                                define("password", "Lo@anwalle15Dec2020");
-                                define("memberId", "NB42358899_CIRC2C");
-                                define("memberPass", "Ce8#Yh8@Py8@Dh");
-                                define("api_url", "https://www.dc.transuniondecisioncentre.co.in/DE/TU.IDS.ExternalServices/SolutionExecution/ExternalSolutionExecution.svc");
-                            }
-    
-                            $scoreType = '08';
-                            $purpose = '06';  // 01 - 06
-                            $solutionSetId = '140';
-                            
-            
-                            $query_state = $this->db->select("state")->where("id", $state_id)->get('tb_states')->row_array();
-                            $stateName = $query_state['state'];
-                            
-                            $stateNameData = array(
-                                '01' => 'Jammu & Kashmir',
-                                '02' => 'Himachal Pradesh',
-                                '03' => 'Punjab',
-                                '04' => 'Chandigarh',
-                                '05' => 'Uttaranchal',
-                                '06' => 'Haryana',
-                                '07' => 'Delhi',
-                                '08' => 'Rajasthan',
-                                '09' => 'Uttar Pradesh',
-                                '10' => 'Bihar',
-                                '11' => 'Sikkim',
-                                '12' => 'Arunachal Pradesh',
-                                '13' => 'Nagaland',
-                                '14' => 'Manipur',
-                                '15' => 'Mizoram',
-                                '16' => 'Tripura',
-                                '17' => 'Meghalaya',
-                                '18' => 'Assam',
-                                '19' => 'West Bengal',
-                                '20' => 'Jharkhand',
-                                '21' => 'Orissa',
-                                '22' => 'Chhattisgarh',
-                                '23' => 'Madhya Pradesh',
-                                '24' => 'Gujarat',
-                                '25' => 'Daman & Diu',
-                                '26' => 'Dadra & Nagar Haveli',
-                                '27' => 'Maharashtra',
-                                '28' => 'Andhra Pradesh',
-                                '29' => 'Karnataka',
-                                '30' => 'Goa',
-                                '31' => 'Lakshadweep',
-                                '32' => 'Kerala',
-                                '33' => 'Tamil Nadu',
-                                '34' => 'Pondicherry',
-                                '35' => 'Andaman & Nicobar Islands',
-                                '36' => 'Telangana'
-                            );
-    
-                            $stateKey = array_search($stateName, $stateNameData);
-                            
-                            $input_xml = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
-                                    <soapenv:Header />
-                                    <soapenv:Body>
-                                      <tem:ExecuteXMLString>
-                                        <tem:request>
-                                          <![CDATA[ 
-                            
-                                  <DCRequest xmlns="http://transunion.com/dc/extsvc">
-                                    <Authentication type="OnDemand">
-                                        <UserId>'. userId .'</UserId>
-                                        <Password>'. password .'</Password>
-                                     </Authentication>
-                                     <RequestInfo>
-                                          <SolutionSetId>140</SolutionSetId>
-                                          <ExecuteLatestVersion>true</ExecuteLatestVersion>
-                                          <ExecutionMode>NewWithContext</ExecutionMode>
-                                    </RequestInfo>
-                                    <Fields>
-                                      <Field key="Applicants">
-                                       
-                                            &lt;Applicants&gt;
-                                    &lt;Applicant&gt;
-                                      &lt;ApplicantType&gt;Main&lt;/ApplicantType&gt;
-                                      &lt;ApplicantFirstName&gt;'. $name .'&lt;/ApplicantFirstName&gt;
-                                      &lt;ApplicantMiddleName&gt;&lt;/ApplicantMiddleName&gt;
-                                      &lt;ApplicantLastName&gt;&lt;/ApplicantLastName&gt;
-                                      &lt;DateOfBirth&gt;'. $dateOfBirth .'&lt;/DateOfBirth&gt;
-                                      &lt;Gender&gt;'. $gender .'&lt;/Gender&gt;
-                                      &lt;EmailAddress&gt;&lt;/EmailAddress&gt;
-                                      &lt;CompanyName&gt;&lt;/CompanyName&gt;
-                                      &lt;Identifiers&gt;
-                                        &lt;Identifier&gt;
-                                          &lt;IdNumber&gt;'. $pancard .'&lt;/IdNumber&gt;
-                                          &lt;IdType&gt;01&lt;/IdType&gt;
-                                        &lt;/Identifier&gt;
-                                        &lt;Identifier&gt;
-                                          &lt;IdNumber&gt;&lt;/IdNumber&gt;
-                                          &lt;IdType&gt;06&lt;/IdType&gt;
-                                        &lt;/Identifier&gt;
-                                      &lt;/Identifiers&gt;
-                                      &lt;Telephones&gt;
-                                        &lt;Telephone&gt;
-                                          &lt;TelephoneExtension&gt;&lt;/TelephoneExtension&gt;
-                                          &lt;TelephoneNumber&gt;'. $mobile .'&lt;/TelephoneNumber&gt;
-                                          &lt;TelephoneType&gt;01&lt;/TelephoneType&gt;
-                                        &lt;/Telephone&gt;
-                                         &lt;Telephone&gt;
-                                          &lt;TelephoneExtension&gt;&lt;/TelephoneExtension&gt;
-                                          &lt;TelephoneNumber&gt;&lt;/TelephoneNumber&gt;
-                                          &lt;TelephoneType&gt;01&lt;/TelephoneType&gt;
-                                        &lt;/Telephone&gt;
-                                      &lt;/Telephones&gt;
-                                      &lt;Addresses&gt;
-                                        &lt;Address&gt;
-                                          &lt;AddressLine1&gt;'. $city .'&lt;/AddressLine1&gt;
-                                          &lt;AddressLine2&gt;&lt;/AddressLine2&gt;
-                                          &lt;AddressLine3&gt;&lt;/AddressLine3&gt;
-                                          &lt;AddressLine4&gt;&lt;/AddressLine4&gt;
-                                          &lt;AddressLine5&gt;&lt;/AddressLine5&gt;
-                                          &lt;AddressType&gt;01&lt;/AddressType&gt;
-                                          &lt;City&gt;'. $city .'&lt;/City&gt;
-                                          &lt;PinCode&gt;'. $pincode .'&lt;/PinCode&gt;
-                                          &lt;ResidenceType&gt;01&lt;/ResidenceType&gt;
-                                          &lt;StateCode&gt;'. $stateKey .'&lt;/StateCode&gt;
-                                        &lt;/Address&gt;
-                                      &lt;/Addresses&gt;
-                                      &lt;NomineeRelation&gt;&lt;/NomineeRelation&gt;
-                                      &lt;NomineeName&gt;&lt;/NomineeName&gt;
-                                      &lt;MemberRelationType4&gt;&lt;/MemberRelationType4&gt;
-                                      &lt;MemberRelationName4&gt;&lt;/MemberRelationName4&gt;
-                                      &lt;MemberRelationType3&gt;&lt;/MemberRelationType3&gt;
-                                      &lt;MemberRelationName3&gt;&lt;/MemberRelationName3&gt;
-                                      &lt;MemberRelationType2&gt;&lt;/MemberRelationType2&gt;
-                                      &lt;MemberRelationName2&gt;&lt;/MemberRelationName2&gt;
-                                      &lt;MemberRelationType1&gt;&lt;/MemberRelationType1&gt;
-                                      &lt;MemberRelationName1&gt;&lt;/MemberRelationName1&gt;
-                                      &lt;KeyPersonRelation&gt;&lt;/KeyPersonRelation&gt;
-                                      &lt;KeyPersonName&gt;&lt;/KeyPersonName&gt;
-                                      &lt;MemberOtherId3&gt;&lt;/MemberOtherId3&gt;
-                                      &lt;MemberOtherId3Type&gt;&lt;/MemberOtherId3Type&gt;
-                                      &lt;MemberOtherId2&gt;&lt;/MemberOtherId2&gt;
-                                      &lt;MemberOtherId2Type&gt;&lt;/MemberOtherId2Type&gt;
-                                      &lt;MemberOtherId1&gt;&lt;/MemberOtherId1&gt;
-                                      &lt;MemberOtherId1Type&gt;&lt;/MemberOtherId1Type&gt;
-                                      &lt;Accounts&gt;
-                                        &lt;Account&gt;
-                                          &lt;AccountNumber&gt;&lt;/AccountNumber&gt;
-                                        &lt;/Account&gt;
-                                      &lt;/Accounts&gt;
-                                    &lt;/Applicant&gt;
-                                  &lt;/Applicants&gt;
-                            
-                                  </Field>
-                                  <Field key="ApplicationData">
-                                   &lt;ApplicationData&gt;
-                                  &lt;Purpose&gt;10&lt;/Purpose&gt;
-                                  &lt;Amount&gt;'. $loanAmount .'&lt;/Amount&gt;
-                                  &lt;ScoreType&gt;08&lt;/ScoreType&gt;
-                                  &lt;GSTStateCode&gt;07&lt;/GSTStateCode&gt;
-                                  
-                                  
-                                  &lt;MemberCode&gt;'. memberId .'&lt;/MemberCode&gt;
-                                  &lt;Password&gt;'. memberPass .'&lt;/Password&gt;
-                                  
-                                  
-                                  &lt;CibilBureauFlag&gt;False&lt;/CibilBureauFlag&gt;
-                            		&lt;DSTuNtcFlag&gt;True&lt;/DSTuNtcFlag&gt;
-                            		&lt;IDVerificationFlag&gt;False&lt;/IDVerificationFlag&gt;
-                            		&lt;MFIBureauFlag&gt;True&lt;/MFIBureauFlag&gt;
-                            		&lt;NTCProductType&gt;PL&lt;/NTCProductType&gt;
-                            		&lt;ConsumerConsentForUIDAIAuthentication&gt;N&lt;/ConsumerConsentForUIDAIAuthentication&gt;
-                            		&lt;MFIEnquiryAmount&gt;&lt;/MFIEnquiryAmount&gt;
-                            		&lt;MFILoanPurpose&gt;&lt;/MFILoanPurpose&gt;
-                            		&lt;MFICenterReferenceNo&gt;&lt;/MFICenterReferenceNo&gt;
-                            		&lt;MFIBranchReferenceNo&gt;&lt;/MFIBranchReferenceNo&gt;
-                            		&lt;FormattedReport&gt;True&lt;/FormattedReport&gt;
-                            	&lt;/ApplicationData&gt;
-                            
-                               
-                                            </Field>
-                                            <Field key="FinalTraceLevel">2</Field>
-                                            </Fields>
-                                            </DCRequest>        
-                                       ]]>
-                                    </tem:request>
-                                  </tem:ExecuteXMLString>
-                                </soapenv:Body>
-                              </soapenv:Envelope>';
-                
-                            $url = api_url;
-                
-                            $ch = curl_init();
-                            $headers = [
-                                'Content-Type: text/xml', 
-                                'soapAction: http://tempuri.org/IExternalSolutionExecution/ExecuteXMLString'
-                            ];
-                            
-                            curl_setopt($ch, CURLOPT_URL,$url);
-                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                            // curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-                            curl_setopt($ch, CURLOPT_POST, true);
-                            curl_setopt($ch, CURLOPT_POSTFIELDS, $input_xml);
-                            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-                            
-                            $dataResponse = curl_exec($ch); 
-                            
-                            // echo "response". $dataResponse;
-                            
-                            $soap = simplexml_load_string($dataResponse);
-                            // echo "soap". $dataResponse; exit;
-                            $response = $soap->children('http://schemas.xmlsoap.org/soap/envelope/')->Body->children()->ExecuteXMLStringResponse;
-                            $xx = $response->ExecuteXMLStringResult;
-                            $xx = simplexml_load_string($xx);
-                            $ApplicationId = (string)$xx->ResponseInfo->ApplicationId;
-                            
-                            
-                            $data = [
-                                    'lead_id'               => $lead_id,
-                                    'company_id'            => company_id,
-                                    'product_id'            => product_id,
-                                    'customer_name'         => $name,
-                                    'customer_mobile'       => $mobile,
-                                    'pancard'               => $pancard,
-                                    'loan_amount'           => $loanAmount,
-                                    'dob'                   => $dateOfBirth,
-                                    'gender'                => $gender,
-                                    'city'                  => $city,
-                                    'state_id'              => $state_id,
-                                    'state_id'              => $state_id,
-                                    'pincode'               => $pincode,
-                                    'api1_request'          => $input_xml,
-                                    'api1_response'         => $dataResponse,
-                                    'applicationId'         => $ApplicationId,
-                                ];
-                            $this->db->insert('tbl_cibil', $data);
-                            $this->getApplication($lead_id, $ApplicationId);
-                            
-                            curl_close($ch);
                         }
-    	            } else {
-                        $json['err'] = "Lead Id is Required";
+                        $json['err'] = "Required ". $error ."Please Update.";
                         echo json_encode($json);
-    	            }
-	            }
+                    } 
+                    else 
+                    {
+                        $loanAmount = 10000;
+                        $day = date('d', strtotime($dob));
+                        $month = date("m", strtotime($dob));
+                        $year = date("Y", strtotime($dob));
+                        $dateOfBirth = $day.''.$month.''.$year;
+                    
+                        // $define_url = "UAT";
+                        $define_url = "LIVE";
+                        
+                        if($define_url == "UAT") {
+                            define("userId", "NB4235DC01_UAT001");
+                            define("password", "TempPass@cibil2");
+                            define("memberId", "NB42358888_UATC2C");
+                            define("memberPass", "2iqzapqOkcqgmf@qnvni");
+                            define("api_url", "https://www.test.transuniondecisioncentre.co.in/DC/TU/TU.IDS.ExternalServices/SolutionExecution/ExternalSolutionExecution.svc");
+                        } else {
+                            define("userId", "NB4235DC01_PROD002");
+                            define("password", "Lo@anwalle15Dec2020");
+                            define("memberId", "NB42358899_CIRC2C");
+                            define("memberPass", "Ce8#Yh8@Py8@Dh");
+                            define("api_url", "https://www.dc.transuniondecisioncentre.co.in/DE/TU.IDS.ExternalServices/SolutionExecution/ExternalSolutionExecution.svc");
+                        }
+
+                        $scoreType = '08';
+                        $purpose = '06';  // 01 - 06
+                        $solutionSetId = '140';
+                        
+        
+                        $query_state = $this->db->select("state")->where("id", $state_id)->get('tb_states')->row_array();
+                        $stateName = $query_state['state'];
+                        
+                        $stateNameData = array(
+                            '01' => 'Jammu & Kashmir',
+                            '02' => 'Himachal Pradesh',
+                            '03' => 'Punjab',
+                            '04' => 'Chandigarh',
+                            '05' => 'Uttaranchal',
+                            '06' => 'Haryana',
+                            '07' => 'Delhi',
+                            '08' => 'Rajasthan',
+                            '09' => 'Uttar Pradesh',
+                            '10' => 'Bihar',
+                            '11' => 'Sikkim',
+                            '12' => 'Arunachal Pradesh',
+                            '13' => 'Nagaland',
+                            '14' => 'Manipur',
+                            '15' => 'Mizoram',
+                            '16' => 'Tripura',
+                            '17' => 'Meghalaya',
+                            '18' => 'Assam',
+                            '19' => 'West Bengal',
+                            '20' => 'Jharkhand',
+                            '21' => 'Orissa',
+                            '22' => 'Chhattisgarh',
+                            '23' => 'Madhya Pradesh',
+                            '24' => 'Gujarat',
+                            '25' => 'Daman & Diu',
+                            '26' => 'Dadra & Nagar Haveli',
+                            '27' => 'Maharashtra',
+                            '28' => 'Andhra Pradesh',
+                            '29' => 'Karnataka',
+                            '30' => 'Goa',
+                            '31' => 'Lakshadweep',
+                            '32' => 'Kerala',
+                            '33' => 'Tamil Nadu',
+                            '34' => 'Pondicherry',
+                            '35' => 'Andaman & Nicobar Islands',
+                            '36' => 'Telangana'
+                        );
+
+                        $stateKey = array_search($stateName, $stateNameData);
+                        
+                        $input_xml = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+                                <soapenv:Header />
+                                <soapenv:Body>
+                                  <tem:ExecuteXMLString>
+                                    <tem:request>
+                                      <![CDATA[ 
+                        
+                              <DCRequest xmlns="http://transunion.com/dc/extsvc">
+                                <Authentication type="OnDemand">
+                                    <UserId>'. userId .'</UserId>
+                                    <Password>'. password .'</Password>
+                                 </Authentication>
+                                 <RequestInfo>
+                                      <SolutionSetId>140</SolutionSetId>
+                                      <ExecuteLatestVersion>true</ExecuteLatestVersion>
+                                      <ExecutionMode>NewWithContext</ExecutionMode>
+                                </RequestInfo>
+                                <Fields>
+                                  <Field key="Applicants">
+                                   
+                                        &lt;Applicants&gt;
+                                &lt;Applicant&gt;
+                                  &lt;ApplicantType&gt;Main&lt;/ApplicantType&gt;
+                                  &lt;ApplicantFirstName&gt;'. $name .'&lt;/ApplicantFirstName&gt;
+                                  &lt;ApplicantMiddleName&gt;&lt;/ApplicantMiddleName&gt;
+                                  &lt;ApplicantLastName&gt;&lt;/ApplicantLastName&gt;
+                                  &lt;DateOfBirth&gt;'. $dateOfBirth .'&lt;/DateOfBirth&gt;
+                                  &lt;Gender&gt;'. $gender .'&lt;/Gender&gt;
+                                  &lt;EmailAddress&gt;&lt;/EmailAddress&gt;
+                                  &lt;CompanyName&gt;&lt;/CompanyName&gt;
+                                  &lt;Identifiers&gt;
+                                    &lt;Identifier&gt;
+                                      &lt;IdNumber&gt;'. $pancard .'&lt;/IdNumber&gt;
+                                      &lt;IdType&gt;01&lt;/IdType&gt;
+                                    &lt;/Identifier&gt;
+                                    &lt;Identifier&gt;
+                                      &lt;IdNumber&gt;&lt;/IdNumber&gt;
+                                      &lt;IdType&gt;06&lt;/IdType&gt;
+                                    &lt;/Identifier&gt;
+                                  &lt;/Identifiers&gt;
+                                  &lt;Telephones&gt;
+                                    &lt;Telephone&gt;
+                                      &lt;TelephoneExtension&gt;&lt;/TelephoneExtension&gt;
+                                      &lt;TelephoneNumber&gt;'. $mobile .'&lt;/TelephoneNumber&gt;
+                                      &lt;TelephoneType&gt;01&lt;/TelephoneType&gt;
+                                    &lt;/Telephone&gt;
+                                     &lt;Telephone&gt;
+                                      &lt;TelephoneExtension&gt;&lt;/TelephoneExtension&gt;
+                                      &lt;TelephoneNumber&gt;&lt;/TelephoneNumber&gt;
+                                      &lt;TelephoneType&gt;01&lt;/TelephoneType&gt;
+                                    &lt;/Telephone&gt;
+                                  &lt;/Telephones&gt;
+                                  &lt;Addresses&gt;
+                                    &lt;Address&gt;
+                                      &lt;AddressLine1&gt;'. $city .'&lt;/AddressLine1&gt;
+                                      &lt;AddressLine2&gt;&lt;/AddressLine2&gt;
+                                      &lt;AddressLine3&gt;&lt;/AddressLine3&gt;
+                                      &lt;AddressLine4&gt;&lt;/AddressLine4&gt;
+                                      &lt;AddressLine5&gt;&lt;/AddressLine5&gt;
+                                      &lt;AddressType&gt;01&lt;/AddressType&gt;
+                                      &lt;City&gt;'. $city .'&lt;/City&gt;
+                                      &lt;PinCode&gt;'. $pincode .'&lt;/PinCode&gt;
+                                      &lt;ResidenceType&gt;01&lt;/ResidenceType&gt;
+                                      &lt;StateCode&gt;'. $stateKey .'&lt;/StateCode&gt;
+                                    &lt;/Address&gt;
+                                  &lt;/Addresses&gt;
+                                  &lt;NomineeRelation&gt;&lt;/NomineeRelation&gt;
+                                  &lt;NomineeName&gt;&lt;/NomineeName&gt;
+                                  &lt;MemberRelationType4&gt;&lt;/MemberRelationType4&gt;
+                                  &lt;MemberRelationName4&gt;&lt;/MemberRelationName4&gt;
+                                  &lt;MemberRelationType3&gt;&lt;/MemberRelationType3&gt;
+                                  &lt;MemberRelationName3&gt;&lt;/MemberRelationName3&gt;
+                                  &lt;MemberRelationType2&gt;&lt;/MemberRelationType2&gt;
+                                  &lt;MemberRelationName2&gt;&lt;/MemberRelationName2&gt;
+                                  &lt;MemberRelationType1&gt;&lt;/MemberRelationType1&gt;
+                                  &lt;MemberRelationName1&gt;&lt;/MemberRelationName1&gt;
+                                  &lt;KeyPersonRelation&gt;&lt;/KeyPersonRelation&gt;
+                                  &lt;KeyPersonName&gt;&lt;/KeyPersonName&gt;
+                                  &lt;MemberOtherId3&gt;&lt;/MemberOtherId3&gt;
+                                  &lt;MemberOtherId3Type&gt;&lt;/MemberOtherId3Type&gt;
+                                  &lt;MemberOtherId2&gt;&lt;/MemberOtherId2&gt;
+                                  &lt;MemberOtherId2Type&gt;&lt;/MemberOtherId2Type&gt;
+                                  &lt;MemberOtherId1&gt;&lt;/MemberOtherId1&gt;
+                                  &lt;MemberOtherId1Type&gt;&lt;/MemberOtherId1Type&gt;
+                                  &lt;Accounts&gt;
+                                    &lt;Account&gt;
+                                      &lt;AccountNumber&gt;&lt;/AccountNumber&gt;
+                                    &lt;/Account&gt;
+                                  &lt;/Accounts&gt;
+                                &lt;/Applicant&gt;
+                              &lt;/Applicants&gt;
+                        
+                              </Field>
+                              <Field key="ApplicationData">
+                               &lt;ApplicationData&gt;
+                              &lt;Purpose&gt;10&lt;/Purpose&gt;
+                              &lt;Amount&gt;'. $loanAmount .'&lt;/Amount&gt;
+                              &lt;ScoreType&gt;08&lt;/ScoreType&gt;
+                              &lt;GSTStateCode&gt;07&lt;/GSTStateCode&gt;
+                              
+                              
+                              &lt;MemberCode&gt;'. memberId .'&lt;/MemberCode&gt;
+                              &lt;Password&gt;'. memberPass .'&lt;/Password&gt;
+                              
+                              
+                              &lt;CibilBureauFlag&gt;False&lt;/CibilBureauFlag&gt;
+                        		&lt;DSTuNtcFlag&gt;True&lt;/DSTuNtcFlag&gt;
+                        		&lt;IDVerificationFlag&gt;False&lt;/IDVerificationFlag&gt;
+                        		&lt;MFIBureauFlag&gt;True&lt;/MFIBureauFlag&gt;
+                        		&lt;NTCProductType&gt;PL&lt;/NTCProductType&gt;
+                        		&lt;ConsumerConsentForUIDAIAuthentication&gt;N&lt;/ConsumerConsentForUIDAIAuthentication&gt;
+                        		&lt;MFIEnquiryAmount&gt;&lt;/MFIEnquiryAmount&gt;
+                        		&lt;MFILoanPurpose&gt;&lt;/MFILoanPurpose&gt;
+                        		&lt;MFICenterReferenceNo&gt;&lt;/MFICenterReferenceNo&gt;
+                        		&lt;MFIBranchReferenceNo&gt;&lt;/MFIBranchReferenceNo&gt;
+                        		&lt;FormattedReport&gt;True&lt;/FormattedReport&gt;
+                        	&lt;/ApplicationData&gt;
+                        
+                           
+                                        </Field>
+                                        <Field key="FinalTraceLevel">2</Field>
+                                        </Fields>
+                                        </DCRequest>        
+                                   ]]>
+                                </tem:request>
+                              </tem:ExecuteXMLString>
+                            </soapenv:Body>
+                          </soapenv:Envelope>';
+            
+                        $url = api_url;
+            
+                        $ch = curl_init();
+                        $headers = [
+                            'Content-Type: text/xml', 
+                            'soapAction: http://tempuri.org/IExternalSolutionExecution/ExecuteXMLString'
+                        ];
+                        
+                        curl_setopt($ch, CURLOPT_URL,$url);
+                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                        // curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+                        curl_setopt($ch, CURLOPT_POST, true);
+                        curl_setopt($ch, CURLOPT_POSTFIELDS, $input_xml);
+                        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+                        
+                        $dataResponse = curl_exec($ch); 
+                        
+                        // echo "response". $dataResponse;
+                        
+                        $soap = simplexml_load_string($dataResponse);
+                        // echo "soap". $dataResponse; exit;
+                        $response = $soap->children('http://schemas.xmlsoap.org/soap/envelope/')->Body->children()->ExecuteXMLStringResponse;
+                        $xx = $response->ExecuteXMLStringResult;
+                        $xx = simplexml_load_string($xx);
+                        $ApplicationId = (string)$xx->ResponseInfo->ApplicationId;
+                        
+                        
+                        $data = [
+                                'lead_id'               => $lead_id,
+                                'company_id'            => company_id,
+                                'product_id'            => product_id,
+                                'customer_name'         => $name,
+                                'customer_mobile'       => $mobile,
+                                'pancard'               => $pancard,
+                                'loan_amount'           => $loanAmount,
+                                'dob'                   => $dateOfBirth,
+                                'gender'                => $gender,
+                                'city'                  => $city,
+                                'state_id'              => $state_id,
+                                'state_id'              => $state_id,
+                                'pincode'               => $pincode,
+                                'api1_request'          => $input_xml,
+                                'api1_response'         => $dataResponse,
+                                'applicationId'         => $ApplicationId,
+                            ];
+                        $this->db->insert('tbl_cibil', $data);
+                        $this->getApplication($lead_id, $ApplicationId);
+                        
+                        curl_close($ch);
+                    }
+	            }else {
+                    $json['err'] = "Interna server error.";
+                    echo json_encode($json);
+                }
 	        }
         }
         

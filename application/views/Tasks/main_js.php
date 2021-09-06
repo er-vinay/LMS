@@ -1401,7 +1401,6 @@
         $('#selectDocsTypes').on('click', function(){
             var radioval = $("input[name='selectdocradio']:checked").val() 
             $("#docuemnt_type").val(radioval);
-            console.log(radioval);
             $('#docsform').show();
 
             const api_url = "<?= base_url('getDocumentSubType/') ?>"+ radioval;
@@ -1445,7 +1444,6 @@
 		
 		$("#insertVerification").on('submit',function(e) {
 				e.preventDefault();
-             
 
                 if($('#initiateMobileVerification').is(':checked'))
                 {
@@ -1458,20 +1456,15 @@
 
                 if($('#residenceCPV').is(':checked'))
                 {
-                    var residenceCPVuser_id='<?php echo $_SESSION['isUserSession']['user_id'];?>';
-                   var residenceCPV='YES';
-                   var residenceCPVdate='<?php echo date('Y-m-d h:i:s');?>';
+                 var residenceCPV='YES';
                 }
                 else 
                 { 
-                    var residenceCPVuser_id='<?php echo $_SESSION['isUserSession']['user_id'];?>';
                     var residenceCPV='NO';
-                    $residenceCPVdate='';
                 }
 
                 if($('#officeEmailVerification').is(':checked'))
                 {
-
                  var officeEmailVerification='YES';
                 }
                 else 
@@ -1482,16 +1475,11 @@
                 if($('#officeCPV').is(':checked'))
                 {
                  var officeCPV='YES';
-                 var officeCPVdate='<?php echo date('Y-m-d h:i:s');?>';
-                 var officeCPVuser_id='<?php echo $_SESSION['isUserSession']['user_id'];?>';
                 }
                 else 
                 { 
-                    var officeCPVuser_id='<?php echo $_SESSION['isUserSession']['user_id'];?>';
                     var officeCPV='NO';
-                    var officeCPVdate='';
                 }
-
 
 				
                var params = {
@@ -1502,11 +1490,8 @@
                         initiateMobileVerification		 :initiateMobileVerification,
                         residenceCPV		             :residenceCPV,
                         officeEmailVerification			 :officeEmailVerification,
-                        officeCPV			             :officeCPV,
-                        residece_cpv_allocated_to        :residenceCPVuser_id,
-                        office_cpv_allocated_to          :officeCPVuser_id,
-                        residence_cpv_allocated_on       :residenceCPVdate,
-                        office_cvp_allocated_on          :officeCPVdate,
+                        officeCPV			             :officeCPV
+                        
         			}
 
      $.post('<?= base_url("saveVerification"); ?>', {

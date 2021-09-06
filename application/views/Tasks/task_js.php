@@ -173,7 +173,7 @@
                                             || $_SESSION['isUserSession']['labels'] == "SA"): ?>
                                     <?php $this->load->view('Personal/personal'); ?>
                                     <?php endif; ?>
-                                    <div id="ViewPersonalDetails1"></div>
+                                    <div id="ViewPersonalDetails"></div>
                                 </div>
                             </div>
 

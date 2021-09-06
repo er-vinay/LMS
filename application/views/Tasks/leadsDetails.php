@@ -80,10 +80,10 @@
                 <td><?= ($leadDetails->coordinates) ? $leadDetails->coordinates :'-' ?></td>
             </tr>
             <tr>
-                <th colspan="4">I authorize Loanwalle to communicate via Phone / SMS / Whatsapp or other suitable channels with reference to my loan application overriding any subsisting registration for DNC / NDNC.<input type="checkbox" id="tnc1" name="t&c" class="lead-checkbox"<?= ($leadDetails->term_and_condition == "YES") ? "checked" :'unchecked' ?> disabled></th>
-            </tr>
-            <tr>
-                <th colspan="4">I authorize Loanwalle to disclose information / data submitted herein to any external agency, Govt. authorities, CKYC Registry etc. for the purpose of verification and appraisal of the loan.<input type="checkbox" id="tnc2" name="t&c" class="lead-checkbox" <?= ($leadDetails->terms_and_condition_2 == "YES") ? "checked" :'unchecked' ?> disabled></th>
+                <th colspan="4">
+                    <input type="checkbox" id="tnc1" name="t&c" class="lead-checkbox2"<?= ($leadDetails->term_and_condition == "YES") ? "checked" :'unchecked' ?> disabled>&nbsp;
+                    I agree to Loanwalle's Terrms and Conditions and Privacy Policy and receive communication from Loanwalle via SMS, Email and Whatsapp.
+                </th>
             </tr>
         </table>
     </div>
