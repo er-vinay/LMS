@@ -13,7 +13,7 @@ class Leadmod extends CI_Model{
 	{
 		$this->db->where($colm,$upd_id);
 		$res = $this->db->update($table,$data);
-		echo $this->db->last_query(); die;
+		//echo $this->db->last_query(); die;
 		return $res;
 	}
 

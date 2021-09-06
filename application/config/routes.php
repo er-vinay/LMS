@@ -131,6 +131,9 @@ $route['sanctionleads'] = 'TaskController/sanctionleads';
 $route['applicationHold'] = 'TaskController/applicationHold';
 
 $route['saveVerification'] = 'LeadsController/add_action';
+$route['insertPersonal1'] = 'LeadsController/savepersonal1'; //insertPersonal4
+$route['insertPersonal4'] = 'LeadsController/insertPersonal4';
+$route['insertPersonal3'] = 'LeadsController/insertPersonal3';
 
 $route['duplicateTaskList'] = 'TaskController/duplicateTaskList';
 $route['duplicateLeadDetails/(:num)'] = 'TaskController/duplicateLeadDetails/$1';
