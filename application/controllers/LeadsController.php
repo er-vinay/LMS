@@ -3,6 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class LeadsController extends CI_Controller {  
 
+    
+
     // function for upding the varification table 
     public function add_action()
     {
@@ -29,6 +31,126 @@ class LeadsController extends CI_Controller {
             echo json_encode(['status' => TRUE]);
             
       }
+
+      // function for save the data of personal tab1
+    public function savepersonal1()
+    {
+        $table='tbl_cam';
+        $upd_id=$_POST['data']['lead_id'];
+        $lead_id=$_POST['data']['lead_id'];
+        $colm='lead_id';
+        $status = getLeadIdstatus($table,$upd_id);
+
+            $data = array(
+                'borrower_name'                       => $_POST['data']['borrower_name'],
+                'middle_name'            => $_POST['data']['middle_name'],
+                'sur_name'     => $_POST['data']['surname'],
+                'gender'           => $_POST['data']['gender'],
+                'dob'                         =>$_POST['data']['dob'],
+                'pancard'                 => $_POST['data']['pancard'],
+                'mobile'                    => $_POST['data']['mobile'],
+                'alternate_no'          =>$_POST['data']['alternate_no'],
+                'email'            =>$_POST['data']['email'],
+                'alternateEmail'         =>$_POST['data']['alternateEmail']
+            );
+          
+          //  echo "<pre>";print_r($data);
+          if($status=='0')
+           {
+                    $insertDate = [
+                    'lead_id' 					=> $lead_id,
+                    'usr_created_by' 			=> user_id,
+                    'usr_created_at' 			=> created_at,
+                ];
+                       $data = array_merge($insertDate, $data);
+                       $res = $this->Leadmod->globel_inset($table,$data);
+
+                      // echo  $this->db->last_query();
+                     
+
+            }
+           else
+            {
+                $insertDate = [
+                    'usr_updated_by' 			=> $user_id,
+                    'usr_updated_at' 			=> created_at,
+                ];
+                $data = array_merge($insertDate, $data);
+             $res = $this->Leadmod->globel_update($table,$data,$upd_id,$colm);
+              // echo  $this->db->last_query();
+               
+                
+          }
+          
+           
+            //
+           // $res = $this->Leadmod->globel_update($table,$data,$upd_id,$colm);
+
+            //echo json_encode(['status' => TRUE]);
+            
+      }
+
+
+      public function insertPersonal4()
+      {
+  
+       
+              $data = array(
+                  'refrence1'                       => $_POST['data']['refrence1'],
+                  'refrence2'            => $_POST['data']['refrence2'],
+                  'relation'     => $_POST['data']['relation'],
+                  'relation1'           => $_POST['data']['relation1'],
+                  'refrence1mobile'                         =>$_POST['data']['refrence1mobile'],
+                  'refrence2mobile'                 => $_POST['data']['refrence2mobile']
+                 
+              );
+              $table='tbl_cam';
+              $upd_id=$_POST['data']['lead_id'];
+              $colm='lead_id';
+              $res = $this->Leadmod->globel_update($table,$data,$upd_id,$colm);
+  
+              echo json_encode(['status' => TRUE]);
+              
+        }
+
+
+
+        public function insertPersonal3()
+      {
+  
+       
+              $data = array(
+                  'refrence1'                => $this->input->post('hfBulNo1'),
+                  'refrence2'                => $this->input->post('lcss1'),
+                  'relation'                 => $this->input->post('lankmark1'),
+                  'relation'                 => $this->input->post('city1'),
+                  'relation'                 => $this->input->post('pincode1'),
+                  'relation'                 => $this->input->post('district1'),
+                  'relation'                 => $this->input->post('state1'),
+                  'relation'                 => $this->input->post('aadhar1'),
+                  'relation'                 => $this->input->post('addharAddressSameasAbove'),
+                  'relation'                 => $this->input->post('lcss2'),
+                  'relation'                 => $this->input->post('lcss2'),
+                  'relation'                 => $this->input->post('landmark2'),
+                  'relation'                 => $this->input->post('city2'),
+                  'relation'                 => $this->input->post('presentResidenceType'),
+                  'relation'                 => $this->input->post('residenceSince'),
+                  'relation'                 => $this->input->post('SCM_CONF_REQ'),
+                  'relation'                 => $this->input->post('scmResponce'),
+                  'relation'                 => $this->input->post('scmConfIntOn'),
+                  'relation'                 => $this->input->post('scmResponceOn'),
+                  'relation'                 => $this->input->post('scmResponceOn')
+                  
+                 
+              );
+              $table='tbl_cam';
+              $upd_id=$this->input->post('lead_id');
+              $colm='lead_id';
+              $res = $this->Leadmod->globel_update($table,$data,$upd_id,$colm);
+  
+              echo json_encode(['status' => TRUE]);
+              
+        }
 
 
 

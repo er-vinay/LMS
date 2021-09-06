@@ -1,28 +1,31 @@
 
-<?php $getVerificationdata=getVerificationdata('tbl_verification',$leadDetails->lead_id); 
-//echo "<pre>";print_r($getVerificationdata);
-//"user_id" 	    => $user_id,
-//echo $_SESSION['isUserSession']['user_id'];
-
+<?php 
+//echo $leadDetails->lead_id;
+$getUserData=getUserData('tbl_cam',$leadDetails->lead_id,'lead_id'); 
+//echo "<pre>";print_r($getUserData); //die;
 ?>
 <!------- table structure for varification form ----------->
 
 
 <div class="table-responsive">
 <form id="insertPersonal1" method="post" >
+            <input type="hidden" name="user_id" id="user_id" value="<?= user_id ?>">
+            <input type="hidden" name="company_id" id="company_id" value="<?= company_id ?>">
+            <input type="hidden" name="product_id" id="product_id" value="<?= product_id ?>">
 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
+<input type="hidden" name="UpLead_id" id="UpLead_id" value="<?php echo $leadDetails->lead_id; ?>" />
         <table class="table table-hover table-striped table-bordered">
             <tr>
                 <th>First Name &nbsp;<strong class="required_Fields">*</strong></th>
-                <td><input type="text" value="<?php  if( isset($getVerificationdata[0]['mobile_verified'])=='' || isset($getVerificationdata[0]['mobile_verified'])=='-' )  { echo "NO"; } else { echo "YES"; }?>" readonly class="form-control inputField" id="firstname" name="firstname" autocomplete="off"></td>
+                <td><input type="text" value="<?php  if( isset($getUserData[0]['borrower_name'])=='' || isset($getUserData[0]['borrower_name'])=='-' )  { echo "NO"; } else { echo $getUserData[0]['borrower_name']; }?>"  class="form-control inputField" id="firstname" name="firstname" autocomplete="off"></td>
                 <th>Middle Name</th>
-                <td><input type="text" readonly class="form-control inputField" id="middleName" name="middleName" value="<?php  if(isset($getVerificationdata[0]['alternate_mobile_verified'])=='' || isset($getVerificationdata[0]['alternate_mobile_verified'])=='-' )  { echo "NO"; } else { echo "YES"; }?>" autocomplete="off"></td>
+                <td><input type="text"  class="form-control inputField" id="middleName" name="middleName" value="<?php  if(isset($getUserData[0]['middle_name'])=='' || $getUserData[0]['middle_name']=='-' )  { echo "NO"; } else { echo $getUserData[0]['middle_name']; }?>" autocomplete="off"></td>
             </tr>
             <tr>
                 <th>Surname</th>
-                <td><input type="datetime-local" readonly class="form-control inputField" id="surname" name="surname"  value="<?php if(isset($getVerificationdata[0]['office_email_verification_send_on'])=='' ||  isset($getVerificationdata[0]['office_email_verification_send_on'])=='-' )  { echo "NO"; } else { echo "YES"; } ?>" autocomplete="off"></td>
-                <th>Gender &nbsp;<strong class="required_Fields">*</strong></th>
-                <td><input readonly type="datetime-local" value="<?php if(isset($getVerificationdata[0]['office_email_verified_on'])=='' ||  isset($getVerificationdata[0]['office_email_verified_on'])=='-' )  { echo "NO"; } else { echo "YES"; }   ?>" class="form-control inputField" id="OfficeEmailverifiedOn" name="OfficeEmailverifiedOn" autocomplete="off"></td>
+                <td><input type="text"  class="form-control inputField" id="surname" name="surname"  value="<?php if(isset($getUserData[0]['surname'])=='' ||  $getUserData[0]['surname']=='-' )  { echo "NO"; } else { echo $getUserData[0]['sur_name']; } ?>" autocomplete="off"></td>
+                <th>Gender  &nbsp;<strong class="required_Fields">*</strong></th>
+                <td><input  type="text" value="<?= ($getUserData[0]['gender']) ? strtoupper($getUserData[0]['gender']) :'-' ?>" class="form-control inputField" id="gender" name="gender" autocomplete="off"></td>
             </tr>
             <tr>
 
@@ -30,38 +33,38 @@
                 <th>DOB&nbsp;<strong class="required_Fields">*</strong></th>
                 <td>
               
-                <input readonly type="date" value="<?php if(isset($getVerificationdata[0]['office_email_verified_on'])=='' ||  isset($getVerificationdata[0]['office_email_verified_on'])=='-' )  { echo "NO"; } else { echo "YES"; }   ?>" class="form-control inputField" id="dob" name="dob" autocomplete="off">
+                <input  type="text" value="<?= ($getUserData[0]['dob']) ? date('m/d/Y', strtotime($getUserData[0]['dob'])) :'-' ?>" class="form-control inputField" id="dob" name="dob" autocomplete="off">
 
                 <span id="pan_msg" style="color: red;"></span></td>
                 <th>PAN&nbsp;<strong class="required_Fields">*</strong></th>
-                <td><input readonly type="text" class="form-control inputField" id="pannumber" value="<?php  if(isset($getVerificationdata[0]['aadhar_verified'])=='' || isset($getVerificationdata[0]['aadhar_verified'])=='-'  )  { echo "NO"; } else { echo "YES"; }  ?>" name="pannumber" autocomplete="off"></td>
+                <td><input  type="text" class="form-control inputField" id="pannumber" value="<?php  if(isset($getUserData[0]['pancard']))  { echo $getUserData[0]['pancard']; } else { echo "-"; }  ?>" name="pannumber" autocomplete="off"></td>
             </tr>
             <tr>
             <tr>
                 <th>Mobile&nbsp;<strong class="required_Fields">*</strong> </th>
                 <td>
                
-                <input  value="<?php if(isset($getVerificationdata[0]['app_download_on'])=='' || isset($getVerificationdata[0]['app_download_on'])=='-' )   { echo "NO"; } else { echo "YES"; }   ?>" readonly type="text" class="form-control inputField" id="mobile" name="mobile " autocomplete="off">
+                <input  value="<?php if(isset($getUserData[0]['mobile']) )   { echo $getUserData[0]['mobile']; } else { echo "-"; }   ?>"  type="text" class="form-control inputField" id="mobile" name="mobile " autocomplete="off">
                 
                 </td>
                 <th>Mobile Alternate &nbsp;<strong class="required_Fields">*</strong></th>
-                <td><input  value="<?php   if(isset($getVerificationdata[0]['app_download_on'])=='' || isset($getVerificationdata[0]['app_download_on'])=='-' )   { echo "NO"; } else { echo "YES"; }   ?>" readonly type="text" class="form-control inputField" id="alternateMobile" name="alternateMobile " autocomplete="off"></td>
+                <td><input  value="<?php   if(isset($getUserData[0]['alternate_no']) )   { echo $getUserData[0]['alternate_no']; } else { echo "-"; }   ?>"  type="text" class="form-control inputField" id="alternateMobile" name="alternateMobile " autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>Email (Personal) </th>
-                <td><input readonly type="text" class="form-control inputField" id="emailPersonal" name="emailPersonal" value="<?php  if(isset($getVerificationdata[0]['digital_kyc_verified'])=='' || isset($getVerificationdata[0]['digital_kyc_verified'])=='-'  )  { echo "NO"; } else { echo "YES"; }   ?>" autocomplete="off"></td>
+                <td><input  type="text" class="form-control inputField" id="emailPersonal" name="emailPersonal" value="<?php  if(isset($getUserData[0]['email']) )  { echo $getUserData[0]['email']; } else { echo "-"; }   ?>" autocomplete="off"></td>
                 <th>Email (Office)</th>
-                <td><input type="text" <?php if(isset($getVerificationdata[0]['init_office_email_verification'])=='YES') { echo "checked";} else { echo "";} ?> class="form-control inputField" id="emailOffice" name="emailOffice " autocomplete="off" ></td>
+                <td><input type="text" <?php if(isset($getUserData[0]['alternateEmail'])) { echo $getUserData[0]['alternateEmail'];} else { echo "-";} ?> class="form-control inputField" id="emailOffice" name="emailOffice " autocomplete="off" ></td>
             </tr>
             <tr>
 
             <tr>
-                <th>Screened by</th>
-                <td><input type="text" name="screenedBy" class="form-control inputField" id="screenedBy" <?php if(isset($getVerificationdata[0]['init_mobile_verification'])=='YES') { echo "checked";} else { echo "";} ?>  autocomplete="off"></td>
+                <th>Screened by </th>
+                <td><input type="text" name="screenedBy" class="form-control inputField" id="screenedBy" value="<?php if(isset($getUserData[0]['screenername'])) { echo $getUserData[0]['screenername'];} else { echo "-";} ?>"  autocomplete="off"></td>
                 <th>Screened On</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="screenedOn" name="screenedOn " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="<?php if(isset($getUserData[0]['screenin_time']) )   { echo $getUserData[0]['screenin_time']; } else { echo "-"; }  ?>" id="screenedOn" name="screenedOn " autocomplete="off"></td>
             </tr>
             <tr>
 
@@ -98,100 +101,98 @@
         <table class="table table-hover table-striped table-bordered">
             <tr>
                 <th>House/Flat/ Building No.*</th>
-                <td colspan='3'><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off">/td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="hfBulNo1" name="hfBulNo1" autocomplete="off"></td>
                
             </tr>
             <tr>
                 <th>Locality/ Colony/ Sector/ Street*</th>
-                <td colspan='3'><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="lcss1" name="lcss1" autocomplete="off"></td>
               </tr>
             <tr>
 
              <th>Landmark </th>
-                <td colspan='3' ><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3' ><input type="text" class="form-control inputField" value="" id="lankmark1" name="lankmark1" autocomplete="off"></td>
             </tr>
             <tr>
             <tr>
                 <th>City*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="city1" name="city1" autocomplete="off"></td>
                 <th>Pincode*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="pincode1" name="pincode1" autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>District</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="district1" name="district1" autocomplete="off"></td>
                 <th>State</th>
-                <td><<input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><<input type="text" class="form-control inputField" value="" id="state1" name="state1" autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>Aadhar*</th>
-                <td colspan='3'><<input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="aadhar1" name="aadhar1" autocomplete="off"></td>
                 </tr>
             <tr>
 
 
                 <th>Aadhar Address same as above </th>
-                <td><<input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
-                <th>Geo-cordinates</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
-            </tr>
+                <td comspan='3'><input type="checkbox" name="addharAddressSameasAbove" class="form-control inputField" id="addharAddressSameasAbove"></td>
+              
             <tr>
                 <th>House/Flat/ Building No.*</th>
-                <td colspan='3'><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="hfBulNo2" name="hfBulNo2" autocomplete="off"></td>
                
             </tr>
             <tr>
                 <th>Locality/ Colony/ Sector/ Street*</th>
-                <td colspan='3'><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="lcss2" name="lcss2" autocomplete="off"></td>
               </tr>
             <tr>
 
              <th>Landmark </th>
-                <td colspan='3' ><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3' ><input type="text" class="form-control inputField" value="" id="landmark2" name="landmark2" autocomplete="off"></td>
             </tr>
             <tr>
             <tr>
                 <th>City*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="city2" name="city2" autocomplete="off"></td>
                 <th>Pincode*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="pincode2" name="pincode2" autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>District</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="district2" name="district2" autocomplete="off"></td>
                 <th>State</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="" name=" " autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>Present Residence Type*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="presentResidenceType" name="presentResidenceType" autocomplete="off"></td>
                 <th>Residing Since*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="residenceSince" name="residenceSince" autocomplete="off"></td>
             </tr>
            
             <tr>
                 <th> SCM Confirmation Required</th>
                 <td><input type="checkbox" name="SCM_CONF_REQ" class="form-control inputField" id="SCM_CONF_REQ"></td>
                 <th> SCM Response</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="scmResponce" name="scmResponce" autocomplete="off"></td>
             </tr>
             <tr>
                 <th> SCM Confirmation Initiated On</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="scmConfIntOn" name="scmConfIntOn" autocomplete="off"></td>
                 <th> SCM Response On</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="scmResponceOn" name="scmResponceOn" autocomplete="off"></td>
             </tr>
             <tr>
                 <th> SCM Remarks</th>
-                <td colspan="3"><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan="3"><input type="text" class="form-control inputField" value="" id="scmRemarks" name="scmRemarks" autocomplete="off"></td>
                 </tr>
 
                 <tr>
@@ -214,70 +215,75 @@
 <!------ table for  OFFICE section ----------------------->
 
 <div class="table-responsive">
+<form id="insertPersonal3" method="post" >
+            <input type="hidden" name="user_id" id="user_id" value="<?= user_id ?>">
+            <input type="hidden" name="company_id" id="company_id" value="<?= company_id ?>">
+            <input type="hidden" name="product_id" id="product_id" value="<?= product_id ?>">
+<input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
         <table class="table table-hover table-striped table-bordered">
             <tr>
                 <th>Office/ Employer Name*</th>
-                <td colspan='3'><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off">/td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="officeEmpName" name="officeEmpName" autocomplete="off"></td>
                  </tr>
             <tr>
             <tr>
                 <th>Shop/ Block/ Building No.*</th>
-                <td colspan='3'><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="building2" name="building2" autocomplete="off"></td>
                  </tr>
             <tr>
             <tr>
                 <th>Locality/ Colony/ Sector/ Street*</th>
-                <td colspan='3'><<input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="lcss2" name="lcss2" autocomplete="off"></td>
                  </tr>
             <tr>
             <tr>
                 <th>Landmark</th>
-                <td colspan='3'><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td colspan='3'><input type="text" class="form-control inputField" value="" id="lankmark2" name="lankmark2" autocomplete="off"></td>
                  </tr>
             <tr>
                 <th>City*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="city2" name="city2" autocomplete="off"></td>
                 <th>Pincode*</th>
-                <td><<input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><<input type="text" class="form-control inputField" value="" id="picode2" name="picode2" autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>District* </th>
-                <td><<input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="district" name="district" autocomplete="off"></td>
                 <th>State*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="state" name="state" autocomplete="off"></td>
             </tr>
             <tr>
             <tr>
                 <th>Website</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="website" name="website" autocomplete="off"></td>
                 <th>Employer Type*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="employeeType" name="employeeType" autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>Industry </th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="industry" name="industry" autocomplete="off"></td>
                 <th>Sector</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="sector" name="sector" autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>Department </th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="department" name="department" autocomplete="off"></td>
                 <th>Designation </th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="designation" name="designation" autocomplete="off"></td>
             </tr>
             <tr>
 
 
                 <th>Employed Since*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="employedSince" name="employedSince" autocomplete="off"></td>
                 <th>Present Service Tenure</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="presentServiceTenure" name="presentServiceTenure" autocomplete="off"></td>
             </tr>
          
             <tr>
@@ -289,6 +295,7 @@
            
           
         </table>
+        </form>
     </div>
 
 
@@ -306,28 +313,33 @@
 <!------ table for  OFFICE section ----------------------->
 
 <div class="table-responsive">
+<form id="insertPersonal4" method="post" >
+            <input type="hidden" name="user_id" id="user_id" value="<?= user_id ?>">
+            <input type="hidden" name="company_id" id="company_id" value="<?= company_id ?>">
+            <input type="hidden" name="product_id" id="product_id" value="<?= product_id ?>">
+<input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
         <table class="table table-hover table-striped table-bordered">
         
             <tr>
                 <th>Reference 1</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="refrence1" name="refrence1" autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="refrence1" name="refrence1" autocomplete="off"></td>
                 <th>Reference 2</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="refrence2" name="refrence2" autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="refrence2" name="refrence2" autocomplete="off"></td>
             </tr>
             <tr>
 
             <tr>
                 <th>Relation * </th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="" name=" " autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="relation" name="relation" autocomplete="off"></td>
                 <th>Relation*</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="relation1" name="relation1" autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="relation1" name="relation1" autocomplete="off"></td>
             </tr>
             <tr>
             <tr>
                 <th>Reference 1 Mobile *</th>
-                <td><<input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="refrence1mobile" name="refrence1mobile" autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="refrence1mobile" name="refrence1mobile" autocomplete="off"></td>
                 <th>Reference 2 Mobile</th>
-                <td><input type="text" class="form-control inputField" value="<?php if(isset($getVerificationdata[0]['mobile_otp'])=="" ||  isset($getVerificationdata[0]['mobile_otp'])=="-" )   { echo "NO"; } else { echo "YES"; }  ?>" id="refrence2mobile" name="refrence2mobile" autocomplete="off"></td>
+                <td><input type="text" class="form-control inputField" value="" id="refrence2mobile" name="refrence2mobile" autocomplete="off"></td>
             </tr>
            
          
@@ -340,6 +352,7 @@
            
           
         </table>
+        </form>
     </div>
   
 
@@ -424,7 +437,7 @@
             
             <div class="col-md-6" style="margin-bottom: 10px;">
                 <label class="labelField">Initiated On&nbsp;</label>
-                <input type="text" class="form-control inputField" id="lead_initiated_date" name="lead_initiated_date" autocomplete="off" readonly>
+                <input type="text" class="form-control inputField" id="lead_initiated_date" name="lead_initiated_date" autocomplete="off" >
             </div>
             
             <div class="col-md-6" style="background: #ddd; margin-bottom: 10px;">

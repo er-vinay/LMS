@@ -1527,4 +1527,73 @@
     function hideLoader(field) {
         field.prop('disabled', false);
     }
+
+    $(document).ready(function(){
+		
+		$("#insertPersonal1").on('submit',function(e) {
+				e.preventDefault();
+               var params = {
+                borrower_name			             :$("#firstname").val(),
+                middle_name	                 :$("#middleName").val(),
+                surname			         :$("#surname").val(),
+                gender			             :$("#gender").val(),
+                dob		                     :$("#dob").val(),
+                pancard		                 :$("#pannumber").val(),
+                mobile			             :$("#mobile").val(),
+                alternate_no			 :$("#alternateMobile").val(),
+                email                        :$("#emailPersonal").val(),
+                alternateEmail        :$("#emailOffice").val(),
+                lead_id                      :$("#UpLead_id").val()
+        			}
+
+     $.post('<?= base_url("insertPersonal1"); ?>', {
+		data: params,csrf_token
+		}, function(data, status) {
+            setTimeout(function(){
+              //  location.reload();
+            }, 2000);
+		});     
+	});	
+});	
+
+$(document).ready(function(){
+		
+		$("#insertPersonal4").on('submit',function(e) {
+				e.preventDefault();
+               var params = {
+                refrence1			             :$("#refrence1").val(),
+                refrence2	                 :$("#refrence2").val(),
+                relation			         :$("#relation").val(),
+                relation1			             :$("#relation1").val(),
+                refrence1mobile		                     :$("#refrence1mobile").val(),
+                refrence2mobile		                 :$("#refrence2mobile").val(),
+                lead_id                      :$("#UpLead_id").val()
+        			}
+
+     $.post('<?= base_url("insertPersonal4"); ?>', {
+		data: params,csrf_token
+		}, function(data, status) {
+            setTimeout(function(){
+              //  location.reload();
+            }, 2000);
+		});     
+	});	
+});	
+
+
+$(document).ready(function(){
+		
+		$("#insertPersonal3").on('submit',function(e) {
+				e.preventDefault();
+               var params =  $(this).serialize() ;
+
+     $.post('<?= base_url("insertPersonal3"); ?>', {
+		data: params,csrf_token
+		}, function(data, status) {
+            setTimeout(function(){
+              //  location.reload();
+            }, 2000);
+		});     
+	});	
+});	
 </script>
