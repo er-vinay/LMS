@@ -3538,3 +3538,186 @@ INFO - 2021-09-06 12:21:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\
 INFO - 2021-09-06 12:21:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
 INFO - 2021-09-06 12:21:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
 ERROR - 2021-09-06 12:21:40 --> Severity: error --> Exception: Cannot access offset of type string on string D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Verification\verification.php 87
+INFO - 2021-09-06 08:55:34 --> Config Class Initialized
+INFO - 2021-09-06 08:55:34 --> Hooks Class Initialized
+DEBUG - 2021-09-06 08:55:34 --> UTF-8 Support Enabled
+INFO - 2021-09-06 08:55:34 --> Utf8 Class Initialized
+INFO - 2021-09-06 08:55:34 --> URI Class Initialized
+INFO - 2021-09-06 08:55:34 --> Router Class Initialized
+INFO - 2021-09-06 08:55:34 --> Output Class Initialized
+INFO - 2021-09-06 08:55:34 --> Security Class Initialized
+DEBUG - 2021-09-06 08:55:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 08:55:34 --> CSRF cookie sent
+INFO - 2021-09-06 08:55:34 --> Input Class Initialized
+INFO - 2021-09-06 08:55:34 --> Language Class Initialized
+INFO - 2021-09-06 08:55:34 --> Loader Class Initialized
+INFO - 2021-09-06 08:55:34 --> Helper loaded: url_helper
+INFO - 2021-09-06 08:55:34 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 08:55:34 --> Helper loaded: form_helper
+INFO - 2021-09-06 08:55:34 --> Helper loaded: file_helper
+INFO - 2021-09-06 08:55:34 --> Helper loaded: download_helper
+INFO - 2021-09-06 08:55:34 --> Helper loaded: date_helper
+INFO - 2021-09-06 08:55:34 --> Helper loaded: security_helper
+INFO - 2021-09-06 08:55:34 --> Helper loaded: option_helper
+INFO - 2021-09-06 08:55:34 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 08:55:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 08:55:36 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 08:55:36 --> Form Validation Class Initialized
+INFO - 2021-09-06 08:55:36 --> Upload Class Initialized
+INFO - 2021-09-06 08:55:36 --> Parser Class Initialized
+INFO - 2021-09-06 08:55:36 --> Email Class Initialized
+DEBUG - 2021-09-06 08:55:36 --> Encrypt Class Initialized
+INFO - 2021-09-06 08:55:36 --> Table Class Initialized
+INFO - 2021-09-06 08:55:36 --> Model "Leadmod" initialized
+INFO - 2021-09-06 08:55:36 --> Controller Class Initialized
+INFO - 2021-09-06 08:55:36 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:25:36 --> Model "Task_Model" initialized
+INFO - 2021-09-06 12:25:36 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 12:25:36 --> Model "Status_Model" initialized
+INFO - 2021-09-06 12:25:36 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 12:25:36 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 12:25:36 --> Model "Email_Model" initialized
+INFO - 2021-09-06 12:25:36 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 12:25:37 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 12:25:37 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 12:25:37 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+ERROR - 2021-09-06 12:25:37 --> Severity: error --> Exception: Cannot access offset of type string on string D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Verification\verification.php 87
+INFO - 2021-09-06 08:55:51 --> Config Class Initialized
+INFO - 2021-09-06 08:55:51 --> Hooks Class Initialized
+DEBUG - 2021-09-06 08:55:51 --> UTF-8 Support Enabled
+INFO - 2021-09-06 08:55:51 --> Utf8 Class Initialized
+INFO - 2021-09-06 08:55:51 --> URI Class Initialized
+INFO - 2021-09-06 08:55:51 --> Router Class Initialized
+INFO - 2021-09-06 08:55:51 --> Output Class Initialized
+INFO - 2021-09-06 08:55:51 --> Security Class Initialized
+DEBUG - 2021-09-06 08:55:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 08:55:51 --> CSRF cookie sent
+INFO - 2021-09-06 08:55:51 --> Input Class Initialized
+INFO - 2021-09-06 08:55:51 --> Language Class Initialized
+INFO - 2021-09-06 08:55:51 --> Loader Class Initialized
+INFO - 2021-09-06 08:55:51 --> Helper loaded: url_helper
+INFO - 2021-09-06 08:55:51 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 08:55:51 --> Helper loaded: form_helper
+INFO - 2021-09-06 08:55:51 --> Helper loaded: file_helper
+INFO - 2021-09-06 08:55:51 --> Helper loaded: download_helper
+INFO - 2021-09-06 08:55:51 --> Helper loaded: date_helper
+INFO - 2021-09-06 08:55:51 --> Helper loaded: security_helper
+INFO - 2021-09-06 08:55:51 --> Helper loaded: option_helper
+INFO - 2021-09-06 08:55:51 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 08:55:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 08:55:52 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 08:55:52 --> Form Validation Class Initialized
+INFO - 2021-09-06 08:55:52 --> Upload Class Initialized
+INFO - 2021-09-06 08:55:52 --> Parser Class Initialized
+INFO - 2021-09-06 08:55:52 --> Email Class Initialized
+DEBUG - 2021-09-06 08:55:52 --> Encrypt Class Initialized
+INFO - 2021-09-06 08:55:52 --> Table Class Initialized
+INFO - 2021-09-06 08:55:52 --> Model "Leadmod" initialized
+INFO - 2021-09-06 08:55:52 --> Controller Class Initialized
+INFO - 2021-09-06 08:55:52 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:25:52 --> Model "Task_Model" initialized
+INFO - 2021-09-06 12:25:52 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 12:25:52 --> Model "Status_Model" initialized
+INFO - 2021-09-06 12:25:52 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 12:25:52 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 12:25:52 --> Model "Email_Model" initialized
+INFO - 2021-09-06 12:25:52 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 12:25:53 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 12:25:53 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 12:25:53 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+ERROR - 2021-09-06 12:25:54 --> Severity: error --> Exception: Cannot access offset of type string on string D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Personal\personal.php 28
+INFO - 2021-09-06 08:56:09 --> Config Class Initialized
+INFO - 2021-09-06 08:56:09 --> Hooks Class Initialized
+DEBUG - 2021-09-06 08:56:09 --> UTF-8 Support Enabled
+INFO - 2021-09-06 08:56:09 --> Utf8 Class Initialized
+INFO - 2021-09-06 08:56:09 --> URI Class Initialized
+INFO - 2021-09-06 08:56:09 --> Router Class Initialized
+INFO - 2021-09-06 08:56:09 --> Output Class Initialized
+INFO - 2021-09-06 08:56:09 --> Security Class Initialized
+DEBUG - 2021-09-06 08:56:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 08:56:09 --> CSRF cookie sent
+INFO - 2021-09-06 08:56:09 --> Input Class Initialized
+INFO - 2021-09-06 08:56:09 --> Language Class Initialized
+INFO - 2021-09-06 08:56:09 --> Loader Class Initialized
+INFO - 2021-09-06 08:56:09 --> Helper loaded: url_helper
+INFO - 2021-09-06 08:56:09 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 08:56:09 --> Helper loaded: form_helper
+INFO - 2021-09-06 08:56:09 --> Helper loaded: file_helper
+INFO - 2021-09-06 08:56:09 --> Helper loaded: download_helper
+INFO - 2021-09-06 08:56:09 --> Helper loaded: date_helper
+INFO - 2021-09-06 08:56:09 --> Helper loaded: security_helper
+INFO - 2021-09-06 08:56:09 --> Helper loaded: option_helper
+INFO - 2021-09-06 08:56:09 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 08:56:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 08:56:11 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 08:56:11 --> Form Validation Class Initialized
+INFO - 2021-09-06 08:56:11 --> Upload Class Initialized
+INFO - 2021-09-06 08:56:11 --> Parser Class Initialized
+INFO - 2021-09-06 08:56:11 --> Email Class Initialized
+DEBUG - 2021-09-06 08:56:11 --> Encrypt Class Initialized
+INFO - 2021-09-06 08:56:11 --> Table Class Initialized
+INFO - 2021-09-06 08:56:11 --> Model "Leadmod" initialized
+INFO - 2021-09-06 08:56:11 --> Controller Class Initialized
+INFO - 2021-09-06 08:56:11 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:26:11 --> Model "Task_Model" initialized
+INFO - 2021-09-06 12:26:11 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 12:26:11 --> Model "Status_Model" initialized
+INFO - 2021-09-06 12:26:11 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 12:26:11 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 12:26:11 --> Model "Email_Model" initialized
+INFO - 2021-09-06 12:26:11 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 12:26:12 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 12:26:12 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+ERROR - 2021-09-06 12:26:12 --> Severity: Warning --> Undefined property: CI_DB_mysqli_result::$lead_id D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks\main_js.php 1437
+INFO - 2021-09-06 12:26:12 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 12:26:12 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/GetLeadTaskList.php
+INFO - 2021-09-06 12:26:12 --> Final output sent to browser
+DEBUG - 2021-09-06 12:26:12 --> Total execution time: 3.0646
+INFO - 2021-09-06 08:56:13 --> Config Class Initialized
+INFO - 2021-09-06 08:56:13 --> Hooks Class Initialized
+DEBUG - 2021-09-06 08:56:13 --> UTF-8 Support Enabled
+INFO - 2021-09-06 08:56:13 --> Utf8 Class Initialized
+INFO - 2021-09-06 08:56:15 --> Config Class Initialized
+INFO - 2021-09-06 08:56:15 --> Hooks Class Initialized
+DEBUG - 2021-09-06 08:56:15 --> UTF-8 Support Enabled
+INFO - 2021-09-06 08:56:15 --> Utf8 Class Initialized
+INFO - 2021-09-06 08:56:15 --> URI Class Initialized
+INFO - 2021-09-06 08:56:15 --> Router Class Initialized
+INFO - 2021-09-06 08:56:15 --> Output Class Initialized
+INFO - 2021-09-06 08:56:15 --> Security Class Initialized
+DEBUG - 2021-09-06 08:56:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 08:56:15 --> CSRF cookie sent
+INFO - 2021-09-06 08:56:15 --> Input Class Initialized
+INFO - 2021-09-06 08:56:15 --> Language Class Initialized
+INFO - 2021-09-06 08:56:15 --> Loader Class Initialized
+INFO - 2021-09-06 08:56:15 --> Helper loaded: url_helper
+INFO - 2021-09-06 08:56:15 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 08:56:15 --> Helper loaded: form_helper
+INFO - 2021-09-06 08:56:15 --> Helper loaded: file_helper
+INFO - 2021-09-06 08:56:15 --> Helper loaded: download_helper
+INFO - 2021-09-06 08:56:15 --> Helper loaded: date_helper
+INFO - 2021-09-06 08:56:15 --> Helper loaded: security_helper
+INFO - 2021-09-06 08:56:15 --> Helper loaded: option_helper
+INFO - 2021-09-06 08:56:15 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 08:56:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 08:56:16 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 08:56:16 --> Form Validation Class Initialized
+INFO - 2021-09-06 08:56:16 --> Upload Class Initialized
+INFO - 2021-09-06 08:56:16 --> Parser Class Initialized
+INFO - 2021-09-06 08:56:16 --> Email Class Initialized
+DEBUG - 2021-09-06 08:56:16 --> Encrypt Class Initialized
+INFO - 2021-09-06 08:56:16 --> Table Class Initialized
+INFO - 2021-09-06 08:56:16 --> Model "Leadmod" initialized
+INFO - 2021-09-06 08:56:16 --> Controller Class Initialized
+INFO - 2021-09-06 08:56:16 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:26:16 --> Model "Task_Model" initialized
+INFO - 2021-09-06 12:26:16 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 12:26:16 --> Model "Status_Model" initialized
+INFO - 2021-09-06 12:26:16 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 12:26:16 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 12:26:16 --> Model "Email_Model" initialized
+INFO - 2021-09-06 12:26:16 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 12:26:17 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 12:26:17 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 12:26:17 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+ERROR - 2021-09-06 12:26:18 --> Severity: error --> Exception: Cannot access offset of type string on string D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Personal\personal.php 28
