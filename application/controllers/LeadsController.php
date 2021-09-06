@@ -2,6 +2,33 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class LeadsController extends CI_Controller {  
+    function __construct()  
+		{
+			parent::__construct();
+	        define("ip", $this->input->ip_address());
+	    	date_default_timezone_set('Asia/Kolkata');
+	        define("todayDate", date('Y-m-d'));
+	        define("tableLeads", "leads");
+	        define("currentDate", date('Y-m-d'));
+	        define("created_at", date('Y-m-d H:i:s'));
+	        define("updated_at", date('Y-m-d H:i:s'));
+	        define("server", $_SERVER['SERVER_NAME']);
+	        define("localhost", "public/images/");
+	        define("live", base_url()."upload/");
+	        define("product_id", $_SESSION['isUserSession']['product_id']);
+	        define("company_id", $_SESSION['isUserSession']['company_id']);
+	        define("user_id", $_SESSION['isUserSession']['user_id']);
+	        
+	        /////////// define role ///////////////////////////////////////
+	        
+            define('screener', "SANCTION QUICKCALLER");
+            define('creditManager', "Sanction & Telecaller");
+            define('headCreditManager', "Sanction Head");
+            define('admin', "Client Admin");
+            define('teamDisbursal', "Disbursal");
+            define('teamClosure', "Account and MIS");
+            define('teamCollection', "Collection");
+		}
 
     
 
@@ -75,7 +102,7 @@ class LeadsController extends CI_Controller {
            else
             {
                 $insertDate = [
-                    'usr_updated_by' 			=> $user_id,
+                    'usr_updated_by' 			=> user_id,
                     'usr_updated_at' 			=> $currentdate,
                 ];
                 $data = array_merge($insertDate, $data);
