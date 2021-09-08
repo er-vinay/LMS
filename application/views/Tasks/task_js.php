@@ -174,7 +174,7 @@
                                             || $_SESSION['isUserSession']['labels'] == "CA"
                                             || $_SESSION['isUserSession']['labels'] == "SA"){ ?>
 
-                                        <?php //$this->load->view('Personal/personal'); ?>
+                                        <?php $this->load->view('Personal/personal'); ?>
                                     <?php } ?>
                                     <div id="ViewPersonalDetails"></div>
                                 </div>
