@@ -5775,3 +5775,3265 @@ INFO - 2021-09-06 13:34:02 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\
 INFO - 2021-09-06 13:34:02 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
 INFO - 2021-09-06 13:34:02 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
 ERROR - 2021-09-06 13:34:02 --> Severity: error --> Exception: Cannot access offset of type string on string D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Verification\verification.php 87
+INFO - 2021-09-06 10:10:13 --> Config Class Initialized
+INFO - 2021-09-06 10:10:13 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:10:13 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:10:13 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:10:13 --> URI Class Initialized
+INFO - 2021-09-06 10:10:13 --> Router Class Initialized
+INFO - 2021-09-06 10:10:13 --> Output Class Initialized
+INFO - 2021-09-06 10:10:13 --> Security Class Initialized
+DEBUG - 2021-09-06 10:10:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:10:13 --> CSRF cookie sent
+INFO - 2021-09-06 10:10:13 --> Input Class Initialized
+INFO - 2021-09-06 10:10:13 --> Language Class Initialized
+INFO - 2021-09-06 10:10:13 --> Loader Class Initialized
+INFO - 2021-09-06 10:10:13 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:10:13 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:10:13 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:10:13 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:10:13 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:10:13 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:10:13 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:10:13 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:10:13 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:10:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:10:14 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:10:14 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:10:14 --> Upload Class Initialized
+INFO - 2021-09-06 10:10:14 --> Parser Class Initialized
+INFO - 2021-09-06 10:10:14 --> Email Class Initialized
+DEBUG - 2021-09-06 10:10:14 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:10:14 --> Table Class Initialized
+INFO - 2021-09-06 10:10:14 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:10:14 --> Controller Class Initialized
+INFO - 2021-09-06 10:10:14 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:40:14 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:40:14 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:40:14 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:40:14 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:40:14 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:40:14 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:40:14 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:40:15 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:40:15 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:40:15 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+ERROR - 2021-09-06 13:40:16 --> Severity: error --> Exception: Cannot access offset of type string on string D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Verification\verification.php 87
+INFO - 2021-09-06 10:17:21 --> Config Class Initialized
+INFO - 2021-09-06 10:17:21 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:17:21 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:17:21 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:17:21 --> URI Class Initialized
+INFO - 2021-09-06 10:17:21 --> Router Class Initialized
+INFO - 2021-09-06 10:17:21 --> Output Class Initialized
+INFO - 2021-09-06 10:17:21 --> Security Class Initialized
+DEBUG - 2021-09-06 10:17:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:17:21 --> CSRF cookie sent
+INFO - 2021-09-06 10:17:21 --> Input Class Initialized
+INFO - 2021-09-06 10:17:21 --> Language Class Initialized
+INFO - 2021-09-06 10:17:21 --> Loader Class Initialized
+INFO - 2021-09-06 10:17:21 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:17:21 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:17:21 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:17:21 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:17:21 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:17:21 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:17:21 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:17:21 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:17:21 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:17:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:17:22 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:17:22 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:17:22 --> Upload Class Initialized
+INFO - 2021-09-06 10:17:22 --> Parser Class Initialized
+INFO - 2021-09-06 10:17:22 --> Email Class Initialized
+DEBUG - 2021-09-06 10:17:22 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:17:22 --> Table Class Initialized
+INFO - 2021-09-06 10:17:22 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:17:22 --> Controller Class Initialized
+INFO - 2021-09-06 10:17:22 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:47:22 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:47:22 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:47:22 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:47:22 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:47:22 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:47:22 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:47:22 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:47:23 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:47:23 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:47:23 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+ERROR - 2021-09-06 13:47:24 --> Severity: error --> Exception: Cannot access offset of type string on string D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Verification\verification.php 87
+INFO - 2021-09-06 10:17:28 --> Config Class Initialized
+INFO - 2021-09-06 10:17:28 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:17:28 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:17:28 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:17:28 --> URI Class Initialized
+INFO - 2021-09-06 10:17:28 --> Router Class Initialized
+INFO - 2021-09-06 10:17:28 --> Output Class Initialized
+INFO - 2021-09-06 10:17:28 --> Security Class Initialized
+DEBUG - 2021-09-06 10:17:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:17:28 --> CSRF cookie sent
+INFO - 2021-09-06 10:17:28 --> Input Class Initialized
+INFO - 2021-09-06 10:17:28 --> Language Class Initialized
+INFO - 2021-09-06 10:17:28 --> Loader Class Initialized
+INFO - 2021-09-06 10:17:28 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:17:28 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:17:28 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:17:28 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:17:28 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:17:28 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:17:28 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:17:28 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:17:28 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:17:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:17:29 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:17:29 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:17:29 --> Upload Class Initialized
+INFO - 2021-09-06 10:17:29 --> Parser Class Initialized
+INFO - 2021-09-06 10:17:29 --> Email Class Initialized
+DEBUG - 2021-09-06 10:17:29 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:17:29 --> Table Class Initialized
+INFO - 2021-09-06 10:17:29 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:17:29 --> Controller Class Initialized
+INFO - 2021-09-06 10:17:29 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:47:29 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:47:29 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:47:29 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:47:29 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:47:29 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:47:29 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:47:29 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:47:30 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:47:30 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:47:30 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+ERROR - 2021-09-06 13:47:31 --> Severity: error --> Exception: Cannot access offset of type string on string D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Verification\verification.php 87
+INFO - 2021-09-06 10:17:57 --> Config Class Initialized
+INFO - 2021-09-06 10:17:57 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:17:57 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:17:57 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:17:57 --> URI Class Initialized
+INFO - 2021-09-06 10:17:57 --> Router Class Initialized
+INFO - 2021-09-06 10:17:57 --> Output Class Initialized
+INFO - 2021-09-06 10:17:57 --> Security Class Initialized
+DEBUG - 2021-09-06 10:17:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:17:57 --> CSRF cookie sent
+INFO - 2021-09-06 10:17:57 --> Input Class Initialized
+INFO - 2021-09-06 10:17:57 --> Language Class Initialized
+INFO - 2021-09-06 10:17:57 --> Loader Class Initialized
+INFO - 2021-09-06 10:17:57 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:17:57 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:17:57 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:17:57 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:17:57 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:17:57 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:17:57 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:17:57 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:17:57 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:17:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:17:58 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:17:58 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:17:58 --> Upload Class Initialized
+INFO - 2021-09-06 10:17:58 --> Parser Class Initialized
+INFO - 2021-09-06 10:17:58 --> Email Class Initialized
+DEBUG - 2021-09-06 10:17:58 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:17:58 --> Table Class Initialized
+INFO - 2021-09-06 10:17:58 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:17:58 --> Controller Class Initialized
+INFO - 2021-09-06 10:17:58 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:47:58 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:47:58 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:47:58 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:47:58 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:47:58 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:47:58 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:47:58 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:47:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:47:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:47:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 13:47:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 13:48:00 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 13:48:00 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 13:48:00 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 13:48:00 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 13:48:00 --> Final output sent to browser
+DEBUG - 2021-09-06 13:48:00 --> Total execution time: 3.1224
+INFO - 2021-09-06 10:18:00 --> Config Class Initialized
+INFO - 2021-09-06 10:18:00 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:18:00 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:18:00 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:18:03 --> Config Class Initialized
+INFO - 2021-09-06 10:18:03 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:18:03 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:18:03 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:18:03 --> URI Class Initialized
+INFO - 2021-09-06 10:18:03 --> Router Class Initialized
+INFO - 2021-09-06 10:18:03 --> Output Class Initialized
+INFO - 2021-09-06 10:18:03 --> Security Class Initialized
+DEBUG - 2021-09-06 10:18:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:18:03 --> CSRF cookie sent
+INFO - 2021-09-06 10:18:03 --> CSRF token verified
+INFO - 2021-09-06 10:18:03 --> Input Class Initialized
+INFO - 2021-09-06 10:18:03 --> Language Class Initialized
+INFO - 2021-09-06 10:18:03 --> Loader Class Initialized
+INFO - 2021-09-06 10:18:03 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:18:03 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:18:03 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:18:03 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:18:03 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:18:03 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:18:03 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:18:03 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:18:03 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:18:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:18:05 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:18:05 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:18:05 --> Upload Class Initialized
+INFO - 2021-09-06 10:18:05 --> Parser Class Initialized
+INFO - 2021-09-06 10:18:05 --> Email Class Initialized
+DEBUG - 2021-09-06 10:18:05 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:18:05 --> Table Class Initialized
+INFO - 2021-09-06 10:18:05 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:18:05 --> Controller Class Initialized
+INFO - 2021-09-06 10:18:05 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:48:05 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:48:05 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:48:05 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:48:05 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:48:05 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:48:05 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:48:05 --> Model "SMS_Model" initialized
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Attempt to read property "borrower_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 931
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Attempt to read property "company_id" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 989
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Attempt to read property "customer_id" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 990
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined variable $usr_created_by D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1015
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined variable $usr_created_at D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1016
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined variable $sanctioned_by D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1017
+ERROR - 2021-09-06 13:48:08 --> Severity: Warning --> Undefined variable $sanctioned_date D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1018
+INFO - 2021-09-06 13:48:09 --> Final output sent to browser
+DEBUG - 2021-09-06 13:48:09 --> Total execution time: 5.1970
+INFO - 2021-09-06 10:18:24 --> Config Class Initialized
+INFO - 2021-09-06 10:18:24 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:18:24 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:18:24 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:18:24 --> URI Class Initialized
+INFO - 2021-09-06 10:18:24 --> Router Class Initialized
+INFO - 2021-09-06 10:18:24 --> Output Class Initialized
+INFO - 2021-09-06 10:18:24 --> Security Class Initialized
+DEBUG - 2021-09-06 10:18:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:18:24 --> CSRF cookie sent
+INFO - 2021-09-06 10:18:24 --> Input Class Initialized
+INFO - 2021-09-06 10:18:24 --> Language Class Initialized
+INFO - 2021-09-06 10:18:24 --> Loader Class Initialized
+INFO - 2021-09-06 10:18:24 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:18:24 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:18:24 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:18:24 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:18:24 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:18:24 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:18:24 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:18:24 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:18:24 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:18:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:18:25 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:18:25 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:18:25 --> Upload Class Initialized
+INFO - 2021-09-06 10:18:25 --> Parser Class Initialized
+INFO - 2021-09-06 10:18:25 --> Email Class Initialized
+DEBUG - 2021-09-06 10:18:25 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:18:25 --> Table Class Initialized
+INFO - 2021-09-06 10:18:25 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:18:25 --> Controller Class Initialized
+INFO - 2021-09-06 10:18:25 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:48:25 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:48:25 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:48:25 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:48:25 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:48:25 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:48:25 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:48:25 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:48:26 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:48:26 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:48:26 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 13:48:26 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 13:48:26 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 13:48:26 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 13:48:26 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 13:48:26 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 13:48:26 --> Final output sent to browser
+DEBUG - 2021-09-06 13:48:26 --> Total execution time: 2.8456
+INFO - 2021-09-06 10:18:27 --> Config Class Initialized
+INFO - 2021-09-06 10:18:27 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:18:27 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:18:27 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:19:22 --> Config Class Initialized
+INFO - 2021-09-06 10:19:22 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:19:22 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:19:22 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:19:22 --> URI Class Initialized
+INFO - 2021-09-06 10:19:22 --> Router Class Initialized
+INFO - 2021-09-06 10:19:22 --> Output Class Initialized
+INFO - 2021-09-06 10:19:22 --> Security Class Initialized
+DEBUG - 2021-09-06 10:19:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:19:22 --> CSRF cookie sent
+INFO - 2021-09-06 10:19:22 --> Input Class Initialized
+INFO - 2021-09-06 10:19:22 --> Language Class Initialized
+INFO - 2021-09-06 10:19:22 --> Loader Class Initialized
+INFO - 2021-09-06 10:19:22 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:19:22 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:19:22 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:19:22 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:19:22 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:19:22 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:19:22 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:19:22 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:19:22 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:19:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:19:23 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:19:23 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:19:23 --> Upload Class Initialized
+INFO - 2021-09-06 10:19:23 --> Parser Class Initialized
+INFO - 2021-09-06 10:19:23 --> Email Class Initialized
+DEBUG - 2021-09-06 10:19:23 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:19:23 --> Table Class Initialized
+INFO - 2021-09-06 10:19:23 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:19:23 --> Controller Class Initialized
+INFO - 2021-09-06 10:19:23 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:49:23 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:49:23 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:49:23 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:49:23 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:49:23 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:49:23 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:49:23 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:49:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:49:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:49:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 13:49:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 13:49:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 13:49:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 13:49:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 13:49:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 13:49:24 --> Final output sent to browser
+DEBUG - 2021-09-06 13:49:24 --> Total execution time: 2.8160
+INFO - 2021-09-06 10:19:25 --> Config Class Initialized
+INFO - 2021-09-06 10:19:25 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:19:25 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:19:25 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:20:47 --> Config Class Initialized
+INFO - 2021-09-06 10:20:47 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:20:47 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:20:47 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:20:47 --> URI Class Initialized
+INFO - 2021-09-06 10:20:47 --> Router Class Initialized
+INFO - 2021-09-06 10:20:47 --> Output Class Initialized
+INFO - 2021-09-06 10:20:47 --> Security Class Initialized
+DEBUG - 2021-09-06 10:20:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:20:47 --> CSRF cookie sent
+INFO - 2021-09-06 10:20:47 --> Input Class Initialized
+INFO - 2021-09-06 10:20:47 --> Language Class Initialized
+INFO - 2021-09-06 10:20:47 --> Loader Class Initialized
+INFO - 2021-09-06 10:20:47 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:20:47 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:20:47 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:20:47 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:20:47 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:20:47 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:20:47 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:20:47 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:20:47 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:20:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:20:49 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:20:49 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:20:49 --> Upload Class Initialized
+INFO - 2021-09-06 10:20:49 --> Parser Class Initialized
+INFO - 2021-09-06 10:20:49 --> Email Class Initialized
+DEBUG - 2021-09-06 10:20:49 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:20:49 --> Table Class Initialized
+INFO - 2021-09-06 10:20:49 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:20:49 --> Controller Class Initialized
+INFO - 2021-09-06 10:20:49 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:50:49 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:50:49 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:50:49 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:50:49 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:50:49 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:50:49 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:50:49 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:50:50 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:50:50 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:50:50 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 13:50:50 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 13:50:50 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 13:50:50 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 13:50:50 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 13:50:50 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 13:50:50 --> Final output sent to browser
+DEBUG - 2021-09-06 13:50:50 --> Total execution time: 3.0084
+INFO - 2021-09-06 10:20:51 --> Config Class Initialized
+INFO - 2021-09-06 10:20:51 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:20:51 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:20:51 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:21:18 --> Config Class Initialized
+INFO - 2021-09-06 10:21:18 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:21:18 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:21:18 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:21:18 --> URI Class Initialized
+INFO - 2021-09-06 10:21:18 --> Router Class Initialized
+INFO - 2021-09-06 10:21:18 --> Output Class Initialized
+INFO - 2021-09-06 10:21:18 --> Security Class Initialized
+DEBUG - 2021-09-06 10:21:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:21:18 --> CSRF cookie sent
+INFO - 2021-09-06 10:21:18 --> Input Class Initialized
+INFO - 2021-09-06 10:21:18 --> Language Class Initialized
+INFO - 2021-09-06 10:21:18 --> Loader Class Initialized
+INFO - 2021-09-06 10:21:18 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:21:18 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:21:18 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:21:18 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:21:18 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:21:18 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:21:18 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:21:18 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:21:18 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:21:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:21:20 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:21:20 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:21:20 --> Upload Class Initialized
+INFO - 2021-09-06 10:21:20 --> Parser Class Initialized
+INFO - 2021-09-06 10:21:20 --> Email Class Initialized
+DEBUG - 2021-09-06 10:21:20 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:21:20 --> Table Class Initialized
+INFO - 2021-09-06 10:21:20 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:21:20 --> Controller Class Initialized
+INFO - 2021-09-06 10:21:20 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:51:20 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:51:20 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:51:20 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:51:20 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:51:20 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:51:20 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:51:20 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:51:21 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:51:21 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:51:21 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 13:51:21 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 13:51:22 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 13:51:22 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 13:51:22 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 13:51:22 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 13:51:22 --> Final output sent to browser
+DEBUG - 2021-09-06 13:51:22 --> Total execution time: 3.1672
+INFO - 2021-09-06 10:21:22 --> Config Class Initialized
+INFO - 2021-09-06 10:21:22 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:21:22 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:21:22 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:22:00 --> Config Class Initialized
+INFO - 2021-09-06 10:22:00 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:22:00 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:22:00 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:22:00 --> URI Class Initialized
+INFO - 2021-09-06 10:22:00 --> Router Class Initialized
+INFO - 2021-09-06 10:22:00 --> Output Class Initialized
+INFO - 2021-09-06 10:22:00 --> Security Class Initialized
+DEBUG - 2021-09-06 10:22:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:22:00 --> CSRF cookie sent
+INFO - 2021-09-06 10:22:00 --> Input Class Initialized
+INFO - 2021-09-06 10:22:00 --> Language Class Initialized
+INFO - 2021-09-06 10:22:00 --> Loader Class Initialized
+INFO - 2021-09-06 10:22:00 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:22:00 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:22:00 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:22:00 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:22:00 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:22:00 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:22:00 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:22:00 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:22:00 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:22:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:22:02 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:22:02 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:22:02 --> Upload Class Initialized
+INFO - 2021-09-06 10:22:02 --> Parser Class Initialized
+INFO - 2021-09-06 10:22:02 --> Email Class Initialized
+DEBUG - 2021-09-06 10:22:02 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:22:02 --> Table Class Initialized
+INFO - 2021-09-06 10:22:02 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:22:02 --> Controller Class Initialized
+INFO - 2021-09-06 10:22:02 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:52:02 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:52:02 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:52:02 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:52:02 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:52:02 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:52:02 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:52:02 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:52:03 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:52:03 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:52:03 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 13:52:03 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 13:52:03 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 13:52:03 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 13:52:03 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 13:52:03 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 13:52:03 --> Final output sent to browser
+DEBUG - 2021-09-06 13:52:03 --> Total execution time: 2.9137
+INFO - 2021-09-06 10:22:04 --> Config Class Initialized
+INFO - 2021-09-06 10:22:04 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:22:04 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:22:04 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:23:03 --> Config Class Initialized
+INFO - 2021-09-06 10:23:03 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:23:03 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:23:03 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:23:03 --> URI Class Initialized
+INFO - 2021-09-06 10:23:03 --> Router Class Initialized
+INFO - 2021-09-06 10:23:03 --> Output Class Initialized
+INFO - 2021-09-06 10:23:03 --> Security Class Initialized
+DEBUG - 2021-09-06 10:23:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:23:03 --> CSRF cookie sent
+INFO - 2021-09-06 10:23:03 --> Input Class Initialized
+INFO - 2021-09-06 10:23:03 --> Language Class Initialized
+INFO - 2021-09-06 10:23:03 --> Loader Class Initialized
+INFO - 2021-09-06 10:23:03 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:23:03 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:23:03 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:23:03 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:23:03 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:23:03 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:23:03 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:23:03 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:23:03 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:23:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:23:05 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:23:05 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:23:05 --> Upload Class Initialized
+INFO - 2021-09-06 10:23:05 --> Parser Class Initialized
+INFO - 2021-09-06 10:23:05 --> Email Class Initialized
+DEBUG - 2021-09-06 10:23:05 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:23:05 --> Table Class Initialized
+INFO - 2021-09-06 10:23:05 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:23:05 --> Controller Class Initialized
+INFO - 2021-09-06 10:23:05 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:53:05 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:53:05 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:53:05 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:53:05 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:53:05 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:53:05 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:53:05 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:53:06 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:53:06 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:53:06 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 13:53:06 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 13:53:06 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 13:53:06 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 13:53:06 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 13:53:06 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 13:53:06 --> Final output sent to browser
+DEBUG - 2021-09-06 13:53:06 --> Total execution time: 3.0083
+INFO - 2021-09-06 10:23:07 --> Config Class Initialized
+INFO - 2021-09-06 10:23:07 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:23:07 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:23:07 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:23:11 --> Config Class Initialized
+INFO - 2021-09-06 10:23:11 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:23:11 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:23:11 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:23:11 --> URI Class Initialized
+INFO - 2021-09-06 10:23:11 --> Router Class Initialized
+INFO - 2021-09-06 10:23:11 --> Output Class Initialized
+INFO - 2021-09-06 10:23:11 --> Security Class Initialized
+DEBUG - 2021-09-06 10:23:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:23:11 --> CSRF cookie sent
+INFO - 2021-09-06 10:23:11 --> CSRF token verified
+INFO - 2021-09-06 10:23:11 --> Input Class Initialized
+INFO - 2021-09-06 10:23:11 --> Language Class Initialized
+INFO - 2021-09-06 10:23:11 --> Loader Class Initialized
+INFO - 2021-09-06 10:23:11 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:23:11 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:23:11 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:23:11 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:23:11 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:23:11 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:23:11 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:23:11 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:23:11 --> Database Driver Class Initialized
+INFO - 2021-09-06 10:23:12 --> Config Class Initialized
+INFO - 2021-09-06 10:23:12 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:23:12 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:23:12 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:23:12 --> URI Class Initialized
+INFO - 2021-09-06 10:23:12 --> Router Class Initialized
+INFO - 2021-09-06 10:23:12 --> Output Class Initialized
+INFO - 2021-09-06 10:23:12 --> Security Class Initialized
+DEBUG - 2021-09-06 10:23:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:23:12 --> CSRF cookie sent
+INFO - 2021-09-06 10:23:12 --> CSRF token verified
+INFO - 2021-09-06 10:23:12 --> Input Class Initialized
+INFO - 2021-09-06 10:23:12 --> Language Class Initialized
+INFO - 2021-09-06 10:23:12 --> Loader Class Initialized
+INFO - 2021-09-06 10:23:12 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:23:12 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:23:12 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:23:12 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:23:12 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:23:12 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:23:12 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:23:12 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:23:12 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:23:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:23:12 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:23:12 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:23:12 --> Upload Class Initialized
+INFO - 2021-09-06 10:23:12 --> Parser Class Initialized
+INFO - 2021-09-06 10:23:12 --> Email Class Initialized
+DEBUG - 2021-09-06 10:23:12 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:23:12 --> Table Class Initialized
+INFO - 2021-09-06 10:23:12 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:23:12 --> Controller Class Initialized
+INFO - 2021-09-06 10:23:12 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:53:12 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:53:12 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:53:12 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:53:12 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:53:12 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:53:12 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:53:12 --> Model "SMS_Model" initialized
+DEBUG - 2021-09-06 10:23:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Attempt to read property "borrower_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 931
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Attempt to read property "company_id" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 989
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Attempt to read property "customer_id" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 990
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined variable $usr_created_by D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1015
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined variable $usr_created_at D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1016
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined variable $sanctioned_by D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1017
+ERROR - 2021-09-06 13:53:15 --> Severity: Warning --> Undefined variable $sanctioned_date D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1018
+INFO - 2021-09-06 13:53:16 --> Final output sent to browser
+DEBUG - 2021-09-06 13:53:16 --> Total execution time: 5.2768
+INFO - 2021-09-06 10:23:16 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:23:16 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:23:16 --> Upload Class Initialized
+INFO - 2021-09-06 10:23:16 --> Parser Class Initialized
+INFO - 2021-09-06 10:23:16 --> Email Class Initialized
+DEBUG - 2021-09-06 10:23:16 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:23:16 --> Table Class Initialized
+INFO - 2021-09-06 10:23:16 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:23:16 --> Controller Class Initialized
+INFO - 2021-09-06 13:53:16 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:53:16 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:53:16 --> Model "Rejection_Model" initialized
+INFO - 2021-09-06 13:53:16 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:53:16 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:53:16 --> Model "CAM_Model" initialized
+DEBUG - 2021-09-06 13:53:16 --> Encrypt class already loaded. Second attempt ignored.
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1076
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1079
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "email" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1087
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "alternateEmail" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1088
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "userType" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1089
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "cibil" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1090
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "Active_CC" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1091
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "cc_statementDate" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1092
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "cc_paymentDueDate" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1093
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "customer_bank_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1094
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "account_type" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1095
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "customer_account_no" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1096
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "customer_confirm_account_no" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1097
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "customer_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1098
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "cc_limit" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1099
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "cc_outstanding" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1100
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "max_eligibility" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1101
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "cc_name_Match_borrower_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1102
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "emiOnCard" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1103
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "DPD30Plus" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1104
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "cc_statementAddress" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1105
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "last3monthDPD" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1106
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "higherDPDLast3month" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1107
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "isDisburseBankAC" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1110
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "bankIFSC_Code" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1111
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "bank_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1112
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "bank_branch" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1113
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "bankA_C_No" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1114
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "confBankA_C_No" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1115
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "bankHolder_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1116
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "bank_account_type" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1117
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "loan_applied" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1119
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "loan_applied" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1119
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1120
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1120
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "processing_fee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1121
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "processing_fee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1121
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1122
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1122
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "net_disbursal_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1124
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "net_disbursal_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1124
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "disbursal_date" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1125
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "repayment_date" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1126
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "tenure" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1127
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "repayment_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1128
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "special_approval" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1129
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "deviationsApprovedBy" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1130
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "changeROI" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1131
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "changeFee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1132
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "changeLoanAmount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1133
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "changeTenure" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1134
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "changeRTR" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1135
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "remark" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1136
+ERROR - 2021-09-06 13:53:17 --> Severity: Warning --> Attempt to read property "status" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1137
+INFO - 2021-09-06 13:53:17 --> Final output sent to browser
+DEBUG - 2021-09-06 13:53:17 --> Total execution time: 5.2899
+INFO - 2021-09-06 10:27:53 --> Config Class Initialized
+INFO - 2021-09-06 10:27:53 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:27:53 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:27:53 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:27:53 --> URI Class Initialized
+INFO - 2021-09-06 10:27:53 --> Router Class Initialized
+INFO - 2021-09-06 10:27:53 --> Output Class Initialized
+INFO - 2021-09-06 10:27:53 --> Security Class Initialized
+DEBUG - 2021-09-06 10:27:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:27:53 --> CSRF cookie sent
+INFO - 2021-09-06 10:27:53 --> Input Class Initialized
+INFO - 2021-09-06 10:27:53 --> Language Class Initialized
+INFO - 2021-09-06 10:27:53 --> Loader Class Initialized
+INFO - 2021-09-06 10:27:53 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:27:53 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:27:53 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:27:53 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:27:53 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:27:53 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:27:53 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:27:53 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:27:53 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:27:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:27:54 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:27:54 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:27:54 --> Upload Class Initialized
+INFO - 2021-09-06 10:27:54 --> Parser Class Initialized
+INFO - 2021-09-06 10:27:54 --> Email Class Initialized
+DEBUG - 2021-09-06 10:27:54 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:27:54 --> Table Class Initialized
+INFO - 2021-09-06 10:27:54 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:27:54 --> Controller Class Initialized
+INFO - 2021-09-06 10:27:54 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:57:54 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:57:54 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 13:57:54 --> Model "Status_Model" initialized
+INFO - 2021-09-06 13:57:54 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 13:57:54 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 13:57:54 --> Model "Email_Model" initialized
+INFO - 2021-09-06 13:57:54 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 13:57:55 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 13:57:55 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 13:57:55 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 13:57:55 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 13:57:55 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 13:57:55 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 13:57:55 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 13:57:55 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 13:57:55 --> Final output sent to browser
+DEBUG - 2021-09-06 13:57:55 --> Total execution time: 2.9128
+INFO - 2021-09-06 10:27:56 --> Config Class Initialized
+INFO - 2021-09-06 10:27:56 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:27:56 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:27:56 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:28:01 --> Config Class Initialized
+INFO - 2021-09-06 10:28:01 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:28:01 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:28:01 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:28:01 --> URI Class Initialized
+INFO - 2021-09-06 10:28:01 --> Router Class Initialized
+INFO - 2021-09-06 10:28:01 --> Output Class Initialized
+INFO - 2021-09-06 10:28:01 --> Security Class Initialized
+DEBUG - 2021-09-06 10:28:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:28:01 --> CSRF cookie sent
+INFO - 2021-09-06 10:28:01 --> CSRF token verified
+INFO - 2021-09-06 10:28:01 --> Input Class Initialized
+INFO - 2021-09-06 10:28:01 --> Language Class Initialized
+INFO - 2021-09-06 10:28:01 --> Loader Class Initialized
+INFO - 2021-09-06 10:28:01 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:28:01 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:28:01 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:28:01 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:28:01 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:28:01 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:28:01 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:28:01 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:28:01 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:28:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:28:03 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:28:03 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:28:03 --> Upload Class Initialized
+INFO - 2021-09-06 10:28:03 --> Parser Class Initialized
+INFO - 2021-09-06 10:28:03 --> Email Class Initialized
+DEBUG - 2021-09-06 10:28:03 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:28:03 --> Table Class Initialized
+INFO - 2021-09-06 10:28:03 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:28:03 --> Controller Class Initialized
+INFO - 2021-09-06 13:58:03 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:58:03 --> Final output sent to browser
+DEBUG - 2021-09-06 13:58:03 --> Total execution time: 2.0284
+INFO - 2021-09-06 10:28:10 --> Config Class Initialized
+INFO - 2021-09-06 10:28:10 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:28:10 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:28:10 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:28:10 --> URI Class Initialized
+INFO - 2021-09-06 10:28:10 --> Router Class Initialized
+INFO - 2021-09-06 10:28:10 --> Output Class Initialized
+INFO - 2021-09-06 10:28:10 --> Security Class Initialized
+DEBUG - 2021-09-06 10:28:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:28:10 --> CSRF cookie sent
+INFO - 2021-09-06 10:28:10 --> CSRF token verified
+INFO - 2021-09-06 10:28:10 --> Input Class Initialized
+INFO - 2021-09-06 10:28:10 --> Language Class Initialized
+INFO - 2021-09-06 10:28:10 --> Loader Class Initialized
+INFO - 2021-09-06 10:28:10 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:28:10 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:28:10 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:28:10 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:28:10 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:28:10 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:28:10 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:28:10 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:28:10 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:28:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:28:11 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:28:11 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:28:11 --> Upload Class Initialized
+INFO - 2021-09-06 10:28:11 --> Parser Class Initialized
+INFO - 2021-09-06 10:28:11 --> Email Class Initialized
+DEBUG - 2021-09-06 10:28:11 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:28:11 --> Table Class Initialized
+INFO - 2021-09-06 10:28:11 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:28:11 --> Controller Class Initialized
+INFO - 2021-09-06 13:58:11 --> Model "Task_Model" initialized
+ERROR - 2021-09-06 13:58:14 --> Query error: Column 'pincode' cannot be null - Invalid query: INSERT INTO `tbl_cibil` (`lead_id`, `company_id`, `product_id`, `customer_name`, `customer_mobile`, `pancard`, `loan_amount`, `dob`, `gender`, `city`, `state_id`, `pincode`, `api1_request`, `api1_response`, `applicationId`) VALUES ('5375', '1', '1', 'tariq ilyas test', '7053543618', 'aknpi7200f', 10000, '01011970', 'MALE', 'SURAT', '12', NULL, '<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\">\n                                <soapenv:Header />\n                                <soapenv:Body>\n                                  <tem:ExecuteXMLString>\n                                    <tem:request>\n                                      <![CDATA[ \n                        \n                              <DCRequest xmlns=\"http://transunion.com/dc/extsvc\">\n                                <Authentication type=\"OnDemand\">\n                                    <UserId>NB4235DC01_PROD002</UserId>\n                                    <Password>Lo@anwalle15Dec2020</Password>\n                                 </Authentication>\n                                 <RequestInfo>\n                                      <SolutionSetId>140</SolutionSetId>\n                                      <ExecuteLatestVersion>true</ExecuteLatestVersion>\n                                      <ExecutionMode>NewWithContext</ExecutionMode>\n                                </RequestInfo>\n                                <Fields>\n                                  <Field key=\"Applicants\">\n                                   \n                                        &lt;Applicants&gt;\n                                &lt;Applicant&gt;\n                                  &lt;ApplicantType&gt;Main&lt;/ApplicantType&gt;\n                                  &lt;ApplicantFirstName&gt;tariq ilyas test&lt;/ApplicantFirstName&gt;\n                                  &lt;ApplicantMiddleName&gt;&lt;/ApplicantMiddleName&gt;\n                                  &lt;ApplicantLastName&gt;&lt;/ApplicantLastName&gt;\n                                  &lt;DateOfBirth&gt;01011970&lt;/DateOfBirth&gt;\n                                  &lt;Gender&gt;MALE&lt;/Gender&gt;\n                                  &lt;EmailAddress&gt;&lt;/EmailAddress&gt;\n                                  &lt;CompanyName&gt;&lt;/CompanyName&gt;\n                                  &lt;Identifiers&gt;\n                                    &lt;Identifier&gt;\n                                      &lt;IdNumber&gt;aknpi7200f&lt;/IdNumber&gt;\n                                      &lt;IdType&gt;01&lt;/IdType&gt;\n                                    &lt;/Identifier&gt;\n                                    &lt;Identifier&gt;\n                                      &lt;IdNumber&gt;&lt;/IdNumber&gt;\n                                      &lt;IdType&gt;06&lt;/IdType&gt;\n                                    &lt;/Identifier&gt;\n                                  &lt;/Identifiers&gt;\n                                  &lt;Telephones&gt;\n                                    &lt;Telephone&gt;\n                                      &lt;TelephoneExtension&gt;&lt;/TelephoneExtension&gt;\n                                      &lt;TelephoneNumber&gt;7053543618&lt;/TelephoneNumber&gt;\n                                      &lt;TelephoneType&gt;01&lt;/TelephoneType&gt;\n                                    &lt;/Telephone&gt;\n                                     &lt;Telephone&gt;\n                                      &lt;TelephoneExtension&gt;&lt;/TelephoneExtension&gt;\n                                      &lt;TelephoneNumber&gt;&lt;/TelephoneNumber&gt;\n                                      &lt;TelephoneType&gt;01&lt;/TelephoneType&gt;\n                                    &lt;/Telephone&gt;\n                                  &lt;/Telephones&gt;\n                                  &lt;Addresses&gt;\n                                    &lt;Address&gt;\n                                      &lt;AddressLine1&gt;SURAT&lt;/AddressLine1&gt;\n                                      &lt;AddressLine2&gt;&lt;/AddressLine2&gt;\n                                      &lt;AddressLine3&gt;&lt;/AddressLine3&gt;\n                                      &lt;AddressLine4&gt;&lt;/AddressLine4&gt;\n                                      &lt;AddressLine5&gt;&lt;/AddressLine5&gt;\n                                      &lt;AddressType&gt;01&lt;/AddressType&gt;\n                                      &lt;City&gt;SURAT&lt;/City&gt;\n                                      &lt;PinCode&gt;&lt;/PinCode&gt;\n                                      &lt;ResidenceType&gt;01&lt;/ResidenceType&gt;\n                                      &lt;StateCode&gt;24&lt;/StateCode&gt;\n                                    &lt;/Address&gt;\n                                  &lt;/Addresses&gt;\n                                  &lt;NomineeRelation&gt;&lt;/NomineeRelation&gt;\n                                  &lt;NomineeName&gt;&lt;/NomineeName&gt;\n                                  &lt;MemberRelationType4&gt;&lt;/MemberRelationType4&gt;\n                                  &lt;MemberRelationName4&gt;&lt;/MemberRelationName4&gt;\n                                  &lt;MemberRelationType3&gt;&lt;/MemberRelationType3&gt;\n                                  &lt;MemberRelationName3&gt;&lt;/MemberRelationName3&gt;\n                                  &lt;MemberRelationType2&gt;&lt;/MemberRelationType2&gt;\n                                  &lt;MemberRelationName2&gt;&lt;/MemberRelationName2&gt;\n                                  &lt;MemberRelationType1&gt;&lt;/MemberRelationType1&gt;\n                                  &lt;MemberRelationName1&gt;&lt;/MemberRelationName1&gt;\n                                  &lt;KeyPersonRelation&gt;&lt;/KeyPersonRelation&gt;\n                                  &lt;KeyPersonName&gt;&lt;/KeyPersonName&gt;\n                                  &lt;MemberOtherId3&gt;&lt;/MemberOtherId3&gt;\n                                  &lt;MemberOtherId3Type&gt;&lt;/MemberOtherId3Type&gt;\n                                  &lt;MemberOtherId2&gt;&lt;/MemberOtherId2&gt;\n                                  &lt;MemberOtherId2Type&gt;&lt;/MemberOtherId2Type&gt;\n                                  &lt;MemberOtherId1&gt;&lt;/MemberOtherId1&gt;\n                                  &lt;MemberOtherId1Type&gt;&lt;/MemberOtherId1Type&gt;\n                                  &lt;Accounts&gt;\n                                    &lt;Account&gt;\n                                      &lt;AccountNumber&gt;&lt;/AccountNumber&gt;\n                                    &lt;/Account&gt;\n                                  &lt;/Accounts&gt;\n                                &lt;/Applicant&gt;\n                              &lt;/Applicants&gt;\n                        \n                              </Field>\n                              <Field key=\"ApplicationData\">\n                               &lt;ApplicationData&gt;\n                              &lt;Purpose&gt;10&lt;/Purpose&gt;\n                              &lt;Amount&gt;10000&lt;/Amount&gt;\n                              &lt;ScoreType&gt;08&lt;/ScoreType&gt;\n                              &lt;GSTStateCode&gt;07&lt;/GSTStateCode&gt;\n                              \n                              \n                              &lt;MemberCode&gt;NB42358899_CIRC2C&lt;/MemberCode&gt;\n                              &lt;Password&gt;Ce8#Yh8@Py8@Dh&lt;/Password&gt;\n                              \n                              \n                              &lt;CibilBureauFlag&gt;False&lt;/CibilBureauFlag&gt;\n                        		&lt;DSTuNtcFlag&gt;True&lt;/DSTuNtcFlag&gt;\n                        		&lt;IDVerificationFlag&gt;False&lt;/IDVerificationFlag&gt;\n                        		&lt;MFIBureauFlag&gt;True&lt;/MFIBureauFlag&gt;\n                        		&lt;NTCProductType&gt;PL&lt;/NTCProductType&gt;\n                        		&lt;ConsumerConsentForUIDAIAuthentication&gt;N&lt;/ConsumerConsentForUIDAIAuthentication&gt;\n                        		&lt;MFIEnquiryAmount&gt;&lt;/MFIEnquiryAmount&gt;\n                        		&lt;MFILoanPurpose&gt;&lt;/MFILoanPurpose&gt;\n                        		&lt;MFICenterReferenceNo&gt;&lt;/MFICenterReferenceNo&gt;\n                        		&lt;MFIBranchReferenceNo&gt;&lt;/MFIBranchReferenceNo&gt;\n                        		&lt;FormattedReport&gt;True&lt;/FormattedReport&gt;\n                        	&lt;/ApplicationData&gt;\n                        \n                           \n                                        </Field>\n                                        <Field key=\"FinalTraceLevel\">2</Field>\n                                        </Fields>\n                                        </DCRequest>        \n                                   ]]>\n                                </tem:request>\n                              </tem:ExecuteXMLString>\n                            </soapenv:Body>\n                          </soapenv:Envelope>', '<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\"><s:Body><ExecuteXMLStringResponse xmlns=\"http://tempuri.org/\"><ExecuteXMLStringResult>&lt;?xml version=\"1.0\"?&gt;&lt;DCResponse&gt;&lt;Status&gt;Success&lt;/Status&gt;&lt;Authentication&gt;&lt;Status&gt;PasswordHasExpired&lt;/Status&gt;&lt;Token&gt;933b903e-a991-4526-b548-16d2141fd181&lt;/Token&gt;&lt;/Authentication&gt;&lt;ResponseInfo&gt;&lt;ApplicationId&gt;109297016&lt;/ApplicationId&gt;&lt;SolutionSetInstanceId&gt;ee54d22e-728d-41c9-bf30-6547594a21de&lt;/SolutionSetInstanceId&gt;&lt;CurrentQueue&gt;&lt;/CurrentQueue&gt;&lt;/ResponseInfo&gt;&lt;ContextData&gt;&lt;Field key=\"Applicants\"&gt;&amp;lt;Applicants&amp;gt;&#xD;\n&amp;lt;Applicant&amp;gt;&#xD;\n&amp;lt;Accounts&amp;gt;&#xD;\n&amp;lt;Account&amp;gt;&#xD;\n&amp;lt;AccountNumber&amp;gt;&amp;lt;/AccountNumber&amp;gt;&#xD;\n&amp;lt;/Account&amp;gt;&#xD;\n&amp;lt;/Accounts&amp;gt;&#xD;\n&amp;lt;MemberOtherId1Type&amp;gt;&amp;lt;/MemberOtherId1Type&amp;gt;&#xD;\n&amp;lt;MemberOtherId1&amp;gt;&amp;lt;/MemberOtherId1&amp;gt;&#xD;\n&amp;lt;MemberOtherId2Type&amp;gt;&amp;lt;/MemberOtherId2Type&amp;gt;&#xD;\n&amp;lt;MemberOtherId2&amp;gt;&amp;lt;/MemberOtherId2&amp;gt;&#xD;\n&amp;lt;MemberOtherId3Type&amp;gt;&amp;lt;/MemberOtherId3Type&amp;gt;&#xD;\n&amp;lt;MemberOtherId3&amp;gt;&amp;lt;/MemberOtherId3&amp;gt;&#xD;\n&amp;lt;KeyPersonName&amp;gt;&amp;lt;/KeyPersonName&amp;gt;&#xD;\n&amp;lt;KeyPersonRelation&amp;gt;&amp;lt;/KeyPersonRelation&amp;gt;&#xD;\n&amp;lt;MemberRelationName1&amp;gt;&amp;lt;/MemberRelationName1&amp;gt;&#xD;\n&amp;lt;MemberRelationType1&amp;gt;&amp;lt;/MemberRelationType1&amp;gt;&#xD;\n&amp;lt;MemberRelationName2&amp;gt;&amp;lt;/MemberRelationName2&amp;gt;&#xD;\n&amp;lt;MemberRelationType2&amp;gt;&amp;lt;/MemberRelationType2&amp;gt;&#xD;\n&amp;lt;MemberRelationName3&amp;gt;&amp;lt;/MemberRelationName3&amp;gt;&#xD;\n&amp;lt;MemberRelationType3&amp;gt;&amp;lt;/MemberRelationType3&amp;gt;&#xD;\n&amp;lt;MemberRelationName4&amp;gt;&amp;lt;/MemberRelationName4&amp;gt;&#xD;\n&amp;lt;MemberRelationType4&amp;gt;&amp;lt;/MemberRelationType4&amp;gt;&#xD;\n&amp;lt;NomineeName&amp;gt;&amp;lt;/NomineeName&amp;gt;&#xD;\n&amp;lt;NomineeRelation&amp;gt;&amp;lt;/NomineeRelation&amp;gt;&#xD;\n&amp;lt;Addresses&amp;gt;&#xD;\n&amp;lt;Address&amp;gt;&#xD;\n&amp;lt;StateCode&amp;gt;24&amp;lt;/StateCode&amp;gt;&#xD;\n&amp;lt;ResidenceType&amp;gt;01&amp;lt;/ResidenceType&amp;gt;&#xD;\n&amp;lt;PinCode&amp;gt;&amp;lt;/PinCode&amp;gt;&#xD;\n&amp;lt;City&amp;gt;SURAT&amp;lt;/City&amp;gt;&#xD;\n&amp;lt;AddressType&amp;gt;01&amp;lt;/AddressType&amp;gt;&#xD;\n&amp;lt;AddressLine5&amp;gt;&amp;lt;/AddressLine5&amp;gt;&#xD;\n&amp;lt;AddressLine4&amp;gt;&amp;lt;/AddressLine4&amp;gt;&#xD;\n&amp;lt;AddressLine3&amp;gt;&amp;lt;/AddressLine3&amp;gt;&#xD;\n&amp;lt;AddressLine2&amp;gt;&amp;lt;/AddressLine2&amp;gt;&#xD;\n&amp;lt;AddressLine1&amp;gt;SURAT&amp;lt;/AddressLine1&amp;gt;&#xD;\n&amp;lt;/Address&amp;gt;&#xD;\n&amp;lt;/Addresses&amp;gt;&#xD;\n&amp;lt;Telephones&amp;gt;&#xD;\n&amp;lt;Telephone&amp;gt;&#xD;\n&amp;lt;TelephoneType&amp;gt;01&amp;lt;/TelephoneType&amp;gt;&#xD;\n&amp;lt;TelephoneNumber&amp;gt;7053543618&amp;lt;/TelephoneNumber&amp;gt;&#xD;\n&amp;lt;TelephoneExtension&amp;gt;&amp;lt;/TelephoneExtension&amp;gt;&#xD;\n&amp;lt;/Telephone&amp;gt;&#xD;\n&amp;lt;Telephone&amp;gt;&#xD;\n&amp;lt;TelephoneType&amp;gt;01&amp;lt;/TelephoneType&amp;gt;&#xD;\n&amp;lt;TelephoneNumber&amp;gt;&amp;lt;/TelephoneNumber&amp;gt;&#xD;\n&amp;lt;TelephoneExtension&amp;gt;&amp;lt;/TelephoneExtension&amp;gt;&#xD;\n&amp;lt;/Telephone&amp;gt;&#xD;\n&amp;lt;/Telephones&amp;gt;&#xD;\n&amp;lt;Identifiers&amp;gt;&#xD;\n&amp;lt;Identifier&amp;gt;&#xD;\n&amp;lt;IdType&amp;gt;01&amp;lt;/IdType&amp;gt;&#xD;\n&amp;lt;IdNumber&amp;gt;aknpi7200f&amp;lt;/IdNumber&amp;gt;&#xD;\n&amp;lt;/Identifier&amp;gt;&#xD;\n&amp;lt;Identifier&amp;gt;&#xD;\n&amp;lt;IdType&amp;gt;06&amp;lt;/IdType&amp;gt;&#xD;\n&amp;lt;IdNumber&amp;gt;&amp;lt;/IdNumber&amp;gt;&#xD;\n&amp;lt;/Identifier&amp;gt;&#xD;\n&amp;lt;/Identifiers&amp;gt;&#xD;\n&amp;lt;CompanyName&amp;gt;&amp;lt;/CompanyName&amp;gt;&#xD;\n&amp;lt;EmailAddress&amp;gt;&amp;lt;/EmailAddress&amp;gt;&#xD;\n&amp;lt;Gender&amp;gt;MALE&amp;lt;/Gender&amp;gt;&#xD;\n&amp;lt;DateOfBirth&amp;gt;01011970&amp;lt;/DateOfBirth&amp;gt;&#xD;\n&amp;lt;ApplicantLastName&amp;gt;&amp;lt;/ApplicantLastName&amp;gt;&#xD;\n&amp;lt;ApplicantMiddleName&amp;gt;&amp;lt;/ApplicantMiddleName&amp;gt;&#xD;\n&amp;lt;ApplicantFirstName&amp;gt;tariq ilyas test&amp;lt;/ApplicantFirstName&amp;gt;&#xD;\n&amp;lt;ApplicantType&amp;gt;Main&amp;lt;/ApplicantType&amp;gt;&#xD;\n&amp;lt;NodeIdentifier&amp;gt;0&amp;lt;/NodeIdentifier&amp;gt;&#xD;\n&amp;lt;DsCibilBureau&amp;gt;&#xD;\n&amp;lt;DsCibilBureauData&amp;gt;&#xD;\n&amp;lt;Request&amp;gt;&amp;amp;lt;Request&amp;amp;gt;&amp;amp;lt;ConsumerDetails&amp;amp;gt;&amp;amp;lt;CreditReportInquiry&amp;amp;gt;&amp;amp;lt;Header&amp;amp;gt;&amp;amp;lt;SegmentTag&amp;amp;gt; TUEF &amp;amp;lt;/SegmentTag&amp;amp;gt;&amp;amp;lt;Version&amp;amp;gt; 12 &amp;amp;lt;/Version&amp;amp;gt;&amp;amp;lt;ReferenceNumber&amp;amp;gt;109297016&amp;amp;lt;/ReferenceNumber&amp;amp;gt;&amp;amp;lt;FutureUse1&amp;amp;gt;&amp;amp;lt;/FutureUse1&amp;amp;gt;&amp;amp;lt;MemberCode&amp;amp;gt;NB42358899_CIRC2C&amp;amp;lt;/MemberCode&amp;amp;gt;&amp;amp;lt;Password&amp;amp;gt;Ce8#Yh8@Py8@Dh&amp;amp;lt;/Password&amp;amp;gt;&amp;amp;lt;Purpose&amp;amp;gt;10&amp;amp;lt;/Purpose&amp;amp;gt;&amp;amp;lt;Amount&amp;amp;gt;10000&amp;amp;lt;/Amount&amp;amp;gt;&amp;amp;lt;FutureUse2&amp;amp;gt;&amp;amp;lt;/FutureUse2&amp;amp;gt;&amp;amp;lt;ScoreType&amp;amp;gt;08&amp;amp;lt;/ScoreType&amp;amp;gt;&amp;amp;lt;OutputFormat&amp;amp;gt;01&amp;amp;lt;/OutputFormat&amp;amp;gt;&amp;amp;lt;ResponseSize&amp;amp;gt;1&amp;amp;lt;/ResponseSize&amp;amp;gt;&amp;amp;lt;MediaType&amp;amp;gt;CC&amp;amp;lt;/MediaType&amp;amp;gt;&amp;amp;lt;AuthenticationMethod&amp;amp;gt;L&amp;amp;lt;/AuthenticationMethod&amp;amp;gt;&amp;amp;lt;/Header&amp;amp;gt;&amp;amp;lt;Names&amp;amp;gt;&amp;amp;lt;Name&amp;amp;gt; &amp;amp;lt;ConsumerName1&amp;amp;gt;tariq ilyas test&amp;amp;lt;/ConsumerName1&amp;amp;gt; &amp;amp;lt;ConsumerName2&amp;amp;gt;&amp;amp;lt;/ConsumerName2&amp;amp;gt; &amp;amp;lt;ConsumerName3&amp;amp;gt;&amp;amp;lt;/ConsumerName3&amp;amp;gt; &amp;amp;lt;ConsumerName4&amp;amp;gt;&amp;amp;lt;/ConsumerName4&amp;amp;gt; &amp;amp;lt;ConsumerName5&amp;amp;gt;&amp;amp;lt;/ConsumerName5&amp;amp;gt; &amp;amp;lt;DateOfBirth&amp;amp;gt;01011970&amp;amp;lt;/DateOfBirth&amp;amp;gt; &amp;amp;lt;Gender&amp;amp;gt;MALE&amp;amp;lt;/Gender&amp;amp;gt; &amp;amp;lt;/Name&amp;amp;gt;&amp;amp;lt;/Names&amp;amp;gt;&amp;amp;lt;Identifications&amp;amp;gt; &amp;amp;lt;Identification&amp;amp;gt;&amp;amp;lt;PanNo&amp;amp;gt;aknpi7200f&amp;amp;lt;/PanNo&amp;amp;gt;&amp;amp;lt;PassportNumber&amp;amp;gt;&amp;amp;lt;/PassportNumber&amp;amp;gt;&amp;amp;lt;DLNo&amp;amp;gt;&amp;amp;lt;/DLNo&amp;amp;gt;&amp;amp;lt;VoterId&amp;amp;gt;&amp;amp;lt;/VoterId&amp;amp;gt;&amp;amp;lt;UId&amp;amp;gt;&amp;amp;lt;/UId&amp;amp;gt;&amp;amp;lt;RationCardNo&amp;amp;gt;&amp;amp;lt;/RationCardNo&amp;amp;gt;&amp;amp;lt;AdditionalID1&amp;amp;gt;&amp;amp;lt;/AdditionalID1&amp;amp;gt;&amp;amp;lt;AdditionalID2&amp;amp;gt;&amp;amp;lt;/AdditionalID2&amp;amp;gt;&amp;amp;lt;/Identification&amp;amp;gt;&amp;amp;lt;/Identifications&amp;amp;gt;&amp;amp;lt;Telephones&amp;amp;gt;&amp;amp;lt;/Telephones&amp;amp;gt;&amp;amp;lt;Addresses&amp;amp;gt;&amp;amp;lt;Address&amp;amp;gt;&amp;amp;lt;AddressLine1&amp;amp;gt;SURAT&amp;amp;lt;/AddressLine1&amp;amp;gt;&amp;amp;lt;AddressLine2&amp;amp;gt;&amp;amp;lt;/AddressLine2&amp;amp;gt;&amp;amp;lt;AddressLine3&amp;amp;gt;&amp;amp;lt;/AddressLine3&amp;amp;gt;&amp;amp;lt;AddressLine4&amp;amp;gt;&amp;amp;lt;/AddressLine4&amp;amp;gt;&amp;amp;lt;AddressLine5&amp;amp;gt;SURAT&amp;amp;lt;/AddressLine5&amp;amp;gt;&amp;amp;lt;StateCode&amp;amp;gt;24&amp;amp;lt;/StateCode&amp;amp;gt;&amp;amp;lt;PinCode&amp;amp;gt;&amp;amp;lt;/PinCode&amp;amp;gt;&amp;amp;lt;AddressCategory&amp;amp;gt;01&amp;amp;lt;/AddressCategory&amp;amp;gt;&amp;amp;lt;ResidenceCode&amp;amp;gt;01&amp;amp;lt;/ResidenceCode&amp;amp;gt;&amp;amp;lt;/Address&amp;amp;gt;&amp;amp;lt;/Addresses&amp;amp;gt;&amp;amp;lt;/CreditReportInquiry&amp;amp;gt;&amp;amp;lt;/ConsumerDetails&amp;amp;gt;&amp;amp;lt;/Request&amp;amp;gt;&amp;lt;/Request&amp;gt;&#xD;\n&amp;lt;/DsCibilBureauData&amp;gt;&#xD;\n&amp;lt;DsCibilBureauStatus&amp;gt;&#xD;\n&amp;lt;Trail&amp;gt;&amp;lt;/Trail&amp;gt;&#xD;\n&amp;lt;/DsCibilBureauStatus&amp;gt;&#xD;\n&amp;lt;Response&amp;gt;&#xD;\n&amp;lt;CibilBureauResponse&amp;gt;&#xD;\n&amp;lt;BureauResponseRaw&amp;gt;ERRR06092021135812UR03U010125109297016                0409PAA010700ES0700000840102**&amp;lt;/BureauResponseRaw&amp;gt;&#xD;\n&amp;lt;BureauResponseXml&amp;gt;&amp;amp;lt;Response&amp;amp;gt;&amp;amp;lt;Status&amp;amp;gt;CR&amp;amp;lt;/Status&amp;amp;gt;&amp;amp;lt;ErrorCode&amp;amp;gt;100&amp;amp;lt;/ErrorCode&amp;amp;gt;&amp;amp;lt;ErrorDescription&amp;amp;gt;Your request has been rejected by the Credit Bureau server. Error Message : Provided Field&amp;amp;apos;s length is invalid. Please contact your system administrator. Error Details : The ZIP Code cannot be empty and must be in a valid format. Please make the appropriate change and resubmit the request or contact your administrator.&amp;amp;lt;/ErrorDescription&amp;amp;gt;&amp;amp;lt;Segment&amp;amp;gt;The ZIP Code cannot be empty and must be in a valid format. Please make the appropriate change and resubmit the request or contact your administrator.&amp;amp;lt;/Segment&amp;amp;gt;&amp;amp;lt;/Response&amp;amp;gt;&amp;lt;/BureauResponseXml&amp;gt;&#xD;\n&amp;lt;SecondaryReportXml/&amp;gt;&#xD;\n&amp;lt;IsSucess&amp;gt;False&amp;lt;/IsSucess&amp;gt;&#xD;\n&amp;lt;ErrorCode&amp;gt;100&amp;lt;/ErrorCode&amp;gt;&#xD;\n&amp;lt;ErrorMessage&amp;gt;Your request has been rejected by the Credit Bureau server. Error Message : Provided Field&amp;amp;apos;s length is invalid. Please contact your system administrator. Error Details : The ZIP Code cannot be empty and must be in a valid format. Please make the appropriate change and resubmit the request or contact your administrator.&amp;lt;/ErrorMessage&amp;gt;&#xD;\n&amp;lt;/CibilBureauResponse&amp;gt;&#xD;\n&amp;lt;/Response&amp;gt;&#xD;\n&amp;lt;/DsCibilBureau&amp;gt;&#xD;\n&amp;lt;DsIDVision&amp;gt;&#xD;\n&amp;lt;CPVAttributes&amp;gt;&#xD;\n&amp;lt;Match&amp;gt;&#xD;\n&amp;lt;ContactabilityAadhaarTelephone1Match&amp;gt;-&amp;lt;/ContactabilityAadhaarTelephone1Match&amp;gt;&#xD;\n&amp;lt;AddressAadhaarPermanentMatch&amp;gt;-&amp;lt;/AddressAadhaarPermanentMatch&amp;gt;&#xD;\n&amp;lt;AddressAadhaarResidenceMatch&amp;gt;-&amp;lt;/AddressAadhaarResidenceMatch&amp;gt;&#xD;\n&amp;lt;IDAadhaarIdentifierMatch&amp;gt;-&amp;lt;/IDAadhaarIdentifierMatch&amp;gt;&#xD;\n&amp;lt;IDAadharGenderMatch&amp;gt;-&amp;lt;/IDAadharGenderMatch&amp;gt;&#xD;\n&amp;lt;IDAadharDOBYearMatch&amp;gt;-&amp;lt;/IDAadharDOBYearMatch&amp;gt;&#xD;\n&amp;lt;IDAadharNameMatch&amp;gt;-&amp;lt;/IDAadharNameMatch&amp;gt;&#xD;\n&amp;lt;AddressVoterPermanentMatch&amp;gt;-&amp;lt;/AddressVoterPermanentMatch&amp;gt;&#xD;\n&amp;lt;AddressVoterResidenceMatch&amp;gt;-&amp;lt;/AddressVoterResidenceMatch&amp;gt;&#xD;\n&amp;lt;IDVoterIdentifierMatch&amp;gt;-&amp;lt;/IDVoterIdentifierMatch&amp;gt;&#xD;\n&amp;lt;IDVoterGenderMatch&amp;gt;-&amp;lt;/IDVoterGenderMatch&amp;gt;&#xD;\n&amp;lt;IDVoterNameMatch&amp;gt;-&amp;lt;/IDVoterNameMatch&amp;gt;&#xD;\n&amp;lt;IDNSDLIdentifierMatch&amp;gt;100&amp;lt;/IDNSDLIdentifierMatch&amp;gt;&#xD;\n&amp;lt;IDNSDLNameMatch&amp;gt;83&amp;lt;/IDNSDLNameMatch&amp;gt;&#xD;\n&amp;lt;ContactabilityOfficeNumberMatch&amp;gt;-&amp;lt;/ContactabilityOfficeNumberMatch&amp;gt;&#xD;\n&amp;lt;ContactabilityResidenceNumberMatch&amp;gt;-&amp;lt;/ContactabilityResidenceNumberMatch&amp;gt;&#xD;\n&amp;lt;ContactabilityMobileNumberMatch&amp;gt;-&amp;lt;/ContactabilityMobileNumberMatch&amp;gt;&#xD;\n&amp;lt;AddressCIBILOfficeMatch&amp;gt;-&amp;lt;/AddressCIBILOfficeMatch&amp;gt;&#xD;\n&amp;lt;AddressCIBILPermanentMatch&amp;gt;-&amp;lt;/AddressCIBILPermanentMatch&amp;gt;&#xD;\n&amp;lt;AddressCIBILResidenceMatch&amp;gt;-&amp;lt;/AddressCIBILResidenceMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILDrivingLicenseIDMatch&amp;gt;-&amp;lt;/IDCIBILDrivingLicenseIDMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILRationCardIDMatch&amp;gt;-&amp;lt;/IDCIBILRationCardIDMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILPassportIDMatch&amp;gt;-&amp;lt;/IDCIBILPassportIDMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILAadhaarIDMacth&amp;gt;-&amp;lt;/IDCIBILAadhaarIDMacth&amp;gt;&#xD;\n&amp;lt;IDCIBILVoterIDMatch&amp;gt;-&amp;lt;/IDCIBILVoterIDMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILPANMatch&amp;gt;-&amp;lt;/IDCIBILPANMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILGenderMatch&amp;gt;-&amp;lt;/IDCIBILGenderMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILDOBMatch&amp;gt;-&amp;lt;/IDCIBILDOBMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILNameMatch&amp;gt;-&amp;lt;/IDCIBILNameMatch&amp;gt;&#xD;\n&amp;lt;ExceptionMessage&amp;gt;&#xD;\n&amp;lt;/ExceptionMessage&amp;gt;&#xD;\n&amp;lt;/Match&amp;gt;&#xD;\n&amp;lt;EnquiryInfo&amp;gt;&#xD;\n&amp;lt;MobileNumber&amp;gt;7053543618&amp;lt;/MobileNumber&amp;gt;&#xD;\n&amp;lt;PermanentAddressCity&amp;gt;SURAT&amp;lt;/PermanentAddressCity&amp;gt;&#xD;\n&amp;lt;PermanentAddressState&amp;gt;GUJARAT&amp;lt;/PermanentAddressState&amp;gt;&#xD;\n&amp;lt;PermanentAddressStateCode&amp;gt;24&amp;lt;/PermanentAddressStateCode&amp;gt;&#xD;\n&amp;lt;PermanentAddressPinCode&amp;gt;&#xD;\n&amp;lt;/PermanentAddressPinCode&amp;gt;&#xD;\n&amp;lt;PermanentAddressLine&amp;gt;SURAT &amp;lt;/PermanentAddressLine&amp;gt;&#xD;\n&amp;lt;UID&amp;gt;&#xD;\n&amp;lt;/UID&amp;gt;&#xD;\n&amp;lt;PAN&amp;gt;aknpi7200f&amp;lt;/PAN&amp;gt;&#xD;\n&amp;lt;EmailID&amp;gt;&#xD;\n&amp;lt;/EmailID&amp;gt;&#xD;\n&amp;lt;DateofBirth&amp;gt;01/01/1970&amp;lt;/DateofBirth&amp;gt;&#xD;\n&amp;lt;Gender&amp;gt;MALE&amp;lt;/Gender&amp;gt;&#xD;\n&amp;lt;LastName&amp;gt;&#xD;\n&amp;lt;/LastName&amp;gt;&#xD;\n&amp;lt;MiddleName&amp;gt;&#xD;\n&amp;lt;/MiddleName&amp;gt;&#xD;\n&amp;lt;FirstName&amp;gt;TARIQ ILYAS TEST&amp;lt;/FirstName&amp;gt;&#xD;\n&amp;lt;/EnquiryInfo&amp;gt;&#xD;\n&amp;lt;VerificationScore&amp;gt;&#xD;\n&amp;lt;IDNameScore&amp;gt;62&amp;lt;/IDNameScore&amp;gt;&#xD;\n&amp;lt;IDNameStatus/&amp;gt;&#xD;\n&amp;lt;IDAltNameScore&amp;gt;83&amp;lt;/IDAltNameScore&amp;gt;&#xD;\n&amp;lt;IDAltDOBScore&amp;gt;0&amp;lt;/IDAltDOBScore&amp;gt;&#xD;\n&amp;lt;IDDOBScore&amp;gt;0&amp;lt;/IDDOBScore&amp;gt;&#xD;\n&amp;lt;IDDOBStatus/&amp;gt;&#xD;\n&amp;lt;IDAltGenderScore&amp;gt;0&amp;lt;/IDAltGenderScore&amp;gt;&#xD;\n&amp;lt;IDGenderScore&amp;gt;0&amp;lt;/IDGenderScore&amp;gt;&#xD;\n&amp;lt;IDGenderStatus/&amp;gt;&#xD;\n&amp;lt;IDAltIdentifierScore&amp;gt;100&amp;lt;/IDAltIdentifierScore&amp;gt;&#xD;\n&amp;lt;IDIdentifierScore&amp;gt;50&amp;lt;/IDIdentifierScore&amp;gt;&#xD;\n&amp;lt;IDIdentifierStatus/&amp;gt;&#xD;\n&amp;lt;AddAltResScore&amp;gt;0&amp;lt;/AddAltResScore&amp;gt;&#xD;\n&amp;lt;AddressResidenceScore&amp;gt;0&amp;lt;/AddressResidenceScore&amp;gt;&#xD;\n&amp;lt;AddressResidenceStatus/&amp;gt;&#xD;\n&amp;lt;AddAltPerScore&amp;gt;0&amp;lt;/AddAltPerScore&amp;gt;&#xD;\n&amp;lt;AddressPermanentScore&amp;gt;0&amp;lt;/AddressPermanentScore&amp;gt;&#xD;\n&amp;lt;AddressPermanentStatus/&amp;gt;&#xD;\n&amp;lt;AddressOfficeScore&amp;gt;0&amp;lt;/AddressOfficeScore&amp;gt;&#xD;\n&amp;lt;AddressOfficeStatus/&amp;gt;&#xD;\n&amp;lt;ConAltPhoneScore&amp;gt;0&amp;lt;/ConAltPhoneScore&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone1Score&amp;gt;0&amp;lt;/ContactabilityTelephone1Score&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone1Status/&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone2Score&amp;gt;0&amp;lt;/ContactabilityTelephone2Score&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone2Status/&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone3Score&amp;gt;0&amp;lt;/ContactabilityTelephone3Score&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone3Status/&amp;gt;&#xD;\n&amp;lt;FinalIdentityScore&amp;gt;34&amp;lt;/FinalIdentityScore&amp;gt;&#xD;\n&amp;lt;FinalIdentityStatus/&amp;gt;&#xD;\n&amp;lt;FinalAddressScore&amp;gt;0&amp;lt;/FinalAddressScore&amp;gt;&#xD;\n&amp;lt;FinalAddressStatus/&amp;gt;&#xD;\n&amp;lt;FinalContactabilityScore&amp;gt;0&amp;lt;/FinalContactabilityScore&amp;gt;&#xD;\n&amp;lt;FinalContactabilityStatus/&amp;gt;&#xD;\n&amp;lt;FinalVerificationScore&amp;gt;13&amp;lt;/FinalVerificationScore&amp;gt;&#xD;\n&amp;lt;FinalVerificationStatus/&amp;gt;&#xD;\n&amp;lt;/VerificationScore&amp;gt;&#xD;\n&amp;lt;CIBILDetect&amp;gt;&#xD;\n&amp;lt;Responseheader&amp;gt;&#xD;\n&amp;lt;ProcessDate&amp;gt;06/09/2021&amp;lt;/ProcessDate&amp;gt;&#xD;\n&amp;lt;ErrorCount&amp;gt;0&amp;lt;/ErrorCount&amp;gt;&#xD;\n&amp;lt;NoHitCount&amp;gt;1&amp;lt;/NoHitCount&amp;gt;&#xD;\n&amp;lt;HitCount&amp;gt;0&amp;lt;/HitCount&amp;gt;&#xD;\n&amp;lt;/Responseheader&amp;gt;&#xD;\n&amp;lt;/CIBILDetect&amp;gt;&#xD;\n&amp;lt;PAN&amp;gt;&#xD;\n&amp;lt;NSDL_PAN_Status_Desc&amp;gt;Existing and Valid PAN&amp;lt;/NSDL_PAN_Status_Desc&amp;gt;&#xD;\n&amp;lt;NSDL_Return_Cd_Desc&amp;gt;Success&amp;lt;/NSDL_Return_Cd_Desc&amp;gt;&#xD;\n&amp;lt;NSDL_LstUpdtDt_ITD&amp;gt;31/08/2019&amp;lt;/NSDL_LstUpdtDt_ITD&amp;gt;&#xD;\n&amp;lt;NSDL_PAN_Status&amp;gt;E&amp;lt;/NSDL_PAN_Status&amp;gt;&#xD;\n&amp;lt;NSDL_Return_Cd&amp;gt;1&amp;lt;/NSDL_Return_Cd&amp;gt;&#xD;\n&amp;lt;Name&amp;gt;Shri TARIQ  ILYAS&amp;lt;/Name&amp;gt;&#xD;\n&amp;lt;ID&amp;gt;AKNPI7200F&amp;lt;/ID&amp;gt;&#xD;\n&amp;lt;/PAN&amp;gt;&#xD;\n&amp;lt;MemberAttributes&amp;gt;&#xD;\n&amp;lt;AppEnvironment&amp;gt;TUSSPL&amp;lt;/AppEnvironment&amp;gt;&#xD;\n&amp;lt;ExternalApplicationId&amp;gt;109297016&amp;lt;/ExternalApplicationId&amp;gt;&#xD;\n&amp;lt;GSTStateCode&amp;gt;07&amp;lt;/GSTStateCode&amp;gt;&#xD;\n&amp;lt;IDVision_EndTime&amp;gt;9/6/2021 1:58:13 PM&amp;lt;/IDVision_EndTime&amp;gt;&#xD;\n&amp;lt;ApplicationId&amp;gt;109297016&amp;lt;/ApplicationId&amp;gt;&#xD;\n&amp;lt;MemberID&amp;gt;NB4235&amp;lt;/MemberID&amp;gt;&#xD;\n&amp;lt;ShortName&amp;gt;IDV&amp;lt;/ShortName&amp;gt;&#xD;\n&amp;lt;CreatedUser&amp;gt;NB4235DC01_PROD002&amp;lt;/CreatedUser&amp;gt;&#xD;\n&amp;lt;/MemberAttributes&amp;gt;&#xD;\n&amp;lt;AvailableFlags&amp;gt;&#xD;\n&amp;lt;Telephone2Category&amp;gt;&#xD;\n&amp;lt;/Telephone2Category&amp;gt;&#xD;\n&amp;lt;Telephone1Category&amp;gt;01&amp;lt;/Telephone1Category&amp;gt;&#xD;\n&amp;lt;Address2Category&amp;gt;0&amp;lt;/Address2Category&amp;gt;&#xD;\n&amp;lt;Address1Category&amp;gt;01&amp;lt;/Address1Category&amp;gt;&#xD;\n&amp;lt;TelOfficeInfo&amp;gt;No&amp;lt;/TelOfficeInfo&amp;gt;&#xD;\n&amp;lt;TelResidantInfo&amp;gt;No&amp;lt;/TelResidantInfo&amp;gt;&#xD;\n&amp;lt;TelMobileInfo&amp;gt;Yes&amp;lt;/TelMobileInfo&amp;gt;&#xD;\n&amp;lt;AddrOfficeInfo&amp;gt;No&amp;lt;/AddrOfficeInfo&amp;gt;&#xD;\n&amp;lt;AddrResidantInfo&amp;gt;No&amp;lt;/AddrResidantInfo&amp;gt;&#xD;\n&amp;lt;AddrPermanentInfo&amp;gt;Yes&amp;lt;/AddrPermanentInfo&amp;gt;&#xD;\n&amp;lt;IDAadharInfo&amp;gt;No&amp;lt;/IDAadharInfo&amp;gt;&#xD;\n&amp;lt;IDRationCardInfo&amp;gt;No&amp;lt;/IDRationCardInfo&amp;gt;&#xD;\n&amp;lt;IDDriverLicInfo&amp;gt;No&amp;lt;/IDDriverLicInfo&amp;gt;&#xD;\n&amp;lt;IDVoterInfo&amp;gt;No&amp;lt;/IDVoterInfo&amp;gt;&#xD;\n&amp;lt;IDPassportInfo&amp;gt;No&amp;lt;/IDPassportInfo&amp;gt;&#xD;\n&amp;lt;IDNSDLInfo&amp;gt;Yes&amp;lt;/IDNSDLInfo&amp;gt;&#xD;\n&amp;lt;/AvailableFlags&amp;gt;&#xD;\n&amp;lt;/CPVAttributes&amp;gt;&#xD;\n&amp;lt;ReturnMessage&amp;gt;Pincode must be 6 digit in length excluding special characters other than numbers. The last three digits must not be all zeroes (“000”). ; &amp;lt;/ReturnMessage&amp;gt;&#xD;\n&amp;lt;IDVApplicationID&amp;gt;202490574&amp;lt;/IDVApplicationID&amp;gt;&#xD;\n&amp;lt;SpecialMessages&amp;gt;D02.You are Not Subscribed to Voter ID Check ;R02.No Detect Matches Found ;&amp;lt;/SpecialMessages&amp;gt;&#xD;\n&amp;lt;/DsIDVision&amp;gt;&#xD;\n&amp;lt;DsTuVerification&amp;gt;&#xD;\n&amp;lt;Response&amp;gt;&#xD;\n&amp;lt;IsSuccess&amp;gt;False&amp;lt;/IsSuccess&amp;gt;&#xD;\n&amp;lt;ErrorCode&amp;gt;&#xD;\n&amp;lt;/ErrorCode&amp;gt;&#xD;\n&amp;lt;ErrorMessage&amp;gt;&#xD;\n&amp;lt;/ErrorMessage&amp;gt;&#xD;\n&amp;lt;VerificationResponseXml&amp;gt;&amp;lt;/VerificationResponseXml&amp;gt;&#xD;\n&amp;lt;/Response&amp;gt;&#xD;\n&amp;lt;/DsTuVerification&amp;gt;&#xD;\n&amp;lt;DsAadharEkycOtp&amp;gt;&#xD;\n&amp;lt;/DsAadharEkycOtp&amp;gt;&#xD;\n&amp;lt;/Applicant&amp;gt;&#xD;\n&amp;lt;/Applicants&amp;gt;&#xD;\n&lt;/Field&gt;&lt;Field key=\"ApplicationData\"&gt;&amp;lt;ApplicationData&amp;gt;&#xD;\n&amp;lt;FormattedReport&amp;gt;True&amp;lt;/FormattedReport&amp;gt;&#xD;\n&amp;lt;MFIBranchReferenceNo&amp;gt;&amp;lt;/MFIBranchReferenceNo&amp;gt;&#xD;\n&amp;lt;MFICenterReferenceNo&amp;gt;&amp;lt;/MFICenterReferenceNo&amp;gt;&#xD;\n&amp;lt;MFILoanPurpose&amp;gt;&amp;lt;/MFILoanPurpose&amp;gt;&#xD;\n&amp;lt;MFIEnquiryAmount&amp;gt;&amp;lt;/MFIEnquiryAmount&amp;gt;&#xD;\n&amp;lt;ConsumerConsentForUIDAIAuthentication&amp;gt;N&amp;lt;/ConsumerConsentForUIDAIAuthentication&amp;gt;&#xD;\n&amp;lt;NTCProductType&amp;gt;PL&amp;lt;/NTCProductType&amp;gt;&#xD;\n&amp;lt;MFIBureauFlag&amp;gt;True&amp;lt;/MFIBureauFlag&amp;gt;&#xD;\n&amp;lt;IDVerificationFlag&amp;gt;False&amp;lt;/IDVerificationFlag&amp;gt;&#xD;\n&amp;lt;DSTuNtcFlag&amp;gt;True&amp;lt;/DSTuNtcFlag&amp;gt;&#xD;\n&amp;lt;CibilBureauFlag&amp;gt;False&amp;lt;/CibilBureauFlag&amp;gt;&#xD;\n&amp;lt;Password&amp;gt;Ce8#Yh8@Py8@Dh&amp;lt;/Password&amp;gt;&#xD;\n&amp;lt;MemberCode&amp;gt;NB42358899_CIRC2C&amp;lt;/MemberCode&amp;gt;&#xD;\n&amp;lt;GSTStateCode&amp;gt;07&amp;lt;/GSTStateCode&amp;gt;&#xD;\n&amp;lt;ScoreType&amp;gt;08&amp;lt;/ScoreType&amp;gt;&#xD;\n&amp;lt;Amount&amp;gt;10000&amp;lt;/Amount&amp;gt;&#xD;\n&amp;lt;Purpose&amp;gt;10&amp;lt;/Purpose&amp;gt;&#xD;\n&amp;lt;TUXF_Default_HDR_Amount&amp;gt;&#xD;\n&amp;lt;/TUXF_Default_HDR_Amount&amp;gt;&#xD;\n&amp;lt;Address2Category&amp;gt;&#xD;\n&amp;lt;/Address2Category&amp;gt;&#xD;\n&amp;lt;Address1Category&amp;gt;&#xD;\n&amp;lt;/Address1Category&amp;gt;&#xD;\n&amp;lt;MFIDocRequest&amp;gt;&#xD;\n&amp;lt;/MFIDocRequest&amp;gt;&#xD;\n&amp;lt;ReturnMessage&amp;gt;&#xD;\n&amp;lt;/ReturnMessage&amp;gt;&#xD;\n&amp;lt;DTTrail&amp;gt;&#xD;\n&amp;lt;Step&amp;gt;&#xD;\n&amp;lt;Name&amp;gt;IDVision Score&amp;lt;/Name&amp;gt;&#xD;\n&amp;lt;Duration&amp;gt;00:00:00.9687498&amp;lt;/Duration&amp;gt;&#xD;\n&amp;lt;/Step&amp;gt;&#xD;\n&amp;lt;/DTTrail&amp;gt;&#xD;\n&amp;lt;Milestone&amp;gt;&#xD;\n&amp;lt;Step&amp;gt;IDVision Score&amp;lt;/Step&amp;gt;&#xD;\n&amp;lt;/Milestone&amp;gt;&#xD;\n&amp;lt;Start&amp;gt;&#xD;\n&amp;lt;/Start&amp;gt;&#xD;\n&amp;lt;InputValReasonCodes&amp;gt;&#xD;\n&amp;lt;/InputValReasonCodes&amp;gt;&#xD;\n&amp;lt;TelResidantInfo&amp;gt;&#xD;\n&amp;lt;/TelResidantInfo&amp;gt;&#xD;\n&amp;lt;TelMobileInfo&amp;gt;&#xD;\n&amp;lt;/TelMobileInfo&amp;gt;&#xD;\n&amp;lt;AddrOfficeInfo&amp;gt;&#xD;\n&amp;lt;/AddrOfficeInfo&amp;gt;&#xD;\n&amp;lt;AddrResidantInfo&amp;gt;&#xD;\n&amp;lt;/AddrResidantInfo&amp;gt;&#xD;\n&amp;lt;AddrPermanentInfo&amp;gt;&#xD;\n&amp;lt;/AddrPermanentInfo&amp;gt;&#xD;\n&amp;lt;NewToCredit&amp;gt;&#xD;\n&amp;lt;/NewToCredit&amp;gt;&#xD;\n&amp;lt;ShortName&amp;gt;&#xD;\n&amp;lt;/ShortName&amp;gt;&#xD;\n&amp;lt;KOB&amp;gt;&#xD;\n&amp;lt;/KOB&amp;gt;&#xD;\n&amp;lt;KAMContact&amp;gt;&#xD;\n&amp;lt;/KAMContact&amp;gt;&#xD;\n&amp;lt;KAMName&amp;gt;&#xD;\n&amp;lt;/KAMName&amp;gt;&#xD;\n&amp;lt;MemberName&amp;gt;&#xD;\n&amp;lt;/MemberName&amp;gt;&#xD;\n&amp;lt;MemberID&amp;gt;&#xD;\n&amp;lt;/MemberID&amp;gt;&#xD;\n&amp;lt;RequestType&amp;gt;&#xD;\n&amp;lt;/RequestType&amp;gt;&#xD;\n&amp;lt;TUXF_Default_HDR_Purpose&amp;gt;&#xD;\n&amp;lt;/TUXF_Default_HDR_Purpose&amp;gt;&#xD;\n&amp;lt;EnvironmentType&amp;gt;Production&amp;lt;/EnvironmentType&amp;gt;&#xD;\n&amp;lt;EnvironmentTypeId&amp;gt;2&amp;lt;/EnvironmentTypeId&amp;gt;&#xD;\n&amp;lt;SolutionSetId&amp;gt;140&amp;lt;/SolutionSetId&amp;gt;&#xD;\n&amp;lt;ApplicationId&amp;gt;109297016&amp;lt;/ApplicationId&amp;gt;&#xD;\n&amp;lt;BusinessUnitId&amp;gt;100&amp;lt;/BusinessUnitId&amp;gt;&#xD;\n&amp;lt;User&amp;gt;NB4235DC01_PROD002&amp;lt;/User&amp;gt;&#xD;\n&amp;lt;TelOfficeInfo&amp;gt;&#xD;\n&amp;lt;/TelOfficeInfo&amp;gt;&#xD;\n&amp;lt;PANVersion&amp;gt;2&amp;lt;/PANVersion&amp;gt;&#xD;\n&amp;lt;/ApplicationData&amp;gt;&#xD;\n&lt;/Field&gt;&lt;Field key=\"Decision\"&gt;Pass&lt;/Field&gt;&lt;Field key=\"ApplicationId\"&gt;109297016&lt;/Field&gt;&lt;/ContextData&gt;&lt;/DCResponse&gt;</ExecuteXMLStringResult></ExecuteXMLStringResponse></s:Body></s:Envelope>', '109297016')
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 442
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 442
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 442
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 442
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 442
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 442
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 442
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 442
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 443
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 443
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 443
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 443
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 443
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 443
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 443
+ERROR - 2021-09-06 13:58:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 443
+INFO - 2021-09-06 13:58:18 --> Final output sent to browser
+DEBUG - 2021-09-06 13:58:18 --> Total execution time: 8.0220
+INFO - 2021-09-06 10:28:18 --> Config Class Initialized
+INFO - 2021-09-06 10:28:18 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:28:18 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:28:18 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:28:18 --> URI Class Initialized
+INFO - 2021-09-06 10:28:18 --> Router Class Initialized
+INFO - 2021-09-06 10:28:18 --> Output Class Initialized
+INFO - 2021-09-06 10:28:18 --> Security Class Initialized
+DEBUG - 2021-09-06 10:28:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:28:18 --> CSRF cookie sent
+INFO - 2021-09-06 10:28:18 --> CSRF token verified
+INFO - 2021-09-06 10:28:18 --> Input Class Initialized
+INFO - 2021-09-06 10:28:18 --> Language Class Initialized
+INFO - 2021-09-06 10:28:18 --> Loader Class Initialized
+INFO - 2021-09-06 10:28:18 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:28:18 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:28:18 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:28:18 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:28:18 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:28:18 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:28:18 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:28:18 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:28:18 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:28:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:28:19 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:28:19 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:28:19 --> Upload Class Initialized
+INFO - 2021-09-06 10:28:19 --> Parser Class Initialized
+INFO - 2021-09-06 10:28:19 --> Email Class Initialized
+DEBUG - 2021-09-06 10:28:19 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:28:19 --> Table Class Initialized
+INFO - 2021-09-06 10:28:19 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:28:19 --> Controller Class Initialized
+INFO - 2021-09-06 13:58:19 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:58:20 --> Final output sent to browser
+DEBUG - 2021-09-06 13:58:20 --> Total execution time: 2.1291
+INFO - 2021-09-06 10:28:28 --> Config Class Initialized
+INFO - 2021-09-06 10:28:28 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:28:28 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:28:28 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:28:28 --> URI Class Initialized
+INFO - 2021-09-06 10:28:28 --> Router Class Initialized
+INFO - 2021-09-06 10:28:28 --> Output Class Initialized
+INFO - 2021-09-06 10:28:28 --> Security Class Initialized
+DEBUG - 2021-09-06 10:28:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:28:28 --> CSRF cookie sent
+INFO - 2021-09-06 10:28:28 --> CSRF token verified
+INFO - 2021-09-06 10:28:28 --> Input Class Initialized
+INFO - 2021-09-06 10:28:28 --> Language Class Initialized
+INFO - 2021-09-06 10:28:28 --> Loader Class Initialized
+INFO - 2021-09-06 10:28:28 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:28:28 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:28:28 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:28:28 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:28:28 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:28:28 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:28:28 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:28:28 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:28:28 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:28:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:28:29 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:28:29 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:28:29 --> Upload Class Initialized
+INFO - 2021-09-06 10:28:29 --> Parser Class Initialized
+INFO - 2021-09-06 10:28:29 --> Email Class Initialized
+DEBUG - 2021-09-06 10:28:29 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:28:29 --> Table Class Initialized
+INFO - 2021-09-06 10:28:29 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:28:29 --> Controller Class Initialized
+INFO - 2021-09-06 13:58:29 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:58:30 --> Final output sent to browser
+DEBUG - 2021-09-06 13:58:30 --> Total execution time: 2.1814
+INFO - 2021-09-06 10:28:30 --> Config Class Initialized
+INFO - 2021-09-06 10:28:30 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:28:30 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:28:30 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:28:30 --> URI Class Initialized
+INFO - 2021-09-06 10:28:30 --> Router Class Initialized
+INFO - 2021-09-06 10:28:30 --> Output Class Initialized
+INFO - 2021-09-06 10:28:30 --> Security Class Initialized
+DEBUG - 2021-09-06 10:28:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:28:30 --> CSRF cookie sent
+INFO - 2021-09-06 10:28:30 --> CSRF token verified
+INFO - 2021-09-06 10:28:30 --> Input Class Initialized
+INFO - 2021-09-06 10:28:30 --> Language Class Initialized
+INFO - 2021-09-06 10:28:30 --> Loader Class Initialized
+INFO - 2021-09-06 10:28:30 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:28:30 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:28:30 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:28:30 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:28:30 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:28:30 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:28:30 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:28:30 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:28:30 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:28:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:28:32 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:28:32 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:28:32 --> Upload Class Initialized
+INFO - 2021-09-06 10:28:32 --> Parser Class Initialized
+INFO - 2021-09-06 10:28:32 --> Email Class Initialized
+DEBUG - 2021-09-06 10:28:32 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:28:32 --> Table Class Initialized
+INFO - 2021-09-06 10:28:32 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:28:32 --> Controller Class Initialized
+INFO - 2021-09-06 13:58:32 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:58:32 --> Final output sent to browser
+DEBUG - 2021-09-06 13:58:32 --> Total execution time: 2.0081
+INFO - 2021-09-06 10:32:10 --> Config Class Initialized
+INFO - 2021-09-06 10:32:10 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:32:10 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:32:10 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:32:10 --> URI Class Initialized
+INFO - 2021-09-06 10:32:10 --> Router Class Initialized
+INFO - 2021-09-06 10:32:10 --> Output Class Initialized
+INFO - 2021-09-06 10:32:10 --> Security Class Initialized
+DEBUG - 2021-09-06 10:32:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:32:10 --> CSRF cookie sent
+INFO - 2021-09-06 10:32:10 --> CSRF token verified
+INFO - 2021-09-06 10:32:10 --> Input Class Initialized
+INFO - 2021-09-06 10:32:10 --> Language Class Initialized
+INFO - 2021-09-06 10:32:10 --> Loader Class Initialized
+INFO - 2021-09-06 10:32:10 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:32:10 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:32:10 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:32:10 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:32:10 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:32:10 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:32:10 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:32:10 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:32:10 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:32:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:32:11 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:32:11 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:32:11 --> Upload Class Initialized
+INFO - 2021-09-06 10:32:11 --> Parser Class Initialized
+INFO - 2021-09-06 10:32:11 --> Email Class Initialized
+DEBUG - 2021-09-06 10:32:11 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:32:11 --> Table Class Initialized
+INFO - 2021-09-06 10:32:11 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:32:11 --> Controller Class Initialized
+INFO - 2021-09-06 14:02:11 --> Model "Task_Model" initialized
+ERROR - 2021-09-06 14:02:15 --> Query error: Column 'pincode' cannot be null - Invalid query: INSERT INTO `tbl_cibil` (`lead_id`, `company_id`, `product_id`, `customer_name`, `customer_mobile`, `pancard`, `loan_amount`, `dob`, `gender`, `city`, `state_id`, `pincode`, `api1_request`, `api1_response`, `applicationId`) VALUES ('5375', '1', '1', 'tariq ilyas test', '7053543618', 'aknpi7200f', 10000, '01011970', 'MALE', 'SURAT', '12', NULL, '<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\">\n                                <soapenv:Header />\n                                <soapenv:Body>\n                                  <tem:ExecuteXMLString>\n                                    <tem:request>\n                                      <![CDATA[ \n                        \n                              <DCRequest xmlns=\"http://transunion.com/dc/extsvc\">\n                                <Authentication type=\"OnDemand\">\n                                    <UserId>NB4235DC01_PROD002</UserId>\n                                    <Password>Lo@anwalle15Dec2020</Password>\n                                 </Authentication>\n                                 <RequestInfo>\n                                      <SolutionSetId>140</SolutionSetId>\n                                      <ExecuteLatestVersion>true</ExecuteLatestVersion>\n                                      <ExecutionMode>NewWithContext</ExecutionMode>\n                                </RequestInfo>\n                                <Fields>\n                                  <Field key=\"Applicants\">\n                                   \n                                        &lt;Applicants&gt;\n                                &lt;Applicant&gt;\n                                  &lt;ApplicantType&gt;Main&lt;/ApplicantType&gt;\n                                  &lt;ApplicantFirstName&gt;tariq ilyas test&lt;/ApplicantFirstName&gt;\n                                  &lt;ApplicantMiddleName&gt;&lt;/ApplicantMiddleName&gt;\n                                  &lt;ApplicantLastName&gt;&lt;/ApplicantLastName&gt;\n                                  &lt;DateOfBirth&gt;01011970&lt;/DateOfBirth&gt;\n                                  &lt;Gender&gt;MALE&lt;/Gender&gt;\n                                  &lt;EmailAddress&gt;&lt;/EmailAddress&gt;\n                                  &lt;CompanyName&gt;&lt;/CompanyName&gt;\n                                  &lt;Identifiers&gt;\n                                    &lt;Identifier&gt;\n                                      &lt;IdNumber&gt;aknpi7200f&lt;/IdNumber&gt;\n                                      &lt;IdType&gt;01&lt;/IdType&gt;\n                                    &lt;/Identifier&gt;\n                                    &lt;Identifier&gt;\n                                      &lt;IdNumber&gt;&lt;/IdNumber&gt;\n                                      &lt;IdType&gt;06&lt;/IdType&gt;\n                                    &lt;/Identifier&gt;\n                                  &lt;/Identifiers&gt;\n                                  &lt;Telephones&gt;\n                                    &lt;Telephone&gt;\n                                      &lt;TelephoneExtension&gt;&lt;/TelephoneExtension&gt;\n                                      &lt;TelephoneNumber&gt;7053543618&lt;/TelephoneNumber&gt;\n                                      &lt;TelephoneType&gt;01&lt;/TelephoneType&gt;\n                                    &lt;/Telephone&gt;\n                                     &lt;Telephone&gt;\n                                      &lt;TelephoneExtension&gt;&lt;/TelephoneExtension&gt;\n                                      &lt;TelephoneNumber&gt;&lt;/TelephoneNumber&gt;\n                                      &lt;TelephoneType&gt;01&lt;/TelephoneType&gt;\n                                    &lt;/Telephone&gt;\n                                  &lt;/Telephones&gt;\n                                  &lt;Addresses&gt;\n                                    &lt;Address&gt;\n                                      &lt;AddressLine1&gt;SURAT&lt;/AddressLine1&gt;\n                                      &lt;AddressLine2&gt;&lt;/AddressLine2&gt;\n                                      &lt;AddressLine3&gt;&lt;/AddressLine3&gt;\n                                      &lt;AddressLine4&gt;&lt;/AddressLine4&gt;\n                                      &lt;AddressLine5&gt;&lt;/AddressLine5&gt;\n                                      &lt;AddressType&gt;01&lt;/AddressType&gt;\n                                      &lt;City&gt;SURAT&lt;/City&gt;\n                                      &lt;PinCode&gt;&lt;/PinCode&gt;\n                                      &lt;ResidenceType&gt;01&lt;/ResidenceType&gt;\n                                      &lt;StateCode&gt;24&lt;/StateCode&gt;\n                                    &lt;/Address&gt;\n                                  &lt;/Addresses&gt;\n                                  &lt;NomineeRelation&gt;&lt;/NomineeRelation&gt;\n                                  &lt;NomineeName&gt;&lt;/NomineeName&gt;\n                                  &lt;MemberRelationType4&gt;&lt;/MemberRelationType4&gt;\n                                  &lt;MemberRelationName4&gt;&lt;/MemberRelationName4&gt;\n                                  &lt;MemberRelationType3&gt;&lt;/MemberRelationType3&gt;\n                                  &lt;MemberRelationName3&gt;&lt;/MemberRelationName3&gt;\n                                  &lt;MemberRelationType2&gt;&lt;/MemberRelationType2&gt;\n                                  &lt;MemberRelationName2&gt;&lt;/MemberRelationName2&gt;\n                                  &lt;MemberRelationType1&gt;&lt;/MemberRelationType1&gt;\n                                  &lt;MemberRelationName1&gt;&lt;/MemberRelationName1&gt;\n                                  &lt;KeyPersonRelation&gt;&lt;/KeyPersonRelation&gt;\n                                  &lt;KeyPersonName&gt;&lt;/KeyPersonName&gt;\n                                  &lt;MemberOtherId3&gt;&lt;/MemberOtherId3&gt;\n                                  &lt;MemberOtherId3Type&gt;&lt;/MemberOtherId3Type&gt;\n                                  &lt;MemberOtherId2&gt;&lt;/MemberOtherId2&gt;\n                                  &lt;MemberOtherId2Type&gt;&lt;/MemberOtherId2Type&gt;\n                                  &lt;MemberOtherId1&gt;&lt;/MemberOtherId1&gt;\n                                  &lt;MemberOtherId1Type&gt;&lt;/MemberOtherId1Type&gt;\n                                  &lt;Accounts&gt;\n                                    &lt;Account&gt;\n                                      &lt;AccountNumber&gt;&lt;/AccountNumber&gt;\n                                    &lt;/Account&gt;\n                                  &lt;/Accounts&gt;\n                                &lt;/Applicant&gt;\n                              &lt;/Applicants&gt;\n                        \n                              </Field>\n                              <Field key=\"ApplicationData\">\n                               &lt;ApplicationData&gt;\n                              &lt;Purpose&gt;10&lt;/Purpose&gt;\n                              &lt;Amount&gt;10000&lt;/Amount&gt;\n                              &lt;ScoreType&gt;08&lt;/ScoreType&gt;\n                              &lt;GSTStateCode&gt;07&lt;/GSTStateCode&gt;\n                              \n                              \n                              &lt;MemberCode&gt;NB42358899_CIRC2C&lt;/MemberCode&gt;\n                              &lt;Password&gt;Ce8#Yh8@Py8@Dh&lt;/Password&gt;\n                              \n                              \n                              &lt;CibilBureauFlag&gt;False&lt;/CibilBureauFlag&gt;\n                        		&lt;DSTuNtcFlag&gt;True&lt;/DSTuNtcFlag&gt;\n                        		&lt;IDVerificationFlag&gt;False&lt;/IDVerificationFlag&gt;\n                        		&lt;MFIBureauFlag&gt;True&lt;/MFIBureauFlag&gt;\n                        		&lt;NTCProductType&gt;PL&lt;/NTCProductType&gt;\n                        		&lt;ConsumerConsentForUIDAIAuthentication&gt;N&lt;/ConsumerConsentForUIDAIAuthentication&gt;\n                        		&lt;MFIEnquiryAmount&gt;&lt;/MFIEnquiryAmount&gt;\n                        		&lt;MFILoanPurpose&gt;&lt;/MFILoanPurpose&gt;\n                        		&lt;MFICenterReferenceNo&gt;&lt;/MFICenterReferenceNo&gt;\n                        		&lt;MFIBranchReferenceNo&gt;&lt;/MFIBranchReferenceNo&gt;\n                        		&lt;FormattedReport&gt;True&lt;/FormattedReport&gt;\n                        	&lt;/ApplicationData&gt;\n                        \n                           \n                                        </Field>\n                                        <Field key=\"FinalTraceLevel\">2</Field>\n                                        </Fields>\n                                        </DCRequest>        \n                                   ]]>\n                                </tem:request>\n                              </tem:ExecuteXMLString>\n                            </soapenv:Body>\n                          </soapenv:Envelope>', '<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\"><s:Body><ExecuteXMLStringResponse xmlns=\"http://tempuri.org/\"><ExecuteXMLStringResult>&lt;?xml version=\"1.0\"?&gt;&lt;DCResponse&gt;&lt;Status&gt;Success&lt;/Status&gt;&lt;Authentication&gt;&lt;Status&gt;PasswordHasExpired&lt;/Status&gt;&lt;Token&gt;e75acafe-4c23-4883-a2df-e10f81b6e90b&lt;/Token&gt;&lt;/Authentication&gt;&lt;ResponseInfo&gt;&lt;ApplicationId&gt;109298722&lt;/ApplicationId&gt;&lt;SolutionSetInstanceId&gt;8510d5f8-0169-467b-b379-8fda86312b1b&lt;/SolutionSetInstanceId&gt;&lt;CurrentQueue&gt;&lt;/CurrentQueue&gt;&lt;/ResponseInfo&gt;&lt;ContextData&gt;&lt;Field key=\"Applicants\"&gt;&amp;lt;Applicants&amp;gt;&#xD;\n&amp;lt;Applicant&amp;gt;&#xD;\n&amp;lt;Accounts&amp;gt;&#xD;\n&amp;lt;Account&amp;gt;&#xD;\n&amp;lt;AccountNumber&amp;gt;&amp;lt;/AccountNumber&amp;gt;&#xD;\n&amp;lt;/Account&amp;gt;&#xD;\n&amp;lt;/Accounts&amp;gt;&#xD;\n&amp;lt;MemberOtherId1Type&amp;gt;&amp;lt;/MemberOtherId1Type&amp;gt;&#xD;\n&amp;lt;MemberOtherId1&amp;gt;&amp;lt;/MemberOtherId1&amp;gt;&#xD;\n&amp;lt;MemberOtherId2Type&amp;gt;&amp;lt;/MemberOtherId2Type&amp;gt;&#xD;\n&amp;lt;MemberOtherId2&amp;gt;&amp;lt;/MemberOtherId2&amp;gt;&#xD;\n&amp;lt;MemberOtherId3Type&amp;gt;&amp;lt;/MemberOtherId3Type&amp;gt;&#xD;\n&amp;lt;MemberOtherId3&amp;gt;&amp;lt;/MemberOtherId3&amp;gt;&#xD;\n&amp;lt;KeyPersonName&amp;gt;&amp;lt;/KeyPersonName&amp;gt;&#xD;\n&amp;lt;KeyPersonRelation&amp;gt;&amp;lt;/KeyPersonRelation&amp;gt;&#xD;\n&amp;lt;MemberRelationName1&amp;gt;&amp;lt;/MemberRelationName1&amp;gt;&#xD;\n&amp;lt;MemberRelationType1&amp;gt;&amp;lt;/MemberRelationType1&amp;gt;&#xD;\n&amp;lt;MemberRelationName2&amp;gt;&amp;lt;/MemberRelationName2&amp;gt;&#xD;\n&amp;lt;MemberRelationType2&amp;gt;&amp;lt;/MemberRelationType2&amp;gt;&#xD;\n&amp;lt;MemberRelationName3&amp;gt;&amp;lt;/MemberRelationName3&amp;gt;&#xD;\n&amp;lt;MemberRelationType3&amp;gt;&amp;lt;/MemberRelationType3&amp;gt;&#xD;\n&amp;lt;MemberRelationName4&amp;gt;&amp;lt;/MemberRelationName4&amp;gt;&#xD;\n&amp;lt;MemberRelationType4&amp;gt;&amp;lt;/MemberRelationType4&amp;gt;&#xD;\n&amp;lt;NomineeName&amp;gt;&amp;lt;/NomineeName&amp;gt;&#xD;\n&amp;lt;NomineeRelation&amp;gt;&amp;lt;/NomineeRelation&amp;gt;&#xD;\n&amp;lt;Addresses&amp;gt;&#xD;\n&amp;lt;Address&amp;gt;&#xD;\n&amp;lt;StateCode&amp;gt;24&amp;lt;/StateCode&amp;gt;&#xD;\n&amp;lt;ResidenceType&amp;gt;01&amp;lt;/ResidenceType&amp;gt;&#xD;\n&amp;lt;PinCode&amp;gt;&amp;lt;/PinCode&amp;gt;&#xD;\n&amp;lt;City&amp;gt;SURAT&amp;lt;/City&amp;gt;&#xD;\n&amp;lt;AddressType&amp;gt;01&amp;lt;/AddressType&amp;gt;&#xD;\n&amp;lt;AddressLine5&amp;gt;&amp;lt;/AddressLine5&amp;gt;&#xD;\n&amp;lt;AddressLine4&amp;gt;&amp;lt;/AddressLine4&amp;gt;&#xD;\n&amp;lt;AddressLine3&amp;gt;&amp;lt;/AddressLine3&amp;gt;&#xD;\n&amp;lt;AddressLine2&amp;gt;&amp;lt;/AddressLine2&amp;gt;&#xD;\n&amp;lt;AddressLine1&amp;gt;SURAT&amp;lt;/AddressLine1&amp;gt;&#xD;\n&amp;lt;/Address&amp;gt;&#xD;\n&amp;lt;/Addresses&amp;gt;&#xD;\n&amp;lt;Telephones&amp;gt;&#xD;\n&amp;lt;Telephone&amp;gt;&#xD;\n&amp;lt;TelephoneType&amp;gt;01&amp;lt;/TelephoneType&amp;gt;&#xD;\n&amp;lt;TelephoneNumber&amp;gt;7053543618&amp;lt;/TelephoneNumber&amp;gt;&#xD;\n&amp;lt;TelephoneExtension&amp;gt;&amp;lt;/TelephoneExtension&amp;gt;&#xD;\n&amp;lt;/Telephone&amp;gt;&#xD;\n&amp;lt;Telephone&amp;gt;&#xD;\n&amp;lt;TelephoneType&amp;gt;01&amp;lt;/TelephoneType&amp;gt;&#xD;\n&amp;lt;TelephoneNumber&amp;gt;&amp;lt;/TelephoneNumber&amp;gt;&#xD;\n&amp;lt;TelephoneExtension&amp;gt;&amp;lt;/TelephoneExtension&amp;gt;&#xD;\n&amp;lt;/Telephone&amp;gt;&#xD;\n&amp;lt;/Telephones&amp;gt;&#xD;\n&amp;lt;Identifiers&amp;gt;&#xD;\n&amp;lt;Identifier&amp;gt;&#xD;\n&amp;lt;IdType&amp;gt;01&amp;lt;/IdType&amp;gt;&#xD;\n&amp;lt;IdNumber&amp;gt;aknpi7200f&amp;lt;/IdNumber&amp;gt;&#xD;\n&amp;lt;/Identifier&amp;gt;&#xD;\n&amp;lt;Identifier&amp;gt;&#xD;\n&amp;lt;IdType&amp;gt;06&amp;lt;/IdType&amp;gt;&#xD;\n&amp;lt;IdNumber&amp;gt;&amp;lt;/IdNumber&amp;gt;&#xD;\n&amp;lt;/Identifier&amp;gt;&#xD;\n&amp;lt;/Identifiers&amp;gt;&#xD;\n&amp;lt;CompanyName&amp;gt;&amp;lt;/CompanyName&amp;gt;&#xD;\n&amp;lt;EmailAddress&amp;gt;&amp;lt;/EmailAddress&amp;gt;&#xD;\n&amp;lt;Gender&amp;gt;MALE&amp;lt;/Gender&amp;gt;&#xD;\n&amp;lt;DateOfBirth&amp;gt;01011970&amp;lt;/DateOfBirth&amp;gt;&#xD;\n&amp;lt;ApplicantLastName&amp;gt;&amp;lt;/ApplicantLastName&amp;gt;&#xD;\n&amp;lt;ApplicantMiddleName&amp;gt;&amp;lt;/ApplicantMiddleName&amp;gt;&#xD;\n&amp;lt;ApplicantFirstName&amp;gt;tariq ilyas test&amp;lt;/ApplicantFirstName&amp;gt;&#xD;\n&amp;lt;ApplicantType&amp;gt;Main&amp;lt;/ApplicantType&amp;gt;&#xD;\n&amp;lt;NodeIdentifier&amp;gt;0&amp;lt;/NodeIdentifier&amp;gt;&#xD;\n&amp;lt;DsCibilBureau&amp;gt;&#xD;\n&amp;lt;DsCibilBureauData&amp;gt;&#xD;\n&amp;lt;Request&amp;gt;&amp;amp;lt;Request&amp;amp;gt;&amp;amp;lt;ConsumerDetails&amp;amp;gt;&amp;amp;lt;CreditReportInquiry&amp;amp;gt;&amp;amp;lt;Header&amp;amp;gt;&amp;amp;lt;SegmentTag&amp;amp;gt; TUEF &amp;amp;lt;/SegmentTag&amp;amp;gt;&amp;amp;lt;Version&amp;amp;gt; 12 &amp;amp;lt;/Version&amp;amp;gt;&amp;amp;lt;ReferenceNumber&amp;amp;gt;109298722&amp;amp;lt;/ReferenceNumber&amp;amp;gt;&amp;amp;lt;FutureUse1&amp;amp;gt;&amp;amp;lt;/FutureUse1&amp;amp;gt;&amp;amp;lt;MemberCode&amp;amp;gt;NB42358899_CIRC2C&amp;amp;lt;/MemberCode&amp;amp;gt;&amp;amp;lt;Password&amp;amp;gt;Ce8#Yh8@Py8@Dh&amp;amp;lt;/Password&amp;amp;gt;&amp;amp;lt;Purpose&amp;amp;gt;10&amp;amp;lt;/Purpose&amp;amp;gt;&amp;amp;lt;Amount&amp;amp;gt;10000&amp;amp;lt;/Amount&amp;amp;gt;&amp;amp;lt;FutureUse2&amp;amp;gt;&amp;amp;lt;/FutureUse2&amp;amp;gt;&amp;amp;lt;ScoreType&amp;amp;gt;08&amp;amp;lt;/ScoreType&amp;amp;gt;&amp;amp;lt;OutputFormat&amp;amp;gt;01&amp;amp;lt;/OutputFormat&amp;amp;gt;&amp;amp;lt;ResponseSize&amp;amp;gt;1&amp;amp;lt;/ResponseSize&amp;amp;gt;&amp;amp;lt;MediaType&amp;amp;gt;CC&amp;amp;lt;/MediaType&amp;amp;gt;&amp;amp;lt;AuthenticationMethod&amp;amp;gt;L&amp;amp;lt;/AuthenticationMethod&amp;amp;gt;&amp;amp;lt;/Header&amp;amp;gt;&amp;amp;lt;Names&amp;amp;gt;&amp;amp;lt;Name&amp;amp;gt; &amp;amp;lt;ConsumerName1&amp;amp;gt;tariq ilyas test&amp;amp;lt;/ConsumerName1&amp;amp;gt; &amp;amp;lt;ConsumerName2&amp;amp;gt;&amp;amp;lt;/ConsumerName2&amp;amp;gt; &amp;amp;lt;ConsumerName3&amp;amp;gt;&amp;amp;lt;/ConsumerName3&amp;amp;gt; &amp;amp;lt;ConsumerName4&amp;amp;gt;&amp;amp;lt;/ConsumerName4&amp;amp;gt; &amp;amp;lt;ConsumerName5&amp;amp;gt;&amp;amp;lt;/ConsumerName5&amp;amp;gt; &amp;amp;lt;DateOfBirth&amp;amp;gt;01011970&amp;amp;lt;/DateOfBirth&amp;amp;gt; &amp;amp;lt;Gender&amp;amp;gt;MALE&amp;amp;lt;/Gender&amp;amp;gt; &amp;amp;lt;/Name&amp;amp;gt;&amp;amp;lt;/Names&amp;amp;gt;&amp;amp;lt;Identifications&amp;amp;gt; &amp;amp;lt;Identification&amp;amp;gt;&amp;amp;lt;PanNo&amp;amp;gt;aknpi7200f&amp;amp;lt;/PanNo&amp;amp;gt;&amp;amp;lt;PassportNumber&amp;amp;gt;&amp;amp;lt;/PassportNumber&amp;amp;gt;&amp;amp;lt;DLNo&amp;amp;gt;&amp;amp;lt;/DLNo&amp;amp;gt;&amp;amp;lt;VoterId&amp;amp;gt;&amp;amp;lt;/VoterId&amp;amp;gt;&amp;amp;lt;UId&amp;amp;gt;&amp;amp;lt;/UId&amp;amp;gt;&amp;amp;lt;RationCardNo&amp;amp;gt;&amp;amp;lt;/RationCardNo&amp;amp;gt;&amp;amp;lt;AdditionalID1&amp;amp;gt;&amp;amp;lt;/AdditionalID1&amp;amp;gt;&amp;amp;lt;AdditionalID2&amp;amp;gt;&amp;amp;lt;/AdditionalID2&amp;amp;gt;&amp;amp;lt;/Identification&amp;amp;gt;&amp;amp;lt;/Identifications&amp;amp;gt;&amp;amp;lt;Telephones&amp;amp;gt;&amp;amp;lt;/Telephones&amp;amp;gt;&amp;amp;lt;Addresses&amp;amp;gt;&amp;amp;lt;Address&amp;amp;gt;&amp;amp;lt;AddressLine1&amp;amp;gt;SURAT&amp;amp;lt;/AddressLine1&amp;amp;gt;&amp;amp;lt;AddressLine2&amp;amp;gt;&amp;amp;lt;/AddressLine2&amp;amp;gt;&amp;amp;lt;AddressLine3&amp;amp;gt;&amp;amp;lt;/AddressLine3&amp;amp;gt;&amp;amp;lt;AddressLine4&amp;amp;gt;&amp;amp;lt;/AddressLine4&amp;amp;gt;&amp;amp;lt;AddressLine5&amp;amp;gt;SURAT&amp;amp;lt;/AddressLine5&amp;amp;gt;&amp;amp;lt;StateCode&amp;amp;gt;24&amp;amp;lt;/StateCode&amp;amp;gt;&amp;amp;lt;PinCode&amp;amp;gt;&amp;amp;lt;/PinCode&amp;amp;gt;&amp;amp;lt;AddressCategory&amp;amp;gt;01&amp;amp;lt;/AddressCategory&amp;amp;gt;&amp;amp;lt;ResidenceCode&amp;amp;gt;01&amp;amp;lt;/ResidenceCode&amp;amp;gt;&amp;amp;lt;/Address&amp;amp;gt;&amp;amp;lt;/Addresses&amp;amp;gt;&amp;amp;lt;/CreditReportInquiry&amp;amp;gt;&amp;amp;lt;/ConsumerDetails&amp;amp;gt;&amp;amp;lt;/Request&amp;amp;gt;&amp;lt;/Request&amp;gt;&#xD;\n&amp;lt;/DsCibilBureauData&amp;gt;&#xD;\n&amp;lt;DsCibilBureauStatus&amp;gt;&#xD;\n&amp;lt;Trail&amp;gt;&amp;lt;/Trail&amp;gt;&#xD;\n&amp;lt;/DsCibilBureauStatus&amp;gt;&#xD;\n&amp;lt;Response&amp;gt;&#xD;\n&amp;lt;CibilBureauResponse&amp;gt;&#xD;\n&amp;lt;BureauResponseRaw&amp;gt;ERRR06092021140212UR03U010125109298722                0409PAA010700ES0700000840102**&amp;lt;/BureauResponseRaw&amp;gt;&#xD;\n&amp;lt;BureauResponseXml&amp;gt;&amp;amp;lt;Response&amp;amp;gt;&amp;amp;lt;Status&amp;amp;gt;CR&amp;amp;lt;/Status&amp;amp;gt;&amp;amp;lt;ErrorCode&amp;amp;gt;100&amp;amp;lt;/ErrorCode&amp;amp;gt;&amp;amp;lt;ErrorDescription&amp;amp;gt;Your request has been rejected by the Credit Bureau server. Error Message : Provided Field&amp;amp;apos;s length is invalid. Please contact your system administrator. Error Details : The ZIP Code cannot be empty and must be in a valid format. Please make the appropriate change and resubmit the request or contact your administrator.&amp;amp;lt;/ErrorDescription&amp;amp;gt;&amp;amp;lt;Segment&amp;amp;gt;The ZIP Code cannot be empty and must be in a valid format. Please make the appropriate change and resubmit the request or contact your administrator.&amp;amp;lt;/Segment&amp;amp;gt;&amp;amp;lt;/Response&amp;amp;gt;&amp;lt;/BureauResponseXml&amp;gt;&#xD;\n&amp;lt;SecondaryReportXml/&amp;gt;&#xD;\n&amp;lt;IsSucess&amp;gt;False&amp;lt;/IsSucess&amp;gt;&#xD;\n&amp;lt;ErrorCode&amp;gt;100&amp;lt;/ErrorCode&amp;gt;&#xD;\n&amp;lt;ErrorMessage&amp;gt;Your request has been rejected by the Credit Bureau server. Error Message : Provided Field&amp;amp;apos;s length is invalid. Please contact your system administrator. Error Details : The ZIP Code cannot be empty and must be in a valid format. Please make the appropriate change and resubmit the request or contact your administrator.&amp;lt;/ErrorMessage&amp;gt;&#xD;\n&amp;lt;/CibilBureauResponse&amp;gt;&#xD;\n&amp;lt;/Response&amp;gt;&#xD;\n&amp;lt;/DsCibilBureau&amp;gt;&#xD;\n&amp;lt;DsIDVision&amp;gt;&#xD;\n&amp;lt;CPVAttributes&amp;gt;&#xD;\n&amp;lt;Match&amp;gt;&#xD;\n&amp;lt;ContactabilityAadhaarTelephone1Match&amp;gt;-&amp;lt;/ContactabilityAadhaarTelephone1Match&amp;gt;&#xD;\n&amp;lt;AddressAadhaarPermanentMatch&amp;gt;-&amp;lt;/AddressAadhaarPermanentMatch&amp;gt;&#xD;\n&amp;lt;AddressAadhaarResidenceMatch&amp;gt;-&amp;lt;/AddressAadhaarResidenceMatch&amp;gt;&#xD;\n&amp;lt;IDAadhaarIdentifierMatch&amp;gt;-&amp;lt;/IDAadhaarIdentifierMatch&amp;gt;&#xD;\n&amp;lt;IDAadharGenderMatch&amp;gt;-&amp;lt;/IDAadharGenderMatch&amp;gt;&#xD;\n&amp;lt;IDAadharDOBYearMatch&amp;gt;-&amp;lt;/IDAadharDOBYearMatch&amp;gt;&#xD;\n&amp;lt;IDAadharNameMatch&amp;gt;-&amp;lt;/IDAadharNameMatch&amp;gt;&#xD;\n&amp;lt;AddressVoterPermanentMatch&amp;gt;-&amp;lt;/AddressVoterPermanentMatch&amp;gt;&#xD;\n&amp;lt;AddressVoterResidenceMatch&amp;gt;-&amp;lt;/AddressVoterResidenceMatch&amp;gt;&#xD;\n&amp;lt;IDVoterIdentifierMatch&amp;gt;-&amp;lt;/IDVoterIdentifierMatch&amp;gt;&#xD;\n&amp;lt;IDVoterGenderMatch&amp;gt;-&amp;lt;/IDVoterGenderMatch&amp;gt;&#xD;\n&amp;lt;IDVoterNameMatch&amp;gt;-&amp;lt;/IDVoterNameMatch&amp;gt;&#xD;\n&amp;lt;IDNSDLIdentifierMatch&amp;gt;100&amp;lt;/IDNSDLIdentifierMatch&amp;gt;&#xD;\n&amp;lt;IDNSDLNameMatch&amp;gt;83&amp;lt;/IDNSDLNameMatch&amp;gt;&#xD;\n&amp;lt;ContactabilityOfficeNumberMatch&amp;gt;-&amp;lt;/ContactabilityOfficeNumberMatch&amp;gt;&#xD;\n&amp;lt;ContactabilityResidenceNumberMatch&amp;gt;-&amp;lt;/ContactabilityResidenceNumberMatch&amp;gt;&#xD;\n&amp;lt;ContactabilityMobileNumberMatch&amp;gt;-&amp;lt;/ContactabilityMobileNumberMatch&amp;gt;&#xD;\n&amp;lt;AddressCIBILOfficeMatch&amp;gt;-&amp;lt;/AddressCIBILOfficeMatch&amp;gt;&#xD;\n&amp;lt;AddressCIBILPermanentMatch&amp;gt;-&amp;lt;/AddressCIBILPermanentMatch&amp;gt;&#xD;\n&amp;lt;AddressCIBILResidenceMatch&amp;gt;-&amp;lt;/AddressCIBILResidenceMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILDrivingLicenseIDMatch&amp;gt;-&amp;lt;/IDCIBILDrivingLicenseIDMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILRationCardIDMatch&amp;gt;-&amp;lt;/IDCIBILRationCardIDMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILPassportIDMatch&amp;gt;-&amp;lt;/IDCIBILPassportIDMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILAadhaarIDMacth&amp;gt;-&amp;lt;/IDCIBILAadhaarIDMacth&amp;gt;&#xD;\n&amp;lt;IDCIBILVoterIDMatch&amp;gt;-&amp;lt;/IDCIBILVoterIDMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILPANMatch&amp;gt;-&amp;lt;/IDCIBILPANMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILGenderMatch&amp;gt;-&amp;lt;/IDCIBILGenderMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILDOBMatch&amp;gt;-&amp;lt;/IDCIBILDOBMatch&amp;gt;&#xD;\n&amp;lt;IDCIBILNameMatch&amp;gt;-&amp;lt;/IDCIBILNameMatch&amp;gt;&#xD;\n&amp;lt;ExceptionMessage&amp;gt;&#xD;\n&amp;lt;/ExceptionMessage&amp;gt;&#xD;\n&amp;lt;/Match&amp;gt;&#xD;\n&amp;lt;EnquiryInfo&amp;gt;&#xD;\n&amp;lt;MobileNumber&amp;gt;7053543618&amp;lt;/MobileNumber&amp;gt;&#xD;\n&amp;lt;PermanentAddressCity&amp;gt;SURAT&amp;lt;/PermanentAddressCity&amp;gt;&#xD;\n&amp;lt;PermanentAddressState&amp;gt;GUJARAT&amp;lt;/PermanentAddressState&amp;gt;&#xD;\n&amp;lt;PermanentAddressStateCode&amp;gt;24&amp;lt;/PermanentAddressStateCode&amp;gt;&#xD;\n&amp;lt;PermanentAddressPinCode&amp;gt;&#xD;\n&amp;lt;/PermanentAddressPinCode&amp;gt;&#xD;\n&amp;lt;PermanentAddressLine&amp;gt;SURAT &amp;lt;/PermanentAddressLine&amp;gt;&#xD;\n&amp;lt;UID&amp;gt;&#xD;\n&amp;lt;/UID&amp;gt;&#xD;\n&amp;lt;PAN&amp;gt;aknpi7200f&amp;lt;/PAN&amp;gt;&#xD;\n&amp;lt;EmailID&amp;gt;&#xD;\n&amp;lt;/EmailID&amp;gt;&#xD;\n&amp;lt;DateofBirth&amp;gt;01/01/1970&amp;lt;/DateofBirth&amp;gt;&#xD;\n&amp;lt;Gender&amp;gt;MALE&amp;lt;/Gender&amp;gt;&#xD;\n&amp;lt;LastName&amp;gt;&#xD;\n&amp;lt;/LastName&amp;gt;&#xD;\n&amp;lt;MiddleName&amp;gt;&#xD;\n&amp;lt;/MiddleName&amp;gt;&#xD;\n&amp;lt;FirstName&amp;gt;TARIQ ILYAS TEST&amp;lt;/FirstName&amp;gt;&#xD;\n&amp;lt;/EnquiryInfo&amp;gt;&#xD;\n&amp;lt;VerificationScore&amp;gt;&#xD;\n&amp;lt;IDNameScore&amp;gt;62&amp;lt;/IDNameScore&amp;gt;&#xD;\n&amp;lt;IDNameStatus/&amp;gt;&#xD;\n&amp;lt;IDAltNameScore&amp;gt;83&amp;lt;/IDAltNameScore&amp;gt;&#xD;\n&amp;lt;IDAltDOBScore&amp;gt;0&amp;lt;/IDAltDOBScore&amp;gt;&#xD;\n&amp;lt;IDDOBScore&amp;gt;0&amp;lt;/IDDOBScore&amp;gt;&#xD;\n&amp;lt;IDDOBStatus/&amp;gt;&#xD;\n&amp;lt;IDAltGenderScore&amp;gt;0&amp;lt;/IDAltGenderScore&amp;gt;&#xD;\n&amp;lt;IDGenderScore&amp;gt;0&amp;lt;/IDGenderScore&amp;gt;&#xD;\n&amp;lt;IDGenderStatus/&amp;gt;&#xD;\n&amp;lt;IDAltIdentifierScore&amp;gt;100&amp;lt;/IDAltIdentifierScore&amp;gt;&#xD;\n&amp;lt;IDIdentifierScore&amp;gt;50&amp;lt;/IDIdentifierScore&amp;gt;&#xD;\n&amp;lt;IDIdentifierStatus/&amp;gt;&#xD;\n&amp;lt;AddAltResScore&amp;gt;0&amp;lt;/AddAltResScore&amp;gt;&#xD;\n&amp;lt;AddressResidenceScore&amp;gt;0&amp;lt;/AddressResidenceScore&amp;gt;&#xD;\n&amp;lt;AddressResidenceStatus/&amp;gt;&#xD;\n&amp;lt;AddAltPerScore&amp;gt;0&amp;lt;/AddAltPerScore&amp;gt;&#xD;\n&amp;lt;AddressPermanentScore&amp;gt;0&amp;lt;/AddressPermanentScore&amp;gt;&#xD;\n&amp;lt;AddressPermanentStatus/&amp;gt;&#xD;\n&amp;lt;AddressOfficeScore&amp;gt;0&amp;lt;/AddressOfficeScore&amp;gt;&#xD;\n&amp;lt;AddressOfficeStatus/&amp;gt;&#xD;\n&amp;lt;ConAltPhoneScore&amp;gt;0&amp;lt;/ConAltPhoneScore&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone1Score&amp;gt;0&amp;lt;/ContactabilityTelephone1Score&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone1Status/&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone2Score&amp;gt;0&amp;lt;/ContactabilityTelephone2Score&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone2Status/&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone3Score&amp;gt;0&amp;lt;/ContactabilityTelephone3Score&amp;gt;&#xD;\n&amp;lt;ContactabilityTelephone3Status/&amp;gt;&#xD;\n&amp;lt;FinalIdentityScore&amp;gt;34&amp;lt;/FinalIdentityScore&amp;gt;&#xD;\n&amp;lt;FinalIdentityStatus/&amp;gt;&#xD;\n&amp;lt;FinalAddressScore&amp;gt;0&amp;lt;/FinalAddressScore&amp;gt;&#xD;\n&amp;lt;FinalAddressStatus/&amp;gt;&#xD;\n&amp;lt;FinalContactabilityScore&amp;gt;0&amp;lt;/FinalContactabilityScore&amp;gt;&#xD;\n&amp;lt;FinalContactabilityStatus/&amp;gt;&#xD;\n&amp;lt;FinalVerificationScore&amp;gt;13&amp;lt;/FinalVerificationScore&amp;gt;&#xD;\n&amp;lt;FinalVerificationStatus/&amp;gt;&#xD;\n&amp;lt;/VerificationScore&amp;gt;&#xD;\n&amp;lt;CIBILDetect&amp;gt;&#xD;\n&amp;lt;Responseheader&amp;gt;&#xD;\n&amp;lt;ProcessDate&amp;gt;06/09/2021&amp;lt;/ProcessDate&amp;gt;&#xD;\n&amp;lt;ErrorCount&amp;gt;0&amp;lt;/ErrorCount&amp;gt;&#xD;\n&amp;lt;NoHitCount&amp;gt;1&amp;lt;/NoHitCount&amp;gt;&#xD;\n&amp;lt;HitCount&amp;gt;0&amp;lt;/HitCount&amp;gt;&#xD;\n&amp;lt;/Responseheader&amp;gt;&#xD;\n&amp;lt;/CIBILDetect&amp;gt;&#xD;\n&amp;lt;PAN&amp;gt;&#xD;\n&amp;lt;NSDL_PAN_Status_Desc&amp;gt;Existing and Valid PAN&amp;lt;/NSDL_PAN_Status_Desc&amp;gt;&#xD;\n&amp;lt;NSDL_Return_Cd_Desc&amp;gt;Success&amp;lt;/NSDL_Return_Cd_Desc&amp;gt;&#xD;\n&amp;lt;NSDL_LstUpdtDt_ITD&amp;gt;31/08/2019&amp;lt;/NSDL_LstUpdtDt_ITD&amp;gt;&#xD;\n&amp;lt;NSDL_PAN_Status&amp;gt;E&amp;lt;/NSDL_PAN_Status&amp;gt;&#xD;\n&amp;lt;NSDL_Return_Cd&amp;gt;1&amp;lt;/NSDL_Return_Cd&amp;gt;&#xD;\n&amp;lt;Name&amp;gt;Shri TARIQ  ILYAS&amp;lt;/Name&amp;gt;&#xD;\n&amp;lt;ID&amp;gt;AKNPI7200F&amp;lt;/ID&amp;gt;&#xD;\n&amp;lt;/PAN&amp;gt;&#xD;\n&amp;lt;MemberAttributes&amp;gt;&#xD;\n&amp;lt;AppEnvironment&amp;gt;TUSSPL&amp;lt;/AppEnvironment&amp;gt;&#xD;\n&amp;lt;ExternalApplicationId&amp;gt;109298722&amp;lt;/ExternalApplicationId&amp;gt;&#xD;\n&amp;lt;GSTStateCode&amp;gt;07&amp;lt;/GSTStateCode&amp;gt;&#xD;\n&amp;lt;IDVision_EndTime&amp;gt;9/6/2021 2:02:14 PM&amp;lt;/IDVision_EndTime&amp;gt;&#xD;\n&amp;lt;ApplicationId&amp;gt;109298722&amp;lt;/ApplicationId&amp;gt;&#xD;\n&amp;lt;MemberID&amp;gt;NB4235&amp;lt;/MemberID&amp;gt;&#xD;\n&amp;lt;ShortName&amp;gt;IDV&amp;lt;/ShortName&amp;gt;&#xD;\n&amp;lt;CreatedUser&amp;gt;NB4235DC01_PROD002&amp;lt;/CreatedUser&amp;gt;&#xD;\n&amp;lt;/MemberAttributes&amp;gt;&#xD;\n&amp;lt;AvailableFlags&amp;gt;&#xD;\n&amp;lt;Telephone2Category&amp;gt;&#xD;\n&amp;lt;/Telephone2Category&amp;gt;&#xD;\n&amp;lt;Telephone1Category&amp;gt;01&amp;lt;/Telephone1Category&amp;gt;&#xD;\n&amp;lt;Address2Category&amp;gt;0&amp;lt;/Address2Category&amp;gt;&#xD;\n&amp;lt;Address1Category&amp;gt;01&amp;lt;/Address1Category&amp;gt;&#xD;\n&amp;lt;TelOfficeInfo&amp;gt;No&amp;lt;/TelOfficeInfo&amp;gt;&#xD;\n&amp;lt;TelResidantInfo&amp;gt;No&amp;lt;/TelResidantInfo&amp;gt;&#xD;\n&amp;lt;TelMobileInfo&amp;gt;Yes&amp;lt;/TelMobileInfo&amp;gt;&#xD;\n&amp;lt;AddrOfficeInfo&amp;gt;No&amp;lt;/AddrOfficeInfo&amp;gt;&#xD;\n&amp;lt;AddrResidantInfo&amp;gt;No&amp;lt;/AddrResidantInfo&amp;gt;&#xD;\n&amp;lt;AddrPermanentInfo&amp;gt;Yes&amp;lt;/AddrPermanentInfo&amp;gt;&#xD;\n&amp;lt;IDAadharInfo&amp;gt;No&amp;lt;/IDAadharInfo&amp;gt;&#xD;\n&amp;lt;IDRationCardInfo&amp;gt;No&amp;lt;/IDRationCardInfo&amp;gt;&#xD;\n&amp;lt;IDDriverLicInfo&amp;gt;No&amp;lt;/IDDriverLicInfo&amp;gt;&#xD;\n&amp;lt;IDVoterInfo&amp;gt;No&amp;lt;/IDVoterInfo&amp;gt;&#xD;\n&amp;lt;IDPassportInfo&amp;gt;No&amp;lt;/IDPassportInfo&amp;gt;&#xD;\n&amp;lt;IDNSDLInfo&amp;gt;Yes&amp;lt;/IDNSDLInfo&amp;gt;&#xD;\n&amp;lt;/AvailableFlags&amp;gt;&#xD;\n&amp;lt;/CPVAttributes&amp;gt;&#xD;\n&amp;lt;ReturnMessage&amp;gt;Pincode must be 6 digit in length excluding special characters other than numbers. The last three digits must not be all zeroes (“000”). ; &amp;lt;/ReturnMessage&amp;gt;&#xD;\n&amp;lt;IDVApplicationID&amp;gt;202494042&amp;lt;/IDVApplicationID&amp;gt;&#xD;\n&amp;lt;SpecialMessages&amp;gt;D02.You are Not Subscribed to Voter ID Check ;R02.No Detect Matches Found ;&amp;lt;/SpecialMessages&amp;gt;&#xD;\n&amp;lt;/DsIDVision&amp;gt;&#xD;\n&amp;lt;DsTuVerification&amp;gt;&#xD;\n&amp;lt;Response&amp;gt;&#xD;\n&amp;lt;IsSuccess&amp;gt;False&amp;lt;/IsSuccess&amp;gt;&#xD;\n&amp;lt;ErrorCode&amp;gt;&#xD;\n&amp;lt;/ErrorCode&amp;gt;&#xD;\n&amp;lt;ErrorMessage&amp;gt;&#xD;\n&amp;lt;/ErrorMessage&amp;gt;&#xD;\n&amp;lt;VerificationResponseXml&amp;gt;&amp;lt;/VerificationResponseXml&amp;gt;&#xD;\n&amp;lt;/Response&amp;gt;&#xD;\n&amp;lt;/DsTuVerification&amp;gt;&#xD;\n&amp;lt;DsAadharEkycOtp&amp;gt;&#xD;\n&amp;lt;/DsAadharEkycOtp&amp;gt;&#xD;\n&amp;lt;/Applicant&amp;gt;&#xD;\n&amp;lt;/Applicants&amp;gt;&#xD;\n&lt;/Field&gt;&lt;Field key=\"ApplicationData\"&gt;&amp;lt;ApplicationData&amp;gt;&#xD;\n&amp;lt;FormattedReport&amp;gt;True&amp;lt;/FormattedReport&amp;gt;&#xD;\n&amp;lt;MFIBranchReferenceNo&amp;gt;&amp;lt;/MFIBranchReferenceNo&amp;gt;&#xD;\n&amp;lt;MFICenterReferenceNo&amp;gt;&amp;lt;/MFICenterReferenceNo&amp;gt;&#xD;\n&amp;lt;MFILoanPurpose&amp;gt;&amp;lt;/MFILoanPurpose&amp;gt;&#xD;\n&amp;lt;MFIEnquiryAmount&amp;gt;&amp;lt;/MFIEnquiryAmount&amp;gt;&#xD;\n&amp;lt;ConsumerConsentForUIDAIAuthentication&amp;gt;N&amp;lt;/ConsumerConsentForUIDAIAuthentication&amp;gt;&#xD;\n&amp;lt;NTCProductType&amp;gt;PL&amp;lt;/NTCProductType&amp;gt;&#xD;\n&amp;lt;MFIBureauFlag&amp;gt;True&amp;lt;/MFIBureauFlag&amp;gt;&#xD;\n&amp;lt;IDVerificationFlag&amp;gt;False&amp;lt;/IDVerificationFlag&amp;gt;&#xD;\n&amp;lt;DSTuNtcFlag&amp;gt;True&amp;lt;/DSTuNtcFlag&amp;gt;&#xD;\n&amp;lt;CibilBureauFlag&amp;gt;False&amp;lt;/CibilBureauFlag&amp;gt;&#xD;\n&amp;lt;Password&amp;gt;Ce8#Yh8@Py8@Dh&amp;lt;/Password&amp;gt;&#xD;\n&amp;lt;MemberCode&amp;gt;NB42358899_CIRC2C&amp;lt;/MemberCode&amp;gt;&#xD;\n&amp;lt;GSTStateCode&amp;gt;07&amp;lt;/GSTStateCode&amp;gt;&#xD;\n&amp;lt;ScoreType&amp;gt;08&amp;lt;/ScoreType&amp;gt;&#xD;\n&amp;lt;Amount&amp;gt;10000&amp;lt;/Amount&amp;gt;&#xD;\n&amp;lt;Purpose&amp;gt;10&amp;lt;/Purpose&amp;gt;&#xD;\n&amp;lt;TUXF_Default_HDR_Amount&amp;gt;&#xD;\n&amp;lt;/TUXF_Default_HDR_Amount&amp;gt;&#xD;\n&amp;lt;Address2Category&amp;gt;&#xD;\n&amp;lt;/Address2Category&amp;gt;&#xD;\n&amp;lt;Address1Category&amp;gt;&#xD;\n&amp;lt;/Address1Category&amp;gt;&#xD;\n&amp;lt;MFIDocRequest&amp;gt;&#xD;\n&amp;lt;/MFIDocRequest&amp;gt;&#xD;\n&amp;lt;ReturnMessage&amp;gt;&#xD;\n&amp;lt;/ReturnMessage&amp;gt;&#xD;\n&amp;lt;DTTrail&amp;gt;&#xD;\n&amp;lt;Step&amp;gt;&#xD;\n&amp;lt;Name&amp;gt;IDVision Score&amp;lt;/Name&amp;gt;&#xD;\n&amp;lt;Duration&amp;gt;00:00:01.1718945&amp;lt;/Duration&amp;gt;&#xD;\n&amp;lt;/Step&amp;gt;&#xD;\n&amp;lt;/DTTrail&amp;gt;&#xD;\n&amp;lt;Milestone&amp;gt;&#xD;\n&amp;lt;Step&amp;gt;IDVision Score&amp;lt;/Step&amp;gt;&#xD;\n&amp;lt;/Milestone&amp;gt;&#xD;\n&amp;lt;Start&amp;gt;&#xD;\n&amp;lt;/Start&amp;gt;&#xD;\n&amp;lt;InputValReasonCodes&amp;gt;&#xD;\n&amp;lt;/InputValReasonCodes&amp;gt;&#xD;\n&amp;lt;TelResidantInfo&amp;gt;&#xD;\n&amp;lt;/TelResidantInfo&amp;gt;&#xD;\n&amp;lt;TelMobileInfo&amp;gt;&#xD;\n&amp;lt;/TelMobileInfo&amp;gt;&#xD;\n&amp;lt;AddrOfficeInfo&amp;gt;&#xD;\n&amp;lt;/AddrOfficeInfo&amp;gt;&#xD;\n&amp;lt;AddrResidantInfo&amp;gt;&#xD;\n&amp;lt;/AddrResidantInfo&amp;gt;&#xD;\n&amp;lt;AddrPermanentInfo&amp;gt;&#xD;\n&amp;lt;/AddrPermanentInfo&amp;gt;&#xD;\n&amp;lt;NewToCredit&amp;gt;&#xD;\n&amp;lt;/NewToCredit&amp;gt;&#xD;\n&amp;lt;ShortName&amp;gt;&#xD;\n&amp;lt;/ShortName&amp;gt;&#xD;\n&amp;lt;KOB&amp;gt;&#xD;\n&amp;lt;/KOB&amp;gt;&#xD;\n&amp;lt;KAMContact&amp;gt;&#xD;\n&amp;lt;/KAMContact&amp;gt;&#xD;\n&amp;lt;KAMName&amp;gt;&#xD;\n&amp;lt;/KAMName&amp;gt;&#xD;\n&amp;lt;MemberName&amp;gt;&#xD;\n&amp;lt;/MemberName&amp;gt;&#xD;\n&amp;lt;MemberID&amp;gt;&#xD;\n&amp;lt;/MemberID&amp;gt;&#xD;\n&amp;lt;RequestType&amp;gt;&#xD;\n&amp;lt;/RequestType&amp;gt;&#xD;\n&amp;lt;TUXF_Default_HDR_Purpose&amp;gt;&#xD;\n&amp;lt;/TUXF_Default_HDR_Purpose&amp;gt;&#xD;\n&amp;lt;EnvironmentType&amp;gt;Production&amp;lt;/EnvironmentType&amp;gt;&#xD;\n&amp;lt;EnvironmentTypeId&amp;gt;2&amp;lt;/EnvironmentTypeId&amp;gt;&#xD;\n&amp;lt;SolutionSetId&amp;gt;140&amp;lt;/SolutionSetId&amp;gt;&#xD;\n&amp;lt;ApplicationId&amp;gt;109298722&amp;lt;/ApplicationId&amp;gt;&#xD;\n&amp;lt;BusinessUnitId&amp;gt;100&amp;lt;/BusinessUnitId&amp;gt;&#xD;\n&amp;lt;User&amp;gt;NB4235DC01_PROD002&amp;lt;/User&amp;gt;&#xD;\n&amp;lt;TelOfficeInfo&amp;gt;&#xD;\n&amp;lt;/TelOfficeInfo&amp;gt;&#xD;\n&amp;lt;PANVersion&amp;gt;2&amp;lt;/PANVersion&amp;gt;&#xD;\n&amp;lt;/ApplicationData&amp;gt;&#xD;\n&lt;/Field&gt;&lt;Field key=\"Decision\"&gt;Pass&lt;/Field&gt;&lt;Field key=\"ApplicationId\"&gt;109298722&lt;/Field&gt;&lt;/ContextData&gt;&lt;/DCResponse&gt;</ExecuteXMLStringResult></ExecuteXMLStringResponse></s:Body></s:Envelope>', '109298722')
+ERROR - 2021-09-06 14:02:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 14:02:17 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 14:02:17 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 14:02:17 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+ERROR - 2021-09-06 14:02:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 430
+INFO - 2021-09-06 10:33:53 --> Config Class Initialized
+INFO - 2021-09-06 10:33:53 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:33:53 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:33:53 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:33:53 --> URI Class Initialized
+INFO - 2021-09-06 10:33:53 --> Router Class Initialized
+INFO - 2021-09-06 10:33:53 --> Output Class Initialized
+INFO - 2021-09-06 10:33:53 --> Security Class Initialized
+DEBUG - 2021-09-06 10:33:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:33:53 --> CSRF cookie sent
+INFO - 2021-09-06 10:33:53 --> CSRF token verified
+INFO - 2021-09-06 10:33:53 --> Input Class Initialized
+INFO - 2021-09-06 10:33:53 --> Language Class Initialized
+INFO - 2021-09-06 10:33:53 --> Loader Class Initialized
+INFO - 2021-09-06 10:33:53 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:33:53 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:33:53 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:33:53 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:33:53 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:33:53 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:33:53 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:33:53 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:33:53 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:33:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:33:54 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:33:54 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:33:54 --> Upload Class Initialized
+INFO - 2021-09-06 10:33:54 --> Parser Class Initialized
+INFO - 2021-09-06 10:33:54 --> Email Class Initialized
+DEBUG - 2021-09-06 10:33:54 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:33:54 --> Table Class Initialized
+INFO - 2021-09-06 10:33:54 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:33:54 --> Controller Class Initialized
+INFO - 2021-09-06 10:33:54 --> Model "Leadmod" initialized
+INFO - 2021-09-06 14:03:54 --> Model "Task_Model" initialized
+INFO - 2021-09-06 14:03:54 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 14:03:54 --> Model "Status_Model" initialized
+INFO - 2021-09-06 14:03:54 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 14:03:54 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 14:03:54 --> Model "Email_Model" initialized
+INFO - 2021-09-06 14:03:54 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 10:33:56 --> Config Class Initialized
+INFO - 2021-09-06 10:33:56 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:33:56 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:33:56 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:33:56 --> URI Class Initialized
+INFO - 2021-09-06 10:33:56 --> Router Class Initialized
+INFO - 2021-09-06 10:33:56 --> Output Class Initialized
+INFO - 2021-09-06 10:33:56 --> Security Class Initialized
+DEBUG - 2021-09-06 10:33:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:33:56 --> CSRF cookie sent
+INFO - 2021-09-06 10:33:56 --> CSRF token verified
+INFO - 2021-09-06 10:33:56 --> Input Class Initialized
+INFO - 2021-09-06 10:33:56 --> Language Class Initialized
+INFO - 2021-09-06 10:33:56 --> Loader Class Initialized
+INFO - 2021-09-06 10:33:56 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:33:56 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:33:56 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:33:56 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:33:56 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:33:56 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:33:56 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:33:56 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:33:56 --> Database Driver Class Initialized
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Attempt to read property "residential_proof" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 924
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined property: stdClass::$type D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 927
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Attempt to read property "borrower_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 931
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Attempt to read property "company_id" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 989
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Attempt to read property "customer_id" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 990
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined variable $usr_created_by D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1015
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined variable $usr_created_at D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1016
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined variable $sanctioned_by D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1017
+ERROR - 2021-09-06 14:03:57 --> Severity: Warning --> Undefined variable $sanctioned_date D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1018
+DEBUG - 2021-09-06 10:33:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 14:03:58 --> Final output sent to browser
+DEBUG - 2021-09-06 14:03:58 --> Total execution time: 5.1199
+INFO - 2021-09-06 10:33:58 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:33:58 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:33:58 --> Upload Class Initialized
+INFO - 2021-09-06 10:33:58 --> Parser Class Initialized
+INFO - 2021-09-06 10:33:58 --> Email Class Initialized
+DEBUG - 2021-09-06 10:33:58 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:33:58 --> Table Class Initialized
+INFO - 2021-09-06 10:33:58 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:33:58 --> Controller Class Initialized
+INFO - 2021-09-06 14:03:58 --> Model "Task_Model" initialized
+INFO - 2021-09-06 14:03:58 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 14:03:58 --> Model "Rejection_Model" initialized
+INFO - 2021-09-06 14:03:58 --> Model "Email_Model" initialized
+INFO - 2021-09-06 14:03:58 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 14:03:58 --> Model "CAM_Model" initialized
+DEBUG - 2021-09-06 14:03:58 --> Encrypt class already loaded. Second attempt ignored.
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1076
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1079
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "email" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1087
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "alternateEmail" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1088
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "userType" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1089
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "cibil" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1090
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "Active_CC" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1091
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "cc_statementDate" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1092
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "cc_paymentDueDate" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1093
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "customer_bank_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1094
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "account_type" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1095
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "customer_account_no" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1096
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "customer_confirm_account_no" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1097
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "customer_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1098
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "cc_limit" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1099
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "cc_outstanding" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1100
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "max_eligibility" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1101
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "cc_name_Match_borrower_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1102
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "emiOnCard" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1103
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "DPD30Plus" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1104
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "cc_statementAddress" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1105
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "last3monthDPD" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1106
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "higherDPDLast3month" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1107
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "isDisburseBankAC" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1110
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "bankIFSC_Code" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1111
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "bank_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1112
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "bank_branch" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1113
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "bankA_C_No" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1114
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "confBankA_C_No" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1115
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "bankHolder_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1116
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "bank_account_type" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1117
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "loan_applied" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1119
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "loan_applied" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1119
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1120
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1120
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "processing_fee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1121
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "processing_fee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1121
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1122
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1122
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "net_disbursal_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1124
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "net_disbursal_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1124
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "disbursal_date" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1125
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "repayment_date" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1126
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "tenure" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1127
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "repayment_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1128
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "special_approval" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1129
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "deviationsApprovedBy" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1130
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "changeROI" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1131
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "changeFee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1132
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "changeLoanAmount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1133
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "changeTenure" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1134
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "changeRTR" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1135
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "remark" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1136
+ERROR - 2021-09-06 14:03:59 --> Severity: Warning --> Attempt to read property "status" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1137
+INFO - 2021-09-06 14:03:59 --> Final output sent to browser
+DEBUG - 2021-09-06 14:03:59 --> Total execution time: 2.9469
+INFO - 2021-09-06 10:43:53 --> Config Class Initialized
+INFO - 2021-09-06 10:43:53 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:43:53 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:43:53 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:43:53 --> URI Class Initialized
+INFO - 2021-09-06 10:43:53 --> Router Class Initialized
+INFO - 2021-09-06 10:43:53 --> Output Class Initialized
+INFO - 2021-09-06 10:43:53 --> Security Class Initialized
+DEBUG - 2021-09-06 10:43:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:43:53 --> CSRF cookie sent
+INFO - 2021-09-06 10:43:53 --> Input Class Initialized
+INFO - 2021-09-06 10:43:53 --> Language Class Initialized
+INFO - 2021-09-06 10:43:53 --> Loader Class Initialized
+INFO - 2021-09-06 10:43:53 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:43:53 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:43:53 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:43:53 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:43:53 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:43:53 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:43:53 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:43:53 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:43:53 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:43:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:43:55 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:43:55 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:43:55 --> Upload Class Initialized
+INFO - 2021-09-06 10:43:55 --> Parser Class Initialized
+INFO - 2021-09-06 10:43:55 --> Email Class Initialized
+DEBUG - 2021-09-06 10:43:55 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:43:55 --> Table Class Initialized
+INFO - 2021-09-06 10:43:55 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:43:55 --> Controller Class Initialized
+INFO - 2021-09-06 10:43:55 --> Model "Leadmod" initialized
+INFO - 2021-09-06 14:13:55 --> Model "Task_Model" initialized
+INFO - 2021-09-06 14:13:55 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 14:13:55 --> Model "Status_Model" initialized
+INFO - 2021-09-06 14:13:55 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 14:13:55 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 14:13:55 --> Model "Email_Model" initialized
+INFO - 2021-09-06 14:13:55 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 14:13:56 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 14:13:56 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 14:13:56 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 14:13:56 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 14:13:56 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 14:13:56 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 14:13:56 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 14:13:56 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 14:13:56 --> Final output sent to browser
+DEBUG - 2021-09-06 14:13:56 --> Total execution time: 2.9914
+INFO - 2021-09-06 10:43:57 --> Config Class Initialized
+INFO - 2021-09-06 10:43:57 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:43:57 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:43:57 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:44:00 --> Config Class Initialized
+INFO - 2021-09-06 10:44:00 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:44:00 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:44:00 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:44:00 --> URI Class Initialized
+INFO - 2021-09-06 10:44:00 --> Router Class Initialized
+INFO - 2021-09-06 10:44:00 --> Output Class Initialized
+INFO - 2021-09-06 10:44:00 --> Security Class Initialized
+DEBUG - 2021-09-06 10:44:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:44:00 --> CSRF cookie sent
+INFO - 2021-09-06 10:44:00 --> CSRF token verified
+INFO - 2021-09-06 10:44:00 --> Input Class Initialized
+INFO - 2021-09-06 10:44:00 --> Language Class Initialized
+INFO - 2021-09-06 10:44:00 --> Loader Class Initialized
+INFO - 2021-09-06 10:44:00 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:44:00 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:44:00 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:44:00 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:44:00 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:44:00 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:44:00 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:44:00 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:44:00 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:44:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:44:02 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:44:02 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:44:02 --> Upload Class Initialized
+INFO - 2021-09-06 10:44:02 --> Parser Class Initialized
+INFO - 2021-09-06 10:44:02 --> Email Class Initialized
+DEBUG - 2021-09-06 10:44:02 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:44:02 --> Table Class Initialized
+INFO - 2021-09-06 10:44:02 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:44:02 --> Controller Class Initialized
+INFO - 2021-09-06 14:14:02 --> Model "Task_Model" initialized
+INFO - 2021-09-06 14:14:02 --> Final output sent to browser
+DEBUG - 2021-09-06 14:14:02 --> Total execution time: 2.2063
+INFO - 2021-09-06 10:44:03 --> Config Class Initialized
+INFO - 2021-09-06 10:44:03 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:44:03 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:44:03 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:44:03 --> URI Class Initialized
+INFO - 2021-09-06 10:44:03 --> Router Class Initialized
+INFO - 2021-09-06 10:44:03 --> Output Class Initialized
+INFO - 2021-09-06 10:44:03 --> Security Class Initialized
+DEBUG - 2021-09-06 10:44:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:44:03 --> CSRF cookie sent
+INFO - 2021-09-06 10:44:03 --> CSRF token verified
+INFO - 2021-09-06 10:44:03 --> Input Class Initialized
+INFO - 2021-09-06 10:44:03 --> Language Class Initialized
+INFO - 2021-09-06 10:44:03 --> Loader Class Initialized
+INFO - 2021-09-06 10:44:03 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:44:03 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:44:03 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:44:03 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:44:03 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:44:03 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:44:03 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:44:03 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:44:03 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:44:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:44:04 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:44:04 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:44:04 --> Upload Class Initialized
+INFO - 2021-09-06 10:44:04 --> Parser Class Initialized
+INFO - 2021-09-06 10:44:04 --> Email Class Initialized
+DEBUG - 2021-09-06 10:44:04 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:44:04 --> Table Class Initialized
+INFO - 2021-09-06 10:44:04 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:44:04 --> Controller Class Initialized
+INFO - 2021-09-06 14:14:04 --> Model "Task_Model" initialized
+INFO - 2021-09-06 10:45:57 --> Config Class Initialized
+INFO - 2021-09-06 10:45:57 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:45:57 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:45:57 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:45:57 --> URI Class Initialized
+INFO - 2021-09-06 10:45:57 --> Router Class Initialized
+INFO - 2021-09-06 10:45:57 --> Output Class Initialized
+INFO - 2021-09-06 10:45:57 --> Security Class Initialized
+DEBUG - 2021-09-06 10:45:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:45:57 --> CSRF cookie sent
+INFO - 2021-09-06 10:45:57 --> CSRF token verified
+INFO - 2021-09-06 10:45:57 --> Input Class Initialized
+INFO - 2021-09-06 10:45:57 --> Language Class Initialized
+INFO - 2021-09-06 10:45:57 --> Loader Class Initialized
+INFO - 2021-09-06 10:45:57 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:45:57 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:45:57 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:45:57 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:45:57 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:45:57 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:45:57 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:45:57 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:45:57 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:45:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:45:59 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:45:59 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:45:59 --> Upload Class Initialized
+INFO - 2021-09-06 10:45:59 --> Parser Class Initialized
+INFO - 2021-09-06 10:45:59 --> Email Class Initialized
+DEBUG - 2021-09-06 10:45:59 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:45:59 --> Table Class Initialized
+INFO - 2021-09-06 10:45:59 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:45:59 --> Controller Class Initialized
+INFO - 2021-09-06 14:15:59 --> Model "Task_Model" initialized
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 428
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 428
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 428
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 428
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 428
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 435
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 435
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 435
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 437
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 438
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 438
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 438
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 438
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 438
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 438
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 438
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 438
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 439
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 440
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "table" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "tr" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "td" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Attempt to read property "span" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+ERROR - 2021-09-06 14:16:05 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\controllers\CibilController.php 441
+INFO - 2021-09-06 14:16:06 --> Final output sent to browser
+DEBUG - 2021-09-06 14:16:06 --> Total execution time: 8.4903
+INFO - 2021-09-06 10:46:06 --> Config Class Initialized
+INFO - 2021-09-06 10:46:06 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:46:06 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:46:06 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:46:06 --> URI Class Initialized
+INFO - 2021-09-06 10:46:06 --> Router Class Initialized
+INFO - 2021-09-06 10:46:06 --> Output Class Initialized
+INFO - 2021-09-06 10:46:06 --> Security Class Initialized
+DEBUG - 2021-09-06 10:46:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:46:06 --> CSRF cookie sent
+INFO - 2021-09-06 10:46:06 --> CSRF token verified
+INFO - 2021-09-06 10:46:06 --> Input Class Initialized
+INFO - 2021-09-06 10:46:06 --> Language Class Initialized
+INFO - 2021-09-06 10:46:06 --> Loader Class Initialized
+INFO - 2021-09-06 10:46:06 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:46:06 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:46:06 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:46:06 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:46:06 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:46:06 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:46:06 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:46:06 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:46:06 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:46:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:46:07 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:46:07 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:46:07 --> Upload Class Initialized
+INFO - 2021-09-06 10:46:07 --> Parser Class Initialized
+INFO - 2021-09-06 10:46:07 --> Email Class Initialized
+DEBUG - 2021-09-06 10:46:07 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:46:07 --> Table Class Initialized
+INFO - 2021-09-06 10:46:07 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:46:07 --> Controller Class Initialized
+INFO - 2021-09-06 14:16:07 --> Model "Task_Model" initialized
+INFO - 2021-09-06 14:16:08 --> Final output sent to browser
+DEBUG - 2021-09-06 14:16:08 --> Total execution time: 2.3114
+INFO - 2021-09-06 10:46:57 --> Config Class Initialized
+INFO - 2021-09-06 10:46:57 --> Hooks Class Initialized
+DEBUG - 2021-09-06 10:46:57 --> UTF-8 Support Enabled
+INFO - 2021-09-06 10:46:57 --> Utf8 Class Initialized
+INFO - 2021-09-06 10:46:57 --> URI Class Initialized
+INFO - 2021-09-06 10:46:57 --> Router Class Initialized
+INFO - 2021-09-06 10:46:57 --> Output Class Initialized
+INFO - 2021-09-06 10:46:57 --> Security Class Initialized
+DEBUG - 2021-09-06 10:46:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 10:46:57 --> CSRF cookie sent
+INFO - 2021-09-06 10:46:57 --> Input Class Initialized
+INFO - 2021-09-06 10:46:57 --> Language Class Initialized
+INFO - 2021-09-06 10:46:57 --> Loader Class Initialized
+INFO - 2021-09-06 10:46:57 --> Helper loaded: url_helper
+INFO - 2021-09-06 10:46:57 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 10:46:57 --> Helper loaded: form_helper
+INFO - 2021-09-06 10:46:57 --> Helper loaded: file_helper
+INFO - 2021-09-06 10:46:57 --> Helper loaded: download_helper
+INFO - 2021-09-06 10:46:57 --> Helper loaded: date_helper
+INFO - 2021-09-06 10:46:57 --> Helper loaded: security_helper
+INFO - 2021-09-06 10:46:57 --> Helper loaded: option_helper
+INFO - 2021-09-06 10:46:57 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 10:46:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 10:46:58 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 10:46:58 --> Form Validation Class Initialized
+INFO - 2021-09-06 10:46:58 --> Upload Class Initialized
+INFO - 2021-09-06 10:46:58 --> Parser Class Initialized
+INFO - 2021-09-06 10:46:58 --> Email Class Initialized
+DEBUG - 2021-09-06 10:46:58 --> Encrypt Class Initialized
+INFO - 2021-09-06 10:46:58 --> Table Class Initialized
+INFO - 2021-09-06 10:46:58 --> Model "Leadmod" initialized
+INFO - 2021-09-06 10:46:58 --> Controller Class Initialized
+INFO - 2021-09-06 14:16:58 --> Model "Task_Model" initialized
+INFO - 2021-09-06 14:16:59 --> Final output sent to browser
+DEBUG - 2021-09-06 14:16:59 --> Total execution time: 2.1300
+INFO - 2021-09-06 11:29:27 --> Config Class Initialized
+INFO - 2021-09-06 11:29:27 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:29:27 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:29:27 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:29:27 --> URI Class Initialized
+INFO - 2021-09-06 11:29:27 --> Router Class Initialized
+INFO - 2021-09-06 11:29:27 --> Output Class Initialized
+INFO - 2021-09-06 11:29:27 --> Security Class Initialized
+DEBUG - 2021-09-06 11:29:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:29:27 --> CSRF cookie sent
+INFO - 2021-09-06 11:29:27 --> CSRF token verified
+INFO - 2021-09-06 11:29:27 --> Input Class Initialized
+INFO - 2021-09-06 11:29:27 --> Language Class Initialized
+INFO - 2021-09-06 11:29:27 --> Loader Class Initialized
+INFO - 2021-09-06 11:29:27 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:29:27 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:29:27 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:29:27 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:29:27 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:29:27 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:29:28 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:29:28 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:29:28 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:29:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:29:29 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:29:29 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:29:29 --> Upload Class Initialized
+INFO - 2021-09-06 11:29:29 --> Parser Class Initialized
+INFO - 2021-09-06 11:29:29 --> Email Class Initialized
+DEBUG - 2021-09-06 11:29:29 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:29:29 --> Table Class Initialized
+INFO - 2021-09-06 11:29:29 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:29:29 --> Controller Class Initialized
+INFO - 2021-09-06 14:59:29 --> Model "Task_Model" initialized
+INFO - 2021-09-06 14:59:29 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 14:59:29 --> Model "Rejection_Model" initialized
+INFO - 2021-09-06 14:59:29 --> Model "Email_Model" initialized
+INFO - 2021-09-06 14:59:29 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 14:59:29 --> Model "CAM_Model" initialized
+DEBUG - 2021-09-06 14:59:29 --> Encrypt class already loaded. Second attempt ignored.
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1076
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1079
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "email" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1087
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "alternateEmail" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1088
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "userType" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1089
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "cibil" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1090
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "Active_CC" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1091
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "cc_statementDate" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1092
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "cc_paymentDueDate" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1093
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "customer_bank_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1094
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "account_type" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1095
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "customer_account_no" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1096
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "customer_confirm_account_no" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1097
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "customer_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1098
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "cc_limit" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1099
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "cc_outstanding" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1100
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "max_eligibility" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1101
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "cc_name_Match_borrower_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1102
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "emiOnCard" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1103
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "DPD30Plus" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1104
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "cc_statementAddress" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1105
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "last3monthDPD" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1106
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "higherDPDLast3month" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1107
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "isDisburseBankAC" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1110
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "bankIFSC_Code" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1111
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "bank_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1112
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "bank_branch" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1113
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "bankA_C_No" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1114
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "confBankA_C_No" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1115
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "bankHolder_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1116
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "bank_account_type" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1117
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "loan_applied" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1119
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "loan_applied" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1119
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1120
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1120
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "processing_fee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1121
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "processing_fee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1121
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1122
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1122
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "net_disbursal_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1124
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "net_disbursal_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1124
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "disbursal_date" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1125
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "repayment_date" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1126
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "tenure" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1127
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "repayment_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1128
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "special_approval" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1129
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "deviationsApprovedBy" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1130
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "changeROI" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1131
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "changeFee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1132
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "changeLoanAmount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1133
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "changeTenure" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1134
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "changeRTR" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1135
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "remark" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1136
+ERROR - 2021-09-06 14:59:30 --> Severity: Warning --> Attempt to read property "status" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1137
+INFO - 2021-09-06 14:59:30 --> Final output sent to browser
+DEBUG - 2021-09-06 14:59:30 --> Total execution time: 2.6654
+INFO - 2021-09-06 11:38:36 --> Config Class Initialized
+INFO - 2021-09-06 11:38:36 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:38:36 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:38:36 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:38:36 --> URI Class Initialized
+INFO - 2021-09-06 11:38:36 --> Router Class Initialized
+INFO - 2021-09-06 11:38:36 --> Output Class Initialized
+INFO - 2021-09-06 11:38:36 --> Security Class Initialized
+DEBUG - 2021-09-06 11:38:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:38:36 --> CSRF cookie sent
+INFO - 2021-09-06 11:38:36 --> Input Class Initialized
+INFO - 2021-09-06 11:38:36 --> Language Class Initialized
+INFO - 2021-09-06 11:38:36 --> Loader Class Initialized
+INFO - 2021-09-06 11:38:36 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:38:36 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:38:36 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:38:36 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:38:36 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:38:36 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:38:36 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:38:36 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:38:36 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:38:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:38:37 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:38:37 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:38:37 --> Upload Class Initialized
+INFO - 2021-09-06 11:38:37 --> Parser Class Initialized
+INFO - 2021-09-06 11:38:37 --> Email Class Initialized
+DEBUG - 2021-09-06 11:38:37 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:38:37 --> Table Class Initialized
+INFO - 2021-09-06 11:38:37 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:38:37 --> Controller Class Initialized
+INFO - 2021-09-06 11:38:37 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:08:37 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:08:37 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:08:37 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:08:37 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:08:37 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:08:37 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:08:37 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:08:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 15:08:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 15:08:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Document/docs.php
+INFO - 2021-09-06 15:08:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\CAM/camPayday.php
+INFO - 2021-09-06 15:08:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 15:08:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 15:08:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 15:08:39 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 15:08:39 --> Final output sent to browser
+DEBUG - 2021-09-06 15:08:39 --> Total execution time: 2.8499
+INFO - 2021-09-06 11:38:40 --> Config Class Initialized
+INFO - 2021-09-06 11:38:40 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:38:40 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:38:40 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:38:43 --> Config Class Initialized
+INFO - 2021-09-06 11:38:43 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:38:43 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:38:43 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:38:43 --> URI Class Initialized
+INFO - 2021-09-06 11:38:43 --> Router Class Initialized
+INFO - 2021-09-06 11:38:43 --> Output Class Initialized
+INFO - 2021-09-06 11:38:43 --> Security Class Initialized
+DEBUG - 2021-09-06 11:38:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:38:43 --> CSRF cookie sent
+INFO - 2021-09-06 11:38:43 --> CSRF token verified
+INFO - 2021-09-06 11:38:43 --> Input Class Initialized
+INFO - 2021-09-06 11:38:43 --> Language Class Initialized
+INFO - 2021-09-06 11:38:43 --> Loader Class Initialized
+INFO - 2021-09-06 11:38:43 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:38:43 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:38:43 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:38:43 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:38:43 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:38:43 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:38:43 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:38:43 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:38:43 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:38:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:38:44 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:38:44 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:38:44 --> Upload Class Initialized
+INFO - 2021-09-06 11:38:44 --> Parser Class Initialized
+INFO - 2021-09-06 11:38:44 --> Email Class Initialized
+DEBUG - 2021-09-06 11:38:44 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:38:44 --> Table Class Initialized
+INFO - 2021-09-06 11:38:44 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:38:44 --> Controller Class Initialized
+INFO - 2021-09-06 15:08:44 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:08:44 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:08:44 --> Model "Rejection_Model" initialized
+INFO - 2021-09-06 15:08:44 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:08:44 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:08:44 --> Model "CAM_Model" initialized
+DEBUG - 2021-09-06 15:08:44 --> Encrypt class already loaded. Second attempt ignored.
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1076
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1079
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "email" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1087
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "alternateEmail" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1088
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "userType" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1089
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "cibil" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1090
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "Active_CC" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1091
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "cc_statementDate" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1092
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "cc_paymentDueDate" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1093
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "customer_bank_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1094
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "account_type" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1095
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "customer_account_no" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1096
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "customer_confirm_account_no" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1097
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "customer_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1098
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "cc_limit" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1099
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "cc_outstanding" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1100
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "max_eligibility" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1101
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "cc_name_Match_borrower_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1102
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "emiOnCard" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1103
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "DPD30Plus" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1104
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "cc_statementAddress" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1105
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "last3monthDPD" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1106
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "higherDPDLast3month" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1107
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "isDisburseBankAC" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1110
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "bankIFSC_Code" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1111
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "bank_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1112
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "bank_branch" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1113
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "bankA_C_No" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1114
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "confBankA_C_No" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1115
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "bankHolder_name" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1116
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "bank_account_type" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1117
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "loan_applied" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1119
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "loan_applied" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1119
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1120
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "loan_recomended" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1120
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "processing_fee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1121
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "processing_fee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1121
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1122
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "roi" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1122
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "net_disbursal_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1124
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "net_disbursal_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1124
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "disbursal_date" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1125
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "repayment_date" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1126
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "tenure" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1127
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "repayment_amount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1128
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "special_approval" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1129
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "deviationsApprovedBy" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1130
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "changeROI" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1131
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "changeFee" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1132
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "changeLoanAmount" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1133
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "changeTenure" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1134
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "changeRTR" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1135
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "remark" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1136
+ERROR - 2021-09-06 15:08:45 --> Severity: Warning --> Attempt to read property "status" on null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 1137
+INFO - 2021-09-06 15:08:45 --> Final output sent to browser
+DEBUG - 2021-09-06 15:08:45 --> Total execution time: 2.8587
+INFO - 2021-09-06 11:55:02 --> Config Class Initialized
+INFO - 2021-09-06 11:55:02 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:02 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:02 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:02 --> URI Class Initialized
+INFO - 2021-09-06 11:55:02 --> Router Class Initialized
+INFO - 2021-09-06 11:55:02 --> Output Class Initialized
+INFO - 2021-09-06 11:55:02 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:02 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:02 --> Input Class Initialized
+INFO - 2021-09-06 11:55:02 --> Language Class Initialized
+INFO - 2021-09-06 11:55:02 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:02 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:02 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:02 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:02 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:02 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:02 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:02 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:02 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:02 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:04 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:04 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:04 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:04 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:04 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:04 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:04 --> Table Class Initialized
+INFO - 2021-09-06 11:55:04 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:04 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:04 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:25:04 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:04 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:25:04 --> Model "User_Model" initialized
+INFO - 2021-09-06 11:55:04 --> Config Class Initialized
+INFO - 2021-09-06 11:55:04 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:04 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:04 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:04 --> URI Class Initialized
+INFO - 2021-09-06 11:55:04 --> Router Class Initialized
+INFO - 2021-09-06 11:55:04 --> Output Class Initialized
+INFO - 2021-09-06 11:55:04 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:04 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:04 --> Input Class Initialized
+INFO - 2021-09-06 11:55:04 --> Language Class Initialized
+INFO - 2021-09-06 11:55:04 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:04 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:04 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:04 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:04 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:04 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:04 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:04 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:04 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:04 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:05 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:05 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:05 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:05 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:05 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:05 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:05 --> Table Class Initialized
+INFO - 2021-09-06 11:55:05 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:05 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:05 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:25:05 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:05 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:25:05 --> Model "User_Model" initialized
+INFO - 2021-09-06 15:25:07 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:07 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+INFO - 2021-09-06 15:25:07 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 15:25:07 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php
+INFO - 2021-09-06 15:25:07 --> Final output sent to browser
+DEBUG - 2021-09-06 15:25:07 --> Total execution time: 2.6657
+INFO - 2021-09-06 11:55:07 --> Config Class Initialized
+INFO - 2021-09-06 11:55:07 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:07 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:07 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:09 --> Config Class Initialized
+INFO - 2021-09-06 11:55:09 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:09 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:09 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:09 --> URI Class Initialized
+INFO - 2021-09-06 11:55:09 --> Router Class Initialized
+INFO - 2021-09-06 11:55:09 --> Output Class Initialized
+INFO - 2021-09-06 11:55:09 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:09 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:09 --> Input Class Initialized
+INFO - 2021-09-06 11:55:09 --> Language Class Initialized
+INFO - 2021-09-06 11:55:09 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:09 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:09 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:09 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:09 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:09 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:09 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:09 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:09 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:09 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:11 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:11 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:11 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:11 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:11 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:11 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:11 --> Table Class Initialized
+INFO - 2021-09-06 11:55:11 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:11 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:11 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:25:11 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:11 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:25:11 --> Model "User_Model" initialized
+INFO - 2021-09-06 11:55:11 --> Config Class Initialized
+INFO - 2021-09-06 11:55:11 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:11 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:11 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:11 --> URI Class Initialized
+INFO - 2021-09-06 11:55:11 --> Router Class Initialized
+INFO - 2021-09-06 11:55:11 --> Output Class Initialized
+INFO - 2021-09-06 11:55:11 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:11 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:11 --> Input Class Initialized
+INFO - 2021-09-06 11:55:11 --> Language Class Initialized
+INFO - 2021-09-06 11:55:11 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:11 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:11 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:11 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:11 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:11 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:11 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:11 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:11 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:11 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:12 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:12 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:12 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:12 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:12 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:12 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:12 --> Table Class Initialized
+INFO - 2021-09-06 11:55:12 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:12 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:12 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:25:12 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:12 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:25:12 --> Model "User_Model" initialized
+INFO - 2021-09-06 15:25:13 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:13 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+INFO - 2021-09-06 15:25:13 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 15:25:13 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php
+INFO - 2021-09-06 15:25:13 --> Final output sent to browser
+DEBUG - 2021-09-06 15:25:13 --> Total execution time: 2.7576
+INFO - 2021-09-06 11:55:14 --> Config Class Initialized
+INFO - 2021-09-06 11:55:14 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:14 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:14 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:15 --> Config Class Initialized
+INFO - 2021-09-06 11:55:15 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:15 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:15 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:15 --> URI Class Initialized
+INFO - 2021-09-06 11:55:15 --> Router Class Initialized
+INFO - 2021-09-06 11:55:15 --> Output Class Initialized
+INFO - 2021-09-06 11:55:15 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:15 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:15 --> Input Class Initialized
+INFO - 2021-09-06 11:55:15 --> Language Class Initialized
+INFO - 2021-09-06 11:55:15 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:15 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:15 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:15 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:15 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:15 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:15 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:15 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:15 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:15 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:16 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:16 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:16 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:16 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:16 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:16 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:16 --> Table Class Initialized
+INFO - 2021-09-06 11:55:16 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:16 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:16 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:25:16 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:16 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:25:16 --> Model "User_Model" initialized
+INFO - 2021-09-06 11:55:16 --> Config Class Initialized
+INFO - 2021-09-06 11:55:16 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:16 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:16 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:16 --> URI Class Initialized
+DEBUG - 2021-09-06 11:55:16 --> No URI present. Default controller set.
+INFO - 2021-09-06 11:55:16 --> Router Class Initialized
+INFO - 2021-09-06 11:55:16 --> Output Class Initialized
+INFO - 2021-09-06 11:55:16 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:16 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:16 --> Input Class Initialized
+INFO - 2021-09-06 11:55:16 --> Language Class Initialized
+INFO - 2021-09-06 11:55:16 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:16 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:16 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:16 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:16 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:16 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:16 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:16 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:16 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:16 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:18 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:18 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:18 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:18 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:18 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:18 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:18 --> Table Class Initialized
+INFO - 2021-09-06 11:55:18 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:18 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:18 --> Model "Admin_Model" initialized
+ERROR - 2021-09-06 15:25:18 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 18
+ERROR - 2021-09-06 15:25:18 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 18
+ERROR - 2021-09-06 15:25:18 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 19
+ERROR - 2021-09-06 15:25:18 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 19
+ERROR - 2021-09-06 15:25:18 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 20
+ERROR - 2021-09-06 15:25:18 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 20
+INFO - 2021-09-06 15:25:18 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:18 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:25:18 --> Model "User_Model" initialized
+INFO - 2021-09-06 15:25:18 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\login.php
+INFO - 2021-09-06 15:25:18 --> Final output sent to browser
+DEBUG - 2021-09-06 15:25:18 --> Total execution time: 1.8570
+INFO - 2021-09-06 11:55:18 --> Config Class Initialized
+INFO - 2021-09-06 11:55:18 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:18 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:18 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:18 --> URI Class Initialized
+INFO - 2021-09-06 11:55:18 --> Router Class Initialized
+INFO - 2021-09-06 11:55:18 --> Output Class Initialized
+INFO - 2021-09-06 11:55:18 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:18 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:18 --> Input Class Initialized
+INFO - 2021-09-06 11:55:18 --> Language Class Initialized
+ERROR - 2021-09-06 11:55:18 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 11:55:24 --> Config Class Initialized
+INFO - 2021-09-06 11:55:24 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:24 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:24 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:24 --> URI Class Initialized
+INFO - 2021-09-06 11:55:24 --> Router Class Initialized
+INFO - 2021-09-06 11:55:24 --> Output Class Initialized
+INFO - 2021-09-06 11:55:24 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:24 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:24 --> CSRF token verified
+INFO - 2021-09-06 11:55:24 --> Input Class Initialized
+INFO - 2021-09-06 11:55:24 --> Language Class Initialized
+INFO - 2021-09-06 11:55:24 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:24 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:24 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:24 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:24 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:24 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:24 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:24 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:24 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:24 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:26 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:26 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:26 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:26 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:26 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:26 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:26 --> Table Class Initialized
+INFO - 2021-09-06 11:55:26 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:26 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:26 --> Model "Admin_Model" initialized
+ERROR - 2021-09-06 15:25:26 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 18
+ERROR - 2021-09-06 15:25:26 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 18
+ERROR - 2021-09-06 15:25:26 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 19
+ERROR - 2021-09-06 15:25:26 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 19
+ERROR - 2021-09-06 15:25:26 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 20
+ERROR - 2021-09-06 15:25:26 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 20
+INFO - 2021-09-06 15:25:26 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:26 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:25:26 --> Model "User_Model" initialized
+INFO - 2021-09-06 15:25:26 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2021-09-06 11:55:26 --> Config Class Initialized
+INFO - 2021-09-06 11:55:26 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:26 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:26 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:26 --> URI Class Initialized
+INFO - 2021-09-06 11:55:26 --> Router Class Initialized
+INFO - 2021-09-06 11:55:26 --> Output Class Initialized
+INFO - 2021-09-06 11:55:26 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:26 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:26 --> Input Class Initialized
+INFO - 2021-09-06 11:55:26 --> Language Class Initialized
+INFO - 2021-09-06 11:55:27 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:27 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:27 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:27 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:27 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:27 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:27 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:27 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:27 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:27 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:28 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:28 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:28 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:28 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:28 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:28 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:28 --> Table Class Initialized
+INFO - 2021-09-06 11:55:28 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:28 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:28 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:25:28 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:28 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:25:28 --> Model "User_Model" initialized
+INFO - 2021-09-06 15:25:29 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+ERROR - 2021-09-06 15:25:29 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:29 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:29 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:29 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:29 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:29 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:29 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:25:29 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+INFO - 2021-09-06 15:25:29 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 15:25:29 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php
+INFO - 2021-09-06 15:25:29 --> Final output sent to browser
+DEBUG - 2021-09-06 15:25:29 --> Total execution time: 2.6768
+INFO - 2021-09-06 11:55:29 --> Config Class Initialized
+INFO - 2021-09-06 11:55:29 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:29 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:29 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:35 --> Config Class Initialized
+INFO - 2021-09-06 11:55:35 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:35 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:35 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:35 --> URI Class Initialized
+INFO - 2021-09-06 11:55:35 --> Router Class Initialized
+INFO - 2021-09-06 11:55:35 --> Output Class Initialized
+INFO - 2021-09-06 11:55:35 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:35 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:35 --> Input Class Initialized
+INFO - 2021-09-06 11:55:35 --> Language Class Initialized
+INFO - 2021-09-06 11:55:35 --> Loader Class Initialized
+INFO - 2021-09-06 11:55:35 --> Helper loaded: url_helper
+INFO - 2021-09-06 11:55:35 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 11:55:35 --> Helper loaded: form_helper
+INFO - 2021-09-06 11:55:35 --> Helper loaded: file_helper
+INFO - 2021-09-06 11:55:35 --> Helper loaded: download_helper
+INFO - 2021-09-06 11:55:35 --> Helper loaded: date_helper
+INFO - 2021-09-06 11:55:35 --> Helper loaded: security_helper
+INFO - 2021-09-06 11:55:35 --> Helper loaded: option_helper
+INFO - 2021-09-06 11:55:35 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 11:55:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 11:55:36 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 11:55:36 --> Form Validation Class Initialized
+INFO - 2021-09-06 11:55:36 --> Upload Class Initialized
+INFO - 2021-09-06 11:55:36 --> Parser Class Initialized
+INFO - 2021-09-06 11:55:36 --> Email Class Initialized
+DEBUG - 2021-09-06 11:55:36 --> Encrypt Class Initialized
+INFO - 2021-09-06 11:55:36 --> Table Class Initialized
+INFO - 2021-09-06 11:55:36 --> Model "Leadmod" initialized
+INFO - 2021-09-06 11:55:36 --> Controller Class Initialized
+INFO - 2021-09-06 11:55:36 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:25:36 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:25:36 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:25:36 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:25:36 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:25:36 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:25:36 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:25:36 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:25:38 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 15:25:38 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+ERROR - 2021-09-06 15:25:38 --> Severity: Warning --> Undefined property: CI_DB_mysqli_result::$lead_id D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks\main_js.php 1437
+INFO - 2021-09-06 15:25:38 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 15:25:38 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/GetLeadTaskList.php
+INFO - 2021-09-06 15:25:38 --> Final output sent to browser
+DEBUG - 2021-09-06 15:25:38 --> Total execution time: 2.6780
+INFO - 2021-09-06 11:55:38 --> Config Class Initialized
+INFO - 2021-09-06 11:55:38 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:38 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:38 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:38 --> URI Class Initialized
+INFO - 2021-09-06 11:55:38 --> Router Class Initialized
+INFO - 2021-09-06 11:55:38 --> Output Class Initialized
+INFO - 2021-09-06 11:55:38 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:38 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:38 --> Input Class Initialized
+INFO - 2021-09-06 11:55:38 --> Language Class Initialized
+ERROR - 2021-09-06 11:55:38 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 11:55:38 --> Config Class Initialized
+INFO - 2021-09-06 11:55:38 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:38 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:38 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:55:38 --> URI Class Initialized
+INFO - 2021-09-06 11:55:38 --> Router Class Initialized
+INFO - 2021-09-06 11:55:38 --> Output Class Initialized
+INFO - 2021-09-06 11:55:38 --> Security Class Initialized
+DEBUG - 2021-09-06 11:55:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:55:38 --> CSRF cookie sent
+INFO - 2021-09-06 11:55:38 --> Input Class Initialized
+INFO - 2021-09-06 11:55:38 --> Language Class Initialized
+ERROR - 2021-09-06 11:55:38 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 11:55:38 --> Config Class Initialized
+INFO - 2021-09-06 11:55:38 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:55:38 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:55:38 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:57:16 --> Config Class Initialized
+INFO - 2021-09-06 11:57:16 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:57:16 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:57:16 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:57:16 --> URI Class Initialized
+INFO - 2021-09-06 11:57:16 --> Router Class Initialized
+INFO - 2021-09-06 11:57:16 --> Output Class Initialized
+INFO - 2021-09-06 11:57:16 --> Security Class Initialized
+DEBUG - 2021-09-06 11:57:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:57:16 --> CSRF cookie sent
+INFO - 2021-09-06 11:57:19 --> Config Class Initialized
+INFO - 2021-09-06 11:57:19 --> Hooks Class Initialized
+DEBUG - 2021-09-06 11:57:19 --> UTF-8 Support Enabled
+INFO - 2021-09-06 11:57:19 --> Utf8 Class Initialized
+INFO - 2021-09-06 11:57:19 --> URI Class Initialized
+INFO - 2021-09-06 11:57:19 --> Router Class Initialized
+INFO - 2021-09-06 11:57:19 --> Output Class Initialized
+INFO - 2021-09-06 11:57:19 --> Security Class Initialized
+DEBUG - 2021-09-06 11:57:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 11:57:19 --> CSRF cookie sent
+INFO - 2021-09-06 12:00:45 --> Config Class Initialized
+INFO - 2021-09-06 12:00:45 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:00:45 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:00:45 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:00:45 --> URI Class Initialized
+INFO - 2021-09-06 12:00:45 --> Router Class Initialized
+INFO - 2021-09-06 12:00:45 --> Output Class Initialized
+INFO - 2021-09-06 12:00:45 --> Security Class Initialized
+DEBUG - 2021-09-06 12:00:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:00:45 --> CSRF cookie sent
+INFO - 2021-09-06 12:00:45 --> Input Class Initialized
+INFO - 2021-09-06 12:00:45 --> Language Class Initialized
+INFO - 2021-09-06 12:00:45 --> Loader Class Initialized
+INFO - 2021-09-06 12:00:45 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:00:45 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:00:45 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:00:45 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:00:45 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:00:45 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:00:45 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:00:45 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:00:45 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:00:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:00:47 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:00:47 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:00:47 --> Upload Class Initialized
+INFO - 2021-09-06 12:00:47 --> Parser Class Initialized
+INFO - 2021-09-06 12:00:47 --> Email Class Initialized
+DEBUG - 2021-09-06 12:00:47 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:00:47 --> Table Class Initialized
+INFO - 2021-09-06 12:00:47 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:00:47 --> Controller Class Initialized
+INFO - 2021-09-06 12:00:47 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:30:47 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:30:47 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:30:47 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:30:47 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:30:47 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:30:47 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:30:47 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:30:48 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 15:30:48 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+ERROR - 2021-09-06 15:30:48 --> Severity: Warning --> Undefined property: CI_DB_mysqli_result::$lead_id D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks\main_js.php 1438
+INFO - 2021-09-06 15:30:48 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 15:30:48 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/GetLeadTaskList.php
+INFO - 2021-09-06 15:30:48 --> Final output sent to browser
+DEBUG - 2021-09-06 15:30:48 --> Total execution time: 2.6336
+INFO - 2021-09-06 12:00:48 --> Config Class Initialized
+INFO - 2021-09-06 12:00:48 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:00:48 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:00:48 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:00:48 --> URI Class Initialized
+INFO - 2021-09-06 12:00:48 --> Router Class Initialized
+INFO - 2021-09-06 12:00:48 --> Output Class Initialized
+INFO - 2021-09-06 12:00:48 --> Security Class Initialized
+DEBUG - 2021-09-06 12:00:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:00:48 --> CSRF cookie sent
+INFO - 2021-09-06 12:00:48 --> Input Class Initialized
+INFO - 2021-09-06 12:00:48 --> Language Class Initialized
+ERROR - 2021-09-06 12:00:48 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 12:00:48 --> Config Class Initialized
+INFO - 2021-09-06 12:00:48 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:00:48 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:00:48 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:00:48 --> URI Class Initialized
+INFO - 2021-09-06 12:00:48 --> Router Class Initialized
+INFO - 2021-09-06 12:00:48 --> Output Class Initialized
+INFO - 2021-09-06 12:00:48 --> Security Class Initialized
+DEBUG - 2021-09-06 12:00:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:00:48 --> CSRF cookie sent
+INFO - 2021-09-06 12:00:48 --> Input Class Initialized
+INFO - 2021-09-06 12:00:48 --> Language Class Initialized
+ERROR - 2021-09-06 12:00:48 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 12:00:48 --> Config Class Initialized
+INFO - 2021-09-06 12:00:48 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:00:48 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:00:48 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:00:59 --> Config Class Initialized
+INFO - 2021-09-06 12:00:59 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:00:59 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:00:59 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:00:59 --> URI Class Initialized
+INFO - 2021-09-06 12:00:59 --> Router Class Initialized
+INFO - 2021-09-06 12:00:59 --> Output Class Initialized
+INFO - 2021-09-06 12:00:59 --> Security Class Initialized
+DEBUG - 2021-09-06 12:00:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:00:59 --> CSRF cookie sent
+INFO - 2021-09-06 12:00:59 --> CSRF token verified
+INFO - 2021-09-06 12:00:59 --> Input Class Initialized
+INFO - 2021-09-06 12:00:59 --> Language Class Initialized
+INFO - 2021-09-06 12:00:59 --> Loader Class Initialized
+INFO - 2021-09-06 12:00:59 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:00:59 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:00:59 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:00:59 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:00:59 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:00:59 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:00:59 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:00:59 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:00:59 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:00 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:00 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:00 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:00 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:00 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:00 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:00 --> Table Class Initialized
+INFO - 2021-09-06 12:01:00 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:00 --> Controller Class Initialized
+INFO - 2021-09-06 12:01:00 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:31:00 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:00 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:31:00 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:31:00 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:31:00 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:31:00 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:31:00 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:31:01 --> Final output sent to browser
+DEBUG - 2021-09-06 15:31:01 --> Total execution time: 2.7051
+INFO - 2021-09-06 12:01:01 --> Config Class Initialized
+INFO - 2021-09-06 12:01:01 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:01 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:01 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:01 --> URI Class Initialized
+INFO - 2021-09-06 12:01:01 --> Router Class Initialized
+INFO - 2021-09-06 12:01:01 --> Output Class Initialized
+INFO - 2021-09-06 12:01:01 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:01 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:01 --> Input Class Initialized
+INFO - 2021-09-06 12:01:01 --> Language Class Initialized
+INFO - 2021-09-06 12:01:01 --> Loader Class Initialized
+INFO - 2021-09-06 12:01:01 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:01:01 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:01:02 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:01:02 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:01:02 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:01:02 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:01:02 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:01:02 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:01:02 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:03 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:03 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:03 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:03 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:03 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:03 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:03 --> Table Class Initialized
+INFO - 2021-09-06 12:01:03 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:03 --> Controller Class Initialized
+INFO - 2021-09-06 12:01:03 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:31:03 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:03 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:31:03 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:31:03 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:31:03 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:31:03 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:31:03 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:31:04 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 15:31:04 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+ERROR - 2021-09-06 15:31:04 --> Severity: Warning --> Undefined property: CI_DB_mysqli_result::$lead_id D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks\main_js.php 1438
+INFO - 2021-09-06 15:31:04 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 15:31:04 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/GetLeadTaskList.php
+INFO - 2021-09-06 15:31:04 --> Final output sent to browser
+DEBUG - 2021-09-06 15:31:04 --> Total execution time: 2.5379
+INFO - 2021-09-06 12:01:04 --> Config Class Initialized
+INFO - 2021-09-06 12:01:04 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:04 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:04 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:04 --> URI Class Initialized
+INFO - 2021-09-06 12:01:04 --> Router Class Initialized
+INFO - 2021-09-06 12:01:04 --> Output Class Initialized
+INFO - 2021-09-06 12:01:04 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:04 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:04 --> Input Class Initialized
+INFO - 2021-09-06 12:01:04 --> Language Class Initialized
+ERROR - 2021-09-06 12:01:04 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 12:01:04 --> Config Class Initialized
+INFO - 2021-09-06 12:01:04 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:04 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:04 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:04 --> URI Class Initialized
+INFO - 2021-09-06 12:01:04 --> Router Class Initialized
+INFO - 2021-09-06 12:01:04 --> Output Class Initialized
+INFO - 2021-09-06 12:01:04 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:04 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:04 --> Input Class Initialized
+INFO - 2021-09-06 12:01:04 --> Language Class Initialized
+ERROR - 2021-09-06 12:01:04 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 12:01:05 --> Config Class Initialized
+INFO - 2021-09-06 12:01:05 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:05 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:05 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:13 --> Config Class Initialized
+INFO - 2021-09-06 12:01:13 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:13 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:13 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:13 --> URI Class Initialized
+INFO - 2021-09-06 12:01:13 --> Router Class Initialized
+INFO - 2021-09-06 12:01:13 --> Output Class Initialized
+INFO - 2021-09-06 12:01:13 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:13 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:13 --> Input Class Initialized
+INFO - 2021-09-06 12:01:13 --> Language Class Initialized
+INFO - 2021-09-06 12:01:13 --> Loader Class Initialized
+INFO - 2021-09-06 12:01:13 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:01:13 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:01:13 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:01:13 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:01:13 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:01:13 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:01:13 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:01:13 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:01:13 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:15 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:15 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:15 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:15 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:15 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:15 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:15 --> Table Class Initialized
+INFO - 2021-09-06 12:01:15 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:15 --> Controller Class Initialized
+INFO - 2021-09-06 12:01:15 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:31:15 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:15 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:31:15 --> Model "User_Model" initialized
+INFO - 2021-09-06 12:01:15 --> Config Class Initialized
+INFO - 2021-09-06 12:01:15 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:15 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:15 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:15 --> URI Class Initialized
+INFO - 2021-09-06 12:01:15 --> Router Class Initialized
+INFO - 2021-09-06 12:01:15 --> Output Class Initialized
+INFO - 2021-09-06 12:01:15 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:15 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:15 --> Input Class Initialized
+INFO - 2021-09-06 12:01:15 --> Language Class Initialized
+INFO - 2021-09-06 12:01:15 --> Loader Class Initialized
+INFO - 2021-09-06 12:01:15 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:01:15 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:01:15 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:01:15 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:01:15 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:01:15 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:01:15 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:01:15 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:01:15 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:16 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:16 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:16 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:16 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:16 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:16 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:16 --> Table Class Initialized
+INFO - 2021-09-06 12:01:16 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:16 --> Controller Class Initialized
+INFO - 2021-09-06 12:01:16 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:31:16 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:16 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 15:31:16 --> Model "User_Model" initialized
+INFO - 2021-09-06 15:31:17 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+ERROR - 2021-09-06 15:31:17 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:31:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:31:17 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:31:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:31:17 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:31:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:31:17 --> Severity: Warning --> Undefined variable $totalCounts D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+ERROR - 2021-09-06 15:31:17 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php 23
+INFO - 2021-09-06 15:31:17 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 15:31:17 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\home.php
+INFO - 2021-09-06 15:31:17 --> Final output sent to browser
+DEBUG - 2021-09-06 15:31:17 --> Total execution time: 2.7181
+INFO - 2021-09-06 12:01:18 --> Config Class Initialized
+INFO - 2021-09-06 12:01:18 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:18 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:18 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:22 --> Config Class Initialized
+INFO - 2021-09-06 12:01:22 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:22 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:22 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:22 --> URI Class Initialized
+INFO - 2021-09-06 12:01:22 --> Router Class Initialized
+INFO - 2021-09-06 12:01:22 --> Output Class Initialized
+INFO - 2021-09-06 12:01:22 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:22 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:22 --> Input Class Initialized
+INFO - 2021-09-06 12:01:22 --> Language Class Initialized
+INFO - 2021-09-06 12:01:22 --> Loader Class Initialized
+INFO - 2021-09-06 12:01:22 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:01:22 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:01:22 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:01:22 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:01:22 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:01:22 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:01:22 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:01:22 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:01:22 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:23 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:23 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:23 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:23 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:23 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:23 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:23 --> Table Class Initialized
+INFO - 2021-09-06 12:01:23 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:23 --> Controller Class Initialized
+INFO - 2021-09-06 12:01:23 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:31:23 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:23 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:31:23 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:31:23 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:31:23 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:31:23 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:31:23 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:31:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 15:31:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+ERROR - 2021-09-06 15:31:24 --> Severity: Warning --> Undefined property: CI_DB_mysqli_result::$lead_id D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks\main_js.php 1438
+INFO - 2021-09-06 15:31:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 15:31:24 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/GetLeadTaskList.php
+INFO - 2021-09-06 15:31:24 --> Final output sent to browser
+DEBUG - 2021-09-06 15:31:24 --> Total execution time: 2.6496
+INFO - 2021-09-06 12:01:25 --> Config Class Initialized
+INFO - 2021-09-06 12:01:25 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:25 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:25 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:25 --> URI Class Initialized
+INFO - 2021-09-06 12:01:25 --> Router Class Initialized
+INFO - 2021-09-06 12:01:25 --> Output Class Initialized
+INFO - 2021-09-06 12:01:25 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:25 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:25 --> Input Class Initialized
+INFO - 2021-09-06 12:01:25 --> Language Class Initialized
+ERROR - 2021-09-06 12:01:25 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 12:01:25 --> Config Class Initialized
+INFO - 2021-09-06 12:01:25 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:25 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:25 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:25 --> URI Class Initialized
+INFO - 2021-09-06 12:01:25 --> Router Class Initialized
+INFO - 2021-09-06 12:01:25 --> Output Class Initialized
+INFO - 2021-09-06 12:01:25 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:25 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:25 --> Input Class Initialized
+INFO - 2021-09-06 12:01:25 --> Language Class Initialized
+ERROR - 2021-09-06 12:01:25 --> 404 Page Not Found: Public/front
+INFO - 2021-09-06 12:01:25 --> Config Class Initialized
+INFO - 2021-09-06 12:01:25 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:25 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:25 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:30 --> Config Class Initialized
+INFO - 2021-09-06 12:01:30 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:30 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:30 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:30 --> URI Class Initialized
+INFO - 2021-09-06 12:01:30 --> Router Class Initialized
+INFO - 2021-09-06 12:01:30 --> Output Class Initialized
+INFO - 2021-09-06 12:01:30 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:30 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:30 --> Input Class Initialized
+INFO - 2021-09-06 12:01:30 --> Language Class Initialized
+INFO - 2021-09-06 12:01:30 --> Loader Class Initialized
+INFO - 2021-09-06 12:01:30 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:01:30 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:01:30 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:01:30 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:01:30 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:01:30 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:01:30 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:01:30 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:01:30 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:31 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:31 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:31 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:31 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:31 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:31 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:31 --> Table Class Initialized
+INFO - 2021-09-06 12:01:31 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:31 --> Controller Class Initialized
+INFO - 2021-09-06 12:01:31 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:31:31 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:31 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:31:31 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:31:31 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:31:31 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:31:31 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:31:31 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:31:32 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 15:31:32 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 15:31:32 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 15:31:32 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 15:31:32 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 15:31:32 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 15:31:32 --> Final output sent to browser
+DEBUG - 2021-09-06 15:31:32 --> Total execution time: 2.8980
+INFO - 2021-09-06 12:01:33 --> Config Class Initialized
+INFO - 2021-09-06 12:01:33 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:33 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:33 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:36 --> Config Class Initialized
+INFO - 2021-09-06 12:01:36 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:36 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:36 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:36 --> URI Class Initialized
+INFO - 2021-09-06 12:01:36 --> Router Class Initialized
+INFO - 2021-09-06 12:01:36 --> Output Class Initialized
+INFO - 2021-09-06 12:01:36 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:36 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:36 --> CSRF token verified
+INFO - 2021-09-06 12:01:36 --> Input Class Initialized
+INFO - 2021-09-06 12:01:36 --> Language Class Initialized
+INFO - 2021-09-06 12:01:36 --> Loader Class Initialized
+INFO - 2021-09-06 12:01:36 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:01:36 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:01:36 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:01:36 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:01:36 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:01:36 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:01:36 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:01:36 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:01:36 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:38 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:38 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:38 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:38 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:38 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:38 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:38 --> Table Class Initialized
+INFO - 2021-09-06 12:01:38 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:38 --> Controller Class Initialized
+INFO - 2021-09-06 15:31:38 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:39 --> Final output sent to browser
+DEBUG - 2021-09-06 15:31:39 --> Total execution time: 2.4135
+INFO - 2021-09-06 12:01:48 --> Config Class Initialized
+INFO - 2021-09-06 12:01:48 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:48 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:48 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:48 --> URI Class Initialized
+INFO - 2021-09-06 12:01:48 --> Router Class Initialized
+INFO - 2021-09-06 12:01:48 --> Output Class Initialized
+INFO - 2021-09-06 12:01:48 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:48 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:48 --> Input Class Initialized
+INFO - 2021-09-06 12:01:48 --> Language Class Initialized
+INFO - 2021-09-06 12:01:48 --> Loader Class Initialized
+INFO - 2021-09-06 12:01:48 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:01:48 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:01:48 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:01:48 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:01:48 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:01:48 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:01:48 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:01:48 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:01:48 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:50 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:50 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:50 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:50 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:50 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:50 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:50 --> Table Class Initialized
+INFO - 2021-09-06 12:01:50 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:50 --> Controller Class Initialized
+INFO - 2021-09-06 12:01:50 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:31:50 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:50 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:31:50 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:31:50 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:31:50 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:31:50 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:31:50 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:31:51 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 15:31:51 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+ERROR - 2021-09-06 15:31:51 --> Severity: Warning --> Undefined property: CI_DB_mysqli_result::$lead_id D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks\main_js.php 1438
+INFO - 2021-09-06 15:31:51 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 15:31:51 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/GetLeadTaskList.php
+INFO - 2021-09-06 15:31:51 --> Final output sent to browser
+DEBUG - 2021-09-06 15:31:51 --> Total execution time: 2.4979
+INFO - 2021-09-06 12:01:51 --> Config Class Initialized
+INFO - 2021-09-06 12:01:51 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:51 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:51 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:56 --> Config Class Initialized
+INFO - 2021-09-06 12:01:56 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:56 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:56 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:01:56 --> URI Class Initialized
+INFO - 2021-09-06 12:01:56 --> Router Class Initialized
+INFO - 2021-09-06 12:01:56 --> Output Class Initialized
+INFO - 2021-09-06 12:01:56 --> Security Class Initialized
+DEBUG - 2021-09-06 12:01:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:01:56 --> CSRF cookie sent
+INFO - 2021-09-06 12:01:56 --> Input Class Initialized
+INFO - 2021-09-06 12:01:56 --> Language Class Initialized
+INFO - 2021-09-06 12:01:56 --> Loader Class Initialized
+INFO - 2021-09-06 12:01:56 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:01:56 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:01:56 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:01:56 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:01:56 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:01:56 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:01:56 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:01:56 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:01:56 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:01:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:01:57 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:01:57 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:01:57 --> Upload Class Initialized
+INFO - 2021-09-06 12:01:57 --> Parser Class Initialized
+INFO - 2021-09-06 12:01:57 --> Email Class Initialized
+DEBUG - 2021-09-06 12:01:57 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:01:57 --> Table Class Initialized
+INFO - 2021-09-06 12:01:57 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:01:57 --> Controller Class Initialized
+INFO - 2021-09-06 12:01:57 --> Model "Leadmod" initialized
+INFO - 2021-09-06 15:31:57 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:31:57 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:31:57 --> Model "Status_Model" initialized
+INFO - 2021-09-06 15:31:57 --> Model "CAM_Model" initialized
+INFO - 2021-09-06 15:31:57 --> Model "Docs_Model" initialized
+INFO - 2021-09-06 15:31:57 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:31:57 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:31:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/header.php
+INFO - 2021-09-06 15:31:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/leadsDetails.php
+INFO - 2021-09-06 15:31:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Collection/collection.php
+INFO - 2021-09-06 15:31:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Layouts/footer.php
+INFO - 2021-09-06 15:31:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/main_js.php
+INFO - 2021-09-06 15:31:59 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\Tasks/task_js.php
+INFO - 2021-09-06 15:31:59 --> Final output sent to browser
+DEBUG - 2021-09-06 15:31:59 --> Total execution time: 3.0008
+INFO - 2021-09-06 12:01:59 --> Config Class Initialized
+INFO - 2021-09-06 12:01:59 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:01:59 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:01:59 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:02:04 --> Config Class Initialized
+INFO - 2021-09-06 12:02:04 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:02:04 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:02:04 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:02:04 --> URI Class Initialized
+INFO - 2021-09-06 12:02:04 --> Router Class Initialized
+INFO - 2021-09-06 12:02:04 --> Output Class Initialized
+INFO - 2021-09-06 12:02:04 --> Security Class Initialized
+DEBUG - 2021-09-06 12:02:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:02:04 --> CSRF cookie sent
+INFO - 2021-09-06 12:02:04 --> CSRF token verified
+INFO - 2021-09-06 12:02:04 --> Input Class Initialized
+INFO - 2021-09-06 12:02:04 --> Language Class Initialized
+INFO - 2021-09-06 12:02:04 --> Loader Class Initialized
+INFO - 2021-09-06 12:02:04 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:02:04 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:02:04 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:02:04 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:02:04 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:02:04 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:02:04 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:02:04 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:02:04 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:02:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:02:05 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:02:05 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:02:05 --> Upload Class Initialized
+INFO - 2021-09-06 12:02:05 --> Parser Class Initialized
+INFO - 2021-09-06 12:02:05 --> Email Class Initialized
+DEBUG - 2021-09-06 12:02:05 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:02:05 --> Table Class Initialized
+INFO - 2021-09-06 12:02:05 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:02:05 --> Controller Class Initialized
+INFO - 2021-09-06 15:32:05 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:32:06 --> Final output sent to browser
+DEBUG - 2021-09-06 15:32:06 --> Total execution time: 2.2289
+INFO - 2021-09-06 12:02:11 --> Config Class Initialized
+INFO - 2021-09-06 12:02:11 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:02:11 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:02:11 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:02:11 --> URI Class Initialized
+INFO - 2021-09-06 12:02:11 --> Router Class Initialized
+INFO - 2021-09-06 12:02:11 --> Output Class Initialized
+INFO - 2021-09-06 12:02:11 --> Security Class Initialized
+DEBUG - 2021-09-06 12:02:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:02:11 --> CSRF cookie sent
+INFO - 2021-09-06 12:02:11 --> CSRF token verified
+INFO - 2021-09-06 12:02:11 --> Input Class Initialized
+INFO - 2021-09-06 12:02:11 --> Language Class Initialized
+INFO - 2021-09-06 12:02:11 --> Loader Class Initialized
+INFO - 2021-09-06 12:02:11 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:02:11 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:02:11 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:02:11 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:02:11 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:02:11 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:02:11 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:02:11 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:02:11 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:02:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:02:13 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:02:13 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:02:13 --> Upload Class Initialized
+INFO - 2021-09-06 12:02:13 --> Parser Class Initialized
+INFO - 2021-09-06 12:02:13 --> Email Class Initialized
+DEBUG - 2021-09-06 12:02:13 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:02:13 --> Table Class Initialized
+INFO - 2021-09-06 12:02:13 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:02:13 --> Controller Class Initialized
+INFO - 2021-09-06 15:32:13 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:32:27 --> Final output sent to browser
+DEBUG - 2021-09-06 15:32:27 --> Total execution time: 15.9356
+INFO - 2021-09-06 12:02:27 --> Config Class Initialized
+INFO - 2021-09-06 12:02:27 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:02:27 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:02:27 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:02:27 --> URI Class Initialized
+INFO - 2021-09-06 12:02:27 --> Router Class Initialized
+INFO - 2021-09-06 12:02:27 --> Output Class Initialized
+INFO - 2021-09-06 12:02:27 --> Security Class Initialized
+DEBUG - 2021-09-06 12:02:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:02:27 --> CSRF cookie sent
+INFO - 2021-09-06 12:02:27 --> CSRF token verified
+INFO - 2021-09-06 12:02:27 --> Input Class Initialized
+INFO - 2021-09-06 12:02:27 --> Language Class Initialized
+INFO - 2021-09-06 12:02:27 --> Loader Class Initialized
+INFO - 2021-09-06 12:02:27 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:02:27 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:02:27 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:02:27 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:02:27 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:02:27 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:02:27 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:02:27 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:02:27 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:02:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:02:29 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:02:29 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:02:29 --> Upload Class Initialized
+INFO - 2021-09-06 12:02:29 --> Parser Class Initialized
+INFO - 2021-09-06 12:02:29 --> Email Class Initialized
+DEBUG - 2021-09-06 12:02:29 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:02:29 --> Table Class Initialized
+INFO - 2021-09-06 12:02:29 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:02:29 --> Controller Class Initialized
+INFO - 2021-09-06 15:32:29 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:32:30 --> Final output sent to browser
+DEBUG - 2021-09-06 15:32:30 --> Total execution time: 2.6973
+INFO - 2021-09-06 12:03:14 --> Config Class Initialized
+INFO - 2021-09-06 12:03:14 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:03:14 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:03:14 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:03:14 --> URI Class Initialized
+INFO - 2021-09-06 12:03:14 --> Router Class Initialized
+INFO - 2021-09-06 12:03:14 --> Output Class Initialized
+INFO - 2021-09-06 12:03:14 --> Security Class Initialized
+DEBUG - 2021-09-06 12:03:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:03:14 --> CSRF cookie sent
+INFO - 2021-09-06 12:03:14 --> Input Class Initialized
+INFO - 2021-09-06 12:03:14 --> Language Class Initialized
+INFO - 2021-09-06 12:03:14 --> Loader Class Initialized
+INFO - 2021-09-06 12:03:14 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:03:14 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:03:14 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:03:14 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:03:14 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:03:14 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:03:14 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:03:14 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:03:14 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:03:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:03:15 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:03:15 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:03:15 --> Upload Class Initialized
+INFO - 2021-09-06 12:03:15 --> Parser Class Initialized
+INFO - 2021-09-06 12:03:15 --> Email Class Initialized
+DEBUG - 2021-09-06 12:03:15 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:03:15 --> Table Class Initialized
+INFO - 2021-09-06 12:03:15 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:03:15 --> Controller Class Initialized
+INFO - 2021-09-06 15:33:15 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:33:16 --> Final output sent to browser
+DEBUG - 2021-09-06 15:33:16 --> Total execution time: 2.3543
+INFO - 2021-09-06 12:06:31 --> Config Class Initialized
+INFO - 2021-09-06 12:06:31 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:06:31 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:06:31 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:06:31 --> URI Class Initialized
+INFO - 2021-09-06 12:06:31 --> Router Class Initialized
+INFO - 2021-09-06 12:06:31 --> Output Class Initialized
+INFO - 2021-09-06 12:06:31 --> Security Class Initialized
+DEBUG - 2021-09-06 12:06:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:06:31 --> CSRF cookie sent
+INFO - 2021-09-06 12:06:31 --> CSRF token verified
+INFO - 2021-09-06 12:06:31 --> Input Class Initialized
+INFO - 2021-09-06 12:06:31 --> Language Class Initialized
+INFO - 2021-09-06 12:06:31 --> Loader Class Initialized
+INFO - 2021-09-06 12:06:31 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:06:31 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:06:31 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:06:31 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:06:31 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:06:31 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:06:31 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:06:31 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:06:31 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:06:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:06:32 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:06:32 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:06:32 --> Upload Class Initialized
+INFO - 2021-09-06 12:06:32 --> Parser Class Initialized
+INFO - 2021-09-06 12:06:32 --> Email Class Initialized
+DEBUG - 2021-09-06 12:06:32 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:06:32 --> Table Class Initialized
+INFO - 2021-09-06 12:06:32 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:06:32 --> Controller Class Initialized
+INFO - 2021-09-06 15:36:32 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:36:32 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 15:36:32 --> Model "Rejection_Model" initialized
+INFO - 2021-09-06 15:36:32 --> Model "Email_Model" initialized
+INFO - 2021-09-06 15:36:32 --> Model "SMS_Model" initialized
+INFO - 2021-09-06 15:36:32 --> Model "CAM_Model" initialized
+DEBUG - 2021-09-06 15:36:32 --> Encrypt class already loaded. Second attempt ignored.
+INFO - 2021-09-06 15:36:32 --> Final output sent to browser
+DEBUG - 2021-09-06 15:36:32 --> Total execution time: 1.8344
+INFO - 2021-09-06 12:07:09 --> Config Class Initialized
+INFO - 2021-09-06 12:07:09 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:07:09 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:07:09 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:07:09 --> URI Class Initialized
+INFO - 2021-09-06 12:07:09 --> Router Class Initialized
+INFO - 2021-09-06 12:07:09 --> Output Class Initialized
+INFO - 2021-09-06 12:07:09 --> Security Class Initialized
+DEBUG - 2021-09-06 12:07:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:07:09 --> CSRF cookie sent
+INFO - 2021-09-06 12:07:09 --> Input Class Initialized
+INFO - 2021-09-06 12:07:09 --> Language Class Initialized
+INFO - 2021-09-06 12:07:09 --> Loader Class Initialized
+INFO - 2021-09-06 12:07:09 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:07:09 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:07:09 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:07:09 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:07:09 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:07:09 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:07:09 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:07:09 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:07:09 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:07:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:07:10 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:07:10 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:07:10 --> Upload Class Initialized
+INFO - 2021-09-06 12:07:10 --> Parser Class Initialized
+INFO - 2021-09-06 12:07:10 --> Email Class Initialized
+DEBUG - 2021-09-06 12:07:10 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:07:10 --> Table Class Initialized
+INFO - 2021-09-06 12:07:10 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:07:10 --> Controller Class Initialized
+INFO - 2021-09-06 15:37:10 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:37:10 --> Final output sent to browser
+DEBUG - 2021-09-06 15:37:10 --> Total execution time: 1.4844
+INFO - 2021-09-06 12:08:29 --> Config Class Initialized
+INFO - 2021-09-06 12:08:29 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:08:29 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:08:29 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:08:29 --> URI Class Initialized
+INFO - 2021-09-06 12:08:29 --> Router Class Initialized
+INFO - 2021-09-06 12:08:29 --> Output Class Initialized
+INFO - 2021-09-06 12:08:29 --> Security Class Initialized
+DEBUG - 2021-09-06 12:08:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:08:29 --> CSRF cookie sent
+INFO - 2021-09-06 12:08:29 --> CSRF token verified
+INFO - 2021-09-06 12:08:29 --> Input Class Initialized
+INFO - 2021-09-06 12:08:29 --> Language Class Initialized
+INFO - 2021-09-06 12:08:29 --> Loader Class Initialized
+INFO - 2021-09-06 12:08:29 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:08:29 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:08:29 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:08:29 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:08:29 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:08:29 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:08:29 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:08:29 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:08:29 --> Database Driver Class Initialized
+INFO - 2021-09-06 12:08:30 --> Config Class Initialized
+INFO - 2021-09-06 12:08:30 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:08:30 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:08:30 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:08:30 --> URI Class Initialized
+INFO - 2021-09-06 12:08:30 --> Router Class Initialized
+INFO - 2021-09-06 12:08:30 --> Output Class Initialized
+INFO - 2021-09-06 12:08:30 --> Security Class Initialized
+DEBUG - 2021-09-06 12:08:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:08:30 --> CSRF cookie sent
+INFO - 2021-09-06 12:08:30 --> CSRF token verified
+INFO - 2021-09-06 12:08:30 --> Input Class Initialized
+INFO - 2021-09-06 12:08:30 --> Language Class Initialized
+INFO - 2021-09-06 12:08:30 --> Loader Class Initialized
+INFO - 2021-09-06 12:08:30 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:08:30 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:08:30 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:08:30 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:08:30 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:08:30 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:08:30 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:08:30 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:08:30 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:08:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:08:30 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:08:30 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:08:30 --> Upload Class Initialized
+INFO - 2021-09-06 12:08:30 --> Parser Class Initialized
+INFO - 2021-09-06 12:08:30 --> Email Class Initialized
+DEBUG - 2021-09-06 12:08:30 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:08:30 --> Table Class Initialized
+INFO - 2021-09-06 12:08:30 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:08:30 --> Controller Class Initialized
+INFO - 2021-09-06 15:38:30 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:38:31 --> Final output sent to browser
+DEBUG - 2021-09-06 15:38:31 --> Total execution time: 2.5268
+DEBUG - 2021-09-06 12:08:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:08:32 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:08:32 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:08:32 --> Upload Class Initialized
+INFO - 2021-09-06 12:08:32 --> Parser Class Initialized
+INFO - 2021-09-06 12:08:32 --> Email Class Initialized
+DEBUG - 2021-09-06 12:08:32 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:08:32 --> Table Class Initialized
+INFO - 2021-09-06 12:08:32 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:08:32 --> Controller Class Initialized
+INFO - 2021-09-06 15:38:32 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:38:33 --> Final output sent to browser
+DEBUG - 2021-09-06 15:38:33 --> Total execution time: 2.8003
+INFO - 2021-09-06 12:08:53 --> Config Class Initialized
+INFO - 2021-09-06 12:08:53 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:08:53 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:08:53 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:08:53 --> URI Class Initialized
+INFO - 2021-09-06 12:08:53 --> Router Class Initialized
+INFO - 2021-09-06 12:08:53 --> Output Class Initialized
+INFO - 2021-09-06 12:08:53 --> Security Class Initialized
+DEBUG - 2021-09-06 12:08:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:08:53 --> CSRF cookie sent
+INFO - 2021-09-06 12:08:53 --> CSRF token verified
+INFO - 2021-09-06 12:08:53 --> Input Class Initialized
+INFO - 2021-09-06 12:08:53 --> Language Class Initialized
+INFO - 2021-09-06 12:08:53 --> Loader Class Initialized
+INFO - 2021-09-06 12:08:53 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:08:53 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:08:53 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:08:53 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:08:53 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:08:53 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:08:53 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:08:53 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:08:53 --> Database Driver Class Initialized
+INFO - 2021-09-06 12:08:54 --> Config Class Initialized
+INFO - 2021-09-06 12:08:54 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:08:54 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:08:54 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:08:54 --> URI Class Initialized
+INFO - 2021-09-06 12:08:54 --> Router Class Initialized
+INFO - 2021-09-06 12:08:54 --> Output Class Initialized
+INFO - 2021-09-06 12:08:54 --> Security Class Initialized
+DEBUG - 2021-09-06 12:08:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:08:54 --> CSRF cookie sent
+INFO - 2021-09-06 12:08:54 --> CSRF token verified
+INFO - 2021-09-06 12:08:54 --> Input Class Initialized
+INFO - 2021-09-06 12:08:54 --> Language Class Initialized
+INFO - 2021-09-06 12:08:54 --> Loader Class Initialized
+INFO - 2021-09-06 12:08:54 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:08:54 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:08:54 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:08:54 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:08:54 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:08:54 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:08:54 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:08:54 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:08:54 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:08:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:08:54 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:08:54 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:08:54 --> Upload Class Initialized
+INFO - 2021-09-06 12:08:54 --> Parser Class Initialized
+INFO - 2021-09-06 12:08:54 --> Email Class Initialized
+DEBUG - 2021-09-06 12:08:54 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:08:54 --> Table Class Initialized
+INFO - 2021-09-06 12:08:54 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:08:54 --> Controller Class Initialized
+INFO - 2021-09-06 15:38:54 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:38:55 --> Final output sent to browser
+DEBUG - 2021-09-06 15:38:55 --> Total execution time: 2.6541
+DEBUG - 2021-09-06 12:08:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:08:55 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:08:55 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:08:55 --> Upload Class Initialized
+INFO - 2021-09-06 12:08:55 --> Parser Class Initialized
+INFO - 2021-09-06 12:08:55 --> Email Class Initialized
+DEBUG - 2021-09-06 12:08:55 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:08:55 --> Table Class Initialized
+INFO - 2021-09-06 12:08:55 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:08:55 --> Controller Class Initialized
+INFO - 2021-09-06 15:38:55 --> Model "Task_Model" initialized
+INFO - 2021-09-06 15:38:56 --> Final output sent to browser
+DEBUG - 2021-09-06 15:38:56 --> Total execution time: 2.5464
+INFO - 2021-09-06 12:13:29 --> Config Class Initialized
+INFO - 2021-09-06 12:13:29 --> Hooks Class Initialized
+DEBUG - 2021-09-06 12:13:29 --> UTF-8 Support Enabled
+INFO - 2021-09-06 12:13:29 --> Utf8 Class Initialized
+INFO - 2021-09-06 12:13:29 --> URI Class Initialized
+INFO - 2021-09-06 12:13:29 --> Router Class Initialized
+INFO - 2021-09-06 12:13:29 --> Output Class Initialized
+INFO - 2021-09-06 12:13:29 --> Security Class Initialized
+DEBUG - 2021-09-06 12:13:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 12:13:29 --> CSRF cookie sent
+INFO - 2021-09-06 12:13:29 --> CSRF token verified
+INFO - 2021-09-06 12:13:29 --> Input Class Initialized
+INFO - 2021-09-06 12:13:29 --> Language Class Initialized
+INFO - 2021-09-06 12:13:29 --> Loader Class Initialized
+INFO - 2021-09-06 12:13:29 --> Helper loaded: url_helper
+INFO - 2021-09-06 12:13:29 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 12:13:29 --> Helper loaded: form_helper
+INFO - 2021-09-06 12:13:29 --> Helper loaded: file_helper
+INFO - 2021-09-06 12:13:29 --> Helper loaded: download_helper
+INFO - 2021-09-06 12:13:29 --> Helper loaded: date_helper
+INFO - 2021-09-06 12:13:29 --> Helper loaded: security_helper
+INFO - 2021-09-06 12:13:29 --> Helper loaded: option_helper
+INFO - 2021-09-06 12:13:29 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 12:13:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 12:13:30 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 12:13:30 --> Form Validation Class Initialized
+INFO - 2021-09-06 12:13:30 --> Upload Class Initialized
+INFO - 2021-09-06 12:13:30 --> Parser Class Initialized
+INFO - 2021-09-06 12:13:30 --> Email Class Initialized
+DEBUG - 2021-09-06 12:13:30 --> Encrypt Class Initialized
+INFO - 2021-09-06 12:13:30 --> Table Class Initialized
+INFO - 2021-09-06 12:13:30 --> Model "Leadmod" initialized
+INFO - 2021-09-06 12:13:30 --> Controller Class Initialized
+INFO - 2021-09-06 15:43:30 --> Model "Task_Model" initialized
+INFO - 2021-09-06 13:21:01 --> Config Class Initialized
+INFO - 2021-09-06 13:21:01 --> Hooks Class Initialized
+DEBUG - 2021-09-06 13:21:01 --> UTF-8 Support Enabled
+INFO - 2021-09-06 13:21:01 --> Utf8 Class Initialized
+INFO - 2021-09-06 13:21:01 --> URI Class Initialized
+INFO - 2021-09-06 13:21:01 --> Router Class Initialized
+INFO - 2021-09-06 13:21:01 --> Output Class Initialized
+INFO - 2021-09-06 13:21:01 --> Security Class Initialized
+DEBUG - 2021-09-06 13:21:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 13:21:01 --> CSRF cookie sent
+INFO - 2021-09-06 13:21:01 --> Input Class Initialized
+INFO - 2021-09-06 13:21:01 --> Language Class Initialized
+INFO - 2021-09-06 13:21:01 --> Loader Class Initialized
+INFO - 2021-09-06 13:21:01 --> Helper loaded: url_helper
+INFO - 2021-09-06 13:21:01 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 13:21:01 --> Helper loaded: form_helper
+INFO - 2021-09-06 13:21:01 --> Helper loaded: file_helper
+INFO - 2021-09-06 13:21:01 --> Helper loaded: download_helper
+INFO - 2021-09-06 13:21:01 --> Helper loaded: date_helper
+INFO - 2021-09-06 13:21:01 --> Helper loaded: security_helper
+INFO - 2021-09-06 13:21:01 --> Helper loaded: option_helper
+INFO - 2021-09-06 13:21:01 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 13:21:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 13:21:02 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 13:21:02 --> Form Validation Class Initialized
+INFO - 2021-09-06 13:21:02 --> Upload Class Initialized
+INFO - 2021-09-06 13:21:02 --> Parser Class Initialized
+INFO - 2021-09-06 13:21:02 --> Email Class Initialized
+DEBUG - 2021-09-06 13:21:02 --> Encrypt Class Initialized
+INFO - 2021-09-06 13:21:02 --> Table Class Initialized
+INFO - 2021-09-06 13:21:02 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:21:02 --> Controller Class Initialized
+INFO - 2021-09-06 13:21:02 --> Model "Admin_Model" initialized
+INFO - 2021-09-06 16:51:02 --> Model "Task_Model" initialized
+INFO - 2021-09-06 16:51:02 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 16:51:02 --> Model "User_Model" initialized
+INFO - 2021-09-06 13:21:02 --> Config Class Initialized
+INFO - 2021-09-06 13:21:02 --> Hooks Class Initialized
+DEBUG - 2021-09-06 13:21:02 --> UTF-8 Support Enabled
+INFO - 2021-09-06 13:21:02 --> Utf8 Class Initialized
+INFO - 2021-09-06 13:21:02 --> URI Class Initialized
+DEBUG - 2021-09-06 13:21:02 --> No URI present. Default controller set.
+INFO - 2021-09-06 13:21:02 --> Router Class Initialized
+INFO - 2021-09-06 13:21:02 --> Output Class Initialized
+INFO - 2021-09-06 13:21:02 --> Security Class Initialized
+DEBUG - 2021-09-06 13:21:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 13:21:02 --> CSRF cookie sent
+INFO - 2021-09-06 13:21:02 --> Input Class Initialized
+INFO - 2021-09-06 13:21:02 --> Language Class Initialized
+INFO - 2021-09-06 13:21:02 --> Loader Class Initialized
+INFO - 2021-09-06 13:21:02 --> Helper loaded: url_helper
+INFO - 2021-09-06 13:21:02 --> Helper loaded: cookie_helper
+INFO - 2021-09-06 13:21:02 --> Helper loaded: form_helper
+INFO - 2021-09-06 13:21:02 --> Helper loaded: file_helper
+INFO - 2021-09-06 13:21:02 --> Helper loaded: download_helper
+INFO - 2021-09-06 13:21:02 --> Helper loaded: date_helper
+INFO - 2021-09-06 13:21:02 --> Helper loaded: security_helper
+INFO - 2021-09-06 13:21:02 --> Helper loaded: option_helper
+INFO - 2021-09-06 13:21:02 --> Database Driver Class Initialized
+DEBUG - 2021-09-06 13:21:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-09-06 13:21:04 --> Session: Class initialized using 'files' driver.
+INFO - 2021-09-06 13:21:04 --> Form Validation Class Initialized
+INFO - 2021-09-06 13:21:04 --> Upload Class Initialized
+INFO - 2021-09-06 13:21:04 --> Parser Class Initialized
+INFO - 2021-09-06 13:21:04 --> Email Class Initialized
+DEBUG - 2021-09-06 13:21:04 --> Encrypt Class Initialized
+INFO - 2021-09-06 13:21:04 --> Table Class Initialized
+INFO - 2021-09-06 13:21:04 --> Model "Leadmod" initialized
+INFO - 2021-09-06 13:21:04 --> Controller Class Initialized
+INFO - 2021-09-06 13:21:04 --> Model "Admin_Model" initialized
+ERROR - 2021-09-06 16:51:04 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 18
+ERROR - 2021-09-06 16:51:04 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 18
+ERROR - 2021-09-06 16:51:04 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 19
+ERROR - 2021-09-06 16:51:04 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 19
+ERROR - 2021-09-06 16:51:04 --> Severity: Warning --> Undefined array key "isUserSession" D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 20
+ERROR - 2021-09-06 16:51:04 --> Severity: Warning --> Trying to access array offset on value of type null D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\models\Task_Model.php 20
+INFO - 2021-09-06 16:51:04 --> Model "Task_Model" initialized
+INFO - 2021-09-06 16:51:04 --> Model "Menu_Model" initialized
+INFO - 2021-09-06 16:51:04 --> Model "User_Model" initialized
+INFO - 2021-09-06 16:51:04 --> File loaded: D:\VIN\xampp\htdocs\2021\AUGUST\LMS\application\views\login.php
+INFO - 2021-09-06 16:51:04 --> Final output sent to browser
+DEBUG - 2021-09-06 16:51:04 --> Total execution time: 1.8827
+INFO - 2021-09-06 13:21:04 --> Config Class Initialized
+INFO - 2021-09-06 13:21:04 --> Hooks Class Initialized
+DEBUG - 2021-09-06 13:21:04 --> UTF-8 Support Enabled
+INFO - 2021-09-06 13:21:04 --> Utf8 Class Initialized
+INFO - 2021-09-06 13:21:04 --> URI Class Initialized
+INFO - 2021-09-06 13:21:04 --> Router Class Initialized
+INFO - 2021-09-06 13:21:05 --> Output Class Initialized
+INFO - 2021-09-06 13:21:05 --> Security Class Initialized
+DEBUG - 2021-09-06 13:21:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-09-06 13:21:05 --> CSRF cookie sent
+INFO - 2021-09-06 13:21:05 --> Input Class Initialized
+INFO - 2021-09-06 13:21:05 --> Language Class Initialized
+ERROR - 2021-09-06 13:21:05 --> 404 Page Not Found: Public/front

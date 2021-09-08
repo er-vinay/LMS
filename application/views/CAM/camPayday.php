@@ -6,7 +6,120 @@
         <input type="hidden" name="company_id" value="<?= company_id ?>">
         <input type="hidden" name="product_id" value="<?= product_id ?>">
         <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
+        <!-- <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">CIBIL Score</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">NTC</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+        </div>
+
         <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">Running other Payday loan</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">Delay in other loans in last 30 days</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">Job stability</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">City category</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">Salary Credit</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">City category</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">Next Pay Date</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">Median Salary (Rs)</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">Salary Variance</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">Salary on Time</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">Monthly Salary (Rs)</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">Obligations (Rs)</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">Borrower Age (years)</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">End Use</label>
+                <select class="form-control inputField" id="cibil" name="cibil" autocomplete="off">
+                    <option></option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">LW Score</label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">Scheme</label>
+                <select class="form-control inputField" id="cibil" name="cibil" autocomplete="off">
+                    <option></option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-6">
+                <label class="labelField">Eligible FOIR% </label>
+                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
+            </div>
+            <div class="col-sm-6">
+                <label class="labelField">Eligible Loan</label>
+                <input type="text" class="form-control inputField" id="userType" name="userType" autocomplete="off" readonly>
+            </div>
+        </div> -->
+            
             
             <div class="col-md-6">
                 <label class="labelField">User Type</label>
@@ -17,17 +130,11 @@
                 <label class="labelField">Status</label>
                 <input type="text" class="form-control inputField" id="status" name="status" autocomplete="off" readonly>
             </div>
-            
-            <div class="col-sm-6">
-                <label class="labelField">CIBIL Score</label>
-                <input type="number" class="form-control inputField" id="cibil" name="cibil" autocomplete="off" readonly>
-            </div>
-            
+
             <div class="col-md-6" style="margin-bottom : 10px;">
                 <label class="labelField">IFSC Code&nbsp;<span class="required_Fields">*</span></label>
                 <select class="form-control inputField" id="customer_ifsc_code" name="bankIFSC_Code" autocomplete="off"></select>
             </div>
-        </div>
 
         <div class="form-group" id="disbursalBankDetails1">
 
@@ -62,10 +169,11 @@
                     <option value="">Select</option>
                     <option value="Saving">Saving</option>
                     <option value="Current">Current</option>
-                    <option value="Fixed Deposit">Fixed Deposit</option>
-                    <option value="Recurring Deposit">Recurring Deposit</option>
+                    <option value="OVERDRAFT">OVERDRAFT</option>
+                    <!-- <option value="Fixed Deposit">Fixed Deposit</option> -->
+                    <!-- <option value="Recurring Deposit">Recurring Deposit</option>
                     <option value="DEMAT">DEMAT</option>
-                    <option value="NRI">NRI</option>
+                    <option value="NRI">NRI</option> -->
                 </select>
             </div>
         </div>

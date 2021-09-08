@@ -40,13 +40,13 @@ if ( ! function_exists('test_method'))
 
    //function to get lead_id from table_cam
    if ( ! function_exists('getLeadIdstatus')){
-      function getLeadIdstatus($table,$id){
-          $ci =& get_instance();
-          $ci->load->database();
-                             echo "SELECT count(*) as total from $table where lead_id='$id'  ";
-          $query = $ci->db->query("SELECT count(*) as total from $table where lead_id='$id'  "); 
+        function getLeadIdstatus($table,$id){
+            $ci =& get_instance();
+            $ci->load->database();
+            echo "SELECT count(*) as total from $table where lead_id='$id'  ";
+            $query = $ci->db->query("SELECT count(*) as total from $table where lead_id='$id'  "); 
           
-           if($query->num_rows() > 0){
+            if($query->num_rows() > 0){
             foreach ($query->result_array() as $row)  {
                if($row['total']!='0')
                {

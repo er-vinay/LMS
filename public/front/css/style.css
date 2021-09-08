@@ -646,7 +646,7 @@ footer{
       color: #0d70ac !important; font-size: 17px; padding: 10px 0px 0px 10px;
     }
     .borderList{border-bottom: 0px !important;}
-    .camBorder{border : solid 1px #ddd;margin-bottom: 20px;
+    .camBorder{border : solid 1px #ddd;margin-bottom: 20px; background: #fff;
     width: 100%;
     float: left;}
     .formFooter{border-top: solid 1px #ddd;text-align: center; padding-top : 20px; padding-bottom: 20px;background: #f3f3f3;}

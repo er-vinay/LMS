@@ -23,7 +23,6 @@
 
                     $query = $this->Task_Model->join_table($conditions, $fetch);
                     $leadDetails = $query->row();
-                    // echo "leadDetails : <pre>"; print_r($leadDetails); exit;
 
                     $name       = $leadDetails->name;
                     $mobile     = $leadDetails->mobile;
@@ -120,7 +119,6 @@
                         );
 
                         $stateKey = array_search($state, $stateNameData);
-                    // echo "leadDetails : <pre>"; print_r($stateKey); exit;
                         
                         $input_xml = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
                                 <soapenv:Header />
@@ -427,15 +425,14 @@
         	    throw new Exception('Input string could not be converted.');
         	}
         	$xml = simplexml_load_string( $result) or die("xml not loading");
+            // echo "<pre>"; print_r($xml); exit;
             $cibilScore = $xml->body->table->tr[8]->td->table->tr->td[1];
-            // echo "<pre>"; print_r($xml->body); exit;
-            $cibilScore = "";
             $data = [
                 'api3_request'          => $xml3,
                 'api3_response'         => $data3,
                 'cibil_file'            => $htmlResult,
                 'memberCode' 		    => $xml->body->table->tr[1]->td->table->tr[1]->td[0]->table->tr[1]->td[1],
-                'cibilScore' 		    => $cibilScore,
+                'cibilScore' 		    => ($cibilScore) ? $cibilScore : 0,
                 'totalAccount' 		    => strval($xml->body->table->tr[29]->td->table->tr[3]->td[1]->span[0]),
                 'totalBalance' 		    => strval($xml->body->table->tr[29]->td->table->tr[3]->td[2]->span[0]),
                 'overDueAccount' 	    => strval($xml->body->table->tr[29]->td->table->tr[4]->td[1]->span[0]),

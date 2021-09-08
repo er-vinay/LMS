@@ -674,16 +674,16 @@
     		        <table class="table table-hover table-striped table-bordered" style="margin-top: 10px;">
                       <thead>
                         <tr class="table-primary">
-                          <th scope="col">Sr. No</th>
-                          <th scope="col">Member ID</th>
-                          <th scope="col">Customer Name</th>
-                          <th scope="col">High Credit/ Sanc Amt</th>
-                          <th scope="col">Total accounts</th>
-                          <th scope="col">Overdue accounts</th>
-                          <th scope="col">Zero Balance accounts</th>
-                          <th scope="col">Current Balance</th>
+                          <th scope="col">Sr.&nbsp;No</th>
+                          <th scope="col">Member&nbsp;ID</th>
+                          <th scope="col">Customer&nbsp;Name</th>
+                          <th scope="col">High&nbsp;Credit/&nbsp;Sanc&nbsp;Amt</th>
+                          <th scope="col">Total&nbsp;Accounts</th>
+                          <th scope="col">Overdue&nbsp;Accounts</th>
+                          <th scope="col">Zero&nbsp;Balance&nbsp;accounts</th>
+                          <th scope="col">Current&nbsp;Balance</th>
                           <th scope="col">Score</th>
-                          <th scope="col">Report Dt.</th>
+                          <th scope="col">Report&nbsp;Dt.</th>
                           <th scope="col">Report</th>
                         </tr>
                     </thead>';
@@ -1033,12 +1033,12 @@
 
 		public function getCAMDetails($lead_id)
 		{
-            $oldhistory = $this->getOldHistory($lead_id);
-            $getLoanHistory = $oldhistory->num_rows();
+            // $oldhistory = $this->getOldHistory($lead_id);
+            // $getLoanHistory = $oldhistory->num_rows();
             $userType = 'NEW';
-            if($getLoanHistory > 0){
-                $userType = "REPEAT";
-            }
+            // if($getLoanHistory > 0){
+            //     $userType = "REPEAT";
+            // }
         
         	$fetch = 'loan_amount, cibil, status';
         	$leads = $this->select(['lead_id' => $lead_id], $fetch);

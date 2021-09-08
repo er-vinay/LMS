@@ -1,5 +1,6 @@
 <?php $this->load->view('Layouts/header') ?>
 <?php $url =  $this->uri->segment(1); ?>
+
 <div class="width-my">
     <div class="container-fluid">
         <div class="taskPageSize taskPageSizeDashboard" style="border: 1px solid #ddd;height:auto !important;">
@@ -21,7 +22,8 @@
                         <input type="hidden" name="lead_id" id="lead_id" value="<?= $leadDetails->lead_id ?>" readonly>
                         <input type="hidden" name="user_id" id="user_id" value="<?= $_SESSION['isUserSession']['user_id'] ?>" readonly>
                         <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="borderList "><a href="#LeadSaction" onclick="getLeadDetails()" aria-controls="lead" role="tab" data-toggle="tab">Lead</a></li>
+                            
+                            <li role="presentation" class="borderList"><a href="<?= base_url("getleadDetails/". $this->encrypt->encode($leadDetails->lead_id)) ?>" aria-controls="lead" role="tab" data-toggle="tab">Lead</a></li>
                             <?php if($_SESSION['isUserSession']['labels'] == "CR2" 
                                 || $_SESSION['isUserSession']['labels'] == "CR3"
                                 || $_SESSION['isUserSession']['labels'] == "CA"
@@ -162,7 +164,7 @@
                         
                             <div role="tabpanel" class="tab-pane fade" id="Verification">
                                 <div id="divVerification">
-                                    <?php $this->load->view('Verification/verification'); ?>
+                                    <?php //$this->load->view('Verification/verification'); ?>
                                 </div>
                             </div>
                                  
@@ -179,24 +181,26 @@
                             </div>
 
                             <div role="tabpanel" class="tab-pane fade" id="CAMSheetSaction">
-                                <a class="btn btn-primary" href="#" id="urlViewCAM" target="_blank" title="View" style="width: 30px;height: 30px;padding: 5px 0px 0px 0px;">
-                                    <i class="fa fa-eye"> 
-                                    </i>
+                                <a class="btn btn-primary" href="#" id="urlViewCAM" target="_blank" title="View" style="width: 30px;height: 30px;padding: 5px 0px 0px 0px;"><i class="fa fa-eye"> </i>
                                 </a>
-                                <a class="btn btn-primary" href="#" id="urlDownloadCAM" style="width: 30px;height: 30px;padding: 5px 0px 0px 0px;">
-                                    <i class="fa fa-download"></i>
+                                <a class="btn btn-primary" href="#" id="urlDownloadCAM" style="width: 30px;height: 30px;padding: 5px 0px 0px 0px;"><i class="fa fa-download"></i>
                                 </a>
                                 <div class="camBorder">
                                     <div id="divCamDetails">
-                                        <?php if(company_id == 1 && product_id == 1){ ?>
-                                    <?php if($_SESSION['isUserSession']['labels'] == "CR2" 
-                                            || $_SESSION['isUserSession']['labels'] == "CA"
-                                            || $_SESSION['isUserSession']['labels'] == "SA"){ ?>
-                                                <?php $this->load->view('CAM/camPayday'); ?>
-                                            <?php } ?>
-                                        <?php } if(company_id == 2 && product_id == 2){ ?>
-                                            <?php $this->load->view('CAM/camLAC'); ?>
-                                        <?php } ?>
+                                        <?php 
+                                        if(company_id == 1 && product_id == 1)
+                                        {
+                                            if($_SESSION['isUserSession']['labels'] == "CR2" 
+                                                || $_SESSION['isUserSession']['labels'] == "CA"
+                                                || $_SESSION['isUserSession']['labels'] == "SA")
+                                            { 
+                                                $this->load->view('CAM/camPayday'); 
+                                            }
+                                        } 
+                                        if(company_id == 1 && product_id == 2){ 
+                                             $this->load->view('CAM/camLAC'); 
+                                        } 
+                                        ?>
                                         
                                         <div calss="row" style="border-top: solid 1px #ddd;text-align: center; padding-top : 20px; padding-bottom: 20px; background: #f3f3f3;">
                                             <div calss="col-md-12 text-center">
@@ -242,8 +246,9 @@
                                         <?php } ?>
                                         <span id="ResonBoxForHold"></span>
                                     </div>
-                                    <?php //endif; ?>
-                                    <div id="ViewCAMDetails"></div>
+                                    <?php if($_SESSION['isUserSession']['labels'] == "CR2" && $leadDetails->stage != "S5"){ ?>
+                                        <div id="ViewCAMDetails"></div>
+                                    <?php } ?>
 
                                     <?php if($_SESSION['isUserSession']['role'] == headCreditManager): ?>
                                     <div id="btndivCamDetails">

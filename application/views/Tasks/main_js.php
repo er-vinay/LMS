@@ -1,4 +1,5 @@
 
+<input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
 <script>
     var csrf_token = $("input[name=csrf_token]").val();
     // $(document)
@@ -680,9 +681,8 @@
         }
     }
     
-    function getCam()
+    function getCam(lead_id)
     {
-        var lead_id = $('#lead_id').val();
         if(lead_id != "") {
             $.ajax({
                 url : '<?= base_url("getCAMDetails/") ?>'+lead_id,
@@ -691,9 +691,9 @@
                 dataType : "json",
                 success : function(response){
                     $(".leadID").val(lead_id);
-                    <?php if(company_id == 2 && product_id == 1){ ?>
+                    <?php if(company_id == 1 && product_id == 1){ ?>
                         getPaydayCAM(response);
-                    <?php } if(company_id == 2 && product_id == 2){ ?>
+                    <?php } if(company_id == 1 && product_id == 2){ ?>
                         getLACCAM(response);
                     <?php } ?>
                 }
@@ -914,6 +914,52 @@
             html += '</table>';
         $('#ViewCAMDetails').html(html);
     }
+
+    $(document).ready(function(){
+        
+        $('#customer_ifsc_code').select2({
+            placeholder: 'Select IFSC Code',
+            minimumInputlength: 2,
+            allowClear: true,
+                ajax: {
+                url: '<?= base_url('getCustomerBankDetails') ?>',
+                data : {csrf_token},
+                dataType: 'json',
+                delay: 250,
+                data: function (data) {
+                    return {
+                        searchTerm: data.term // search term
+                    };
+                },
+                processResults: function (response) {
+                    return {
+                        results: $.map(response, function (item) {
+                            return {
+                                id: item.bank_ifsc,
+                                text: item.bank_ifsc,
+                            }
+                        })
+                    };
+                },
+                cache: true
+            }
+        });
+            
+
+        $("#customer_ifsc_code").change(function(){
+            var ifsc_code = $(this).val();
+            $.ajax({
+                url : '<?= base_url("getBankNameByIfscCode") ?>',
+                type : 'POST',
+                data : {ifsc_code : ifsc_code, csrf_token},
+                dataType : "json",
+                success : function(response){
+                    $('#bank_name').val(response.bank_name);
+                    $('#bank_branch').val(response.bank_branch);
+                }
+            });
+        });
+    });
     
     $(document).ready(function(){
 
@@ -954,33 +1000,28 @@
             var loan_applied = $("#loan_applied").val();
             var loan_recomended = $(this).val();
             
-            if(loan_recomended <= loan_applied)
-            {
-                var processing_fee = ((loan_recomended * 2) / 100);
-                $("#processing_fee").val(Math.round(processing_fee));
-                var gst = ((processing_fee * 100) / 118);
-                var newGST = (processing_fee + (processing_fee - gst));
-                var adminfeegst = parseFloat(newGST).toFixed(2);
-                $("#adminFeeWithGST").val(Math.round(adminfeegst));
+            var processing_fee = ((loan_recomended * 2) / 100);
+            $("#processing_fee").val(Math.round(processing_fee));
+            var gst = ((processing_fee * 100) / 118);
+            var newGST = (processing_fee + (processing_fee - gst));
+            var adminfeegst = parseFloat(newGST).toFixed(2);
+            $("#adminFeeWithGST").val(Math.round(adminfeegst));
 
 
-                if(loan_recomended == loan_applied){
-                    $(this).val(loan_applied);
-                    $("#changeLoanAmount").val('NO').css('color', '#000');
-                }else if(loan_recomended > loan_applied){
-                    $(this).val(loan_applied);
-                    $("#changeLoanAmount").val('NO').css('color', '#000');
-                }else if(loan_recomended <= 0){
-                    $(this).val(loan_applied);
-                    $("#changeLoanAmount").val('NO').css('color', '#000');
-                }else{
-                    $("#changeLoanAmount").val('YES').css('color', 'red');
-                }
-                net_disbursal_amount(loan_recomended, adminfeegst);
+            if(loan_recomended == loan_applied){
+                $(this).val(loan_applied);
+                $("#changeLoanAmount").val('NO').css('color', '#000');
+            }else if(loan_recomended < loan_applied){
+                $(this).val(loan_recomended);
+                $("#changeLoanAmount").val('NO').css('color', '#000');
+            }else if(loan_recomended <= 0){
+                $(this).val(loan_applied);
+                $("#changeLoanAmount").val('NO').css('color', '#000');
             }else{
-                
-                $("#loan_recomended").val(Math.round(loan_applied));
+                $(this).val(loan_recomended);
+                $("#changeLoanAmount").val('YES').css('color', 'red');
             }
+            net_disbursal_amount(loan_recomended, adminfeegst);
         }); 
         
         $('#processing_fee_percent').change(function(){
@@ -1253,7 +1294,7 @@
             $("#bankA_C_No, #confBankA_C_No").val('').css('border-color', 'red');
             $("#bankA_C_No").focus();
             
-            catchError('Invalid Bank A/C no.');
+            // catchError('Invalid Bank A/C no.');
         }
     }
 
@@ -1264,9 +1305,9 @@
         $('#btnFormSaveCAM').click(function(){
             var camFormData = $('#FormSaveCAM').serialize();
             
-            <?php if(company_id == 2 && product_id == 1){ ?>
+            <?php if(company_id == 1 && product_id == 1){ ?>
                 var url = 'savePaydayCAMDetails';
-            <?php } if(company_id == 2 && product_id == 2){ ?>
+            <?php } if(company_id == 1 && product_id == 2){ ?>
                 var url = 'saveLACCAMDetails';
             <?php } ?>
             $.ajax({
